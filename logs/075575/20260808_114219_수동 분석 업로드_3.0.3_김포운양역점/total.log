@@ -1,0 +1,106 @@
+[2026-08-08 19:58:59.868] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-08 19:58:59.873] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-08 19:58:59.876] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-08 19:58:59.879] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-08 19:58:59.883] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-08 19:58:59.966] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-08 19:58:59.970] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-08 19:58:59.973] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-08 19:59:00.052] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-08 19:59:00.055] [info]  [HASTE Agent Bot] [2026-08-08 19:59:00.053] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-08 19:59:00.057] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-08 19:59:00.139] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 19:59:00.144] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 19:59:00.147] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 19:59:00.156] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 19:59:00.184] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 19:59:00.236] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 19:59:00.335] [info]  [HASTE Agent Bot] [2026-08-08 19:59:00.335] [info] [HASTE Agent] Discord client skipped. Running in Direct Webhook/SSE Tunnel Mode.
+[2026-08-08 19:59:00.339] [info]  [HASTE Agent Bot] [2026-08-08 19:59:00.336] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Connecting to HQ SSE Tunnel...
+[2026-08-08 19:59:00.570] [info]  [HASTE Agent Bot] [2026-08-08 19:59:00.570] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [OK] : SSE Tunnel Established. Communication ready.
+[2026-08-08 19:59:04.763] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-08 19:59:04.766] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-08 19:59:20.900] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-08 20:05:37.184] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-08 20:05:37.184] [info]  [HASTE Shutdown] Killing embedded Haste Agent Bot...
+[2026-08-08 20:05:37.185] [info]  [app] event=app.shutdown status=started
+[2026-08-08 20:05:37.216] [warn]  [HASTE Guard] Haste Agent Bot exited (code: null, signal: SIGTERM)
+[2026-08-08 20:05:50.048] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG"
+[2026-08-08 20:05:50.461] [info]  [app] event=app.startup status=started appVersion=3.0.3 packaged=false
+[2026-08-08 20:05:50.537] [info]  [app] event=app.window status=success
+[2026-08-08 20:05:50.614] [info]  [app] event=app.tray status=success
+[2026-08-08 20:05:50.615] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-08 20:05:50.619] [info]  [app] event=app.ipc status=success
+[2026-08-08 20:05:50.621] [info]  [app] event=task.start status=success
+[2026-08-08 20:05:50.623] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-08 20:05:50.635] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-08 20:05:50.638] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-08 20:05:50.641] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-08 20:05:50.644] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-08 20:05:50.651] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-08 20:05:50.653] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-08 20:05:50.656] [debug] [api] [HASTE UI Sync] Pushing update to Cloud: https://cloud.cafehaste.com/api/remote/inventory/update (storeCode: 075575)
+[2026-08-08 20:05:50.665] [debug] [api] [HASTE UI Sync] Pushing update to Cloud: https://cloud.cafehaste.com/api/remote/menu/update (storeCode: 075575)
+[2026-08-08 20:05:50.669] [debug] [api] [HASTE UI Sync] Pushing update to Cloud: https://cloud.cafehaste.com/api/remote/inventory/update (storeCode: 075575)
+[2026-08-08 20:05:50.673] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-08 20:05:50.675] [debug] [api] [HASTE UI Sync] Pushing update to Cloud: https://cloud.cafehaste.com/api/remote/inventory/update (storeCode: 075575)
+[2026-08-08 20:05:50.677] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-08 20:05:50.679] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-08 20:05:50.682] [debug] [api] [HASTE UI Sync] Pushing update to Cloud: https://cloud.cafehaste.com/api/remote/inventory/update (storeCode: 075575)
+[2026-08-08 20:05:50.684] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-08 20:05:50.686] [debug] [api] [HASTE UI Sync] Pushing update to Cloud: https://cloud.cafehaste.com/api/remote/inventory/update (storeCode: 075575)
+[2026-08-08 20:05:50.690] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-08 20:05:50.691] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-08 20:05:50.694] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-08 20:05:50.698] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-08 20:05:50.699] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-08 20:05:50.701] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-08 20:05:50.703] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-08 20:05:50.706] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-08 20:05:50.707] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-08 20:05:50.711] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-08 20:05:50.713] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-08 20:05:50.713] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-08 20:05:50.714] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-08 20:05:50.732] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-08 20:05:50.770] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-08 20:05:50.774] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-08 20:05:50.776] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-08 20:05:50.778] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-08 20:05:50.780] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-08 20:05:50.866] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-08 20:05:50.872] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-08 20:05:50.875] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-08 20:05:50.962] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-08 20:05:50.966] [info]  [HASTE Agent Bot] [2026-08-08 20:05:50.962] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-08 20:05:50.968] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-08 20:05:51.045] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 20:05:51.054] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 20:05:51.059] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 20:05:51.063] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 20:05:51.066] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 20:05:51.121] [debug] [api] [HASTE UI Sync] Cloud response: status=200
+[2026-08-08 20:05:51.222] [info]  [HASTE Agent Bot] [2026-08-08 20:05:51.221] [info] [HASTE Agent] Discord client skipped. Running in Direct Webhook/SSE Tunnel Mode.
+[2026-08-08 20:05:51.226] [info]  [HASTE Agent Bot] [2026-08-08 20:05:51.222] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Connecting to HQ SSE Tunnel...
+[2026-08-08 20:05:51.442] [info]  [HASTE Agent Bot] [2026-08-08 20:05:51.441] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [OK] : SSE Tunnel Established. Communication ready.
+[2026-08-08 20:05:55.654] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-08 20:05:55.657] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-08 20:06:11.798] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-08 20:15:55.334] [info]  [HASTE Agent Bot] [2026-08-08 20:15:55.334] [info] [HASTE Agent] [TUNNEL] [FAIL] : SSE Stream Terminated by Server.
+[2026-08-08 20:15:55.336] [info]  [HASTE Agent Bot] [2026-08-08 20:15:55.335] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Reconnecting in 538ms... (Attempt: 1/3)
+[2026-08-08 20:15:55.878] [info]  [HASTE Agent Bot] [2026-08-08 20:15:55.878] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Connecting to HQ SSE Tunnel...
+[2026-08-08 20:15:56.109] [info]  [HASTE Agent Bot] [2026-08-08 20:15:56.109] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [OK] : SSE Tunnel Established. Communication ready.
+[2026-08-08 20:25:58.604] [info]  [HASTE Agent Bot] [2026-08-08 20:25:58.604] [info] [HASTE Agent] [TUNNEL] [FAIL] : SSE Stream Terminated by Server.
+[2026-08-08 20:25:58.606] [info]  [HASTE Agent Bot] [2026-08-08 20:25:58.605] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Reconnecting in 516ms... (Attempt: 1/3)
+[2026-08-08 20:25:59.125] [info]  [HASTE Agent Bot] [2026-08-08 20:25:59.126] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Connecting to HQ SSE Tunnel...
+[2026-08-08 20:25:59.251] [info]  [HASTE Agent Bot] [2026-08-08 20:25:59.251] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [OK] : SSE Tunnel Established. Communication ready.
+[2026-08-08 20:36:01.746] [info]  [HASTE Agent Bot] [2026-08-08 20:36:01.746] [info] [HASTE Agent] [TUNNEL] [FAIL] : SSE Stream Terminated by Server.
+[2026-08-08 20:36:01.747] [info]  [HASTE Agent Bot] [2026-08-08 20:36:01.747] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Reconnecting in 511ms... (Attempt: 1/3)
+[2026-08-08 20:36:02.272] [info]  [HASTE Agent Bot] [2026-08-08 20:36:02.272] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [RUN] : Connecting to HQ SSE Tunnel...
+[2026-08-08 20:36:02.391] [info]  [HASTE Agent Bot] [2026-08-08 20:36:02.391] [info] [HASTE Agent] [Client -> Cloud] [TUNNEL] [OK] : SSE Tunnel Established. Communication ready.
+[2026-08-08 20:42:18.927] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-08 20:42:18.934] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-08 20:42:18.984] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-08 20:42:18.999] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-08 20:42:19.001] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-08 20:42:19.004] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
