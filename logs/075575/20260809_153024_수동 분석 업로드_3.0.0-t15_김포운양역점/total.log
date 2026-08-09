@@ -1,0 +1,459 @@
+[2026-08-10 00:08:57.082] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:08:57.756] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:08:57.865] [info]  [app] event=app.window status=success
+[2026-08-10 00:08:57.962] [info]  [app] event=app.tray status=success
+[2026-08-10 00:08:57.965] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:08:57.972] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:08:57.974] [info]  [app] event=task.start status=success
+[2026-08-10 00:08:57.977] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:08:57.990] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:08:57.992] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:08:57.998] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:08:58.004] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:08:58.017] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:08:58.021] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:08:58.030] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:08:58.035] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:08:58.038] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:08:58.044] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:08:58.053] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:08:58.055] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:08:58.057] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:08:58.062] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:08:58.064] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:08:58.068] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:08:58.070] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:08:58.072] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:08:58.076] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:08:58.079] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:08:58.083] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:08:58.085] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:08:58.086] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:08:58.104] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:08:58.128] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:08:58.131] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:08:58.138] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:08:58.141] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:08:58.144] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:08:59.128] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-10 00:08:59.215] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-10 00:08:59.221] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-10 00:08:59.274] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-10 00:08:59.281] [info]  [HASTE Agent Bot] [2026-08-10 00:08:59.276] [info] [HASTE Agent] Stealth Standby mode active. Waiting for remote connection requests...
+[2026-08-10 00:08:59.286] [info]  [HASTE Agent Bot] [2026-08-10 00:08:59.278] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-10 00:08:59.293] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-10 00:08:59.582] [info]  [HASTE Agent Bot] [2026-08-10 00:08:59.582] [info] [HASTE Agent] [GATEWAY] [RUN] (075575) : Waiting for Client API (Port 8080)
+[2026-08-10 00:08:59.590] [debug] [api] [api] event=api.request status=started version=v2 route=GET_/v2/system/config
+[2026-08-10 00:08:59.599] [info]  [HASTE Agent Bot] [2026-08-10 00:08:59.599] [info] [HASTE Agent] [GATEWAY] [OK] (075575) : Token Synchronized
+[2026-08-10 00:08:59.602] [info]  [HASTE Agent Bot] [2026-08-10 00:08:59.601] [info] [HASTE Agent] [GATEWAY] [FAIL] : Tunnel Session Missing (Status Blocked)
+[2026-08-10 00:08:59.604] [info]  [HASTE Agent Bot] [2026-08-10 00:08:59.602] [info] [HASTE Agent] [Client -> Cloud] [GATEWAY] [RUN] (075575) : Connecting to Signal Broker (Primary)
+[2026-08-10 00:09:00.621] [info]  [HASTE Agent Bot] [2026-08-10 00:09:00.621] [info] [HASTE Agent] Security server connection initialized successfully!
+[2026-08-10 00:09:00.627] [info]  [HASTE Agent Bot] Bot Tag Name: cafehaste_gateway#1981
+[2026-08-10 00:09:00.631] [info]  [HASTE Agent Bot] HASTE Client API Address: http://127.0.0.1:8080
+[2026-08-10 00:09:00.634] [info]  [HASTE Agent Bot] Listening for remote dashboard control commands...
+[2026-08-10 00:09:03.015] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:09:03.019] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:09:06.658] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:09:06.666] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:06.714] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:09:07.073] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:07.075] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:07.078] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:07.125] [error] [Client] [POS_SYNC] [IMPORT_FAIL] : 가져올 키오스크 상품 번호가 전달되지 않았습니다.
+[2026-08-10 00:09:07.142] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:07.144] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:07.146] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-10 00:09:07.151] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-10 00:09:07.153] [info]  [HASTE] Successfully cloned 176 kiosk items to local SQLite DB & store!
+[2026-08-10 00:09:07.446] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:09:08.403] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786288148095 productNo=E0000242
+[2026-08-10 00:09:08.406] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1786288148095 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-10 00:09:08.408] [info]  [kiosk] [kiosk] event=order.received status=success kioskCode=E0000242 recipeCode=E0000242 matchedMenuName=HOT_아메리카노(연하게)_MV actualSteps=["NONE:CUP","WATER:310","COFFEE:60","NONE:NONE"] orderId=TEST-1786288148095 bill=0000 isTestBrew=true
+[2026-08-10 00:09:08.411] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786288148095 priority=99 description=음료_제조_(TEST-1786288148095)
+[2026-08-10 00:09:08.414] [debug] [task] [task] event=task.start status=started orderId=TEST-1786288148095 menuCount=1
+[2026-08-10 00:09:08.418] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786288148095 productNo=E0000242 bill=0000
+[2026-08-10 00:09:08.422] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV stepCount=4
+[2026-08-10 00:09:09.435] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV step=주문스텝2
+[2026-08-10 00:09:09.438] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:09.441] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:09.452] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:09.455] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:10.471] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV step=주문스텝3
+[2026-08-10 00:09:10.474] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:10.477] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:10.484] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:10.488] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:13.538] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV step=주문스텝4
+[2026-08-10 00:09:13.542] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:13.544] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:13.555] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:13.557] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:14.595] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV step=주문스텝5
+[2026-08-10 00:09:14.598] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:14.601] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288148095 menuName=HOT_아메리카노(연하게)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:14.612] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:14.616] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:09:14.619] [debug] [task] [task] event=task.complete status=success orderId=TEST-1786288148095
+[2026-08-10 00:09:19.174] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-10 00:10:53.287] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786288252968 productNo=E0000703
+[2026-08-10 00:10:53.288] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1786288252968 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-10 00:10:53.291] [info]  [kiosk] [kiosk] event=order.received status=success kioskCode=E0000703 recipeCode=E0000703 matchedMenuName=ICED_슈크림라떼_MV actualSteps=["NONE:1","WATER:5200","SIRUBS:60","HOT_MILK:200","NONE:NONE"] orderId=TEST-1786288252968 bill=0000 isTestBrew=true
+[2026-08-10 00:10:53.292] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786288252968 priority=99 description=음료_제조_(TEST-1786288252968)
+[2026-08-10 00:10:53.294] [debug] [task] [task] event=task.start status=started orderId=TEST-1786288252968 menuCount=1
+[2026-08-10 00:10:53.296] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786288252968 productNo=E0000703 bill=0000
+[2026-08-10 00:10:53.301] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV stepCount=5
+[2026-08-10 00:10:54.322] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV step=주문스텝2
+[2026-08-10 00:10:54.328] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:54.330] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:54.341] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:54.344] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:55.359] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV step=주문스텝3
+[2026-08-10 00:10:55.363] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:55.367] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:55.379] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:55.385] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:59.940] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV step=주문스텝4
+[2026-08-10 00:10:59.946] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:59.949] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:59.958] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:10:59.961] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:11:00.986] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV step=주문스텝5
+[2026-08-10 00:11:00.989] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:11:00.992] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786288252968 menuName=ICED_슈크림라떼_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:11:01.005] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:11:01.009] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 00:11:01.016] [debug] [task] [task] event=task.complete status=success orderId=TEST-1786288252968
+[2026-08-10 00:17:24.863] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:17:26.277] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:17:26.412] [info]  [app] event=app.window status=success
+[2026-08-10 00:17:26.428] [info]  [app] event=app.tray status=success
+[2026-08-10 00:17:26.429] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:17:26.436] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:17:26.439] [info]  [app] event=task.start status=success
+[2026-08-10 00:17:26.443] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:17:26.477] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:17:26.479] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:17:26.483] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:17:26.489] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:17:26.503] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:17:26.506] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:17:26.515] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:17:26.519] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:17:26.521] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:17:26.525] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:17:26.529] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:17:26.531] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:17:26.533] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:17:26.538] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:17:26.540] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:17:26.545] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:17:26.548] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:17:26.550] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:17:26.553] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:17:26.557] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:17:26.560] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:17:26.560] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:17:26.562] [info]  [HASTE Guard] Launching Haste Agent Bot process: c:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:17:26.606] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:17:26.650] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:17:26.653] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:17:26.658] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:17:26.661] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:17:26.664] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:18:46.183] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:18:46.859] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:18:47.003] [info]  [app] event=app.window status=success
+[2026-08-10 00:18:47.105] [info]  [app] event=app.tray status=success
+[2026-08-10 00:18:47.107] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:18:47.112] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:18:47.114] [info]  [app] event=task.start status=success
+[2026-08-10 00:18:47.116] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:18:47.130] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:18:47.132] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:18:47.135] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:18:47.141] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:18:47.156] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:18:47.162] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:18:47.172] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:18:47.176] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:18:47.178] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:18:47.181] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:18:47.185] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:18:47.186] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:18:47.191] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:18:47.197] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:18:47.202] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:18:47.210] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:18:47.213] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:18:47.218] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:18:47.221] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:18:47.224] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:18:47.226] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:18:47.228] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:18:47.233] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:18:47.265] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:18:47.344] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:18:47.351] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:18:47.357] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:18:47.363] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:18:47.373] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:18:48.377] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-10 00:18:48.438] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-10 00:18:48.442] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-10 00:18:48.490] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-10 00:18:48.497] [info]  [HASTE Agent Bot] [2026-08-10 00:18:48.491] [info] [HASTE Agent] Stealth Standby mode active. Waiting for remote connection requests...
+[2026-08-10 00:18:48.500] [info]  [HASTE Agent Bot] [2026-08-10 00:18:48.492] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-10 00:18:48.505] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-10 00:18:48.784] [info]  [HASTE Agent Bot] [2026-08-10 00:18:48.783] [info] [HASTE Agent] [GATEWAY] [RUN] (075575) : Waiting for Client API (Port 8080)
+[2026-08-10 00:18:48.790] [debug] [api] [api] event=api.request status=started version=v2 route=GET_/v2/system/config
+[2026-08-10 00:18:48.797] [info]  [HASTE Agent Bot] [2026-08-10 00:18:48.796] [info] [HASTE Agent] [GATEWAY] [OK] (075575) : Token Synchronized
+[2026-08-10 00:18:48.801] [info]  [HASTE Agent Bot] [2026-08-10 00:18:48.797] [info] [HASTE Agent] [GATEWAY] [FAIL] : Tunnel Session Missing (Status Blocked)
+[2026-08-10 00:18:48.804] [info]  [HASTE Agent Bot] [2026-08-10 00:18:48.799] [info] [HASTE Agent] [Client -> Cloud] [GATEWAY] [RUN] (075575) : Connecting to Signal Broker (Primary)
+[2026-08-10 00:18:49.789] [info]  [HASTE Agent Bot] [2026-08-10 00:18:49.788] [info] [HASTE Agent] Security server connection initialized successfully!
+[2026-08-10 00:18:49.793] [info]  [HASTE Agent Bot] Bot Tag Name: cafehaste_gateway#1981
+[2026-08-10 00:18:49.795] [info]  [HASTE Agent Bot] HASTE Client API Address: http://127.0.0.1:8080
+[2026-08-10 00:18:49.796] [info]  [HASTE Agent Bot] Listening for remote dashboard control commands...
+[2026-08-10 00:18:52.147] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:18:52.152] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:19:08.341] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-10 00:24:24.611] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-10 00:24:24.612] [info]  [HASTE Shutdown] Killing embedded Haste Agent Bot...
+[2026-08-10 00:24:24.615] [info]  [app] event=app.shutdown status=started
+[2026-08-10 00:24:24.639] [warn]  [HASTE Guard] Haste Agent Bot exited (code: null, signal: SIGTERM)
+[2026-08-10 00:25:27.223] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:25:27.722] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:25:27.796] [info]  [app] event=app.window status=success
+[2026-08-10 00:25:27.865] [info]  [app] event=app.tray status=success
+[2026-08-10 00:25:27.867] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:25:27.871] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:25:27.874] [info]  [app] event=task.start status=success
+[2026-08-10 00:25:27.877] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:25:27.891] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:25:27.893] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:25:27.896] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:25:27.899] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:25:27.910] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:25:27.912] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:25:27.917] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:27.920] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:27.922] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:25:27.924] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:27.927] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:27.928] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:25:27.930] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:25:27.932] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:25:27.933] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:25:27.937] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:25:27.940] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:25:27.942] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:25:27.943] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:25:27.945] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:25:27.947] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:25:27.947] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:25:27.949] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:25:27.970] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:25:27.996] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:25:28.004] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:25:28.008] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:25:28.013] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:25:28.015] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:25:28.834] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-10 00:25:28.893] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-10 00:25:28.897] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-10 00:25:28.931] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-10 00:25:28.934] [info]  [HASTE Agent Bot] [2026-08-10 00:25:28.931] [info] [HASTE Agent] Stealth Standby mode active. Waiting for remote connection requests...
+[2026-08-10 00:25:28.936] [info]  [HASTE Agent Bot] [2026-08-10 00:25:28.932] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-10 00:25:28.938] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-10 00:25:29.199] [info]  [HASTE Agent Bot] [2026-08-10 00:25:29.199] [info] [HASTE Agent] [GATEWAY] [RUN] (075575) : Waiting for Client API (Port 8080)
+[2026-08-10 00:25:29.207] [debug] [api] [api] event=api.request status=started version=v2 route=GET_/v2/system/config
+[2026-08-10 00:25:29.215] [info]  [HASTE Agent Bot] [2026-08-10 00:25:29.214] [info] [HASTE Agent] [GATEWAY] [OK] (075575) : Token Synchronized
+[2026-08-10 00:25:29.219] [info]  [HASTE Agent Bot] [2026-08-10 00:25:29.216] [info] [HASTE Agent] [GATEWAY] [FAIL] : Tunnel Session Missing (Status Blocked)
+[2026-08-10 00:25:29.223] [info]  [HASTE Agent Bot] [2026-08-10 00:25:29.217] [info] [HASTE Agent] [Client -> Cloud] [GATEWAY] [RUN] (075575) : Connecting to Signal Broker (Primary)
+[2026-08-10 00:25:30.469] [info]  [HASTE Agent Bot] [2026-08-10 00:25:30.469] [info] [HASTE Agent] Security server connection initialized successfully!
+[2026-08-10 00:25:30.473] [info]  [HASTE Agent Bot] Bot Tag Name: cafehaste_gateway#1981
+[2026-08-10 00:25:30.475] [info]  [HASTE Agent Bot] HASTE Client API Address: http://127.0.0.1:8080
+[2026-08-10 00:25:30.476] [info]  [HASTE Agent Bot] Listening for remote dashboard control commands...
+[2026-08-10 00:25:32.911] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:25:32.915] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:25:38.509] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-10 00:25:38.510] [info]  [HASTE Shutdown] Killing embedded Haste Agent Bot...
+[2026-08-10 00:25:38.513] [info]  [app] event=app.shutdown status=started
+[2026-08-10 00:25:38.533] [warn]  [HASTE Guard] Haste Agent Bot exited (code: null, signal: SIGTERM)
+[2026-08-10 00:25:52.240] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:25:52.774] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:25:52.846] [info]  [app] event=app.window status=success
+[2026-08-10 00:25:52.880] [info]  [app] event=app.tray status=success
+[2026-08-10 00:25:52.881] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:25:52.886] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:25:52.888] [info]  [app] event=task.start status=success
+[2026-08-10 00:25:52.891] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:25:52.905] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:25:52.911] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:25:52.913] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:25:52.917] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:25:52.926] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:25:52.929] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:25:52.933] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:52.936] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:52.939] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:25:52.943] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:52.945] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:25:52.947] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:25:52.949] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:25:52.952] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:25:52.954] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:25:52.958] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:25:52.960] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:25:52.963] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:25:52.966] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:25:52.970] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:25:52.972] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:25:52.973] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:25:52.974] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:25:52.993] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:25:53.020] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:25:53.025] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:25:53.028] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:25:53.033] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:25:53.035] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:25:53.933] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-10 00:25:53.987] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-10 00:25:53.992] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-10 00:25:54.030] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-10 00:25:54.034] [info]  [HASTE Agent Bot] [2026-08-10 00:25:54.031] [info] [HASTE Agent] Stealth Standby mode active. Waiting for remote connection requests...
+[2026-08-10 00:25:54.036] [info]  [HASTE Agent Bot] [2026-08-10 00:25:54.032] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-10 00:25:54.038] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-10 00:25:54.304] [info]  [HASTE Agent Bot] [2026-08-10 00:25:54.304] [info] [HASTE Agent] [GATEWAY] [RUN] (075575) : Waiting for Client API (Port 8080)
+[2026-08-10 00:25:54.316] [debug] [api] [api] event=api.request status=started version=v2 route=GET_/v2/system/config
+[2026-08-10 00:25:54.332] [info]  [HASTE Agent Bot] [2026-08-10 00:25:54.332] [info] [HASTE Agent] [GATEWAY] [OK] (075575) : Token Synchronized
+[2026-08-10 00:25:54.338] [info]  [HASTE Agent Bot] [2026-08-10 00:25:54.333] [info] [HASTE Agent] [GATEWAY] [FAIL] : Tunnel Session Missing (Status Blocked)
+[2026-08-10 00:25:54.349] [info]  [HASTE Agent Bot] [2026-08-10 00:25:54.334] [info] [HASTE Agent] [Client -> Cloud] [GATEWAY] [RUN] (075575) : Connecting to Signal Broker (Primary)
+[2026-08-10 00:25:55.718] [info]  [HASTE Agent Bot] [2026-08-10 00:25:55.718] [info] [HASTE Agent] Security server connection initialized successfully!
+[2026-08-10 00:25:55.722] [info]  [HASTE Agent Bot] Bot Tag Name: cafehaste_gateway#1981
+[2026-08-10 00:25:55.725] [info]  [HASTE Agent Bot] HASTE Client API Address: http://127.0.0.1:8080
+[2026-08-10 00:25:55.727] [info]  [HASTE Agent Bot] Listening for remote dashboard control commands...
+[2026-08-10 00:25:57.926] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:25:57.931] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:26:14.069] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-10 00:28:15.254] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:28:15.736] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:28:15.809] [info]  [app] event=app.window status=success
+[2026-08-10 00:28:15.878] [info]  [app] event=app.tray status=success
+[2026-08-10 00:28:15.879] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:28:15.883] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:28:15.885] [info]  [app] event=task.start status=success
+[2026-08-10 00:28:15.887] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:28:15.900] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:28:15.902] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:28:15.905] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:28:15.912] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:28:15.923] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:28:15.927] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:28:15.932] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:28:15.934] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:28:15.935] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:28:15.937] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:28:15.939] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:28:15.942] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:28:15.944] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:28:15.948] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:28:15.950] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:28:15.953] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:28:15.955] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:28:15.959] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:28:15.961] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:28:15.963] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:28:15.965] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:28:15.966] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:28:15.967] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:28:15.987] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:28:16.011] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:28:16.015] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:28:16.020] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:28:16.023] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:28:16.027] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:28:16.937] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-10 00:28:16.995] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-10 00:28:17.000] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-10 00:28:17.038] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-10 00:28:17.043] [info]  [HASTE Agent Bot] [2026-08-10 00:28:17.038] [info] [HASTE Agent] Stealth Standby mode active. Waiting for remote connection requests...
+[2026-08-10 00:28:17.046] [info]  [HASTE Agent Bot] [2026-08-10 00:28:17.039] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-10 00:28:17.048] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-10 00:28:17.319] [info]  [HASTE Agent Bot] [2026-08-10 00:28:17.318] [info] [HASTE Agent] [GATEWAY] [RUN] (075575) : Waiting for Client API (Port 8080)
+[2026-08-10 00:28:17.325] [debug] [api] [api] event=api.request status=started version=v2 route=GET_/v2/system/config
+[2026-08-10 00:28:17.331] [info]  [HASTE Agent Bot] [2026-08-10 00:28:17.331] [info] [HASTE Agent] [GATEWAY] [OK] (075575) : Token Synchronized
+[2026-08-10 00:28:17.334] [info]  [HASTE Agent Bot] [2026-08-10 00:28:17.333] [info] [HASTE Agent] [GATEWAY] [FAIL] : Tunnel Session Missing (Status Blocked)
+[2026-08-10 00:28:17.341] [info]  [HASTE Agent Bot] [2026-08-10 00:28:17.334] [info] [HASTE Agent] [Client -> Cloud] [GATEWAY] [RUN] (075575) : Connecting to Signal Broker (Primary)
+[2026-08-10 00:28:18.449] [info]  [HASTE Agent Bot] [2026-08-10 00:28:18.448] [info] [HASTE Agent] Security server connection initialized successfully!
+[2026-08-10 00:28:18.454] [info]  [HASTE Agent Bot] Bot Tag Name: cafehaste_gateway#1981
+[2026-08-10 00:28:18.455] [info]  [HASTE Agent Bot] HASTE Client API Address: http://127.0.0.1:8080
+[2026-08-10 00:28:18.457] [info]  [HASTE Agent Bot] Listening for remote dashboard control commands...
+[2026-08-10 00:28:20.929] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:28:20.932] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:28:37.045] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-10 00:28:51.371] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-10 00:28:51.372] [info]  [HASTE Shutdown] Killing embedded Haste Agent Bot...
+[2026-08-10 00:28:51.376] [info]  [app] event=app.shutdown status=started
+[2026-08-10 00:28:51.409] [warn]  [HASTE Guard] Haste Agent Bot exited (code: null, signal: SIGTERM)
+[2026-08-10 00:29:35.119] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 00:29:35.570] [info]  [app] event=app.startup status=started appVersion=3.0.0-t15 packaged=false
+[2026-08-10 00:29:35.645] [info]  [app] event=app.window status=success
+[2026-08-10 00:29:35.722] [info]  [app] event=app.tray status=success
+[2026-08-10 00:29:35.723] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 00:29:35.728] [info]  [app] event=app.ipc status=success
+[2026-08-10 00:29:35.730] [info]  [app] event=task.start status=success
+[2026-08-10 00:29:35.732] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 00:29:35.744] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 00:29:35.747] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:29:35.750] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 00:29:35.756] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:29:35.765] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 00:29:35.769] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 00:29:35.775] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:29:35.778] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:29:35.780] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 00:29:35.782] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:29:35.786] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 00:29:35.787] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 00:29:35.789] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 00:29:35.792] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 00:29:35.793] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 00:29:35.796] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:29:35.798] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 00:29:35.802] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:29:35.804] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 00:29:35.809] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 00:29:35.811] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 00:29:35.812] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 00:29:35.813] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\haste_agent_bridge.js
+[2026-08-10 00:29:35.834] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 00:29:35.862] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:29:35.867] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:29:35.870] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 00:29:35.873] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 00:29:35.878] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 00:29:36.711] [info]  [HASTE Agent Bot] [HASTE Agent Bot] Successfully initialized using injected env variables. StoreCode: 075575
+[2026-08-10 00:29:36.763] [info]  [HASTE Agent Bot] [HQ Origin] HASTE Cloud designated via --prod launch argument.
+[2026-08-10 00:29:36.768] [info]  [HASTE Agent Bot] Targeting endpoint: https://cloud.cafehaste.com
+[2026-08-10 00:29:36.802] [info]  [HASTE Agent Bot] [HASTE Agent Server] Hono Gateway running on Port 8082 (Relaying to Port 8080)
+[2026-08-10 00:29:36.805] [info]  [HASTE Agent Bot] [2026-08-10 00:29:36.803] [info] [HASTE Agent] Stealth Standby mode active. Waiting for remote connection requests...
+[2026-08-10 00:29:36.808] [info]  [HASTE Agent Bot] [2026-08-10 00:29:36.803] [info] [HASTE Agent] [HEALTH] [RUN] (075575) : Checking Lilly Engine API (Attempt: 1/5)
+[2026-08-10 00:29:36.811] [info]  [HASTE Agent Bot] [HASTE] [Step 0: HEALTH] [INFO] Starting diagnostics for local hardware and internet connectivity...
+[2026-08-10 00:29:37.060] [info]  [HASTE Agent Bot] [2026-08-10 00:29:37.060] [info] [HASTE Agent] [GATEWAY] [RUN] (075575) : Waiting for Client API (Port 8080)
+[2026-08-10 00:29:37.068] [debug] [api] [api] event=api.request status=started version=v2 route=GET_/v2/system/config
+[2026-08-10 00:29:37.077] [info]  [HASTE Agent Bot] [2026-08-10 00:29:37.077] [info] [HASTE Agent] [GATEWAY] [OK] (075575) : Token Synchronized
+[2026-08-10 00:29:37.081] [info]  [HASTE Agent Bot] [2026-08-10 00:29:37.078] [info] [HASTE Agent] [GATEWAY] [FAIL] : Tunnel Session Missing (Status Blocked)
+[2026-08-10 00:29:37.085] [info]  [HASTE Agent Bot] [2026-08-10 00:29:37.080] [info] [HASTE Agent] [Client -> Cloud] [GATEWAY] [RUN] (075575) : Connecting to Signal Broker (Primary)
+[2026-08-10 00:29:38.061] [info]  [HASTE Agent Bot] [2026-08-10 00:29:38.061] [info] [HASTE Agent] Security server connection initialized successfully!
+[2026-08-10 00:29:38.064] [info]  [HASTE Agent Bot] Bot Tag Name: cafehaste_gateway#1981
+[2026-08-10 00:29:38.066] [info]  [HASTE Agent Bot] HASTE Client API Address: http://127.0.0.1:8080
+[2026-08-10 00:29:38.070] [info]  [HASTE Agent Bot] Listening for remote dashboard control commands...
+[2026-08-10 00:29:40.765] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:29:40.770] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 00:29:56.882] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-10 00:30:23.265] [info]  [Client] [POS_SYNC] [UPDATE_KIOSK] Updated kiosk item kiosk_E0000328
+[2026-08-10 00:30:23.315] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-10 00:30:23.318] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-10 00:30:23.371] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:30:23.373] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 00:30:23.376] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
