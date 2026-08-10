@@ -1,0 +1,1000 @@
+[2026-08-10 22:05:58.184] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:05:58.185] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:05:58.186] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:05:58.187] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:05:58.187] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:05:58.188] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:05:58.189] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:05:58.190] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:05:58.190] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:05:58.191] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:05:58.192] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:05:58.192] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:05:58.193] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:05:58.194] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:05:58.194] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:05:58.195] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:05:58.196] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:05:58.197] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:05:58.198] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:05:58.198] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:05:58.199] [error] [HASTE Agent Bot] }
+[2026-08-10 22:05:58.200] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:05:58.201] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:05:58.201] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:00.491] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786367160489 productNo=E0000266
+[2026-08-10 22:06:00.492] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1786367160489 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-10 22:06:00.493] [info]  [kiosk] [kiosk] event=order.received status=success kioskCode=E0000266 recipeCode=E0000266 matchedMenuName=ICED_(D)아메리카노_MV actualSteps=["NONE:ICE","WATER:5000","WATER:160","COFFEE:91","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=TEST-1786367160489 bill=0000 isTestBrew=true
+[2026-08-10 22:06:00.494] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786367160489 priority=99 description=음료_제조_(TEST-1786367160489)
+[2026-08-10 22:06:00.495] [debug] [task] [task] event=task.start status=started orderId=TEST-1786367160489 menuCount=1
+[2026-08-10 22:06:00.496] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786367160489 productNo=E0000266 bill=0000
+[2026-08-10 22:06:00.511] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786367160489 menuName=ICED_(D)아메리카노_MV stepCount=10
+[2026-08-10 22:06:00.526] [debug] [task] [task] event=brew.step status=started orderId=TEST-1786367160489 menuName=ICED_(D)아메리카노_MV step=2 message="cup drop started"
+[2026-08-10 22:06:00.527] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-10 22:06:00.528] [error] [task] [task] event=parts.command status=failed reason=send_failed action=sensor_check boardName=board1 part=motorRotationCheckSwitch1
+[2026-08-10 22:06:00.541] [error] [task] [task] event=brew.step status=failed orderId=TEST-1786367160489 menuName=ICED_(D)아메리카노_MV step=step2 reason=step_failed message="[TEST-1786367160489] [ICED_(D)아메리카노_MV] 컵 추출 실패: 컵1"
+[2026-08-10 22:06:00.542] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367160489 menuName=ICED_(D)아메리카노_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:00.543] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367160489 menuName=ICED_(D)아메리카노_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:00.549] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:00.551] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:00.552] [error] [task] [task] event=task.fail status=failed orderId=TEST-1786367160489 reason=brew_failed message="[TEST-1786367160489] [ICED_(D)아메리카노_MV] 컵 추출 실패: 컵1"
+[2026-08-10 22:06:00.556] [error] [task] [task] event=task.queue status=failed orderId=TEST-1786367160489 reason=task_run_failed description=음료_제조_(TEST-1786367160489) message="BREW_STEP_FAILED:2:[TEST-1786367160489] [ICED_(D)아메리카노_MV] 컵 추출 실패: 컵1"
+[2026-08-10 22:06:03.211] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:03.327] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:03.328] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:03.329] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:03.330] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:03.330] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:03.331] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:03.332] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:03.332] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:03.333] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:03.334] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:03.335] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:03.336] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:03.336] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:03.337] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:03.338] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:03.339] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:03.339] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:03.340] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:03.341] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:03.342] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:03.342] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:03.343] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:03.344] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:03.344] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:03.648] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-10 22:06:08.346] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:08.461] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:08.463] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:08.463] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:08.464] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:08.465] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:08.466] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:08.466] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:08.467] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:08.468] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:08.469] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:08.470] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:08.470] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:08.471] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:08.472] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:08.472] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:08.473] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:08.474] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:08.474] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:08.475] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:08.476] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:08.477] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:08.477] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:08.479] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:08.479] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:13.491] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:13.605] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:13.606] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:13.607] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:13.608] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:13.609] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:13.609] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:13.610] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:13.611] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:13.611] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:13.612] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:13.613] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:13.614] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:13.614] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:13.615] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:13.616] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:13.617] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:13.617] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:13.618] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:13.619] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:13.620] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:13.621] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:13.622] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:13.623] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:13.623] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:18.634] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:18.747] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:18.748] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:18.749] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:18.750] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:18.750] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:18.751] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:18.752] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:18.753] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:18.753] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:18.754] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:18.755] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:18.755] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:18.756] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:18.757] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:18.758] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:18.758] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:18.759] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:18.760] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:18.760] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:18.761] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:18.762] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:18.762] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:18.763] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:18.764] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:23.766] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:23.798] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786367183488 productNo=E0000243
+[2026-08-10 22:06:23.799] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1786367183488 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-10 22:06:23.801] [info]  [kiosk] [kiosk] event=order.received status=success kioskCode=E0000243 recipeCode=E0000243 matchedMenuName=ICED_아메리카노(연하게)_MV actualSteps=["NONE:ICE","WATER:5200","WATER:140","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=TEST-1786367183488 bill=0000 isTestBrew=true
+[2026-08-10 22:06:23.802] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786367183488 priority=99 description=음료_제조_(TEST-1786367183488)
+[2026-08-10 22:06:23.804] [debug] [task] [task] event=task.start status=started orderId=TEST-1786367183488 menuCount=1
+[2026-08-10 22:06:23.805] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786367183488 productNo=E0000243 bill=0000
+[2026-08-10 22:06:23.809] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786367183488 menuName=ICED_아메리카노(연하게)_MV stepCount=10
+[2026-08-10 22:06:23.826] [debug] [task] [task] event=brew.step status=started orderId=TEST-1786367183488 menuName=ICED_아메리카노(연하게)_MV step=2 message="cup drop started"
+[2026-08-10 22:06:23.827] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-10 22:06:23.829] [error] [task] [task] event=parts.command status=failed reason=send_failed action=sensor_check boardName=board1 part=motorRotationCheckSwitch1
+[2026-08-10 22:06:23.856] [error] [task] [task] event=brew.step status=failed orderId=TEST-1786367183488 menuName=ICED_아메리카노(연하게)_MV step=step2 reason=step_failed message="[TEST-1786367183488] [ICED_아메리카노(연하게)_MV] 컵 추출 실패: 컵1"
+[2026-08-10 22:06:23.857] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367183488 menuName=ICED_아메리카노(연하게)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:23.859] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367183488 menuName=ICED_아메리카노(연하게)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:23.866] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:23.869] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:06:23.871] [error] [task] [task] event=task.fail status=failed orderId=TEST-1786367183488 reason=brew_failed message="[TEST-1786367183488] [ICED_아메리카노(연하게)_MV] 컵 추출 실패: 컵1"
+[2026-08-10 22:06:23.886] [error] [task] [task] event=task.queue status=failed orderId=TEST-1786367183488 reason=task_run_failed description=음료_제조_(TEST-1786367183488) message="BREW_STEP_FAILED:2:[TEST-1786367183488] [ICED_아메리카노(연하게)_MV] 컵 추출 실패: 컵1"
+[2026-08-10 22:06:23.911] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:23.912] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:23.913] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:23.914] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:23.915] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:23.916] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:23.918] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:23.919] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:23.920] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:23.921] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:23.922] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:23.923] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:23.924] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:23.925] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:23.926] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:23.927] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:23.927] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:23.929] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:23.930] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:23.931] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:23.932] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:23.933] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:23.935] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:23.936] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:28.948] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:29.064] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:29.065] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:29.066] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:29.066] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:29.067] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:29.068] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:29.069] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:29.070] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:29.070] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:29.071] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:29.072] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:29.072] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:29.073] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:29.074] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:29.074] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:29.075] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:29.076] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:29.076] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:29.077] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:29.078] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:29.079] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:29.080] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:29.081] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:29.081] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:34.085] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:34.224] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:34.225] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:34.226] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:34.227] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:34.228] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:34.228] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:34.229] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:34.230] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:34.231] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:34.231] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:34.232] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:34.233] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:34.234] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:34.236] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:34.237] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:34.238] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:34.238] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:34.239] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:34.240] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:34.241] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:34.241] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:34.242] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:34.243] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:34.244] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:39.254] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:39.434] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:39.436] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:39.437] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:39.439] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:39.439] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:39.440] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:39.441] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:39.442] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:39.442] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:39.443] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:39.444] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:39.444] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:39.445] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:39.446] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:39.446] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:39.447] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:39.448] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:39.448] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:39.449] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:39.450] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:39.452] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:39.452] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:39.454] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:39.454] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:44.470] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:44.625] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:44.627] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:44.628] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:44.630] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:44.631] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:44.633] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:44.635] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:44.637] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:44.638] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:44.640] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:44.641] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:44.642] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:44.644] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:44.645] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:44.647] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:44.648] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:44.649] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:44.652] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:44.654] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:44.655] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:44.656] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:44.657] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:44.659] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:44.660] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:49.671] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:49.788] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:49.789] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:49.790] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:49.791] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:49.792] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:49.792] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:49.793] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:49.794] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:49.795] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:49.795] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:49.796] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:49.797] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:49.798] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:49.798] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:49.799] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:49.800] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:49.801] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:49.802] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:49.804] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:49.804] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:49.805] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:49.806] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:49.807] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:49.808] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:54.814] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:54.941] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:06:54.942] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:06:54.943] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:06:54.944] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:06:54.944] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:06:54.945] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:06:54.946] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:06:54.947] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:06:54.947] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:06:54.948] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:06:54.949] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:06:54.950] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:06:54.951] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:06:54.953] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:06:54.954] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:06:54.955] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:06:54.956] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:06:54.957] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:06:54.958] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:06:54.959] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:06:54.959] [error] [HASTE Agent Bot] }
+[2026-08-10 22:06:54.960] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:06:54.961] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:06:54.961] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:06:59.966] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:00.091] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:00.092] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:00.093] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:00.094] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:00.094] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:00.095] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:00.096] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:00.096] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:00.097] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:00.098] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:00.099] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:00.099] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:00.100] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:00.102] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:00.103] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:00.104] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:00.105] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:00.105] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:00.106] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:00.107] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:00.108] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:00.108] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:00.109] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:00.110] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:05.122] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:05.311] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:05.312] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:05.313] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:05.313] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:05.314] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:05.315] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:05.316] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:05.316] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:05.318] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:05.320] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:05.322] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:05.323] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:05.325] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:05.326] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:05.327] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:05.328] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:05.329] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:05.330] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:05.332] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:05.333] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:05.335] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:05.336] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:05.337] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:05.338] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:10.340] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:10.461] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:10.462] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:10.462] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:10.463] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:10.464] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:10.464] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:10.465] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:10.466] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:10.467] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:10.467] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:10.468] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:10.469] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:10.470] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:10.470] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:10.471] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:10.472] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:10.472] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:10.473] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:10.474] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:10.475] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:10.476] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:10.476] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:10.477] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:10.478] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:15.493] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:15.705] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:15.707] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:15.708] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:15.710] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:15.711] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:15.712] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:15.712] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:15.714] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:15.715] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:15.716] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:15.717] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:15.719] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:15.721] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:15.722] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:15.724] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:15.725] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:15.726] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:15.727] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:15.728] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:15.729] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:15.730] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:15.731] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:15.733] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:15.734] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:20.744] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:21.034] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:21.036] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:21.038] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:21.040] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:21.041] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:21.043] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:21.044] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:21.046] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:21.047] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:21.048] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:21.050] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:21.052] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:21.053] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:21.054] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:21.056] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:21.057] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:21.058] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:21.060] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:21.061] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:21.063] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:21.064] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:21.065] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:21.067] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:21.068] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:26.083] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:26.291] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:26.293] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:26.294] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:26.296] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:26.297] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:26.298] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:26.299] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:26.300] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:26.304] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:26.306] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:26.309] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:26.312] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:26.313] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:26.317] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:26.320] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:26.321] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:26.322] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:26.323] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:26.324] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:26.325] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:26.327] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:26.328] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:26.330] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:26.330] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:31.343] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:31.460] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:31.461] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:31.462] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:31.463] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:31.464] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:31.464] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:31.465] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:31.466] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:31.466] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:31.467] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:31.469] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:31.470] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:31.471] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:31.472] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:31.472] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:31.473] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:31.474] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:31.475] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:31.476] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:31.477] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:31.477] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:31.478] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:31.479] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:31.480] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:36.490] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:36.607] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:36.608] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:36.609] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:36.609] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:36.610] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:36.611] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:36.612] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:36.612] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:36.613] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:36.614] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:36.615] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:36.615] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:36.616] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:36.617] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:36.617] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:36.619] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:36.619] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:36.620] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:36.621] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:36.622] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:36.622] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:36.623] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:36.624] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:36.624] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:41.634] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:41.763] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:41.764] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:41.765] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:41.765] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:41.766] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:41.767] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:41.768] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:41.769] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:41.770] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:41.771] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:41.771] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:41.772] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:41.773] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:41.773] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:41.774] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:41.775] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:41.776] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:41.776] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:41.777] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:41.778] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:41.779] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:41.779] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:41.780] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:41.781] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:46.796] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:46.928] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:46.931] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:46.932] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:46.933] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:46.935] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:46.937] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:46.938] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:46.940] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:46.941] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:46.942] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:46.943] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:46.944] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:46.946] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:46.947] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:46.948] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:46.949] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:46.950] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:46.951] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:46.952] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:46.953] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:46.954] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:46.955] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:46.956] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:46.957] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:51.960] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:52.081] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:52.082] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:52.083] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:52.085] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:52.086] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:52.087] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:52.087] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:52.088] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:52.089] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:52.089] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:52.090] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:52.091] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:52.091] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:52.092] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:52.093] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:52.094] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:52.094] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:52.095] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:52.096] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:52.097] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:52.097] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:52.098] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:52.099] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:52.099] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:07:57.110] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:57.224] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:07:57.226] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:07:57.226] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:07:57.227] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:07:57.228] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:07:57.229] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:07:57.229] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:07:57.230] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:07:57.231] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:07:57.231] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:07:57.232] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:07:57.233] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:07:57.234] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:07:57.235] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:07:57.236] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:07:57.237] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:07:57.238] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:07:57.238] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:07:57.239] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:07:57.240] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:07:57.241] [error] [HASTE Agent Bot] }
+[2026-08-10 22:07:57.241] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:07:57.242] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:07:57.243] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:02.248] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:02.366] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:02.367] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:02.368] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:02.369] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:02.370] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:02.371] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:02.372] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:02.373] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:02.374] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:02.375] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:02.375] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:02.376] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:02.377] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:02.377] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:02.378] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:02.379] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:02.380] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:02.380] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:02.381] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:02.382] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:02.383] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:02.383] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:02.385] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:02.386] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:07.389] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:07.410] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 22:08:07.415] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:07.462] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 22:08:07.530] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:07.531] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:07.533] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:07.613] [error] [task] [HASTE Single Correct Error] 해당 상품 번호의 메뉴를 찾을 수 없습니다.
+[2026-08-10 22:08:07.616] [error] [Client] [POS_SYNC] [IMPORT_FAIL] : 가져올 키오스크 상품 번호가 전달되지 않았습니다.
+[2026-08-10 22:08:07.632] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:07.637] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:07.639] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-10 22:08:07.642] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-10 22:08:07.644] [info]  [HASTE] Successfully cloned 176 kiosk items to local SQLite DB & store!
+[2026-08-10 22:08:07.648] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:07.649] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:07.650] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:07.650] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:07.651] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:07.653] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:07.654] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:07.656] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:07.657] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:07.658] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:07.660] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:07.662] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:07.663] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:07.664] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:07.664] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:07.665] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:07.666] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:07.668] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:07.670] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:07.672] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:07.673] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:07.674] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:07.675] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:07.676] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:08.004] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:08:09.258] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786367288953 productNo=E0000242
+[2026-08-10 22:08:09.259] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1786367288953 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-10 22:08:09.260] [info]  [kiosk] [kiosk] event=order.received status=success kioskCode=E0000242 recipeCode=E0000242 matchedMenuName=HOT_아메리카노(연하게)_MV actualSteps=["NONE:HOT","WATER:310","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=TEST-1786367288953 bill=0000 isTestBrew=true
+[2026-08-10 22:08:09.261] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786367288953 priority=99 description=음료_제조_(TEST-1786367288953)
+[2026-08-10 22:08:09.262] [debug] [task] [task] event=task.start status=started orderId=TEST-1786367288953 menuCount=1
+[2026-08-10 22:08:09.263] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786367288953 productNo=E0000242 bill=0000
+[2026-08-10 22:08:09.271] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV stepCount=10
+[2026-08-10 22:08:10.313] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV step=주문스텝2
+[2026-08-10 22:08:10.314] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:10.315] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:10.323] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:10.324] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:11.368] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV step=주문스텝3
+[2026-08-10 22:08:11.370] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:11.371] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:11.388] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:11.390] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:12.678] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:12.801] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:12.803] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:12.804] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:12.805] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:12.806] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:12.807] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:12.807] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:12.808] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:12.809] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:12.809] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:12.810] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:12.811] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:12.811] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:12.812] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:12.813] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:12.813] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:12.814] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:12.815] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:12.816] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:12.817] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:12.817] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:12.819] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:12.820] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:12.821] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:14.426] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV step=주문스텝4
+[2026-08-10 22:08:14.427] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:14.428] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:14.434] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:14.437] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:15.463] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV step=주문스텝5
+[2026-08-10 22:08:15.465] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:15.466] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786367288953 menuName=HOT_아메리카노(연하게)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:15.481] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:15.482] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-10 22:08:15.494] [debug] [task] [task] event=task.complete status=success orderId=TEST-1786367288953
+[2026-08-10 22:08:17.836] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:17.978] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:17.979] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:17.980] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:17.981] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:17.981] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:17.982] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:17.983] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:17.983] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:17.984] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:17.985] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:17.986] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:17.987] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:17.988] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:17.989] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:17.989] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:17.990] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:17.991] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:17.991] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:17.992] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:17.993] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:17.994] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:17.994] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:17.996] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:17.996] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:23.003] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:23.124] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:23.125] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:23.126] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:23.126] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:23.127] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:23.128] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:23.128] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:23.129] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:23.130] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:23.130] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:23.131] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:23.132] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:23.132] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:23.133] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:23.134] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:23.135] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:23.136] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:23.137] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:23.138] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:23.139] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:23.140] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:23.140] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:23.141] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:23.142] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:28.151] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:28.274] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:28.275] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:28.277] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:28.278] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:28.279] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:28.280] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:28.281] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:28.282] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:28.282] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:28.283] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:28.284] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:28.285] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:28.287] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:28.288] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:28.288] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:28.290] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:28.291] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:28.292] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:28.292] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:28.293] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:28.294] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:28.295] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:28.296] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:28.296] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:33.300] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:33.422] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:33.424] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:33.425] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:33.426] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:33.426] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:33.427] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:33.428] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:33.429] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:33.429] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:33.430] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:33.431] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:33.431] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:33.432] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:33.433] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:33.433] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:33.435] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:33.437] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:33.438] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:33.438] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:33.439] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:33.440] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:33.441] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:33.443] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:33.443] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:38.448] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:38.565] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:38.566] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:38.567] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:38.568] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:38.569] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:38.570] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:38.571] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:38.572] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:38.573] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:38.573] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:38.574] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:38.575] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:38.575] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:38.576] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:38.577] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:38.577] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:38.578] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:38.579] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:38.579] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:38.580] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:38.581] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:38.581] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:38.583] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:38.583] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:43.587] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:43.706] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:43.707] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:43.708] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:43.708] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:43.709] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:43.710] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:43.711] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:43.711] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:43.712] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:43.713] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:43.714] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:43.714] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:43.715] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:43.716] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:43.716] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:43.717] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:43.719] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:43.720] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:43.721] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:43.722] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:43.722] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:43.723] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:43.724] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:43.725] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:48.729] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:48.850] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:08:48.852] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:08:48.853] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:08:48.854] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:08:48.855] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:08:48.855] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:08:48.856] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:08:48.857] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:08:48.857] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:08:48.858] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:08:48.859] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:08:48.859] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:08:48.860] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:08:48.861] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:08:48.861] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:08:48.862] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:08:48.863] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:08:48.864] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:08:48.864] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:08:48.865] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:08:48.866] [error] [HASTE Agent Bot] }
+[2026-08-10 22:08:48.867] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:08:48.868] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:08:48.869] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:08:53.246] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-10 22:08:53.246] [info]  [app] event=app.shutdown status=started
+[2026-08-10 22:09:19.593] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "075575", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-10 22:09:20.089] [info]  [app] event=app.startup status=started appVersion=3.0.0-t53 packaged=true
+[2026-08-10 22:09:20.292] [info]  [app] event=app.window status=success
+[2026-08-10 22:09:20.358] [info]  [app] event=app.tray status=success
+[2026-08-10 22:09:20.358] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-10 22:09:20.361] [info]  [app] event=app.ipc status=success
+[2026-08-10 22:09:20.363] [info]  [app] event=task.start status=success
+[2026-08-10 22:09:20.364] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-10 22:09:20.367] [info]  [api] [HASTE] Found SSL Certificates at: C:/Users/김성규/Desktop/HASTE-AI/src/cafehaste-homepage/public
+[2026-08-10 22:09:20.379] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-10 22:09:20.388] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-10 22:09:20.390] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-10 22:09:20.391] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 22:09:20.394] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-10 22:09:20.396] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 22:09:20.404] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-10 22:09:20.407] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-10 22:09:20.413] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:20.415] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:20.416] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-10 22:09:20.419] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:20.420] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:20.422] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 22:09:20.423] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-10 22:09:20.426] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-10 22:09:20.427] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-10 22:09:20.429] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 22:09:20.430] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-10 22:09:20.431] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 22:09:20.433] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-10 22:09:20.434] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-10 22:09:20.435] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-10 22:09:20.435] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-10 22:09:20.436] [info]  [HASTE Guard] Launching Haste Agent Bot process: C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:09:20.455] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-10 22:09:20.482] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 22:09:20.484] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 22:09:20.486] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-10 22:09:20.488] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-10 22:09:20.490] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 22:09:20.615] [error] [HASTE Agent Bot] node:internal/modules/cjs/loader:1527
+[2026-08-10 22:09:20.617] [error] [HASTE Agent Bot] throw err;
+[2026-08-10 22:09:20.618] [error] [HASTE Agent Bot] ^
+[2026-08-10 22:09:20.618] [error] [HASTE Agent Bot] Error: Cannot find module 'discord.js'
+[2026-08-10 22:09:20.619] [error] [HASTE Agent Bot] Require stack:
+[2026-08-10 22:09:20.620] [error] [HASTE Agent Bot] - C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js
+[2026-08-10 22:09:20.621] [error] [HASTE Agent Bot] at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+[2026-08-10 22:09:20.622] [error] [HASTE Agent Bot] at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+[2026-08-10 22:09:20.623] [error] [HASTE Agent Bot] at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+[2026-08-10 22:09:20.624] [error] [HASTE Agent Bot] at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+[2026-08-10 22:09:20.624] [error] [HASTE Agent Bot] at Module._load (node:internal/modules/cjs/loader:1301:5)
+[2026-08-10 22:09:20.625] [error] [HASTE Agent Bot] at c._load (node:electron/js2c/node_init:2:18060)
+[2026-08-10 22:09:20.626] [error] [HASTE Agent Bot] at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+[2026-08-10 22:09:20.627] [error] [HASTE Agent Bot] at Module.require (node:internal/modules/cjs/loader:1624:12)
+[2026-08-10 22:09:20.628] [error] [HASTE Agent Bot] at require (node:internal/modules/helpers:153:16)
+[2026-08-10 22:09:20.628] [error] [HASTE Agent Bot] at Object.<anonymous> (C:\Users\김성규\AppData\Local\Programs\haste-client\resources\haste_agent_bridge.js:627:37) {
+[2026-08-10 22:09:20.629] [error] [HASTE Agent Bot] code: 'MODULE_NOT_FOUND',
+[2026-08-10 22:09:20.630] [error] [HASTE Agent Bot] requireStack: [
+[2026-08-10 22:09:20.631] [error] [HASTE Agent Bot] 'C:\\Users\\김성규\\AppData\\Local\\Programs\\haste-client\\resources\\haste_agent_bridge.js'
+[2026-08-10 22:09:20.633] [error] [HASTE Agent Bot] ]
+[2026-08-10 22:09:20.634] [error] [HASTE Agent Bot] }
+[2026-08-10 22:09:20.635] [error] [HASTE Agent Bot] Node.js v24.18.0
+[2026-08-10 22:09:20.639] [warn]  [HASTE Guard] Haste Agent Bot exited (code: 1, signal: null)
+[2026-08-10 22:09:20.640] [info]  [HASTE Guard] Respawning Haste Agent Bot in 5 seconds...
+[2026-08-10 22:09:25.402] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 22:09:25.404] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-10 22:09:25.440] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-10 22:09:25.443] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:25.492] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-10 22:09:25.520] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:25.522] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-10 22:09:25.523] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
