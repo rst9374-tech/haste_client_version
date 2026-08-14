@@ -1,0 +1,1000 @@
+[2026-08-14 16:52:13.354] [error] [task] [task] event=task.queue status=failed orderId=TEST-1786693932944 reason=task_run_failed description=음료_제조_(TEST-1786693932944) message="BREW_STEP_FAILED:2:[TEST-1786693932944] [HOT군고구마라떼] 컵 추출 실패: 컵4"
+[2026-08-14 16:52:22.670] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"TEST-1786693942666","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"sub_id":1,"productNo":"MMH3027","name":"HOT슈크림라떼","cup_type":"HOT","coffee":false,"forceLive":true,"step1":["CUP","HOT"],"step2":["HOT_MILK",380],"step3":["SIRUB11",60],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"],"step7":["NONE","NONE"],"step8":["NONE","NONE"],"step9":["NONE","NONE"],"step10":["NONE","NONE"]}]}
+[2026-08-14 16:52:22.675] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786693942666 productNo=MMH3027
+[2026-08-14 16:52:22.682] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=TEST-1786693942666 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-14 16:52:22.686] [info]  [kiosk] [api] event=order.received status=success kioskCode=MMH3027 recipeCode=MMH3027 matchedMenuName=HOT슈크림라떼 actualSteps=["NONE:HOT","NONE:380","SIRUBS:60","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=TEST-1786693942666 bill=0000 isTestBrew=false
+[2026-08-14 16:52:22.692] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786693942666 priority=99 description=음료_제조_(TEST-1786693942666)
+[2026-08-14 16:52:22.696] [debug] [task] [task] event=task.start status=started orderId=TEST-1786693942666 menuCount=1
+[2026-08-14 16:52:22.699] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786693942666 productNo=MMH3027 bill=0000
+[2026-08-14 16:52:22.708] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786693942666 menuName=HOT슈크림라떼 stepCount=10
+[2026-08-14 16:52:22.712] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=HOT슈크림라떼, menu.forceLive=true, type=boolean
+[2026-08-14 16:52:22.731] [debug] [task] [task] event=brew.step status=started orderId=TEST-1786693942666 menuName=HOT슈크림라떼 step=2 message="cup drop started"
+[2026-08-14 16:52:22.735] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-14 16:52:22.738] [error] [task] [task] event=parts.command status=failed reason=send_failed action=sensor_check boardName=board1 part=motorRotationCheckSwitch2
+[2026-08-14 16:52:22.747] [error] [task] [task] event=brew.step status=failed orderId=TEST-1786693942666 menuName=HOT슈크림라떼 step=step2 reason=step_failed message="[TEST-1786693942666] [HOT슈크림라떼] 컵 추출 실패: 컵4"
+[2026-08-14 16:52:22.750] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786693942666 menuName=HOT슈크림라떼 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-14 16:52:22.754] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786693942666 menuName=HOT슈크림라떼 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-14 16:52:22.766] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-14 16:52:22.771] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-14 16:52:22.774] [error] [task] [task] event=task.fail status=failed orderId=TEST-1786693942666 reason=brew_failed message="[TEST-1786693942666] [HOT슈크림라떼] 컵 추출 실패: 컵4"
+[2026-08-14 16:52:22.791] [error] [task] [task] event=task.queue status=failed orderId=TEST-1786693942666 reason=task_run_failed description=음료_제조_(TEST-1786693942666) message="BREW_STEP_FAILED:2:[TEST-1786693942666] [HOT슈크림라떼] 컵 추출 실패: 컵4"
+[2026-08-14 16:55:43.435] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 16:55:43.892] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 16:55:43.897] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 16:55:44.070] [info]  [app] event=app.window status=success
+[2026-08-14 16:55:44.189] [info]  [app] event=app.tray status=success
+[2026-08-14 16:55:44.190] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 16:55:44.197] [info]  [app] event=app.ipc status=success
+[2026-08-14 16:55:44.199] [info]  [app] event=task.start status=success
+[2026-08-14 16:55:44.202] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 16:55:44.206] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 16:55:44.226] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 16:55:44.229] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 16:55:44.232] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 16:55:44.233] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 16:55:44.237] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 16:55:44.244] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 16:55:44.253] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 16:55:44.256] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 16:55:44.265] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 16:55:44.268] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 16:55:44.270] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 16:55:44.275] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 16:55:44.278] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 16:55:44.280] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 16:55:44.282] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 16:55:44.285] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 16:55:44.288] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 16:55:44.290] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 16:55:44.294] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 16:55:44.297] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 16:55:44.301] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 16:55:44.303] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 16:55:44.307] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 16:55:44.310] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 16:55:44.311] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 16:55:44.313] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 16:55:44.347] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 16:55:44.352] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 16:55:44.354] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 16:55:44.356] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 16:55:44.359] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 16:55:47.281] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 16:55:47.384] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 16:55:49.249] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 16:55:49.253] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 16:56:05.383] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:01:27.022] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 17:01:27.023] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 17:01:27.024] [info]  [app] event=app.shutdown status=started
+[2026-08-14 17:01:45.390] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:01:45.837] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:01:45.842] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:01:46.004] [info]  [app] event=app.window status=success
+[2026-08-14 17:01:46.128] [info]  [app] event=app.tray status=success
+[2026-08-14 17:01:46.129] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:01:46.135] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:01:46.137] [info]  [app] event=task.start status=success
+[2026-08-14 17:01:46.140] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:01:46.144] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:01:46.162] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:01:46.167] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:01:46.169] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:01:46.171] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:01:46.174] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:01:46.178] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:01:46.188] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:01:46.190] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:01:46.200] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:01:46.203] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:01:46.205] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:01:46.212] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:01:46.215] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:01:46.217] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:01:46.219] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:01:46.221] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:01:46.225] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:01:46.226] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:01:46.232] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:01:46.235] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:01:46.237] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:01:46.241] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:01:46.243] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:01:46.247] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:01:46.248] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:01:46.249] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:01:46.283] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:01:46.288] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:01:46.291] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:01:46.293] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:01:46.296] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:01:49.306] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:01:49.409] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:01:51.187] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:01:51.191] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:02:07.285] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:04:56.874] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 17:04:56.876] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 17:04:56.877] [info]  [app] event=app.shutdown status=started
+[2026-08-14 17:05:08.745] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:05:09.204] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:05:09.208] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:05:09.370] [info]  [app] event=app.window status=success
+[2026-08-14 17:05:09.447] [info]  [app] event=app.tray status=success
+[2026-08-14 17:05:09.448] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:05:09.455] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:05:09.458] [info]  [app] event=task.start status=success
+[2026-08-14 17:05:09.461] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:05:09.467] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:05:09.486] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:05:09.490] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:05:09.491] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:05:09.494] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:05:09.497] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:05:09.504] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:05:09.512] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:05:09.519] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:05:09.527] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:05:09.530] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:05:09.533] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:05:09.538] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:05:09.540] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:05:09.544] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:05:09.546] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:05:09.548] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:05:09.552] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:05:09.554] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:05:09.560] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:05:09.562] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:05:09.565] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:05:09.568] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:05:09.571] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:05:09.574] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:05:09.575] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:05:09.576] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:05:09.608] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:05:09.613] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:05:09.618] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:05:09.621] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:05:09.623] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:05:12.632] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:05:12.736] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:05:14.514] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:05:14.519] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:05:30.620] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:09:09.652] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:09:10.112] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:09:10.120] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:09:10.298] [info]  [app] event=app.window status=success
+[2026-08-14 17:09:10.428] [info]  [app] event=app.tray status=success
+[2026-08-14 17:09:10.429] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:09:10.436] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:09:10.439] [info]  [app] event=task.start status=success
+[2026-08-14 17:09:10.442] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:09:10.447] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:09:10.461] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:09:10.465] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:09:10.469] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:09:10.472] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:09:10.475] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:09:10.481] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:09:10.490] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:09:10.496] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:09:10.504] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:09:10.507] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:09:10.510] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:09:10.513] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:09:10.518] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:09:10.520] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:09:10.524] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:09:10.526] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:09:10.529] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:09:10.531] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:09:10.536] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:09:10.539] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:09:10.544] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:09:10.546] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:09:10.549] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:09:10.552] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:09:10.555] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:09:10.556] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:09:10.588] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:09:10.593] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:09:10.596] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:09:10.599] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:09:10.603] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:09:13.554] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:09:13.656] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:09:15.496] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:09:15.502] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:09:16.597] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 17:09:31.608] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:14:20.783] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 17:14:20.783] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 17:14:20.784] [info]  [app] event=app.shutdown status=started
+[2026-08-14 17:14:34.561] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:14:35.016] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:14:35.022] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:14:35.190] [info]  [app] event=app.window status=success
+[2026-08-14 17:14:35.323] [info]  [app] event=app.tray status=success
+[2026-08-14 17:14:35.324] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:14:35.330] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:14:35.332] [info]  [app] event=task.start status=success
+[2026-08-14 17:14:35.335] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:14:35.340] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:14:35.356] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:14:35.359] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:14:35.361] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:14:35.363] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:14:35.369] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:14:35.373] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:14:35.382] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:14:35.386] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:14:35.393] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:14:35.396] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:14:35.398] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:14:35.402] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:14:35.406] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:14:35.408] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:14:35.412] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:14:35.413] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:14:35.416] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:14:35.419] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:14:35.424] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:14:35.426] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:14:35.428] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:14:35.431] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:14:35.433] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:14:35.438] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:14:35.440] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:14:35.442] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:14:35.477] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:14:35.483] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:14:35.486] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:14:35.490] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:14:35.493] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:14:38.468] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:14:38.573] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:14:40.376] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:14:40.381] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:14:41.538] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 17:14:56.504] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:18:42.686] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 17:18:42.687] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 17:18:42.689] [info]  [app] event=app.shutdown status=started
+[2026-08-14 17:19:10.549] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:19:10.992] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:19:10.999] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:19:11.167] [info]  [app] event=app.window status=success
+[2026-08-14 17:19:11.241] [info]  [app] event=app.tray status=success
+[2026-08-14 17:19:11.243] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:19:11.249] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:19:11.251] [info]  [app] event=task.start status=success
+[2026-08-14 17:19:11.255] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:19:11.261] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:19:11.277] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:19:11.281] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:19:11.283] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:19:11.289] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:19:11.293] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:19:11.297] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:19:11.307] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:19:11.312] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:19:11.321] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:19:11.324] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:19:11.326] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:19:11.331] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:19:11.334] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:19:11.336] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:19:11.339] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:19:11.341] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:19:11.344] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:19:11.346] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:19:11.352] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:19:11.355] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:19:11.358] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:19:11.361] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:19:11.368] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:19:11.370] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:19:11.372] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:19:11.374] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:19:11.409] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:19:11.414] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:19:11.417] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:19:11.419] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:19:11.422] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:19:14.413] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:19:14.523] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:19:16.303] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:19:16.309] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:19:16.496] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 17:19:27.159] [info]  [HASTE Toss Sync] Manual Toss menu & recipe sync triggered via GUI.
+[2026-08-14 17:19:27.170] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-14 17:19:27.173] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-14 17:19:27.177] [info]  [HASTE Toss Sync] Filtering standard recipes with: Cup=MV, Hopper1=V (R), Hopper2=D_SAVE (D) -> Selected 215 items.
+[2026-08-14 17:19:27.178] [warn]  [HASTE Master Sync Warning] table MENU has no column named price
+[2026-08-14 17:19:27.181] [info]  [HASTE Toss Sync] Success! Duplicated 228 recipes. Unmatched: 0
+[2026-08-14 17:19:32.453] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:24:37.604] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:24:38.055] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:24:38.062] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:24:38.228] [info]  [app] event=app.window status=success
+[2026-08-14 17:24:38.351] [info]  [app] event=app.tray status=success
+[2026-08-14 17:24:38.352] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:24:38.359] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:24:38.362] [info]  [app] event=task.start status=success
+[2026-08-14 17:24:38.366] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:24:38.373] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:24:38.388] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:24:38.391] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:24:38.397] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:24:38.401] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:24:38.404] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:24:38.408] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:24:38.420] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:24:38.422] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:24:38.432] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:24:38.435] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:24:38.437] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:24:38.443] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:24:38.446] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:24:38.448] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:24:38.450] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:24:38.451] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:24:38.455] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:24:38.456] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:24:38.461] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:24:38.463] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:24:38.465] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:24:38.467] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:24:38.471] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:24:38.473] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:24:38.474] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:24:38.476] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:24:38.510] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:24:38.515] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:24:38.518] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:24:38.520] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:24:38.523] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:24:41.482] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:24:41.585] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:24:43.421] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:24:43.425] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:24:44.055] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 17:24:59.531] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:33:37.376] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:33:37.934] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:33:37.939] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:33:38.123] [info]  [app] event=app.window status=success
+[2026-08-14 17:33:38.255] [info]  [app] event=app.tray status=success
+[2026-08-14 17:33:38.256] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:33:38.264] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:33:38.268] [info]  [app] event=task.start status=success
+[2026-08-14 17:33:38.271] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:33:38.278] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:33:38.297] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:33:38.302] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:33:38.307] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:33:38.310] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:33:38.314] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:33:38.320] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:33:38.331] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:33:38.335] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:33:38.343] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:33:38.346] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:33:38.349] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:33:38.356] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:33:38.358] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:33:38.360] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:33:38.362] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:33:38.365] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:33:38.369] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:33:38.371] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:33:38.375] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:33:38.379] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:33:38.382] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:33:38.386] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:33:38.389] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:33:38.391] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:33:38.392] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:33:38.393] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:33:38.433] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:33:38.439] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:33:38.443] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:33:38.446] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:33:38.449] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:33:41.585] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:33:41.688] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:33:43.338] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:33:43.344] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:33:59.437] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:34:02.902] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 17:56:25.509] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 17:56:25.952] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 17:56:25.958] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 17:56:26.126] [info]  [app] event=app.window status=success
+[2026-08-14 17:56:26.250] [info]  [app] event=app.tray status=success
+[2026-08-14 17:56:26.251] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 17:56:26.256] [info]  [app] event=app.ipc status=success
+[2026-08-14 17:56:26.258] [info]  [app] event=task.start status=success
+[2026-08-14 17:56:26.263] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 17:56:26.267] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 17:56:26.282] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 17:56:26.286] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 17:56:26.287] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 17:56:26.289] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:56:26.295] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 17:56:26.299] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:56:26.307] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 17:56:26.311] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 17:56:26.318] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:56:26.320] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:56:26.325] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 17:56:26.331] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:56:26.334] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 17:56:26.336] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 17:56:26.340] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 17:56:26.341] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 17:56:26.344] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 17:56:26.346] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 17:56:26.350] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:56:26.355] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 17:56:26.357] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:56:26.362] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 17:56:26.365] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 17:56:26.370] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 17:56:26.371] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 17:56:26.372] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 17:56:26.405] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:56:26.412] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:56:26.414] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 17:56:26.417] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 17:56:26.419] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 17:56:30.004] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 17:56:30.109] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 17:56:31.306] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:56:31.309] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 17:56:32.030] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 17:56:47.409] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 17:58:29.265] [info]  [HASTE Standard Sync] Manual standard menu & recipe sync triggered via GUI.
+[2026-08-14 17:58:29.267] [info]  [HASTE Toss Sync] Filtering standard recipes with: Cup=MV, Hopper1=V (R), Hopper2=D_SAVE (D) -> Selected 215 items.
+[2026-08-14 17:58:29.269] [error] [HASTE Standard Sync] Error: table MENU has no column named price
+[2026-08-14 18:00:40.832] [info]  [HASTE Standard Sync] Manual standard menu & recipe sync triggered via GUI.
+[2026-08-14 18:00:40.834] [info]  [HASTE Toss Sync] Filtering standard recipes with: Cup=MV, Hopper1=V (R), Hopper2=D_SAVE (D) -> Selected 215 items.
+[2026-08-14 18:00:40.836] [error] [HASTE Standard Sync] Error: table MENU has no column named price
+[2026-08-14 18:00:45.843] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:00:45.844] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:00:45.845] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:00:59.403] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:00:59.851] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:00:59.857] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:01:00.015] [info]  [app] event=app.window status=success
+[2026-08-14 18:01:00.121] [info]  [app] event=app.tray status=success
+[2026-08-14 18:01:00.122] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:01:00.127] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:01:00.130] [info]  [app] event=task.start status=success
+[2026-08-14 18:01:00.134] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:01:00.138] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:01:00.155] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:01:00.161] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:01:00.164] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:01:00.167] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:01:00.171] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:01:00.178] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:01:00.187] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:01:00.191] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:01:00.197] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:01:00.200] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:01:00.202] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:01:00.207] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:01:00.210] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:01:00.212] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:01:00.214] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:01:00.216] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:01:00.220] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:01:00.221] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:01:00.225] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:01:00.227] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:01:00.230] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:01:00.234] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:01:00.237] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:01:00.238] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:01:00.239] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:01:00.240] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:01:00.271] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:01:00.276] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:01:00.279] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:01:00.282] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:01:00.285] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:01:03.826] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:01:03.934] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:01:05.183] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:01:05.187] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:01:07.053] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:01:11.066] [info]  [HASTE Standard Sync] Manual standard menu & recipe sync triggered via GUI.
+[2026-08-14 18:01:11.068] [info]  [HASTE Toss Sync] Filtering standard recipes with: Cup=MV, Hopper1=V (R), Hopper2=D_SAVE (D) -> Selected 215 items.
+[2026-08-14 18:01:11.084] [info]  [HASTE Master Sync] Synced 215 store-tailored standard items (Cup: MV, Hopper1: V, Hopper2: D_SAVE) with syrup pump calibration to haste_menu.db
+[2026-08-14 18:01:11.085] [info]  [HASTE Standard Sync] Success! Synced 215 recipes directly from haste_product.db to haste_menu.db.
+[2026-08-14 18:01:21.293] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:02:50.902] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:02:50.903] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:02:50.904] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:06:07.101] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:06:07.607] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:06:07.611] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:06:07.757] [info]  [app] event=app.window status=success
+[2026-08-14 18:06:07.879] [info]  [app] event=app.tray status=success
+[2026-08-14 18:06:07.881] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:06:07.887] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:06:07.890] [info]  [app] event=task.start status=success
+[2026-08-14 18:06:07.893] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:06:07.897] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:06:07.913] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:06:07.917] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:06:07.919] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:06:07.921] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:06:07.927] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:06:07.930] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:06:07.940] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:06:07.945] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:06:07.953] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:06:07.958] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:06:07.960] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:06:07.965] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:06:07.968] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:06:07.972] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:06:07.974] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:06:07.975] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:06:07.979] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:06:07.980] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:06:07.985] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:06:07.992] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:06:07.994] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:06:07.997] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:06:08.003] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:06:08.006] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:06:08.007] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:06:08.008] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:06:08.042] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:06:08.048] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:06:08.051] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:06:08.054] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:06:08.056] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:06:11.589] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:06:11.703] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:06:12.947] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:06:12.953] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:06:24.366] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:06:29.055] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:13:50.174] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"TEST-1786698829840","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"sub_id":1,"productNo":"MAI4018","name":"ICED플럼피치에이드","cup_type":"ICED","coffee":false,"forceLive":true,"step1":["CUP","ICED"],"step2":["ICE",5100],"step3":["SPARKLING",220],"step4":["SIRUB22",25],"step5":["SIRUB18",45],"step6":["NONE","NONE"],"step7":["NONE","NONE"],"step8":["NONE","NONE"],"step9":["NONE","NONE"],"step10":["NONE","NONE"]}]}
+[2026-08-14 18:13:50.177] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786698829840 productNo=MAI4018
+[2026-08-14 18:13:50.178] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=TEST-1786698829840 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-14 18:13:50.182] [info]  [kiosk] [api] event=order.received status=success kioskCode=MAI4018 recipeCode=MAI4018 matchedMenuName=ICED플럼피치에이드 actualSteps=["NONE:ICED","WATER:5100","NONE:220","SIRUBS:25","SIRUBS:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=TEST-1786698829840 bill=0000 isTestBrew=false
+[2026-08-14 18:13:50.185] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1786698829840 priority=99 description=음료_제조_(TEST-1786698829840)
+[2026-08-14 18:13:50.190] [debug] [task] [task] event=task.start status=started orderId=TEST-1786698829840 menuCount=1
+[2026-08-14 18:13:50.193] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1786698829840 productNo=MAI4018 bill=0000
+[2026-08-14 18:13:50.203] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1786698829840 menuName=ICED플럼피치에이드 stepCount=10
+[2026-08-14 18:13:50.212] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED플럼피치에이드, menu.forceLive=true, type=boolean
+[2026-08-14 18:13:50.225] [debug] [task] [task] event=brew.step status=started orderId=TEST-1786698829840 menuName=ICED플럼피치에이드 step=2 message="cup drop started"
+[2026-08-14 18:13:50.229] [error] [cup] [cup] event=cup.out status=failed reason=unknown_cup cupName=None
+[2026-08-14 18:13:50.243] [error] [task] [task] event=brew.step status=failed orderId=TEST-1786698829840 menuName=ICED플럼피치에이드 step=step2 reason=step_failed message="[TEST-1786698829840] [ICED플럼피치에이드] 컵 추출 실패: None"
+[2026-08-14 18:13:50.246] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786698829840 menuName=ICED플럼피치에이드 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:13:50.255] [debug] [api] [api] event=did.callback status=started orderId=TEST-1786698829840 menuName=ICED플럼피치에이드 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:13:50.291] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:13:50.296] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:13:50.299] [error] [task] [task] event=task.fail status=failed orderId=TEST-1786698829840 reason=brew_failed message="[TEST-1786698829840] [ICED플럼피치에이드] 컵 추출 실패: None"
+[2026-08-14 18:13:50.305] [error] [task] [task] event=task.queue status=failed orderId=TEST-1786698829840 reason=task_run_failed description=음료_제조_(TEST-1786698829840) message="BREW_STEP_FAILED:2:[TEST-1786698829840] [ICED플럼피치에이드] 컵 추출 실패: None"
+[2026-08-14 18:13:54.918] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:13:54.919] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:13:54.920] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:15:37.185] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:15:37.651] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:15:37.660] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:15:37.834] [info]  [app] event=app.window status=success
+[2026-08-14 18:15:37.965] [info]  [app] event=app.tray status=success
+[2026-08-14 18:15:37.966] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:15:37.975] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:15:37.978] [info]  [app] event=task.start status=success
+[2026-08-14 18:15:37.981] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:15:37.985] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:15:38.004] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:15:38.007] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:15:38.010] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:15:38.012] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:15:38.018] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:15:38.022] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:15:38.031] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:15:38.034] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:15:38.043] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:15:38.047] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:15:38.049] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:15:38.052] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:15:38.055] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:15:38.057] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:15:38.059] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:15:38.062] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:15:38.065] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:15:38.067] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:15:38.071] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:15:38.074] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:15:38.077] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:15:38.080] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:15:38.083] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:15:38.085] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:15:38.085] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:15:38.087] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:15:38.121] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:15:38.126] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:15:38.129] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:15:38.131] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:15:38.133] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:15:41.053] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:15:41.164] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:15:43.037] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:15:43.047] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:15:43.416] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:15:59.153] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:17:16.342] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:17:16.343] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:17:16.344] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:18:23.985] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:18:24.419] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:18:24.426] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:18:24.588] [info]  [app] event=app.window status=success
+[2026-08-14 18:18:24.650] [info]  [app] event=app.tray status=success
+[2026-08-14 18:18:24.652] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:18:24.660] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:18:24.663] [info]  [app] event=task.start status=success
+[2026-08-14 18:18:24.667] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:18:24.673] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:18:24.693] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:18:24.698] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:18:24.700] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:18:24.702] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:18:24.706] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:18:24.713] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:18:24.722] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:18:24.728] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:18:24.735] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:18:24.738] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:18:24.741] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:18:24.749] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:18:24.751] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:18:24.753] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:18:24.755] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:18:24.760] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:18:24.763] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:18:24.764] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:18:24.768] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:18:24.771] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:18:24.777] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:18:24.779] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:18:24.782] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:18:24.784] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:18:24.788] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:18:24.790] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:18:24.822] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:18:24.828] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:18:24.830] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:18:24.833] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:18:24.835] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:18:27.745] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:18:27.853] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:18:29.726] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:18:29.732] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:18:29.910] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:18:45.855] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:25:00.620] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:25:00.623] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:25:00.624] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:25:21.962] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:25:22.575] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:25:22.590] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:25:22.807] [info]  [app] event=app.window status=success
+[2026-08-14 18:25:22.964] [info]  [app] event=app.tray status=success
+[2026-08-14 18:25:22.965] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:25:22.972] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:25:22.974] [info]  [app] event=task.start status=success
+[2026-08-14 18:25:22.979] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:25:22.986] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:25:23.012] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:25:23.017] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:25:23.022] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:25:23.025] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:25:23.031] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:25:23.040] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:25:23.058] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:25:23.065] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:25:23.083] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:25:23.088] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:25:23.094] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:25:23.103] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:25:23.107] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:25:23.112] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:25:23.114] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:25:23.116] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:25:23.120] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:25:23.122] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:25:23.132] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:25:23.137] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:25:23.141] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:25:23.147] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:25:23.151] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:25:23.156] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:25:23.157] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:25:23.159] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:25:23.211] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:25:23.216] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:25:23.218] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:25:23.221] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:25:23.223] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:29:56.162] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:29:56.589] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:29:56.596] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:29:56.777] [info]  [app] event=app.window status=success
+[2026-08-14 18:29:56.891] [info]  [app] event=app.tray status=success
+[2026-08-14 18:29:56.892] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:29:56.899] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:29:56.902] [info]  [app] event=task.start status=success
+[2026-08-14 18:29:56.906] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:29:56.912] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:29:56.927] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:29:56.932] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:29:56.936] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:29:56.941] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:29:56.945] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:29:56.951] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:29:56.960] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:29:56.963] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:29:56.975] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:29:56.978] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:29:56.980] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:29:56.985] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:29:56.989] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:29:56.991] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:29:56.992] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:29:56.994] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:29:56.998] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:29:57.000] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:29:57.004] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:29:57.006] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:29:57.009] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:29:57.012] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:29:57.015] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:29:57.018] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:29:57.019] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:29:57.020] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:29:57.052] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:29:57.057] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:29:57.060] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:29:57.063] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:29:57.065] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:30:00.027] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:30:00.136] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:30:01.959] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:30:01.965] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:30:02.311] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:30:18.083] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:31:04.009] [info]  [HASTE Standard Sync] Manual standard menu & recipe sync triggered via GUI.
+[2026-08-14 18:31:04.011] [info]  [HASTE Toss Sync] Filtering standard recipes with: Cup=MV, Hopper1=V (R), Hopper2=D_SAVE (D) -> Selected 215 items.
+[2026-08-14 18:31:04.028] [info]  [HASTE Master Sync] Synced 215 store-tailored standard items (Cup: MV, Hopper1: V, Hopper2: D_SAVE) with syrup pump calibration to haste_menu.db
+[2026-08-14 18:31:04.029] [info]  [HASTE Standard Sync] Success! Synced 215 recipes directly from haste_product.db to haste_menu.db.
+[2026-08-14 18:37:20.874] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:37:20.876] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:37:20.877] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:39:07.760] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:39:08.196] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:39:08.202] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:39:08.364] [info]  [app] event=app.window status=success
+[2026-08-14 18:39:08.488] [info]  [app] event=app.tray status=success
+[2026-08-14 18:39:08.489] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:39:08.494] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:39:08.497] [info]  [app] event=task.start status=success
+[2026-08-14 18:39:08.500] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:39:08.510] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:39:08.527] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:39:08.530] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:39:08.533] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:39:08.537] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:39:08.540] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:39:08.544] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:39:08.552] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:39:08.556] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:39:08.563] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:39:08.567] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:39:08.569] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:39:08.573] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:39:08.577] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:39:08.579] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:39:08.581] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:39:08.582] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:39:08.586] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:39:08.588] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:39:08.592] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:39:08.596] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:39:08.599] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:39:08.602] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:39:08.605] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:39:08.608] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:39:08.610] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:39:08.611] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:39:08.644] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:39:08.649] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:39:08.652] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:39:08.655] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:39:08.660] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:39:11.626] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:39:11.737] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:39:13.551] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:39:13.555] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:39:14.669] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:39:29.663] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:41:21.975] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:41:21.976] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:41:21.977] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:42:11.923] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:42:12.364] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:42:12.370] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:42:12.513] [info]  [app] event=app.window status=success
+[2026-08-14 18:42:12.586] [info]  [app] event=app.tray status=success
+[2026-08-14 18:42:12.587] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:42:12.601] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:42:12.604] [info]  [app] event=task.start status=success
+[2026-08-14 18:42:12.607] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:42:12.616] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:42:12.640] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:42:12.646] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:42:12.649] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:42:12.651] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:42:12.656] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:42:12.666] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:42:12.681] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:42:12.683] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:42:12.694] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:42:12.697] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:42:12.700] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:42:12.708] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:42:12.711] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:42:12.713] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:42:12.717] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:42:12.720] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:42:12.723] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:42:12.724] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:42:12.728] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:42:12.733] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:42:12.736] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:42:12.739] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:42:12.742] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:42:12.744] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:42:12.747] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:42:12.748] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:42:12.779] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:42:12.784] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:42:12.788] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:42:12.791] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:42:12.794] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:42:15.812] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:42:15.916] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:42:17.681] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:42:17.684] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:42:17.923] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:42:32.118] [info]  [HASTE Common Menu IPC] store:menu:update for item MDI1002
+[2026-08-14 18:42:33.813] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:43:58.300] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-14 18:43:58.301] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-14 18:43:58.302] [info]  [app] event=app.shutdown status=started
+[2026-08-14 18:44:42.922] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-14 18:44:43.364] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-14 18:44:43.371] [info]  [app] event=app.startup status=started appVersion=3.1.0-t3 packaged=false
+[2026-08-14 18:44:43.515] [info]  [app] event=app.window status=success
+[2026-08-14 18:44:43.626] [info]  [app] event=app.tray status=success
+[2026-08-14 18:44:43.627] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-14 18:44:43.633] [info]  [app] event=app.ipc status=success
+[2026-08-14 18:44:43.636] [info]  [app] event=task.start status=success
+[2026-08-14 18:44:43.640] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-14 18:44:43.644] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:44:43.662] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:44:43.666] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:44:43.672] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:44:43.674] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:44:43.677] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-14 18:44:43.681] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:44:43.693] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-14 18:44:43.695] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-14 18:44:43.703] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:44:43.706] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:44:43.708] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-14 18:44:43.713] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:44:43.716] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-14 18:44:43.718] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:44:43.721] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-14 18:44:43.723] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-14 18:44:43.726] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-14 18:44:43.728] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-14 18:44:43.733] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:44:43.735] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-14 18:44:43.739] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:44:43.743] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-14 18:44:43.748] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-14 18:44:43.751] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-14 18:44:43.751] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-14 18:44:43.753] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-14 18:44:43.785] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:44:43.792] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:44:43.795] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-14 18:44:43.797] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-14 18:44:43.799] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:44:46.714] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-14 18:44:46.826] [info]  [HASTE DB Security] Locked on disk: haste_menu.db
+[2026-08-14 18:44:48.698] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:44:48.704] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-14 18:44:50.479] [info]  [HASTE DB Security] Locked on disk: haste_product.db
+[2026-08-14 18:45:04.809] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-14 18:47:42.860] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786700862531","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MRH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-14 18:47:42.865] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786700862531 productNo=MRH1000
+[2026-08-14 18:47:42.868] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786700862531 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-14 18:47:42.875] [info]  [kiosk] [api] event=order.received status=success kioskCode=MRH1000 recipeCode=MRH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786700862531 bill=0000 isTestBrew=true
+[2026-08-14 18:47:42.881] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT_1786700862531 priority=99 description=음료_제조_(INSTANT_1786700862531)
+[2026-08-14 18:47:42.886] [debug] [task] [task] event=task.start status=started orderId=INSTANT_1786700862531 menuCount=1
+[2026-08-14 18:47:42.896] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT_1786700862531 productNo=MRH1000 bill=0000
+[2026-08-14 18:47:42.911] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT_1786700862531 menuName=HOT에스프레소_도피오(다크시그니처) stepCount=6
+[2026-08-14 18:47:42.918] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=HOT에스프레소 도피오(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-14 18:47:42.933] [debug] [task] [task] event=brew.step status=started orderId=INSTANT_1786700862531 menuName=HOT에스프레소_도피오(다크시그니처) step=2 message="cup drop started"
+[2026-08-14 18:47:42.939] [error] [cup] [cup] event=cup.out status=failed reason=unknown_cup cupName=None
+[2026-08-14 18:47:42.950] [error] [task] [task] event=brew.step status=failed orderId=INSTANT_1786700862531 menuName=HOT에스프레소_도피오(다크시그니처) step=step2 reason=step_failed message="[INSTANT_1786700862531] [HOT에스프레소 도피오(다크시그니처)] 컵 추출 실패: None"
+[2026-08-14 18:47:42.957] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786700862531 menuName=HOT에스프레소_도피오(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:47:42.973] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786700862531 menuName=HOT에스프레소_도피오(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:47:43.016] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:47:43.027] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:47:43.033] [error] [task] [task] event=task.fail status=failed orderId=INSTANT_1786700862531 reason=brew_failed message="[INSTANT_1786700862531] [HOT에스프레소 도피오(다크시그니처)] 컵 추출 실패: None"
+[2026-08-14 18:47:43.043] [error] [task] [task] event=task.queue status=failed orderId=INSTANT_1786700862531 reason=task_run_failed description=음료_제조_(INSTANT_1786700862531) message="BREW_STEP_FAILED:2:[INSTANT_1786700862531] [HOT에스프레소 도피오(다크시그니처)] 컵 추출 실패: None"
+[2026-08-14 18:47:57.355] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-14 18:47:57.362] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-14 18:47:57.363] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-14 18:47:57.377] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-14 18:47:57.415] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-14 18:48:03.701] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786700883698","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MRH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-14 18:48:03.706] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786700883698 productNo=MRH1000
+[2026-08-14 18:48:03.709] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786700883698 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-14 18:48:03.713] [info]  [kiosk] [api] event=order.received status=success kioskCode=MRH1000 recipeCode=MRH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786700883698 bill=0000 isTestBrew=true
+[2026-08-14 18:48:03.716] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT_1786700883698 priority=99 description=음료_제조_(INSTANT_1786700883698)
+[2026-08-14 18:48:03.718] [debug] [task] [task] event=task.start status=started orderId=INSTANT_1786700883698 menuCount=1
+[2026-08-14 18:48:03.721] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT_1786700883698 productNo=MRH1000 bill=0000
+[2026-08-14 18:48:03.729] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) stepCount=6
+[2026-08-14 18:48:03.734] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=HOT에스프레소 도피오(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-14 18:48:04.751] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) step=주문스텝2
+[2026-08-14 18:48:04.755] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:48:04.759] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:48:04.765] [error] [api] [api] event=did.callback status=failed attempt=1 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:04.770] [error] [api] [api] event=did.callback status=failed attempt=1 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:05.250] [error] [api] [api] event=did.callback status=failed attempt=2 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:05.295] [error] [api] [api] event=did.callback status=failed attempt=2 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:06.203] [error] [api] [api] event=did.callback status=failed attempt=3 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:06.264] [error] [api] [api] event=did.callback status=failed attempt=3 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:08.074] [error] [api] [api] event=did.callback status=failed attempt=4 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:08.133] [error] [api] [api] event=did.callback status=failed attempt=4 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:08.136] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=HOT에스프레소 도피오(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-14 18:48:09.155] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) step=주문스텝3
+[2026-08-14 18:48:09.159] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:48:09.162] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786700883698 menuName=HOT에스프레소_도피오(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-14 18:48:09.166] [error] [api] [api] event=did.callback status=failed attempt=1 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:09.168] [error] [api] [api] event=did.callback status=failed attempt=1 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:09.699] [error] [api] [api] event=did.callback status=failed attempt=2 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:09.705] [error] [api] [api] event=did.callback status=failed attempt=2 reason=request_error url=http://127.0.0.1:8080/sse/did message="TypeError: fetch failed"
+[2026-08-14 18:48:09.729] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-14 18:48:09.733] [info]  [api] [HASTE] Found SSL Certificates at: [PROJECT_ROOT]\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-14 18:48:09.736] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-14 18:48:09.738] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-14 18:48:09.740] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-14 18:48:09.767] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-14 18:48:09.770] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-14 18:48:09.773] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-14 18:48:09.803] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-14 18:48:09.808] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-14 18:48:09.809] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-14 18:48:09.810] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-14 18:48:09.811] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-14 18:48:09.812] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-14 18:48:09.813] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-14 18:48:09.814] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-14 18:48:09.827] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
