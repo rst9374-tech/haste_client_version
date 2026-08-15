@@ -1,0 +1,1000 @@
+[2026-08-15 19:46:09.157] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:46:09.158] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:46:09.160] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:46:09.180] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-15 19:46:09.183] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-15 19:46:09.191] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-15 19:46:09.195] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:46:09.200] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:46:09.204] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:46:09.207] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:46:09.240] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:46:09.242] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:46:09.249] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:46:09.253] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-15 19:46:09.255] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:46:09.259] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-15 19:46:09.260] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-15 19:46:09.264] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:46:09.265] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:46:09.267] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:46:09.271] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:46:09.278] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-15 19:46:09.281] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-15 19:46:09.282] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-15 19:46:09.284] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-15 19:46:09.368] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-15 19:46:09.378] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF_1 action=connected
+[2026-08-15 19:46:09.384] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:46:09.415] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getApiVersion returnvalue=40501
+[2026-08-15 19:46:09.903] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getDiagnosticData returnvalue=0
+[2026-08-15 19:46:09.910] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-15 19:46:09.913] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:46:10.305] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:46:10.307] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-15 19:46:10.520] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-15 19:46:11.145] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getMachineInfo returnvalue=0
+[2026-08-15 19:46:11.446] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-15 19:46:11.959] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-15 19:46:11.964] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 19:48:05.366] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:48:05.371] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:48:05.372] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-15 19:48:05.473] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-15 19:48:05.479] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-15 19:48:05.492] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:48:05.502] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 19:48:05.507] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 19:48:05.509] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:48:05.514] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:48:05.519] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:48:05.525] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:48:06.006] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:48:06.010] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:48:06.011] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:48:06.051] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-15 19:48:06.056] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 19:48:06.057] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 19:48:06.058] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 19:48:06.059] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 19:48:06.060] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 19:48:06.061] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-15 19:48:06.061] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-15 19:48:06.072] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 19:48:06.760] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:48:10.728] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"TEST-1786790890379","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"sub_id":1,"productNo":"MNH1000","name":"HOT에스프레소 도피오(디카페인)","cup_type":"HOT","coffee":true,"forceLive":false,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"],"step7":["NONE","NONE"],"step8":["NONE","NONE"],"step9":["NONE","NONE"],"step10":["NONE","NONE"]}]}
+[2026-08-15 19:48:10.731] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1786790890379 productNo=MNH1000
+[2026-08-15 19:48:10.733] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=TEST-1786790890379 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:48:10.739] [info]  [kiosk] [api] event=order.received status=success kioskCode=MNH1000 recipeCode=MNH1000 matchedMenuName=HOT에스프레소_도피오(디카페인) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=TEST-1786790890379 bill=0000 isTestBrew=true
+[2026-08-15 19:51:57.391] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-15 19:51:57.395] [info]  [api] [wmf_client Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-15 19:51:58.445] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-15 19:51:58.448] [info]  [api] [wmf_client Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-15 19:51:58.450] [info]  [api] [wmf_client Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.0-t12/hasteai_client_v3.1.0-t12.asar
+[2026-08-15 19:52:05.618] [info]  [api] [wmf_client Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\app.asar.new
+[2026-08-15 19:52:05.620] [info]  [api] [wmf_client Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-15 19:52:05.622] [info]  [api] [wmf_client Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_4460.cmd
+[2026-08-15 19:52:06.674] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-15 19:52:06.675] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-15 19:52:06.677] [info]  [app] event=app.shutdown status=started
+[2026-08-15 19:52:11.846] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-15 19:52:12.589] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-15 19:52:12.599] [info]  [app] event=app.startup status=started appVersion=3.1.0-t12 packaged=true
+[2026-08-15 19:52:12.819] [info]  [app] event=app.window status=success
+[2026-08-15 19:52:12.860] [info]  [app] event=app.tray status=success
+[2026-08-15 19:52:12.861] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-15 19:52:12.865] [info]  [app] event=app.ipc status=success
+[2026-08-15 19:52:12.868] [info]  [app] event=task.start status=success
+[2026-08-15 19:52:12.879] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-15 19:52:12.887] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 19:52:12.952] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 19:52:12.954] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:52:12.974] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:52:12.978] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:52:12.983] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-15 19:52:12.986] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-15 19:52:12.994] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-15 19:52:12.996] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:52:13.017] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:52:13.020] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:52:13.021] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:52:13.024] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:52:13.027] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:52:13.037] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:52:13.040] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-15 19:52:13.044] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:52:13.050] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-15 19:52:13.054] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-15 19:52:13.060] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:52:13.061] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:52:13.062] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:52:13.064] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:52:13.065] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-15 19:52:13.067] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-15 19:52:13.067] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-15 19:52:13.068] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-15 19:52:13.148] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:52:13.188] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-15 19:52:13.196] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF_1 action=connected
+[2026-08-15 19:52:13.210] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getApiVersion returnvalue=40501
+[2026-08-15 19:52:13.724] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getDiagnosticData returnvalue=0
+[2026-08-15 19:52:13.728] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-15 19:52:13.730] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:52:14.244] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:52:14.246] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-15 19:52:14.510] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-15 19:52:14.611] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-15 19:52:14.956] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getMachineInfo returnvalue=0
+[2026-08-15 19:52:14.965] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-15 19:52:14.969] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 19:53:18.805] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-15 19:53:18.806] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-15 19:53:18.807] [info]  [app] event=app.shutdown status=started
+[2026-08-15 19:53:22.019] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-15 19:53:22.675] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-15 19:53:22.684] [info]  [app] event=app.startup status=started appVersion=3.1.0-t12 packaged=true
+[2026-08-15 19:53:22.801] [info]  [app] event=app.window status=success
+[2026-08-15 19:53:22.816] [info]  [app] event=app.tray status=success
+[2026-08-15 19:53:22.817] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-15 19:53:22.820] [info]  [app] event=app.ipc status=success
+[2026-08-15 19:53:22.822] [info]  [app] event=task.start status=success
+[2026-08-15 19:53:22.824] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-15 19:53:22.828] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 19:53:22.945] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 19:53:22.946] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:53:22.948] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:53:22.951] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:53:22.953] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-15 19:53:22.956] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-15 19:53:22.966] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-15 19:53:22.968] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:53:22.976] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:22.979] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:22.981] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:53:22.988] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:22.991] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:22.993] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:53:22.995] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-15 19:53:22.996] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:53:22.999] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-15 19:53:23.002] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-15 19:53:23.006] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:53:23.008] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:53:23.009] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:53:23.012] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:53:23.016] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-15 19:53:23.017] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-15 19:53:23.018] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-15 19:53:23.019] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-15 19:53:23.104] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-15 19:53:23.107] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:53:23.153] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF_1 action=connected
+[2026-08-15 19:53:23.165] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getApiVersion returnvalue=40501
+[2026-08-15 19:53:23.674] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getDiagnosticData returnvalue=0
+[2026-08-15 19:53:23.677] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-15 19:53:23.679] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:53:24.069] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:53:24.072] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-15 19:53:24.149] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-15 19:53:24.854] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-15 19:53:24.856] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 19:53:24.859] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-15 19:53:24.900] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getMachineInfo returnvalue=0
+[2026-08-15 19:53:39.482] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:53:39.484] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:39.484] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-15 19:53:39.820] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-15 19:53:39.824] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-15 19:53:39.825] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:53:39.827] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 19:53:39.831] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 19:53:39.834] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:53:39.835] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:53:39.837] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:53:39.844] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:53:39.953] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:39.955] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:39.958] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:40.001] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-15 19:53:40.008] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 19:53:40.009] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 19:53:40.012] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 19:53:40.013] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 19:53:40.015] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 19:53:40.016] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-15 19:53:40.017] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-15 19:53:40.032] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 19:53:40.228] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:53:43.666] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791223332","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:43.672] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791223332 productNo=MDH1000
+[2026-08-15 19:53:43.674] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791223332 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:43.679] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791223332 bill=0000 isTestBrew=true
+[2026-08-15 19:53:43.685] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:45.914] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791225912","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:45.919] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791225912 productNo=MDH1000
+[2026-08-15 19:53:45.922] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791225912 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:45.924] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791225912 bill=0000 isTestBrew=true
+[2026-08-15 19:53:45.928] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:47.573] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791227575","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:47.577] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791227575 productNo=MDH1000
+[2026-08-15 19:53:47.581] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791227575 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:47.583] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791227575 bill=0000 isTestBrew=true
+[2026-08-15 19:53:47.586] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:48.275] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791228278","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:48.280] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791228278 productNo=MDH1000
+[2026-08-15 19:53:48.283] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791228278 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:48.285] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791228278 bill=0000 isTestBrew=true
+[2026-08-15 19:53:48.287] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:48.490] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791228493","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:48.493] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791228493 productNo=MDH1000
+[2026-08-15 19:53:48.497] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791228493 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:48.500] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791228493 bill=0000 isTestBrew=true
+[2026-08-15 19:53:48.502] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:48.676] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791228679","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:48.680] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791228679 productNo=MDH1000
+[2026-08-15 19:53:48.684] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791228679 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:48.686] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791228679 bill=0000 isTestBrew=true
+[2026-08-15 19:53:48.688] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:48.872] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791228874","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:48.874] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791228874 productNo=MDH1000
+[2026-08-15 19:53:48.877] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791228874 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:48.880] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791228874 bill=0000 isTestBrew=true
+[2026-08-15 19:53:48.883] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:50.382] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791230383","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:50.384] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791230383 productNo=MDH1000
+[2026-08-15 19:53:50.386] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791230383 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:50.388] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791230383 bill=0000 isTestBrew=true
+[2026-08-15 19:53:50.391] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:50.607] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791230609","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:50.610] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791230609 productNo=MDH1000
+[2026-08-15 19:53:50.614] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791230609 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:50.616] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791230609 bill=0000 isTestBrew=true
+[2026-08-15 19:53:50.618] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:53:50.980] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791230981","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:53:50.985] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791230981 productNo=MDH1000
+[2026-08-15 19:53:50.988] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791230981 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:53:50.990] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791230981 bill=0000 isTestBrew=true
+[2026-08-15 19:53:50.993] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:54:07.208] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791247189","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:54:07.210] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791247189 productNo=MDH1000
+[2026-08-15 19:54:07.215] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791247189 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:54:07.217] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791247189 bill=0000 isTestBrew=true
+[2026-08-15 19:54:07.219] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:54:07.371] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791247374","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:54:07.374] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791247374 productNo=MDH1000
+[2026-08-15 19:54:07.376] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791247374 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:54:07.381] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791247374 bill=0000 isTestBrew=true
+[2026-08-15 19:54:07.385] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:54:16.222] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791255895","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:54:16.224] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791255895 productNo=MDH1000
+[2026-08-15 19:54:16.226] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791255895 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:54:16.231] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791255895 bill=0000 isTestBrew=true
+[2026-08-15 19:54:16.233] [error] [api] [HASTE API ORDER ERROR] getInformationSetting is not defined
+[2026-08-15 19:58:04.179] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-15 19:58:04.183] [info]  [api] [wmf_client Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-15 19:58:04.906] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-15 19:58:04.908] [info]  [api] [wmf_client Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-15 19:58:04.912] [info]  [api] [wmf_client Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.0-t13/hasteai_client_v3.1.0-t13.asar
+[2026-08-15 19:58:13.092] [info]  [api] [wmf_client Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\app.asar.new
+[2026-08-15 19:58:13.095] [info]  [api] [wmf_client Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-15 19:58:13.102] [info]  [api] [wmf_client Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_10252.cmd
+[2026-08-15 19:58:14.134] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-15 19:58:14.135] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-15 19:58:14.136] [info]  [app] event=app.shutdown status=started
+[2026-08-15 19:58:19.136] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-15 19:58:19.897] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-15 19:58:19.906] [info]  [app] event=app.startup status=started appVersion=3.1.0-t13 packaged=true
+[2026-08-15 19:58:20.064] [info]  [app] event=app.window status=success
+[2026-08-15 19:58:20.105] [info]  [app] event=app.tray status=success
+[2026-08-15 19:58:20.115] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-15 19:58:20.122] [info]  [app] event=app.ipc status=success
+[2026-08-15 19:58:20.125] [info]  [app] event=task.start status=success
+[2026-08-15 19:58:20.128] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-15 19:58:20.133] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 19:58:20.149] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 19:58:20.153] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:58:20.157] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:58:20.163] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:58:20.170] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-15 19:58:20.176] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-15 19:58:20.185] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-15 19:58:20.186] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:58:20.193] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:20.196] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:20.197] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 19:58:20.201] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:20.203] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:20.231] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:58:20.233] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-15 19:58:20.234] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:58:20.237] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-15 19:58:20.238] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-15 19:58:20.243] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:58:20.246] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 19:58:20.249] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:58:20.252] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 19:58:20.254] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-15 19:58:20.256] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-15 19:58:20.257] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-15 19:58:20.258] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-15 19:58:20.390] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-15 19:58:20.393] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:58:20.404] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF_1 action=connected
+[2026-08-15 19:58:20.414] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getApiVersion returnvalue=40501
+[2026-08-15 19:58:20.951] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getDiagnosticData returnvalue=0
+[2026-08-15 19:58:20.953] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-15 19:58:20.954] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 19:58:21.389] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:58:21.391] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-15 19:58:21.559] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-15 19:58:21.768] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-15 19:58:22.045] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-15 19:58:22.047] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 19:58:22.156] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getMachineInfo returnvalue=0
+[2026-08-15 19:58:32.630] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 19:58:32.633] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:32.634] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-15 19:58:32.649] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-15 19:58:32.668] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-15 19:58:32.670] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 19:58:32.673] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 19:58:32.678] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 19:58:32.682] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 19:58:32.685] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 19:58:32.688] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 19:58:32.697] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 19:58:33.023] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:33.049] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:33.052] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:33.126] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-15 19:58:33.137] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 19:58:33.139] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 19:58:33.140] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 19:58:33.142] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 19:58:33.143] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 19:58:33.144] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-15 19:58:33.145] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-15 19:58:33.173] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 19:58:33.524] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 19:58:38.527] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791517809","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1002","name":"ICED아메리카노(다크시그니처)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","90"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:58:38.531] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791517809 productNo=MDI1002
+[2026-08-15 19:58:38.533] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791517809 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:58:38.538] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1002 recipeCode=MDI1002 matchedMenuName=ICED아메리카노(다크시그니처) actualSteps=["NONE:ICED","COFFEE:90","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791517809 bill=0000 isTestBrew=true
+[2026-08-15 19:58:38.542] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 19:58:47.695] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791527687","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1002","name":"ICED아메리카노(다크시그니처)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","90"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:58:47.700] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791527687 productNo=MDI1002
+[2026-08-15 19:58:47.705] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791527687 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:58:47.710] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1002 recipeCode=MDI1002 matchedMenuName=ICED아메리카노(다크시그니처) actualSteps=["NONE:ICED","COFFEE:90","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791527687 bill=0000 isTestBrew=true
+[2026-08-15 19:58:47.713] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 19:59:39.295] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791578896","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1002","name":"ICED아메리카노(다크시그니처)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","90"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:59:39.308] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791578896 productNo=MDI1002
+[2026-08-15 19:59:39.313] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791578896 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:59:39.316] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1002 recipeCode=MDI1002 matchedMenuName=ICED아메리카노(다크시그니처) actualSteps=["NONE:ICED","COFFEE:90","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791578896 bill=0000 isTestBrew=true
+[2026-08-15 19:59:39.319] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 19:59:47.914] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791587886","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:59:47.917] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791587886 productNo=MDH1000
+[2026-08-15 19:59:47.920] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791587886 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:59:47.924] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791587886 bill=0000 isTestBrew=true
+[2026-08-15 19:59:47.927] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 19:59:56.445] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786791596124","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 19:59:56.453] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786791596124 productNo=MDH1000
+[2026-08-15 19:59:56.459] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786791596124 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 19:59:56.477] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786791596124 bill=0000 isTestBrew=true
+[2026-08-15 19:59:56.480] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:06:39.762] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-15 20:06:39.766] [info]  [api] [wmf_client Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-15 20:06:40.594] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-15 20:06:40.598] [info]  [api] [wmf_client Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-15 20:06:40.602] [info]  [api] [wmf_client Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.0-t15/hasteai_client_v3.1.0-t15.asar
+[2026-08-15 20:06:45.553] [info]  [api] [wmf_client Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\app.asar.new
+[2026-08-15 20:06:45.554] [info]  [api] [wmf_client Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-15 20:06:45.560] [info]  [api] [wmf_client Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_3252.cmd
+[2026-08-15 20:06:46.591] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-15 20:06:46.592] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-15 20:06:46.594] [info]  [app] event=app.shutdown status=started
+[2026-08-15 20:06:50.768] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-15 20:06:51.429] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-15 20:06:51.436] [info]  [app] event=app.startup status=started appVersion=3.1.0-t15 packaged=true
+[2026-08-15 20:06:51.533] [info]  [app] event=app.window status=success
+[2026-08-15 20:06:51.556] [info]  [app] event=app.tray status=success
+[2026-08-15 20:06:51.557] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-15 20:06:51.561] [info]  [app] event=app.ipc status=success
+[2026-08-15 20:06:51.563] [info]  [app] event=task.start status=success
+[2026-08-15 20:06:51.565] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-15 20:06:51.569] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 20:06:51.611] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 20:06:51.613] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 20:06:51.614] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 20:06:51.616] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 20:06:51.618] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-15 20:06:51.620] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-15 20:06:51.626] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-15 20:06:51.628] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 20:06:51.632] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:51.634] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:51.636] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 20:06:51.641] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:51.643] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:51.644] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 20:06:51.646] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-15 20:06:51.647] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 20:06:51.649] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-15 20:06:51.650] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-15 20:06:51.652] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 20:06:51.653] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 20:06:51.655] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 20:06:51.656] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 20:06:51.658] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-15 20:06:51.659] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-15 20:06:51.659] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-15 20:06:51.660] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-15 20:06:51.705] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-15 20:06:51.708] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 20:06:51.722] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF_1 action=connected
+[2026-08-15 20:06:51.739] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getApiVersion returnvalue=40501
+[2026-08-15 20:06:52.250] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getDiagnosticData returnvalue=0
+[2026-08-15 20:06:52.252] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-15 20:06:52.254] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 20:06:52.287] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-15 20:06:53.567] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 20:06:53.569] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-15 20:06:53.572] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getMachineInfo returnvalue=0
+[2026-08-15 20:06:53.831] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-15 20:06:53.917] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-15 20:06:53.919] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:06:58.371] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 20:06:58.373] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:58.374] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-15 20:06:58.609] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-15 20:06:58.613] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-15 20:06:58.615] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 20:06:58.617] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 20:06:58.620] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 20:06:58.624] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 20:06:58.626] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 20:06:58.630] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 20:06:58.635] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 20:06:59.004] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:59.006] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:59.010] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:06:59.075] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-15 20:06:59.081] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 20:06:59.082] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 20:06:59.083] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 20:06:59.083] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 20:06:59.084] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 20:06:59.085] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-15 20:06:59.085] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-15 20:06:59.175] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 20:06:59.597] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:07:03.243] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792022918","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1002","name":"ICED아메리카노(다크시그니처)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","90"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:03.246] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792022918 productNo=MDI1002
+[2026-08-15 20:07:03.251] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792022918 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:03.254] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1002 recipeCode=MDI1002 matchedMenuName=ICED아메리카노(다크시그니처) actualSteps=["NONE:ICED","COFFEE:90","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792022918 bill=0000 isTestBrew=true
+[2026-08-15 20:07:03.264] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:09.711] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792029714","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:09.712] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792029714 productNo=MDH1000
+[2026-08-15 20:07:09.714] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792029714 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:09.715] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792029714 bill=0000 isTestBrew=true
+[2026-08-15 20:07:09.716] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:11.102] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792031107","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:11.104] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792031107 productNo=MDH1000
+[2026-08-15 20:07:11.106] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792031107 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:11.113] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792031107 bill=0000 isTestBrew=true
+[2026-08-15 20:07:11.116] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:11.347] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792031347","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:11.352] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792031347 productNo=MDH1000
+[2026-08-15 20:07:11.357] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792031347 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:11.360] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792031347 bill=0000 isTestBrew=true
+[2026-08-15 20:07:11.362] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:22.313] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792042008","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:22.315] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792042008 productNo=MDH1000
+[2026-08-15 20:07:22.317] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792042008 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:22.319] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792042008 bill=0000 isTestBrew=true
+[2026-08-15 20:07:22.322] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:22.495] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792042501","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:22.496] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792042501 productNo=MDH1000
+[2026-08-15 20:07:22.498] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792042501 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:22.499] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792042501 bill=0000 isTestBrew=true
+[2026-08-15 20:07:22.500] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:25.439] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792045444","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:25.442] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792045444 productNo=MDH1000
+[2026-08-15 20:07:25.443] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792045444 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:25.446] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792045444 bill=0000 isTestBrew=true
+[2026-08-15 20:07:25.447] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:07:25.805] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792045807","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDH1000","name":"HOT에스프레소 도피오(다크시그니처)","cup":"HOT","coffee":true,"step1":["CUP","HOT"],"step2":["COFFEE","45"],"step3":["NONE","NONE"],"step4":["NONE","NONE"],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:07:25.815] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792045807 productNo=MDH1000
+[2026-08-15 20:07:25.821] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792045807 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:07:25.823] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDH1000 recipeCode=MDH1000 matchedMenuName=HOT에스프레소_도피오(다크시그니처) actualSteps=["NONE:HOT","COFFEE:45","NONE:NONE","NONE:NONE","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792045807 bill=0000 isTestBrew=true
+[2026-08-15 20:07:25.827] [error] [api] [HASTE API ORDER ERROR] TASK_PRIORITY_MAP is not defined
+[2026-08-15 20:13:50.473] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-15 20:13:50.477] [info]  [api] [wmf_client Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-15 20:13:51.119] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-15 20:13:51.122] [info]  [api] [wmf_client Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-15 20:13:51.125] [info]  [api] [wmf_client Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.0-t16/hasteai_client_v3.1.0-t16.asar
+[2026-08-15 20:13:58.373] [info]  [api] [wmf_client Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\app.asar.new
+[2026-08-15 20:13:58.376] [info]  [api] [wmf_client Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-15 20:13:58.380] [info]  [api] [wmf_client Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_3728.cmd
+[2026-08-15 20:13:59.424] [info]  [HASTE DB Security] Databases closed and locked successfully on exit.
+[2026-08-15 20:13:59.426] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-15 20:13:59.429] [info]  [app] event=app.shutdown status=started
+[2026-08-15 20:14:03.398] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-15 20:14:03.883] [info]  [HASTE DB Security] Databases locked dynamically on disk after mount.
+[2026-08-15 20:14:03.889] [info]  [app] event=app.startup status=started appVersion=3.1.0-t16 packaged=true
+[2026-08-15 20:14:03.981] [info]  [app] event=app.window status=success
+[2026-08-15 20:14:04.001] [info]  [app] event=app.tray status=success
+[2026-08-15 20:14:04.002] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-15 20:14:04.005] [info]  [app] event=app.ipc status=success
+[2026-08-15 20:14:04.007] [info]  [app] event=task.start status=success
+[2026-08-15 20:14:04.010] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=075575 deviceModelId=D0000
+[2026-08-15 20:14:04.014] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 20:14:04.028] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 20:14:04.030] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 20:14:04.032] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 20:14:04.033] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 20:14:04.036] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=wmf_machine
+[2026-08-15 20:14:04.040] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF_1 model=wmf_machine ip=192.168.10.99 port=25000
+[2026-08-15 20:14:04.047] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-15 20:14:04.049] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 20:14:04.055] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:04.057] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:04.058] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-15 20:14:04.062] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:04.064] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:04.066] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 20:14:04.067] [info]  [HASTE Switch] Haste Agent Bot disabled. Suspending bridge process...
+[2026-08-15 20:14:04.068] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 20:14:04.070] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-15 20:14:04.071] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-15 20:14:04.074] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 20:14:04.075] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-15 20:14:04.076] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 20:14:04.078] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-15 20:14:04.079] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-15 20:14:04.080] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-15 20:14:04.081] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-15 20:14:04.082] [info]  [app] event=license.verify status=success state=approved storeId=075575
+[2026-08-15 20:14:04.145] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 20:14:04.169] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-15 20:14:04.198] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF_1 action=connected
+[2026-08-15 20:14:04.216] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getApiVersion returnvalue=40501
+[2026-08-15 20:14:04.722] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getDiagnosticData returnvalue=0
+[2026-08-15 20:14:04.724] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-15 20:14:04.726] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-15 20:14:04.862] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 20:14:04.864] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-15 20:14:05.116] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-15 20:14:05.133] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-15 20:14:05.135] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:14:05.171] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-15 20:14:06.017] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=getMachineInfo returnvalue=0
+[2026-08-15 20:14:09.415] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 20:14:09.417] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:09.418] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-15 20:14:09.758] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "true"
+[2026-08-15 20:14:09.763] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-15 20:14:09.765] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 20:14:09.768] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 20:14:09.771] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 20:14:09.772] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 20:14:09.774] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 20:14:09.776] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 20:14:09.781] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 20:14:09.919] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:09.931] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:09.947] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:09.988] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-15 20:14:09.994] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 20:14:09.994] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 20:14:09.995] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 20:14:09.996] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 20:14:09.997] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 20:14:09.997] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-15 20:14:09.998] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-15 20:14:10.016] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 20:14:10.401] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:13.232] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792452847","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1002","name":"ICED아메리카노(다크시그니처)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","90"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:14:13.234] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792452847 productNo=MDI1002
+[2026-08-15 20:14:13.236] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792452847 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:14:13.241] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1002 recipeCode=MDI1002 matchedMenuName=ICED아메리카노(다크시그니처) actualSteps=["NONE:ICED","COFFEE:90","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792452847 bill=0000 isTestBrew=true
+[2026-08-15 20:14:13.246] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT_1786792452847 priority=99 description=음료_제조_(INSTANT_1786792452847)
+[2026-08-15 20:14:13.249] [debug] [task] [task] event=task.start status=started orderId=INSTANT_1786792452847 menuCount=1
+[2026-08-15 20:14:13.251] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT_1786792452847 productNo=MDI1002 bill=0000
+[2026-08-15 20:14:13.281] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) stepCount=6
+[2026-08-15 20:14:13.283] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:14.315] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) step=주문스텝2
+[2026-08-15 20:14:14.322] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:14.359] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:14.389] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:14.401] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:14.408] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:15.430] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) step=주문스텝3
+[2026-08-15 20:14:15.433] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:15.436] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:15.471] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:15.475] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:15.482] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:20.024] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) step=주문스텝4
+[2026-08-15 20:14:20.027] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:20.030] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:20.055] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:20.068] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:20.071] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:21.094] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) step=주문스텝5
+[2026-08-15 20:14:21.098] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:21.102] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792452847 menuName=ICED아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:21.119] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:21.128] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:21.142] [debug] [task] [task] event=task.complete status=success orderId=INSTANT_1786792452847
+[2026-08-15 20:14:33.610] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792473608","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1002","name":"ICED아메리카노(다크시그니처)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","90"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:14:33.613] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792473608 productNo=MDI1002
+[2026-08-15 20:14:33.616] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792473608 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:14:33.621] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1002 recipeCode=MDI1002 matchedMenuName=ICED아메리카노(다크시그니처) actualSteps=["NONE:ICED","COFFEE:90","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792473608 bill=0000 isTestBrew=true
+[2026-08-15 20:14:33.635] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT_1786792473608 priority=99 description=음료_제조_(INSTANT_1786792473608)
+[2026-08-15 20:14:33.639] [debug] [task] [task] event=task.start status=started orderId=INSTANT_1786792473608 menuCount=1
+[2026-08-15 20:14:33.648] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT_1786792473608 productNo=MDI1002 bill=0000
+[2026-08-15 20:14:33.653] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) stepCount=6
+[2026-08-15 20:14:33.655] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:34.677] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) step=주문스텝2
+[2026-08-15 20:14:34.680] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:34.684] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:34.717] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:34.719] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:34.741] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:35.747] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) step=주문스텝3
+[2026-08-15 20:14:35.749] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:35.753] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:35.780] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:35.784] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:35.787] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:40.313] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) step=주문스텝4
+[2026-08-15 20:14:40.319] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:40.327] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:40.363] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:40.366] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:40.399] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:14:41.411] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) step=주문스텝5
+[2026-08-15 20:14:41.418] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:41.422] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792473608 menuName=ICED아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:41.451] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:41.455] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:14:41.460] [debug] [task] [task] event=task.complete status=success orderId=INSTANT_1786792473608
+[2026-08-15 20:14:52.534] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-15 20:14:52.537] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:52.537] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-15 20:14:52.630] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포운양역점", StoreNo: "303735353735", ThemeMode: "Light", KioskType: "SAMSUNG", isKioskDryRun: "false"
+[2026-08-15 20:14:52.633] [debug] [api] [api] event=api.server status=success action=stop
+[2026-08-15 20:14:52.635] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-15 20:14:52.638] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\haste-client\resources\resources
+[2026-08-15 20:14:52.643] [info]  [api] [HASTE Dual Listener] Started HTTPS Hono Server on port 8443 (Toss POS & Kiosk ready).
+[2026-08-15 20:14:52.646] [info]  [api] [HASTE Dual Listener] Started HTTP Hono Server on port 8080 (Samsung Kiosk ready).
+[2026-08-15 20:14:52.648] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-15 20:14:52.654] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-15 20:14:52.666] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-15 20:14:52.865] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:52.867] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:52.869] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:14:52.959] [info]  [HASTE Common Menu IPC] 1:1 single menu import for productNo: undefined
+[2026-08-15 20:14:52.971] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 20:14:52.972] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 20:14:52.973] [info]  [HASTE Common Menu IPC] store:menu:update for item undefined
+[2026-08-15 20:14:52.973] [info]  [HASTE Common Menu IPC] store:menu:delete for item undefined
+[2026-08-15 20:14:52.975] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 20:14:52.976] [info]  [HASTE Common Menu IPC] bulk update for 0 items
+[2026-08-15 20:14:52.977] [info]  [HASTE Common Menu IPC] 1:1 copy all standard recipes to active menu table
+[2026-08-15 20:14:53.000] [info]  [HASTE Common Recipe IPC] store:standard:recipe:get for productNo undefined
+[2026-08-15 20:14:53.216] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-15 20:15:01.573] [info]  [api] [HASTE API DEBUG] v1 order body: {"token":"TEST_BREW_TOKEN","order":{"id":"INSTANT_1786792501259","bill":"0000","callback":"","token":"TEST_BREW_TOKEN","barcode":""},"menu":[{"productNo":"MDI1001","name":"ICED아메리카노(다크시그니처)(연하게)","cup":"ICED","coffee":true,"step1":["CUP","ICED"],"step2":["COFFEE","45"],"step3":["ICE",5100],"step4":["WATER",155],"step5":["NONE","NONE"],"step6":["NONE","NONE"]}]}
+[2026-08-15 20:15:01.577] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT_1786792501259 productNo=MDI1001
+[2026-08-15 20:15:01.578] [warn]  [api] [api] event=api.auth status=failed version=v1 command=ORDER orderId=INSTANT_1786792501259 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-15 20:15:01.580] [info]  [kiosk] [api] event=order.received status=success kioskCode=MDI1001 recipeCode=MDI1001 matchedMenuName=ICED아메리카노(다크시그니처)(연하게) actualSteps=["NONE:ICED","COFFEE:45","WATER:5100","WATER:155","NONE:NONE","NONE:NONE"] orderId=INSTANT_1786792501259 bill=0000 isTestBrew=true
+[2026-08-15 20:15:01.582] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT_1786792501259 priority=99 description=음료_제조_(INSTANT_1786792501259)
+[2026-08-15 20:15:01.585] [debug] [task] [task] event=task.start status=started orderId=INSTANT_1786792501259 menuCount=1
+[2026-08-15 20:15:01.587] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT_1786792501259 productNo=MDI1001 bill=0000
+[2026-08-15 20:15:01.596] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) stepCount=6
+[2026-08-15 20:15:01.599] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처)(연하게), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:15:01.614] [debug] [task] [task] event=brew.step status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) step=2 message="cup drop started"
+[2026-08-15 20:15:01.719] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:01.723] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-15 20:15:01.855] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-15 20:15:01.867] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:01.869] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:01.921] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-15 20:15:01.923] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-15 20:15:01.928] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-15 20:15:01.931] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:01.932] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-15 20:15:01.935] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-15 20:15:01.937] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:01.939] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-15 20:15:02.156] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP30283F\\x03')"
+[2026-08-15 20:15:02.166] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-15 20:15:02.169] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:02.178] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-15 20:15:02.269] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.400] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.522] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.534] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:02.621] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.629] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:02.634] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:02.741] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.772] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:02.774] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:02.837] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=59 message="bytearray(b'\\x02174DPC00\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:02.839] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":2,\"3\":49,\"4\":55,\"5\":52,\"6\":68,\"7\":80,\"8\":67,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":49,\"14\":48,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":48,\"20\":48,\"21\":48,\"22\":48,\"23\":49,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":49,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":48,\"41\":48,\"42\":48,\"43\":48,\"44\":48,\"45\":48,\"46\":48,\"47\":48,\"48\":48,\"49\":70},\"values\":[0,0,-46,1,7,4,20,32,19,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,..."
+[2026-08-15 20:15:02.841] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:02.843] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.886] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:02.889] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:02.925] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:02.937] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=63 message="bytearray(b'\\x02174DPC000010\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:02.939] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":2,\"7\":49,\"8\":55,\"9\":52,\"10\":68,\"11\":80,\"12\":67,\"13\":48,\"14\":48,\"15\":48,\"16\":48,\"17\":49,\"18\":48,\"19\":48,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":49,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":49,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":48,\"41\":48,\"42\":48,\"43\":48,\"44\":48,\"45\":48,\"46\":48,\"47\":48,\"48\":48,\"49\":48,\"50\":48,\"51\":48,\"52\":48,\"53\":70},\"values\":[0,0,0,0,1,0,-46,1,7,4,20,32,19,0,0,0,0,1,0,0,..."
+[2026-08-15 20:15:02.941] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:02.944] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:02.972] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:02.974] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:02.985] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.012] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.016] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.047] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.073] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.095] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.099] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.146] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.169] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.189] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.191] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.247] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.268] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.306] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.307] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.351] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.376] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.403] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.406] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.456] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.473] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.510] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.512] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.556] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.584] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.636] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.641] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.657] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.756] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.798] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.861] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:03.907] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:03.948] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:03.952] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:03.972] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:04.086] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-15 20:15:04.101] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:04.149] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:04.152] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:04.184] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000101000000010000100000000000000000000F7\\x03')"
+[2026-08-15 20:15:04.189] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":49,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:04.204] [debug] [cup] [cup] event=cup.out status=success cupName=컵1
+[2026-08-15 20:15:04.385] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:04.388] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:04.409] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=63 message="bytearray(b'\\x02174DPC000010\\x02174DPC0000101000000010000100000000000000000000F7\\x03')"
+[2026-08-15 20:15:04.411] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":2,\"7\":49,\"8\":55,\"9\":52,\"10\":68,\"11\":80,\"12\":67,\"13\":48,\"14\":48,\"15\":48,\"16\":48,\"17\":49,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":49,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":49,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":48,\"41\":48,\"42\":48,\"43\":48,\"44\":48,\"45\":48,\"46\":48,\"47\":48,\"48\":48,\"49\":48,\"50\":48,\"51\":48,\"52\":48,\"53\":70},\"values\":[0,0,0,0,1,0,-46,1,7,4,20,32,19,0,0,0,0,1,0,1,..."
+[2026-08-15 20:15:04.413] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:04.439] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-15 20:15:04.443] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-15 20:15:04.445] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-15 20:15:04.447] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:04.453] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:04.471] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:04.473] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:04.480] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처)(연하게), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:15:04.495] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-15 20:15:04.499] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:04.501] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-15 20:15:04.504] [debug] [task] [task] event=brew.step status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) step=3 message="cup mount wait started"
+[2026-08-15 20:15:04.672] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:04.721] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:04.723] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:04.880] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:04.951] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:05.014] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:05.017] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:05.083] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:05.111] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:05.167] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:05.169] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:05.290] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:05.427] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:05.494] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:05.500] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:05.503] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:05.591] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:05.703] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:05.711] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:05.716] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:05.806] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:05.905] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:05.969] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:05.971] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:06.041] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:06.062] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:06.065] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:06.116] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:06.143] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:06.174] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:06.176] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:06.329] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:06.351] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:06.372] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-15 20:15:06.374] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:06.529] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2 value=0
+[2026-08-15 20:15:06.555] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-15 20:15:06.573] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-15 20:15:06.575] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:06.577] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-15 20:15:06.580] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:06.584] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:06.593] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:06.599] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:15:06.602] [info]  [task] [HASTE DEBUG] isTestMenu check: menu.name=ICED아메리카노(다크시그니처)(연하게), menu.forceLive=undefined, type=undefined
+[2026-08-15 20:15:06.605] [debug] [task] [task] event=brew.step status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) step=4 message="beverage action started"
+[2026-08-15 20:15:06.608] [debug] [water] [water] event=ice.out status=success protocol=ICE amount=5100 goal=5610 current=0 phase=started
+[2026-08-15 20:15:06.720] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201B03300820341\\x03')"
+[2026-08-15 20:15:06.722] [debug] [water] [water] event=ice.out status=success protocol=ICE amount=5100 boardName=board1 phase=complete current=5100
+[2026-08-15 20:15:06.795] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200B03300830341\\x03')"
+[2026-08-15 20:15:06.797] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":66,\"5\":48,\"6\":51,\"7\":51,\"8\":48,\"9\":48,\"10\":56,\"11\":51,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"B0\",\"33\",\"00\",\"83\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:07.061] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-15 20:15:07.191] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP20C84E\\x03')"
+[2026-08-15 20:15:07.196] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=49 message="bytearray(b'\\x022B3DPC10002D91300040005418600070008000\\x02035APC6C\\x03')"
+[2026-08-15 20:15:07.201] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":68,\"6\":57,\"7\":49,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":52,\"18\":49,\"19\":56,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":2,\"33\":48,\"34\":51,\"35\":53,\"36\":65,\"37\":80,\"38\":67,\"39\":54},\"values\":[],\"part\":{\"49\":0,\"50\":3473,\"51\":0,\"52\":0,\"53\":1048,\"54\":0,\"55\":0,\"56\":0},\"isValidChecksum\":false}"
+[2026-08-15 20:15:07.204] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:07.302] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217
+[2026-08-15 20:15:07.403] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217
+[2026-08-15 20:15:07.513] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217
+[2026-08-15 20:15:07.613] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217
+[2026-08-15 20:15:07.627] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:07.633] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020113000400050006000700080009000:000;000<000=000>000?000@000A015B000C000D00058\\x03')"
+[2026-08-15 20:15:07.635] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":49,\"7\":49,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:07.666] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=checkBeverage returnvalue=0
+[2026-08-15 20:15:07.668] [debug] [coffee] [coffee] event=hardware.response status=ignored machineName=wmf_machine command=checkBeverage reason=unsupported_function returnvalue=0
+[2026-08-15 20:15:07.718] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=21
+[2026-08-15 20:15:07.727] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:07.730] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:07.733] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:07.829] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=21
+[2026-08-15 20:15:07.842] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:07.860] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=110 message="bytearray(b'\\x022B3DPC10\\x022B3DPC1000\\x022B3DPC100020173000400050006000700080009000:000;000<000=000>000?000@000A01CB000C000D0006C\\x03')"
+[2026-08-15 20:15:07.862] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":2,\"3\":50,\"4\":66,\"5\":51,\"6\":68,\"7\":80,\"8\":67,\"9\":49,\"10\":48,\"11\":48,\"12\":48,\"13\":2,\"14\":50,\"15\":66,\"16\":51,\"17\":68,\"18\":80,\"19\":67,\"20\":49,\"21\":48,\"22\":48,\"23\":48,\"24\":50,\"25\":48,\"26\":49,\"27\":55,\"28\":51,\"29\":48,\"30\":48,\"31\":48,\"32\":52,\"33\":48,\"34\":48,\"35\":48,\"36\":53,\"37\":48,\"38\":48,\"39\":48,\"40\":54,\"41\":48,\"42\":48,\"43\":48,\"44\":55,\"45\":48,\"46\":48,\"47\":48,\"48\":56,\"49\":48,\"50\":48,\"51\":48,\"52\":57,\"53\":48,\"54\":48,\"55\":48,\"56\":58,\"57\":48,\"58\":48,\"59\":48,\"60\":59,\"..."
+[2026-08-15 20:15:07.865] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:07.928] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=21
+[2026-08-15 20:15:07.940] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:07.956] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC1000201D3000400050006000700080009000:000;000<000=000>000?000@000A023B000C000D0006A\\x03')"
+[2026-08-15 20:15:07.959] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":49,\"7\":68,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:07.962] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020233000400050006000700080009000:000;000<000=000>000?000@000A02AB000C000D00068\\x03')"
+[2026-08-15 20:15:07.965] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":50,\"7\":51,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.027] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:08.028] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=42
+[2026-08-15 20:15:08.042] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020293000400050006000700080009000:000;000<000=000>000?000@000A031B000C000D0005F\\x03')"
+[2026-08-15 20:15:08.044] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":50,\"7\":57,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.108] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:08.134] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=49
+[2026-08-15 20:15:08.187] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC1000202D3000400050006000700080009000:000;000<000=000>000?000@000A036B000C000D0006F\\x03')"
+[2026-08-15 20:15:08.189] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":50,\"7\":68,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.226] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:08.233] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=54
+[2026-08-15 20:15:08.272] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020363000400050006000700080009000:000;000<000=000>000?000@000A040B000C000D0005D\\x03')"
+[2026-08-15 20:15:08.274] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":51,\"7\":54,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.285] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:08.308] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020393000400050006000700080009000:000;000<000=000>000?000@000A045B000C000D00065\\x03')"
+[2026-08-15 20:15:08.309] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":51,\"7\":57,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.347] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=69
+[2026-08-15 20:15:08.374] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:08.418] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020403000400050006000700080009000:000;000<000=000>000?000@000A04CB000C000D0006B\\x03')"
+[2026-08-15 20:15:08.421] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":52,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.464] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=76
+[2026-08-15 20:15:08.554] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:08.570] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=76
+[2026-08-15 20:15:08.617] [debug] [coffee] [coffee] event=coffee.side_effect status=success protocol=COFFEE amount=45 fanResult=true roasterResult=true
+[2026-08-15 20:15:08.696] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=76
+[2026-08-15 20:15:08.798] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=76
+[2026-08-15 20:15:08.859] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020493000400050006000700080009000:000;000<000=000>000?000@000A057B000C000D00069\\x03')"
+[2026-08-15 20:15:08.869] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":52,\"7\":57,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:08.899] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=87
+[2026-08-15 20:15:08.909] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.004] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=87
+[2026-08-15 20:15:09.105] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020573000400050006000700080009000:000;000<000=000>000?000@000A068B000C000D0006A\\x03')"
+[2026-08-15 20:15:09.107] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":53,\"7\":55,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.130] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=104
+[2026-08-15 20:15:09.192] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.195] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.198] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.232] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=104
+[2026-08-15 20:15:09.239] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.241] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.280] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.305] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=114 message="bytearray(b'\\x022B3DPC10002\\x022B3DPC10002\\x022B3DPC1000206B3000400050006000700080009000:000;000<000=000>000?000@000A07FB000C000D00085\\x03')"
+[2026-08-15 20:15:09.307] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":2,\"6\":50,\"7\":66,\"8\":51,\"9\":68,\"10\":80,\"11\":67,\"12\":49,\"13\":48,\"14\":48,\"15\":48,\"16\":50,\"17\":2,\"18\":50,\"19\":66,\"20\":51,\"21\":68,\"22\":80,\"23\":67,\"24\":49,\"25\":48,\"26\":48,\"27\":48,\"28\":50,\"29\":48,\"30\":54,\"31\":66,\"32\":51,\"33\":48,\"34\":48,\"35\":48,\"36\":52,\"37\":48,\"38\":48,\"39\":48,\"40\":53,\"41\":48,\"42\":48,\"43\":48,\"44\":54,\"45\":48,\"46\":48,\"47\":48,\"48\":55,\"49\":48,\"50\":48,\"51\":48,\"52\":56,\"53\":48,\"54\":48,\"55\":48,\"56\":57,\"57\":48,\"58\":48,\"59\":48,\"60\":58,\"..."
+[2026-08-15 20:15:09.309] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:09.311] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=102 message="bytearray(b'\\x022B3DPC10002\\x022B3DPC1000206E3000400050006000700080009000:000;000<000=000>000?000@000A082B000C000D00075\\x03')"
+[2026-08-15 20:15:09.314] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":2,\"6\":50,\"7\":66,\"8\":51,\"9\":68,\"10\":80,\"11\":67,\"12\":49,\"13\":48,\"14\":48,\"15\":48,\"16\":50,\"17\":48,\"18\":54,\"19\":69,\"20\":51,\"21\":48,\"22\":48,\"23\":48,\"24\":52,\"25\":48,\"26\":48,\"27\":48,\"28\":53,\"29\":48,\"30\":48,\"31\":48,\"32\":54,\"33\":48,\"34\":48,\"35\":48,\"36\":55,\"37\":48,\"38\":48,\"39\":48,\"40\":56,\"41\":48,\"42\":48,\"43\":48,\"44\":57,\"45\":48,\"46\":48,\"47\":48,\"48\":58,\"49\":48,\"50\":48,\"51\":48,\"52\":59,\"53\":48,\"54\":48,\"55\":48,\"56\":60,\"57\":48,\"58\":48,\"59\":48,\"60\":61,..."
+[2026-08-15 20:15:09.316] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:09.331] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=104
+[2026-08-15 20:15:09.338] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020703000400050006000700080009000:000;000<000=000>000?000@000A084B000C000D00063\\x03')"
+[2026-08-15 20:15:09.340] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":55,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.382] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.423] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020773000400050006000700080009000:000;000<000=000>000?000@000A08DB000C000D0007A\\x03')"
+[2026-08-15 20:15:09.425] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":55,\"7\":55,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.431] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=141
+[2026-08-15 20:15:09.479] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.506] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC1000207C3000400050006000700080009000:000;000<000=000>000?000@000A093B000C000D00076\\x03')"
+[2026-08-15 20:15:09.508] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":55,\"7\":67,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.540] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=147
+[2026-08-15 20:15:09.560] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.622] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020813000400050006000700080009000:000;000<000=000>000?000@000A099B000C000D0006B\\x03')"
+[2026-08-15 20:15:09.624] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":56,\"7\":49,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.654] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=153
+[2026-08-15 20:15:09.702] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.736] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020883000400050006000700080009000:000;000<000=000>000?000@000A0A2B000C000D00073\\x03')"
+[2026-08-15 20:15:09.738] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":56,\"7\":56,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.753] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=162
+[2026-08-15 20:15:09.756] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=startBeverage returnvalue=0
+[2026-08-15 20:15:09.758] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=startBeverage returnvalue=0 phase=accepted
+[2026-08-15 20:15:09.760] [debug] [coffee] [coffee] event=hardware.response status=ignored machineName=wmf_machine command=startBeverage reason=unsupported_function returnvalue=0
+[2026-08-15 20:15:09.809] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.838] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC1000208D3000400050006000700080009000:000;000<000=000>000?000@000A0A8B000C000D00085\\x03')"
+[2026-08-15 20:15:09.840] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":56,\"7\":68,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.856] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=168
+[2026-08-15 20:15:09.879] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:09.905] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020913000400050006000700080009000:000;000<000=000>000?000@000A0ADB000C000D0007F\\x03')"
+[2026-08-15 20:15:09.906] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":57,\"7\":49,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:09.934] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=startBeverage recipeState=99
+[2026-08-15 20:15:09.936] [debug] [coffee] [coffee] event=hardware.response status=success machineName=wmf_machine command=startBeverage recipeState=99 canCancel=true
+[2026-08-15 20:15:09.938] [debug] [coffee] [coffee] event=hardware.response status=ignored machineName=wmf_machine command=startBeverage reason=unsupported_function
+[2026-08-15 20:15:09.970] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=173
+[2026-08-15 20:15:09.998] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.075] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=173
+[2026-08-15 20:15:10.102] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020983000400050006000700080009000:000;000<000=000>000?000@000A0B5B000C000D00078\\x03')"
+[2026-08-15 20:15:10.105] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":57,\"7\":56,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:10.188] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=181
+[2026-08-15 20:15:10.243] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.292] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=181
+[2026-08-15 20:15:10.336] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.339] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020A13000400050006000700080009000:000;000<000=000>000?000@000A0C0B000C000D00075\\x03')"
+[2026-08-15 20:15:10.341] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":65,\"7\":49,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:10.426] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=192
+[2026-08-15 20:15:10.429] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.439] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020A63000400050006000700080009000:000;000<000=000>000?000@000A0C6B000C000D00080\\x03')"
+[2026-08-15 20:15:10.449] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":65,\"7\":54,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:10.486] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020AA3000400050006000700080009000:000;000<000=000>000?000@000A0CBB000C000D00097\\x03')"
+[2026-08-15 20:15:10.488] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":65,\"7\":65,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:10.537] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=203
+[2026-08-15 20:15:10.569] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.624] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020B03000400050006000700080009000:000;000<000=000>000?000@000A0D2B000C000D00078\\x03')"
+[2026-08-15 20:15:10.628] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":66,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:10.639] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=210
+[2026-08-15 20:15:10.743] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=210
+[2026-08-15 20:15:10.788] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.836] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020C33000400050006000700080009000:000;000<000=000>000?000@000A0E8B000C000D00083\\x03')"
+[2026-08-15 20:15:10.838] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":67,\"7\":51,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-15 20:15:10.847] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.850] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02033QCP7A\\x03')"
+[2026-08-15 20:15:10.890] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP200033\\x03')"
+[2026-08-15 20:15:10.891] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=155 goal=217 current=232 lastValue=232
+[2026-08-15 20:15:10.903] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=99 message="bytearray(b'\\x022B3DPC10\\x022B3DPC100020C63000400050006000700080009000:000;000<000=000>000?000@000A0ECB000C000D00091\\x03')"
+[2026-08-15 20:15:10.905] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":2,\"3\":50,\"4\":66,\"5\":51,\"6\":68,\"7\":80,\"8\":67,\"9\":49,\"10\":48,\"11\":48,\"12\":48,\"13\":50,\"14\":48,\"15\":67,\"16\":54,\"17\":51,\"18\":48,\"19\":48,\"20\":48,\"21\":52,\"22\":48,\"23\":48,\"24\":48,\"25\":53,\"26\":48,\"27\":48,\"28\":48,\"29\":54,\"30\":48,\"31\":48,\"32\":48,\"33\":55,\"34\":48,\"35\":48,\"36\":48,\"37\":56,\"38\":48,\"39\":48,\"40\":48,\"41\":57,\"42\":48,\"43\":48,\"44\":48,\"45\":58,\"46\":48,\"47\":48,\"48\":48,\"49\":59,\"50\":48,\"51\":48,\"52\":48,\"53\":60,\"54\":48,\"55\":48,\"56\":48,\"57\":61,\"58\":48,\"59\":48,\"60\":48,..."
+[2026-08-15 20:15:10.906] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-15 20:15:10.909] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02035APC6C\\x03')"
+[2026-08-15 20:15:10.910] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"5\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-15 20:15:10.912] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=5 action=A
+[2026-08-15 20:18:06.623] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.627] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.744] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.809] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.829] [error] [task] [task] event=task.fail status=failed orderId=INSTANT_1786792501259 reason=brew_failed message="Timeout has occurred"
+[2026-08-15 20:18:06.832] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.836] [debug] [api] [api] event=did.callback status=started orderId=INSTANT_1786792501259 menuName=ICED아메리카노(다크시그니처)(연하게) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.921] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.925] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-15 20:18:06.962] [error] [task] [task] event=task.queue status=failed orderId=INSTANT_1786792501259 reason=task_run_failed description=음료_제조_(INSTANT_1786792501259) message="Timeout has occurred"
+[2026-08-15 20:18:08.638] [error] [coffee] [coffee] event=hardware.response status=failed reason=beverage_result_timeout timeoutMs=180000 protocol=COFFEE amount=45 button=4 message="Timeout has occurred"
