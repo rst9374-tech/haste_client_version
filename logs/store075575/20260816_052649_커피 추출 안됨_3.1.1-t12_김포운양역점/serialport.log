@@ -1,0 +1,86 @@
+[2026-08-16 11:10:46.549] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:10:46.574] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:10:46.753] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 11:10:46.755] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 11:10:47.132] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 11:10:47.224] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 11:10:47.302] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 11:17:03.612] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:17:03.632] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:17:03.715] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 11:17:03.716] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 11:17:04.239] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 11:17:04.242] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 11:17:04.326] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 11:17:04.627] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-16 11:17:04.629] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-16 11:17:16.284] [info]  [serialport] event=settings.change status=success scope=all
+[2026-08-16 11:17:16.285] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:17:16.286] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:17:16.554] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM3
+[2026-08-16 11:17:16.574] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 11:17:16.674] [debug] [serialport] event=serialport.close status=success boardName=board1 port=COM6
+[2026-08-16 11:17:16.677] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: Access denied"
+[2026-08-16 11:34:48.303] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:34:48.322] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 11:34:48.559] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: Access denied"
+[2026-08-16 11:34:48.928] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM3
+[2026-08-16 11:34:49.048] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 13:50:47.394] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 13:50:47.413] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 13:50:47.488] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: Access denied"
+[2026-08-16 13:50:47.655] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM3
+[2026-08-16 13:50:47.741] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 13:54:13.008] [info]  [serialport] event=settings.change status=success scope=all
+[2026-08-16 13:54:13.010] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 13:54:13.012] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 13:54:13.262] [debug] [serialport] event=serialport.close status=success boardName=board1 port=COM3
+[2026-08-16 13:54:13.265] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 13:54:13.266] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 13:54:13.306] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 13:54:13.308] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 13:54:13.373] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 13:54:13.409] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-16 13:54:13.412] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-16 13:58:32.358] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 13:58:32.377] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 13:58:32.446] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 13:58:32.448] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 13:58:32.508] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 13:58:32.543] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 13:58:32.547] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 13:58:32.608] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-16 13:58:32.610] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-16 14:02:54.470] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:02:54.488] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:02:54.573] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 14:02:54.574] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 14:02:54.575] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 14:02:54.577] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 14:03:48.015] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:03:48.036] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:03:48.119] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 14:03:48.120] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 14:03:48.294] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 14:03:48.298] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 14:03:48.342] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 14:03:48.399] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-16 14:03:48.400] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-16 14:09:30.385] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:09:30.408] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:09:30.483] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 14:09:30.484] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 14:09:30.705] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 14:09:30.708] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 14:09:30.750] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 14:09:30.887] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-16 14:09:30.888] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-16 14:24:20.532] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:24:20.553] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-16 14:24:20.722] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-16 14:24:20.724] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-16 14:24:21.075] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-16 14:24:21.078] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-16 14:24:21.127] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-16 14:24:21.183] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-16 14:24:21.185] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
