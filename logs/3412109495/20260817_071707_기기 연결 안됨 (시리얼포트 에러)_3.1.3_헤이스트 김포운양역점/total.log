@@ -1,0 +1,40 @@
+[2026-08-17 16:16:54.181] [info]  [api] [HASTE Auto-Adopt from Order] Updating storeNo: 3412109495 -> 543655
+[2026-08-17 16:16:54.184] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=543655 deviceModelId=D0000
+[2026-08-17 16:16:54.185] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=543655 deviceId=A8:A1:59:DD:64:66
+[2026-08-17 16:16:54.186] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-17 16:16:54.189] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-17 16:16:54.190] [info]  [api] [HASTE Toss Option Translate] MDH1002 + [IC, 1714049] -> MDI1002
+[2026-08-17 16:16:54.191] [debug] [task] [task] event=task.enqueue status=accepted orderId=744454619615873383 priority=99 description=음료_제조_(744454619615873383)
+[2026-08-17 16:16:54.193] [debug] [task] [task] event=task.start status=started orderId=744454619615873383 menuCount=1
+[2026-08-17 16:16:54.194] [info]  [api] ========================================================================
+[2026-08-17 16:16:54.195] [info]  [api] 🚀 [HASTE Multi-Cup Queue Success] Order 744454619615873383: 총 1잔 연속 제조 큐 적재 완료!
+[2026-08-17 16:16:54.196] [info]  [api]    [제조순서 #1/1] ICED아메리카노(다크시그니처) | 코드: MDI1002 | 컵: 컵1 | 스텝수: 3
+[2026-08-17 16:16:54.197] [info]  [api] ========================================================================
+[2026-08-17 16:16:54.248] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-17 16:16:54.252] [debug] [task] [task] event=brew.menu status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) stepCount=3 cupIndex=1 totalCups=1
+[2026-08-17 16:16:54.561] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-17 16:16:54.564] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-17 16:16:54.566] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-17 16:16:54.572] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-17 16:16:54.633] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-17 16:16:57.463] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) step=주문스텝2
+[2026-08-17 16:16:57.465] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:57.468] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:57.509] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:57.542] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:59.058] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) step=주문스텝3
+[2026-08-17 16:16:59.060] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:59.065] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:59.106] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:16:59.108] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:03.631] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) step=주문스텝4
+[2026-08-17 16:17:03.634] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:03.638] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:03.674] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:03.676] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:05.195] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) step=주문스텝5
+[2026-08-17 16:17:05.197] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:05.200] [debug] [api] [api] event=did.callback status=started orderId=744454619615873383 menuName=ICED아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:05.226] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:05.229] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-17 16:17:05.233] [debug] [task] [task] event=task.complete status=success orderId=744454619615873383
