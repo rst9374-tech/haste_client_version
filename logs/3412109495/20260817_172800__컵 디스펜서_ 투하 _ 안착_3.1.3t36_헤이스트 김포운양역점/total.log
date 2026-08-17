@@ -1,0 +1,654 @@
+[2026-08-18 00:03:34.361] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-18 00:03:34.365] [info]  [api] [Lilly Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-18 00:03:36.005] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-18 00:03:36.007] [info]  [api] [Lilly Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-18 00:03:36.008] [info]  [api] [Lilly Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.3t31/hasteai_client_v3.1.3t31.asar
+[2026-08-18 00:03:47.680] [info]  [api] [Lilly Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\haste_patch_1786979016009.asar
+[2026-08-18 00:03:47.682] [info]  [api] [Lilly Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-18 00:03:47.684] [info]  [api] [Lilly Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_3676.cmd
+[2026-08-18 00:03:48.700] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 00:03:48.701] [info]  [app] event=app.shutdown status=started
+[2026-08-18 00:03:52.376] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 00:03:53.150] [info]  [app] event=app.startup status=started appVersion=3.1.3t31 packaged=true
+[2026-08-18 00:03:53.248] [info]  [app] event=app.window status=success
+[2026-08-18 00:03:53.289] [info]  [app] event=app.tray status=success
+[2026-08-18 00:03:53.290] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 00:03:53.294] [info]  [app] event=app.ipc status=success
+[2026-08-18 00:03:53.296] [info]  [app] event=task.start status=success
+[2026-08-18 00:03:53.298] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 00:03:53.301] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 00:03:53.448] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 00:03:53.453] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 00:03:53.455] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 00:03:53.457] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 00:03:53.459] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 00:03:53.461] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 00:03:53.467] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 00:03:53.469] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 00:03:53.470] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 00:03:53.475] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:03:53.477] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:03:53.478] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 00:03:53.480] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:03:53.485] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:03:53.486] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 00:03:53.487] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 00:03:53.489] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 00:03:53.489] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 00:03:53.491] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 00:03:53.492] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 00:03:53.493] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 00:03:53.494] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 00:03:53.495] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 00:03:53.496] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 00:03:53.496] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 00:03:53.497] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 00:03:53.552] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 00:03:53.555] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 00:03:53.563] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 00:03:53.865] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 00:03:53.867] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 00:03:53.868] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 00:03:53.869] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 00:03:54.078] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 00:03:54.079] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 00:03:54.080] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 00:03:54.107] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-18 00:03:54.110] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-18 00:03:54.112] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-18 00:03:55.070] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-18 00:03:55.072] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 00:03:55.073] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-18 00:03:55.287] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 00:04:01.704] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:04:01.707] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:04:03.445] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:04:03.448] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:13:53.499] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:13:53.500] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:23:53.504] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:23:53.506] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:24:01.364] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-18 00:24:01.369] [info]  [api] [Lilly Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-18 00:24:03.911] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-18 00:24:03.912] [info]  [api] [Lilly Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-18 00:24:03.913] [info]  [api] [Lilly Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.3t35/hasteai_client_v3.1.3t35.asar
+[2026-08-18 00:24:13.511] [info]  [api] [Lilly Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\haste_patch_1786980243914.asar
+[2026-08-18 00:24:13.512] [info]  [api] [Lilly Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-18 00:24:13.517] [info]  [api] [Lilly Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_4740.cmd
+[2026-08-18 00:24:14.546] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 00:24:14.546] [info]  [app] event=app.shutdown status=started
+[2026-08-18 00:24:17.534] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 00:24:18.410] [info]  [app] event=app.startup status=started appVersion=3.1.3t35 packaged=true
+[2026-08-18 00:24:18.553] [info]  [app] event=app.window status=success
+[2026-08-18 00:24:18.579] [info]  [app] event=app.tray status=success
+[2026-08-18 00:24:18.580] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 00:24:18.585] [info]  [app] event=app.ipc status=success
+[2026-08-18 00:24:18.587] [info]  [app] event=task.start status=success
+[2026-08-18 00:24:18.589] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 00:24:18.592] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 00:24:18.747] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 00:24:18.751] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 00:24:18.753] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 00:24:18.754] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 00:24:18.756] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 00:24:18.758] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 00:24:18.763] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 00:24:18.766] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 00:24:18.768] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 00:24:18.772] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:18.775] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:18.776] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 00:24:18.781] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:18.783] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:18.784] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 00:24:18.785] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 00:24:18.788] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 00:24:18.789] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 00:24:18.791] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 00:24:18.792] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 00:24:18.793] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 00:24:18.794] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 00:24:18.795] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 00:24:18.796] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 00:24:18.796] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 00:24:18.797] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 00:24:18.857] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 00:24:18.860] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 00:24:18.877] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 00:24:19.145] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 00:24:19.146] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 00:24:19.148] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 00:24:19.149] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 00:24:19.150] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 00:24:19.151] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 00:24:19.152] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 00:24:19.153] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 00:24:19.391] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 00:24:19.392] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 00:24:19.393] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 00:24:20.634] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 00:24:27.790] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:24:27.794] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:29.565] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:24:29.568] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:32.937] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:24:32.939] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:38.065] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 00:24:38.065] [info]  [app] event=app.shutdown status=started
+[2026-08-18 00:24:41.339] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 00:24:43.469] [info]  [app] event=app.startup status=started appVersion=3.1.3t35 packaged=true
+[2026-08-18 00:24:43.577] [info]  [app] event=app.window status=success
+[2026-08-18 00:24:43.594] [info]  [app] event=app.tray status=success
+[2026-08-18 00:24:43.595] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 00:24:43.599] [info]  [app] event=app.ipc status=success
+[2026-08-18 00:24:43.601] [info]  [app] event=task.start status=success
+[2026-08-18 00:24:43.603] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 00:24:43.606] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 00:24:43.613] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 00:24:43.618] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 00:24:43.619] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 00:24:43.620] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 00:24:43.622] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 00:24:43.623] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 00:24:43.629] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 00:24:43.630] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 00:24:43.631] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 00:24:43.636] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:43.638] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:43.639] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 00:24:43.641] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:43.646] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:24:43.647] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 00:24:43.648] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 00:24:43.650] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 00:24:43.651] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 00:24:43.653] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 00:24:43.653] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 00:24:43.654] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 00:24:43.656] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 00:24:43.657] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 00:24:43.657] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 00:24:43.658] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 00:24:43.658] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 00:24:43.691] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 00:24:43.705] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 00:24:43.707] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 00:24:44.034] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 00:24:44.036] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 00:24:44.037] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 00:24:44.038] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 00:24:44.221] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 00:24:44.222] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 00:24:44.223] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 00:24:44.448] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-18 00:24:44.451] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-18 00:24:44.452] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-18 00:24:45.478] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 00:24:45.480] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-18 00:24:45.481] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 00:24:45.483] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-18 00:24:51.965] [info]  [HASTE Menu DB Init] haste_menu.db established successfully.
+[2026-08-18 00:24:51.979] [info]  [task] [HASTE Standard Import] Populated 656 menus into haste_menu.db (MENU, TOSS_MENU, SAMSUNG_MENU)
+[2026-08-18 00:24:51.988] [info]  [task] [HASTE Standard Import] Successfully imported 656 Google Sheets standard recipes.
+[2026-08-18 00:24:59.597] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:24:59.601] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:25:01.125] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 00:25:01.128] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 00:26:21.161] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 00:26:21.167] [info]  [HASTE DB Save] Settings category "water" has been updated and saved to SQLite successfully.
+[2026-08-18 00:34:43.662] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:34:43.664] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:44:43.678] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:44:43.679] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:54:43.669] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-18 00:54:43.670] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-18 00:54:43.671] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=ice_maker trigger=scheduled
+[2026-08-18 00:54:43.672] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=ice_maker trigger=scheduled
+[2026-08-18 00:54:43.689] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 00:54:43.691] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:04:43.725] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:04:43.726] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:14:43.822] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:14:43.824] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:24:43.668] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-18 01:24:43.669] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-18 01:24:43.670] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=ice_maker trigger=scheduled
+[2026-08-18 01:24:43.671] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=ice_maker trigger=scheduled
+[2026-08-18 01:24:43.826] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:24:43.827] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:34:43.841] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:34:43.842] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:44:43.851] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:44:43.853] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:54:43.678] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-18 01:54:43.680] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-18 01:54:43.680] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=ice_maker trigger=scheduled
+[2026-08-18 01:54:43.681] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=ice_maker trigger=scheduled
+[2026-08-18 01:54:43.877] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 01:54:43.878] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 02:04:43.675] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=foamer trigger=scheduled
+[2026-08-18 02:04:43.676] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=foamer trigger=scheduled
+[2026-08-18 02:04:43.889] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 02:04:43.890] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 02:14:43.900] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 02:14:43.903] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-18 02:22:55.727] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 02:22:55.734] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 02:23:01.186] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 02:23:24.082] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 02:23:24.083] [info]  [app] event=app.shutdown status=started
+[2026-08-18 02:25:00.018] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 02:25:00.810] [info]  [app] event=app.startup status=started appVersion=3.1.3t35 packaged=true
+[2026-08-18 02:25:01.331] [info]  [app] event=app.window status=success
+[2026-08-18 02:25:01.397] [info]  [app] event=app.tray status=success
+[2026-08-18 02:25:01.400] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 02:25:01.416] [info]  [app] event=app.ipc status=success
+[2026-08-18 02:25:01.422] [info]  [app] event=task.start status=success
+[2026-08-18 02:25:01.431] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 02:25:01.440] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 02:25:01.734] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 02:25:01.744] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 02:25:01.745] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 02:25:01.747] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 02:25:01.749] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 02:25:01.751] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 02:25:01.757] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 02:25:01.759] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 02:25:01.760] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 02:25:01.766] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:25:01.769] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:25:01.771] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 02:25:01.773] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:25:01.776] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:25:01.777] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 02:25:01.779] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 02:25:01.781] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 02:25:01.782] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 02:25:01.784] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 02:25:01.786] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 02:25:01.787] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 02:25:01.789] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 02:25:01.790] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 02:25:01.791] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 02:25:01.791] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 02:25:01.792] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 02:25:01.857] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 02:25:01.861] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 02:25:01.943] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 02:25:02.110] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 02:25:02.112] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 02:25:02.113] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 02:25:02.114] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 02:25:02.128] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-18 02:25:02.130] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-18 02:25:02.132] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-18 02:25:02.156] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-18 02:25:02.206] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-18 02:25:02.208] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 02:25:02.376] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 02:25:02.377] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 02:25:02.378] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 02:25:03.618] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 02:25:15.185] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 02:25:15.188] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 02:25:52.410] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-18 02:25:52.424] [info]  [api] [Lilly Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-18 02:25:53.964] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-18 02:25:53.965] [info]  [api] [Lilly Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-18 02:25:53.966] [info]  [api] [Lilly Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.3t36/hasteai_client_v3.1.3t36.asar
+[2026-08-18 02:26:00.389] [info]  [api] [Lilly Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\haste_patch_1786987553967.asar
+[2026-08-18 02:26:00.392] [info]  [api] [Lilly Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-18 02:26:00.396] [info]  [api] [Lilly Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_2156.cmd
+[2026-08-18 02:26:01.429] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 02:26:01.431] [info]  [app] event=app.shutdown status=started
+[2026-08-18 02:26:04.238] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 02:26:04.974] [info]  [app] event=app.startup status=started appVersion=3.1.3t36 packaged=true
+[2026-08-18 02:26:05.058] [info]  [app] event=app.window status=success
+[2026-08-18 02:26:05.074] [info]  [app] event=app.tray status=success
+[2026-08-18 02:26:05.074] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 02:26:05.078] [info]  [app] event=app.ipc status=success
+[2026-08-18 02:26:05.080] [info]  [app] event=task.start status=success
+[2026-08-18 02:26:05.082] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 02:26:05.085] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 02:26:05.095] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 02:26:05.100] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 02:26:05.101] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 02:26:05.102] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 02:26:05.104] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 02:26:05.105] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 02:26:05.111] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 02:26:05.113] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 02:26:05.114] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 02:26:05.120] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:26:05.122] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:26:05.123] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 02:26:05.131] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:26:05.134] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 02:26:05.135] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 02:26:05.137] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 02:26:05.139] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 02:26:05.140] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 02:26:05.142] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 02:26:05.143] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 02:26:05.143] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 02:26:05.145] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 02:26:05.146] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 02:26:05.147] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 02:26:05.148] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 02:26:05.148] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 02:26:05.182] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 02:26:05.192] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 02:26:05.193] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 02:26:05.546] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 02:26:05.548] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 02:26:05.549] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 02:26:05.550] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 02:26:05.551] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 02:26:05.552] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 02:26:05.701] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 02:26:05.702] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 02:26:05.703] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 02:26:06.004] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-18 02:26:06.912] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 02:26:08.587] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-18 02:26:08.588] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-18 02:26:08.590] [info]  [serialport] [HASTE Auto-Reconnect] board1 (COM6) reconnected successfully!
+[2026-08-18 02:26:08.687] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-18 02:26:08.726] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-18 02:26:08.727] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 02:26:44.998] [debug] [cup] [cup] event=test.cup status=started cupName=컵1
+[2026-08-18 02:26:45.001] [info]  [cup] [HASTE Cup] 컵 배출 시퀀스 시작 (타입: ICE, 후보 컵 수: 2개)
+[2026-08-18 02:26:45.002] [info]  [cup] [HASTE Cup] 주 컵(모터A) [컵1] 모터 회전 및 컵드랍감지 시도...
+[2026-08-18 02:26:45.003] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-18 02:26:45.004] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-18 02:26:45.123] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.230] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.340] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.452] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.565] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.676] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.787] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:45.899] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.010] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.121] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.231] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.342] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.454] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.562] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.673] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.783] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:46.895] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.004] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.115] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.225] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.337] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.449] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.560] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.672] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.782] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:47.894] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.003] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.113] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.224] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.334] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.446] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.557] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.668] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.779] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:48.891] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.002] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.114] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.224] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.334] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.445] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.557] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.667] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.778] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:49.889] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.000] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.110] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.221] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.332] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.443] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.554] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.664] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.776] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.888] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:50.998] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:51.016] [error] [cup] [cup] event=cup.out status=failed reason=timeout cupName=컵1 sensor=motorRotationCheckSwitch1 motor=cupDropMotor1 timeoutMs=6000
+[2026-08-18 02:26:51.017] [warn]  [cup] [HASTE Cup] 주 컵(모터A) [컵1] 컵 드랍 미감지 -> 다음 단계 확인.
+[2026-08-18 02:26:51.018] [info]  [cup] [HASTE Cup] 보조 컵(모터B - 1순위) [컵2] 모터 회전 및 컵드랍감지 시도...
+[2026-08-18 02:26:51.019] [debug] [cup] [cup] event=cup.motor status=success cupName=컵2 motor=cupDispenserMotor1 phase=pre
+[2026-08-18 02:26:51.020] [debug] [cup] [cup] event=cup.motor status=success cupName=컵2 motor=cupDispenserMotor1 phase=max
+[2026-08-18 02:26:51.124] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.235] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.346] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.456] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.567] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.678] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.790] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:51.902] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.014] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.125] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.235] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.347] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.458] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.570] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.682] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.793] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:52.900] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.009] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.119] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.230] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.341] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.453] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.565] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.676] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.787] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:53.899] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.011] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.120] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.232] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.344] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.455] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.565] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.677] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.790] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:54.900] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.011] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.122] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.233] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.344] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.456] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.568] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.678] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.790] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:55.900] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.011] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.122] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.233] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.344] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.456] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.568] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.679] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.791] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.902] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:56.927] [debug] [cup] [cup] event=test.cup status=started cupName=컵2
+[2026-08-18 02:26:56.928] [info]  [cup] [HASTE Cup] 컵 배출 시퀀스 시작 (타입: ICE, 후보 컵 수: 2개)
+[2026-08-18 02:26:56.928] [info]  [cup] [HASTE Cup] 주 컵(모터A) [컵1] 모터 회전 및 컵드랍감지 시도...
+[2026-08-18 02:26:56.929] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-18 02:26:56.931] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-18 02:26:57.012] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:26:57.021] [error] [cup] [cup] event=cup.out status=failed reason=timeout cupName=컵2 sensor=dispenserInputSensor2 motor=cupDispenserMotor1 timeoutMs=6000
+[2026-08-18 02:26:57.022] [warn]  [cup] [HASTE Cup] 보조 컵(모터B - 1순위) [컵2] 컵 드랍 미감지 -> 다음 단계 확인.
+[2026-08-18 02:26:57.023] [warn]  [cup] [HASTE Cup] 모든 디스펜서 컵 배출 미감지 -> 스텝 3(3분 스마트 컵센서 대기)으로 토스.
+[2026-08-18 02:26:57.023] [debug] [cup] [cup] event=test.cup status=success cupName=컵1
+[2026-08-18 02:26:57.044] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.154] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.265] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.377] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.487] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.599] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.710] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.821] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:57.931] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.040] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.150] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.260] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.373] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.482] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.594] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.704] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.815] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:58.926] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.036] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.145] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.256] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.366] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.478] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.588] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.700] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.810] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:26:59.922] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.034] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.144] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.256] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.366] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.478] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.590] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.701] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.814] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:00.925] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.036] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.150] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.258] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.370] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.481] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.590] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.701] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.812] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:01.923] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.033] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.144] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.255] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.366] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.477] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.578] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.689] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.799] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.911] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:02.932] [error] [cup] [cup] event=cup.out status=failed reason=timeout cupName=컵1 sensor=motorRotationCheckSwitch1 motor=cupDropMotor1 timeoutMs=6000
+[2026-08-18 02:27:02.935] [warn]  [cup] [HASTE Cup] 주 컵(모터A) [컵1] 컵 드랍 미감지 -> 다음 단계 확인.
+[2026-08-18 02:27:02.937] [info]  [cup] [HASTE Cup] 보조 컵(모터B - 1순위) [컵2] 모터 회전 및 컵드랍감지 시도...
+[2026-08-18 02:27:02.937] [debug] [cup] [cup] event=cup.motor status=success cupName=컵2 motor=cupDispenserMotor1 phase=pre
+[2026-08-18 02:27:02.938] [debug] [cup] [cup] event=cup.motor status=success cupName=컵2 motor=cupDispenserMotor1 phase=max
+[2026-08-18 02:27:03.051] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.161] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.271] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.383] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.494] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.605] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.714] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.826] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:03.936] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.046] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.157] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.268] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.379] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.490] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.601] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.711] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.821] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:04.960] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.077] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.184] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.295] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.403] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.520] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.624] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.735] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.846] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:05.958] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.070] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.179] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.291] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.401] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.512] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.623] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.734] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.844] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:06.955] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.067] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.176] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.288] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.400] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.510] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.622] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.734] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.844] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:07.955] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.067] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.190] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.301] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.411] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.522] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.633] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.744] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.855] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵2 sensor=dispenserInputSensor2
+[2026-08-18 02:27:08.950] [error] [cup] [cup] event=cup.out status=failed reason=timeout cupName=컵2 sensor=dispenserInputSensor2 motor=cupDispenserMotor1 timeoutMs=6000
+[2026-08-18 02:27:08.951] [warn]  [cup] [HASTE Cup] 보조 컵(모터B - 1순위) [컵2] 컵 드랍 미감지 -> 다음 단계 확인.
+[2026-08-18 02:27:08.951] [warn]  [cup] [HASTE Cup] 모든 디스펜서 컵 배출 미감지 -> 스텝 3(3분 스마트 컵센서 대기)으로 토스.
+[2026-08-18 02:27:08.952] [debug] [cup] [cup] event=test.cup status=success cupName=컵2
+[2026-08-18 02:27:52.809] [debug] [cup] [cup] event=test.cup status=started cupName=컵2
+[2026-08-18 02:27:52.810] [info]  [cup] [HASTE Cup] 컵 배출 시퀀스 시작 (타입: ICE, 후보 컵 수: 2개)
+[2026-08-18 02:27:52.811] [info]  [cup] [HASTE Cup] 주 컵(모터A) [컵1] 모터 회전 및 컵드랍감지 시도...
+[2026-08-18 02:27:52.811] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-18 02:27:52.812] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-18 02:27:52.919] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.030] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.142] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.252] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.363] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.471] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.588] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.690] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.801] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:53.913] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.023] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.138] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.246] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.358] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.465] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.577] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.688] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.799] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:54.909] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.020] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.131] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.242] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.359] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.466] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.576] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.689] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.804] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:55.905] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.019] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.129] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.241] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.352] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.464] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.573] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.682] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.794] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:56.911] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.017] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.125] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.239] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.348] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.459] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.569] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.681] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.793] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:57.903] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 02:27:58.014] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
