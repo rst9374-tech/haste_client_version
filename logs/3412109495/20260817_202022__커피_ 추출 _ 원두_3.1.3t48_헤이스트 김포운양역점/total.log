@@ -1,0 +1,1000 @@
+[2026-08-18 05:11:24.148] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP200033\\x03')"
+[2026-08-18 05:11:24.149] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=240 phase=complete current=240
+[2026-08-18 05:11:24.151] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:24.154] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:24.166] [debug] [task] [task] event=brew.step status=started orderId=744649336815255539 menuName=ICED프리미엄티 step=5 message="cup unmount wait started"
+[2026-08-18 05:11:24.169] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:24.172] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:24.622] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:24.636] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02035APC6C\\x03')"
+[2026-08-18 05:11:24.638] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"5\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:24.640] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=5 action=A
+[2026-08-18 05:11:24.641] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:24.643] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:24.835] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:24.910] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:24.957] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:24.960] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:25.041] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:25.070] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:25.138] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:25.139] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:25.241] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:25.282] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:25.317] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:25.319] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:25.444] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:25.477] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:25.522] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:25.523] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:25.651] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:25.674] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:25.721] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:25.723] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:25.854] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:25.900] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:25.940] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:25.943] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:26.058] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:26.107] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:26.154] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:26.155] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:26.265] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:26.290] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:26.342] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:26.344] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:26.474] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:26.518] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:26.558] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:26.562] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:26.676] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:26.704] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:26.753] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:26.756] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:26.879] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:26.906] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:26.954] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:26.956] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:27.085] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:27.125] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:27.168] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:27.170] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:27.288] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:27.332] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:27.370] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:27.372] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:27.494] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:27.524] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:27.610] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:27.612] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:27.696] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:27.719] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:27.770] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:27.771] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:27.899] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:27.934] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:27.969] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:27.972] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:28.105] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:28.149] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:28.194] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:28.196] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:28.310] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:28.340] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:28.408] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:28.410] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:28.516] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:28.541] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:28.604] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:28.606] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:28.721] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:28.753] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:28.809] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:28.812] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:28.926] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:28.956] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:28.996] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:28.998] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:29.132] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:29.167] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:29.218] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:29.220] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:29.335] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:29.379] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:29.420] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:29.422] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:29.538] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:29.563] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:29.592] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:29.595] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:29.743] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:29.784] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:29.870] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:29.871] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:29.946] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:29.986] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:30.021] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:30.023] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:30.148] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:30.207] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:30.276] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:30.278] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:30.353] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:30.399] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:30.472] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:30.474] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:30.556] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:30.608] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:30.654] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:30.656] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:30.759] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:30.802] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:30.846] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:30.848] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:30.853] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:11:30.855] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:30.859] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:30.867] [debug] [task] [task] event=brew.menu status=started orderId=744649336815255539 menuName=ICED프리미엄티 stepCount=2 cupIndex=4 totalCups=4
+[2026-08-18 05:11:30.876] [debug] [task] [task] event=brew.step status=started orderId=744649336815255539 menuName=ICED프리미엄티 step=2 message="cup drop started"
+[2026-08-18 05:11:30.878] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-18 05:11:30.880] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-18 05:11:30.883] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:30.886] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:31.177] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP301E4B\\x03')"
+[2026-08-18 05:11:31.192] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:11:31.195] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.196] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:11:31.288] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.339] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:31.373] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:31.375] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.402] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.449] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:31.489] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:31.490] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.508] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.577] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:31.618] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.651] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:31.653] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.657] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:31.701] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:31.703] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.726] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.794] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:31.801] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:31.803] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.827] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.855] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:31.891] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:31.893] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:31.931] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:31.960] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.004] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.006] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.040] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.088] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.140] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.148] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.150] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.206] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.242] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.245] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.248] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.300] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.360] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.373] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.374] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.424] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.454] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.456] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.466] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.519] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.558] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.561] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.587] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.618] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.673] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:32.676] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.702] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:11:32.736] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:32.775] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000101000000010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:32.777] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":49,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.780] [debug] [cup] [cup] event=cup.out status=success cupName=컵1
+[2026-08-18 05:11:32.858] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-18 05:11:32.860] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=post
+[2026-08-18 05:11:32.873] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:11:32.874] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.877] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:11:32.943] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300338\\x03')"
+[2026-08-18 05:11:32.946] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:11:32.948] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:32.950] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:11:33.254] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-18 05:11:33.275] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.278] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.290] [debug] [task] [task] event=brew.step status=started orderId=744649336815255539 menuName=ICED프리미엄티 step=3 message="cup mount wait"
+[2026-08-18 05:11:33.294] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.297] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.310] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:11:33.312] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:33.314] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:11:33.603] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:33.678] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:33.680] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:33.683] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:11:33.708] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.710] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.719] [debug] [task] [task] event=brew.step status=started orderId=744649336815255539 menuName=ICED프리미엄티 step=4 message="beverage action started (1st golden forkJoin)"
+[2026-08-18 05:11:33.721] [debug] [water] [water] event=ice.out status=success protocol=ICE amount=5100 goal=5610 current=0 phase=started
+[2026-08-18 05:11:33.723] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=240 goal=302 sec=5 phase=started
+[2026-08-18 05:11:33.726] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:33.730] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:34.011] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201B0380089034D\\x03')"
+[2026-08-18 05:11:34.013] [debug] [water] [water] event=ice.out status=success protocol=ICE amount=5100 goal=5610 boardName=board1 phase=complete current=5610
+[2026-08-18 05:11:34.128] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-18 05:11:34.140] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200B0380088034B\\x03')"
+[2026-08-18 05:11:34.142] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":66,\"5\":48,\"6\":51,\"7\":56,\"8\":48,\"9\":48,\"10\":56,\"11\":56,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"B0\",\"38\",\"00\",\"88\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:34.178] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP203238\\x03')"
+[2026-08-18 05:11:34.193] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100021303000400050006000700080009000:000;000<000=000>000?000@000A14DB000C000D0006D\\x03')"
+[2026-08-18 05:11:34.194] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":49,\"6\":51,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-18 05:11:34.196] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02035APC6C\\x03')"
+[2026-08-18 05:11:34.198] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"5\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:34.200] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=5 action=A
+[2026-08-18 05:11:39.240] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP200033\\x03')"
+[2026-08-18 05:11:39.242] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=240 phase=complete current=240
+[2026-08-18 05:11:39.244] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:39.247] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:39.265] [debug] [task] [task] event=brew.step status=started orderId=744649336815255539 menuName=ICED프리미엄티 step=5 message="cup unmount wait started"
+[2026-08-18 05:11:39.276] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:39.279] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:39.920] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:39.925] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02035APC6C\\x03')"
+[2026-08-18 05:11:39.927] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"5\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:39.928] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=5 action=A
+[2026-08-18 05:11:39.930] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:39.933] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:40.129] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:40.168] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:40.220] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:40.222] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:40.330] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:40.460] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:40.471] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:11:40.473] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:40.530] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2 value=1
+[2026-08-18 05:11:40.569] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:11:40.617] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:11:40.619] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:11:40.621] [debug] [cup] [cup] event=cup.unmount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:11:40.624] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:40.626] [debug] [api] [api] event=did.callback status=started orderId=744649336815255539 menuName=ICED프리미엄티 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:40.631] [debug] [task] [task] event=task.complete status=success orderId=744649336815255539
+[2026-08-18 05:11:40.640] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:11:40.642] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:13:55.503] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:17:42.383] [debug] [api] [api] event=api.request status=started version=v3 route=POST_/v3/app/update
+[2026-08-18 05:17:42.385] [info]  [api] [Lilly Auto-Updater] Triggering automatic pre-upgrade settings backup to cloud...
+[2026-08-18 05:17:43.671] [info]  [task] [HASTE Auto-Backup] Settings auto-backup slot rotation completed successfully.
+[2026-08-18 05:17:43.672] [info]  [api] [Lilly Auto-Updater] Pre-upgrade settings auto-backup saved to cloud successfully.
+[2026-08-18 05:17:43.672] [info]  [api] [Lilly Auto-Updater] Update starting -> URL/Path: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.1.3t48/hasteai_client_v3.1.3t48.asar
+[2026-08-18 05:17:44.726] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 05:17:44.729] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:17:55.888] [info]  [api] [Lilly Auto-Updater] Update source binary ready -> Saved to: C:\Users\COFFEE~1\AppData\Local\Temp\haste_patch_1786997863673.asar
+[2026-08-18 05:17:55.889] [info]  [api] [Lilly Auto-Updater] Update installation path: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\haste3.1.exe (Needs UAC: false)
+[2026-08-18 05:17:55.894] [info]  [api] [Lilly Auto-Updater] Spawn Swap CMD -> C:\Users\COFFEE~1\AppData\Local\Temp\update_haste_1668.cmd
+[2026-08-18 05:17:56.912] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 05:17:56.913] [info]  [app] event=app.shutdown status=started
+[2026-08-18 05:18:00.287] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 05:18:01.184] [info]  [app] event=app.startup status=started appVersion=3.1.3t48 packaged=true
+[2026-08-18 05:18:01.315] [info]  [app] event=app.window status=success
+[2026-08-18 05:18:01.336] [info]  [app] event=app.tray status=success
+[2026-08-18 05:18:01.337] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 05:18:01.341] [info]  [app] event=app.ipc status=success
+[2026-08-18 05:18:01.343] [info]  [app] event=task.start status=success
+[2026-08-18 05:18:01.347] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 05:18:01.351] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 05:18:01.359] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 05:18:01.365] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 05:18:01.368] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 05:18:01.369] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 05:18:01.372] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 05:18:01.375] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 05:18:01.383] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:18:01.385] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 05:18:01.386] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 05:18:01.392] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:01.396] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:01.397] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 05:18:01.400] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:01.403] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:01.404] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:18:01.407] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 05:18:01.409] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 05:18:01.410] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 05:18:01.414] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 05:18:01.415] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 05:18:01.416] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 05:18:01.417] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 05:18:01.418] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 05:18:01.420] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 05:18:01.420] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 05:18:01.421] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 05:18:01.469] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:18:01.472] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 05:18:01.485] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 05:18:01.819] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 05:18:01.820] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 05:18:01.822] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 05:18:01.822] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 05:18:01.824] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 05:18:01.825] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 05:18:01.826] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 05:18:01.827] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 05:18:01.996] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 05:18:01.998] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 05:18:02.001] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 05:18:03.221] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 05:18:04.849] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-18 05:18:04.851] [info]  [serialport] [HASTE Auto-Reconnect] board2 (COM7) reconnected successfully!
+[2026-08-18 05:18:04.853] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-18 05:18:04.854] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-18 05:18:04.856] [info]  [serialport] [HASTE Auto-Reconnect] board1 (COM6) reconnected successfully!
+[2026-08-18 05:18:04.953] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-18 05:18:05.010] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-18 05:18:05.013] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:18:09.984] [debug] [api] [api] event=order.create status=started version=v3 route=POST_/v3/order
+[2026-08-18 05:18:09.992] [info]  [api] ========================================================================
+[2026-08-18 05:18:09.993] [info]  [api] 🛎️ [HASTE TOSS ORDER RECEIVED] OrderID: 744651240148465019
+[2026-08-18 05:18:09.994] [info]  [api] 🎯 [HASTE Connected via Target URL]: 알 수 없음
+[2026-08-18 05:18:09.995] [info]  [api] 📦 [HASTE Raw Payload] {"orderId":"744651240148465019","items":[{"productNo":"16275962","name":"프리미엄티","englishName":"","description":"","englishDescription":"","manufacturer":"","count":2,"isDessert":false,"options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]}],"productNo":"16275962","options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}],"tossStoreId":"543655","storeNo":"543655"}
+[2026-08-18 05:18:09.996] [info]  [api] ☕ [HASTE Items List] 총 1종 품목 인입:
+[2026-08-18 05:18:09.997] [info]  [api]    [#1] Name: "프리미엄티", Code: "16275962", Count: 2, Options: [{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]
+[2026-08-18 05:18:09.998] [info]  [api] ========================================================================
+[2026-08-18 05:18:09.999] [info]  [api] [HASTE Auto-Adopt from Order] Updating storeNo: 3412109495 -> 543655
+[2026-08-18 05:18:10.002] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=543655 deviceModelId=D0000
+[2026-08-18 05:18:10.003] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=543655 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:18:10.004] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:18:10.008] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:10.009] [info]  [api] [HASTE Toss Option Translate] 16275962 + [IC] -> 16275962
+[2026-08-18 05:18:10.026] [info]  [HASTE DB Init] haste_menu.db connection established at: C:\Users\CoffeeVanada\AppData\Roaming\haste3.0\haste_menu.db
+[2026-08-18 05:18:10.037] [info]  [HASTE DB Init] haste_product.db connection established at: C:\Users\CoffeeVanada\AppData\Roaming\haste3.0\haste_product.db
+[2026-08-18 05:18:10.043] [info]  [api] [HASTE Korean Fallback Matched] "프리미엄티" + [IC] -> MTI5013 (ICED프리미엄티)
+[2026-08-18 05:18:10.045] [debug] [task] [task] event=task.enqueue status=accepted orderId=744651240148465019 priority=99 description=음료_제조_(744651240148465019)
+[2026-08-18 05:18:10.046] [debug] [task] [task] event=task.start status=started orderId=744651240148465019 menuCount=2
+[2026-08-18 05:18:10.048] [info]  [api] ========================================================================
+[2026-08-18 05:18:10.049] [info]  [api] 🚀 [HASTE Multi-Cup Queue Success] Order 744651240148465019: 총 2잔 연속 제조 큐 적재 완료!
+[2026-08-18 05:18:10.050] [info]  [api]    [제조순서 #1/2] ICED프리미엄티 | 코드: MTI5013 | 컵: 컵1 | 스텝수: 2
+[2026-08-18 05:18:10.051] [info]  [api]    [제조순서 #2/2] ICED프리미엄티 | 코드: MTI5013 | 컵: 컵1 | 스텝수: 2
+[2026-08-18 05:18:10.051] [info]  [api] ========================================================================
+[2026-08-18 05:18:10.108] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:18:10.117] [debug] [task] [task] event=brew.menu status=started orderId=744651240148465019 menuName=ICED프리미엄티 stepCount=2 cupIndex=2 totalCups=2
+[2026-08-18 05:18:10.123] [debug] [task] [task] event=brew.step status=started orderId=744651240148465019 menuName=ICED프리미엄티 step=2 message="cup drop started"
+[2026-08-18 05:18:10.125] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-18 05:18:10.126] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-18 05:18:10.436] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:10.538] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:10.638] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:10.804] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:10.911] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.027] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.080] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 05:18:11.082] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:18:11.085] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:18:11.091] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:11.151] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.153] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:18:11.276] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.391] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.504] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.614] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.723] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.833] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:11.947] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.092] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.206] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.315] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.435] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.543] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.651] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.767] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.872] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:12.986] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:13.088] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:18:13.140] [error] [cup] [cup] event=cup.out status=failed reason=timeout cupName=컵1 sensor=motorRotationCheckSwitch1 motor=cupDropMotor1 timeoutMs=3000
+[2026-08-18 05:18:13.143] [warn]  [task] [744651240148465019] [ICED프리미엄티] 컵 디스펜서 배출 미감지 -> 스텝3(3분 스마트 컵 안착 대기)으로 자동 이관
+[2026-08-18 05:18:13.147] [debug] [api] [api] event=did.callback status=started orderId=744651240148465019 menuName=ICED프리미엄티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:18:13.151] [debug] [api] [api] event=did.callback status=started orderId=744651240148465019 menuName=ICED프리미엄티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:18:13.159] [debug] [task] [task] event=brew.step status=started orderId=744651240148465019 menuName=ICED프리미엄티 step=3 message="cup mount wait"
+[2026-08-18 05:18:13.188] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:18:13.190] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:18:13.438] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:13.650] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:13.864] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:14.082] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:14.293] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:14.499] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:14.715] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:14.924] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:15.126] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:15.329] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:15.533] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:15.736] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:15.939] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:16.141] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:16.342] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:16.549] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:16.750] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:16.953] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:17.158] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:17.373] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:17.582] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:17.785] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:17.989] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:18.193] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:18.399] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:18.603] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:18.808] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:19.015] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:19.225] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:19.426] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:19.647] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:19.854] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:20.060] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:20.269] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:20.475] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:20.678] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:20.882] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:21.087] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:21.293] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:21.497] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:21.702] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:21.909] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:22.113] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:22.319] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:22.524] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:22.729] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:22.827] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 05:18:22.830] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:22.934] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:23.138] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:23.343] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:23.546] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:23.753] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:23.957] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:24.160] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:24.366] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:24.568] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:24.770] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:24.975] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:25.179] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:25.383] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:25.586] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:25.791] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:25.995] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:26.198] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:26.405] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:26.610] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:26.813] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:27.017] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:27.219] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:27.424] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:27.626] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:27.827] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:28.032] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:28.235] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:28.439] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:28.645] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:28.848] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:29.053] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:29.255] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:29.460] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:29.667] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:29.872] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:30.075] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:30.277] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:30.480] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:30.684] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:30.890] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:31.093] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:31.293] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:31.502] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:31.703] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:31.906] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:32.109] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:32.312] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:32.528] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:32.731] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:32.935] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:33.138] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:33.342] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:33.545] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:33.747] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:33.950] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:34.151] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:34.354] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:34.559] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:34.762] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:34.964] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:35.168] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:35.369] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:35.575] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:35.776] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:35.987] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:36.190] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:36.394] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:36.595] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:36.796] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:36.992] [debug] [api] [api] event=order.create status=started version=v3 route=POST_/v3/order
+[2026-08-18 05:18:36.995] [info]  [api] ========================================================================
+[2026-08-18 05:18:36.996] [info]  [api] 🛎️ [HASTE TOSS ORDER RECEIVED] OrderID: 744651353445000548
+[2026-08-18 05:18:36.997] [info]  [api] 🎯 [HASTE Connected via Target URL]: 알 수 없음
+[2026-08-18 05:18:36.998] [info]  [api] 📦 [HASTE Raw Payload] {"orderId":"744651353445000548","items":[{"productNo":"16275962","name":"프리미엄티","englishName":"","description":"","englishDescription":"","manufacturer":"","count":2,"isDessert":false,"options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]}],"productNo":"16275962","options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}],"tossStoreId":"543655","storeNo":"543655"}
+[2026-08-18 05:18:36.998] [info]  [api] ☕ [HASTE Items List] 총 1종 품목 인입:
+[2026-08-18 05:18:36.999] [info]  [api]    [#1] Name: "프리미엄티", Code: "16275962", Count: 2, Options: [{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]
+[2026-08-18 05:18:37.000] [info]  [api] ========================================================================
+[2026-08-18 05:18:37.000] [info]  [api] [HASTE Auto-Adopt from Order] Updating storeNo: 3412109495 -> 543655
+[2026-08-18 05:18:37.002] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=543655 deviceModelId=D0000
+[2026-08-18 05:18:37.002] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=543655 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:18:37.003] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:18:37.007] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:37.008] [info]  [api] [HASTE Toss Option Translate] 16275962 + [IC] -> 16275962
+[2026-08-18 05:18:37.012] [info]  [api] [HASTE Korean Fallback Matched] "프리미엄티" + [IC] -> MTI5013 (ICED프리미엄티)
+[2026-08-18 05:18:37.014] [debug] [task] [task] event=task.enqueue status=accepted orderId=744651353445000548 priority=99 description=음료_제조_(744651353445000548)
+[2026-08-18 05:18:37.016] [info]  [api] ========================================================================
+[2026-08-18 05:18:37.017] [info]  [api] 🚀 [HASTE Multi-Cup Queue Success] Order 744651353445000548: 총 2잔 연속 제조 큐 적재 완료!
+[2026-08-18 05:18:37.018] [info]  [api]    [제조순서 #1/2] ICED프리미엄티 | 코드: MTI5013 | 컵: 컵1 | 스텝수: 2
+[2026-08-18 05:18:37.018] [info]  [api]    [제조순서 #2/2] ICED프리미엄티 | 코드: MTI5013 | 컵: 컵1 | 스텝수: 2
+[2026-08-18 05:18:37.019] [info]  [api] ========================================================================
+[2026-08-18 05:18:37.054] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:37.057] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:18:37.268] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:37.301] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 05:18:37.302] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:18:37.303] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:18:37.306] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:37.362] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:18:37.472] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:37.675] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:37.879] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:38.082] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:38.287] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:38.492] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:38.700] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:38.904] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:39.109] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:39.313] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:39.528] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:39.733] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:39.937] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:40.142] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:40.345] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:40.551] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:40.756] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:40.962] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:41.168] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:41.369] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:41.572] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:41.776] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:41.980] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:42.184] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:42.389] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:42.591] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:42.792] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:42.997] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:43.200] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:43.404] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:43.607] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:43.813] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:44.015] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:44.220] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:44.422] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:44.629] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:44.834] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:45.037] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:45.244] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:45.447] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:45.648] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:45.863] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:46.067] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:46.272] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:46.479] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:46.683] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:46.886] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:47.091] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:47.296] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:47.501] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:47.705] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:47.907] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:48.110] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:48.315] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:48.519] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:48.719] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:48.925] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:49.130] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:49.336] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:49.538] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:49.742] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:49.946] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:50.152] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:50.356] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:50.562] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:50.767] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:50.973] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:51.179] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:51.381] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:51.586] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:51.790] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:51.994] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:52.199] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:52.388] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:52.398] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:52.608] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:52.813] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:53.026] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:53.233] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:53.438] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:53.646] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:53.852] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:54.067] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:54.271] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:54.456] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 05:18:54.459] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:18:54.475] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:54.678] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:54.883] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:55.090] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:55.296] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:55.499] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:55.702] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:55.903] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:56.106] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:56.311] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:56.514] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:56.718] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:56.922] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:57.122] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:57.327] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:57.532] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:57.736] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:57.938] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:58.141] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:58.344] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:58.550] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:58.751] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:58.952] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:59.156] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:59.360] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:59.564] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:59.766] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:18:59.982] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:00.195] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:00.399] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:00.602] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:00.815] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:01.017] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:01.222] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:01.426] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:01.628] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:01.830] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:02.034] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:02.240] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:02.447] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:02.651] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:02.857] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:03.058] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:03.264] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:03.471] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:03.675] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:03.877] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:04.080] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:04.280] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:04.484] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:04.684] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:04.889] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:05.090] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:05.293] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:05.493] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:05.707] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:05.908] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:05.967] [debug] [api] [api] event=order.create status=started version=v3 route=POST_/v3/order
+[2026-08-18 05:19:05.970] [info]  [api] ========================================================================
+[2026-08-18 05:19:05.971] [info]  [api] 🛎️ [HASTE TOSS ORDER RECEIVED] OrderID: 744651472861031280
+[2026-08-18 05:19:05.971] [info]  [api] 🎯 [HASTE Connected via Target URL]: 알 수 없음
+[2026-08-18 05:19:05.972] [info]  [api] 📦 [HASTE Raw Payload] {"orderId":"744651472861031280","items":[{"productNo":"16275962","name":"프리미엄티","englishName":"","description":"","englishDescription":"","manufacturer":"","count":1,"isDessert":false,"options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]}],"productNo":"16275962","options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}],"tossStoreId":"543655","storeNo":"543655"}
+[2026-08-18 05:19:05.973] [info]  [api] ☕ [HASTE Items List] 총 1종 품목 인입:
+[2026-08-18 05:19:05.974] [info]  [api]    [#1] Name: "프리미엄티", Code: "16275962", Count: 1, Options: [{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]
+[2026-08-18 05:19:05.974] [info]  [api] ========================================================================
+[2026-08-18 05:19:05.975] [info]  [api] [HASTE Auto-Adopt from Order] Updating storeNo: 3412109495 -> 543655
+[2026-08-18 05:19:05.975] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=543655 deviceModelId=D0000
+[2026-08-18 05:19:05.976] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=543655 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:19:05.977] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:19:05.982] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:05.982] [info]  [api] [HASTE Toss Option Translate] 16275962 + [IC] -> 16275962
+[2026-08-18 05:19:05.986] [info]  [api] [HASTE Korean Fallback Matched] "프리미엄티" + [IC] -> MTI5013 (ICED프리미엄티)
+[2026-08-18 05:19:05.988] [debug] [task] [task] event=task.enqueue status=accepted orderId=744651472861031280 priority=99 description=음료_제조_(744651472861031280)
+[2026-08-18 05:19:05.988] [info]  [api] ========================================================================
+[2026-08-18 05:19:05.989] [info]  [api] 🚀 [HASTE Multi-Cup Queue Success] Order 744651472861031280: 총 1잔 연속 제조 큐 적재 완료!
+[2026-08-18 05:19:05.990] [info]  [api]    [제조순서 #1/1] ICED프리미엄티 | 코드: MTI5013 | 컵: 컵1 | 스텝수: 2
+[2026-08-18 05:19:05.991] [info]  [api] ========================================================================
+[2026-08-18 05:19:06.032] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:19:06.122] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:06.259] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 05:19:06.260] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:19:06.261] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:19:06.279] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:06.320] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:19:06.321] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:06.525] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:06.731] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:06.934] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:07.139] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:07.343] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:07.548] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:07.754] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:07.958] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:08.161] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:08.364] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:08.579] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:08.779] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:08.982] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:09.189] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:09.392] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:09.597] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:09.802] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:10.006] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:10.210] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:10.417] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:10.617] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:10.822] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:11.027] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:11.232] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:11.435] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:11.638] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:11.841] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:12.048] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:12.264] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:12.464] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:12.669] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:12.874] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:13.074] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:13.278] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:13.484] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:13.684] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:13.885] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:14.087] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:14.291] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:14.496] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:14.699] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:14.899] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:15.101] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:15.306] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:15.506] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:15.709] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:15.909] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:16.111] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:16.315] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:16.517] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:16.718] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:16.921] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:17.123] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:17.325] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:17.531] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:17.734] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:17.937] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:18.141] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:18.346] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:18.548] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:18.750] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:18.960] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:19.173] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:19.377] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:19.583] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:19.787] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:19.990] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:20.208] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:20.414] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:20.621] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:20.825] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:21.030] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:21.231] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:21.436] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:21.643] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:21.847] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:22.052] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:22.255] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:22.460] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:22.665] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:22.867] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:23.070] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:23.298] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:23.506] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:23.708] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:23.909] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:24.091] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-18 05:19:24.092] [info]  [app] event=app.shutdown status=started
+[2026-08-18 05:19:24.134] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:27.432] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "3412109495", ThemeMode: "Light", KioskType: "TOSS", isKioskDryRun: "false"
+[2026-08-18 05:19:28.037] [info]  [app] event=app.startup status=started appVersion=3.1.3t48 packaged=true
+[2026-08-18 05:19:28.118] [info]  [app] event=app.window status=success
+[2026-08-18 05:19:28.134] [info]  [app] event=app.tray status=success
+[2026-08-18 05:19:28.135] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-18 05:19:28.139] [info]  [app] event=app.ipc status=success
+[2026-08-18 05:19:28.141] [info]  [app] event=task.start status=success
+[2026-08-18 05:19:28.143] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 05:19:28.147] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\CoffeeVanada\AppData\Local\Programs\cafehaste-client\resources\resources
+[2026-08-18 05:19:28.155] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Samsung Kiosk Mode).
+[2026-08-18 05:19:28.160] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-18 05:19:28.163] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-18 05:19:28.165] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 05:19:28.167] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-18 05:19:28.169] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-18 05:19:28.175] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:19:28.176] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-18 05:19:28.178] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 05:19:28.185] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:28.188] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:28.196] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-18 05:19:28.199] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:28.202] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:28.204] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:19:28.205] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-18 05:19:28.207] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-18 05:19:28.208] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-18 05:19:28.211] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 05:19:28.212] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-18 05:19:28.213] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 05:19:28.214] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-18 05:19:28.215] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-18 05:19:28.216] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-18 05:19:28.217] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-18 05:19:28.217] [info]  [app] event=license.verify status=success state=approved storeId=3412109495
+[2026-08-18 05:19:28.256] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-18 05:19:28.259] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:19:28.268] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-18 05:19:28.559] [error] [serialport] [SerialPort Error] board1 (COM6): Opening COM6: Access denied
+[2026-08-18 05:19:28.560] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-18 05:19:28.562] [error] [serialport] [SerialPort Error] board2 (COM7): Opening COM7: Access denied
+[2026-08-18 05:19:28.564] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-18 05:19:28.779] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-18 05:19:28.781] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-18 05:19:28.782] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-18 05:19:28.987] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-18 05:19:28.989] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-18 05:19:28.990] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-18 05:19:29.366] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-18 05:19:29.931] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-18 05:19:29.933] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:30.001] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-18 05:19:34.874] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-18 05:19:34.878] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:46.168] [debug] [api] [api] event=order.create status=started version=v3 route=POST_/v3/order
+[2026-08-18 05:19:46.172] [info]  [api] ========================================================================
+[2026-08-18 05:19:46.172] [info]  [api] 🛎️ [HASTE TOSS ORDER RECEIVED] OrderID: 744651643539836711
+[2026-08-18 05:19:46.173] [info]  [api] 🎯 [HASTE Connected via Target URL]: 알 수 없음
+[2026-08-18 05:19:46.174] [info]  [api] 📦 [HASTE Raw Payload] {"orderId":"744651643539836711","items":[{"productNo":"16275962","name":"프리미엄티","englishName":"","description":"","englishDescription":"","manufacturer":"","count":1,"isDessert":false,"options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]}],"productNo":"16275962","options":[{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}],"tossStoreId":"543655","storeNo":"543655"}
+[2026-08-18 05:19:46.174] [info]  [api] ☕ [HASTE Items List] 총 1종 품목 인입:
+[2026-08-18 05:19:46.175] [info]  [api]    [#1] Name: "프리미엄티", Code: "16275962", Count: 1, Options: [{"optionCode":"1714039","optionName":"ICE","price":0,"quantity":1}]
+[2026-08-18 05:19:46.176] [info]  [api] ========================================================================
+[2026-08-18 05:19:46.177] [info]  [api] [HASTE Auto-Adopt from Order] Updating storeNo: 3412109495 -> 543655
+[2026-08-18 05:19:46.179] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=543655 deviceModelId=D0000
+[2026-08-18 05:19:46.180] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=543655 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:19:46.181] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:19:46.189] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:46.191] [info]  [api] [HASTE Toss Option Translate] 16275962 + [IC] -> 16275962
+[2026-08-18 05:19:46.194] [info]  [HASTE DB Init] haste_menu.db connection established at: C:\Users\CoffeeVanada\AppData\Roaming\haste3.0\haste_menu.db
+[2026-08-18 05:19:46.198] [info]  [HASTE DB Init] haste_product.db connection established at: C:\Users\CoffeeVanada\AppData\Roaming\haste3.0\haste_product.db
+[2026-08-18 05:19:46.201] [info]  [api] [HASTE Korean Fallback Matched] "프리미엄티" + [IC] -> MTI5013 (ICED프리미엄티)
+[2026-08-18 05:19:46.204] [debug] [task] [task] event=task.enqueue status=accepted orderId=744651643539836711 priority=99 description=음료_제조_(744651643539836711)
+[2026-08-18 05:19:46.205] [debug] [task] [task] event=task.start status=started orderId=744651643539836711 menuCount=1
+[2026-08-18 05:19:46.206] [info]  [api] ========================================================================
+[2026-08-18 05:19:46.207] [info]  [api] 🚀 [HASTE Multi-Cup Queue Success] Order 744651643539836711: 총 1잔 연속 제조 큐 적재 완료!
+[2026-08-18 05:19:46.208] [info]  [api]    [제조순서 #1/1] ICED프리미엄티 | 코드: MTI5013 | 컵: 컵1 | 스텝수: 2
+[2026-08-18 05:19:46.209] [info]  [api] ========================================================================
+[2026-08-18 05:19:46.301] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:19:46.305] [debug] [task] [task] event=brew.menu status=started orderId=744651643539836711 menuName=ICED프리미엄티 stepCount=2 cupIndex=1 totalCups=1
+[2026-08-18 05:19:46.317] [debug] [task] [task] event=brew.step status=started orderId=744651643539836711 menuName=ICED프리미엄티 step=2 message="cup drop started"
+[2026-08-18 05:19:46.319] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=pre
+[2026-08-18 05:19:46.320] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=max
+[2026-08-18 05:19:46.832] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=3412109495 deviceModelId=D0000
+[2026-08-18 05:19:46.833] [debug] [tollgate] [lilly-ws] event=settings.change status=success storeNo=3412109495 deviceId=A8:A1:59:DD:64:66
+[2026-08-18 05:19:46.834] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-18 05:19:46.837] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-18 05:19:46.888] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-18 05:19:46.956] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP301E4B\\x03')"
+[2026-08-18 05:19:46.965] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:19:46.966] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:46.968] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:19:47.064] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:19:47.173] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:19:47.281] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1
+[2026-08-18 05:19:47.288] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.385] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:47.388] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:47.390] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:47.515] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:47.528] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.531] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.574] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=63 message="bytearray(b'\\x02174DPC000010\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:47.577] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":2,\"7\":49,\"8\":55,\"9\":52,\"10\":68,\"11\":80,\"12\":67,\"13\":48,\"14\":48,\"15\":48,\"16\":48,\"17\":49,\"18\":48,\"19\":48,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":49,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":49,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":48,\"41\":48,\"42\":48,\"43\":48,\"44\":48,\"45\":48,\"46\":48,\"47\":48,\"48\":48,\"49\":48,\"50\":48,\"51\":48,\"52\":48,\"53\":70},\"values\":[0,0,0,0,1,0,-46,1,7,4,20,32,19,0,0,0,0,1,0,0,..."
+[2026-08-18 05:19:47.580] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-18 05:19:47.624] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:47.637] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.639] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.736] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:47.772] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=63 message="bytearray(b'\\x02174DPC000010\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:47.774] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":2,\"7\":49,\"8\":55,\"9\":52,\"10\":68,\"11\":80,\"12\":67,\"13\":48,\"14\":48,\"15\":48,\"16\":48,\"17\":49,\"18\":48,\"19\":48,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":49,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":49,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":48,\"41\":48,\"42\":48,\"43\":48,\"44\":48,\"45\":48,\"46\":48,\"47\":48,\"48\":48,\"49\":48,\"50\":48,\"51\":48,\"52\":48,\"53\":70},\"values\":[0,0,0,0,1,0,-46,1,7,4,20,32,19,0,0,0,0,1,0,0,..."
+[2026-08-18 05:19:47.775] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-18 05:19:47.827] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.846] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:47.933] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:47.941] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:47.944] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:47.947] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:48.037] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:48.039] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.049] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:48.073] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:48.118] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:48.120] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.160] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:48.195] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:48.197] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:48.269] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:48.361] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:48.375] [debug] [cup] [cup] event=cup.sensor status=success cupName=컵1 sensor=motorRotationCheckSwitch1 value=0
+[2026-08-18 05:19:48.386] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=63 message="bytearray(b'\\x02174DPC000010\\x02174DPC0000100000000010000100000000000000000000F6\\x03')"
+[2026-08-18 05:19:48.388] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":false,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":2,\"7\":49,\"8\":55,\"9\":52,\"10\":68,\"11\":80,\"12\":67,\"13\":48,\"14\":48,\"15\":48,\"16\":48,\"17\":49,\"18\":48,\"19\":48,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":49,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":49,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":48,\"41\":48,\"42\":48,\"43\":48,\"44\":48,\"45\":48,\"46\":48,\"47\":48,\"48\":48,\"49\":48,\"50\":48,\"51\":48,\"52\":48,\"53\":70},\"values\":[0,0,0,0,1,0,-46,1,7,4,20,32,19,0,0,0,0,1,0,0,..."
+[2026-08-18 05:19:48.390] [debug] [serialport] [serialport] event=serialport.packet.parse status=ignored reason=invalid_packet boardName=board1
+[2026-08-18 05:19:48.442] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:48.452] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000101000000010000100000000000000000000F7\\x03')"
+[2026-08-18 05:19:48.454] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":49,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.458] [debug] [cup] [cup] event=cup.out status=success cupName=컵1
+[2026-08-18 05:19:48.542] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:48.545] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000101000000010000100000000000000000000F7\\x03')"
+[2026-08-18 05:19:48.547] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":49,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.621] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000101000000010000100000000000000000000F7\\x03')"
+[2026-08-18 05:19:48.623] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":49,\"7\":48,\"8\":48,\"9\":48,\"10\":48,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.670] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-18 05:19:48.671] [debug] [cup] [cup] event=cup.motor status=success cupName=컵1 motor=cupDropMotor1 phase=post
+[2026-08-18 05:19:48.691] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:19:48.694] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.696] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:19:48.771] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300338\\x03')"
+[2026-08-18 05:19:48.777] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:19:48.779] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:48.782] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:19:49.108] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02056DCP300035\\x03')"
+[2026-08-18 05:19:49.112] [debug] [api] [api] event=did.callback status=started orderId=744651643539836711 menuName=ICED프리미엄티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.117] [debug] [api] [api] event=did.callback status=started orderId=744651643539836711 menuName=ICED프리미엄티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.138] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.143] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.145] [debug] [task] [task] event=brew.step status=started orderId=744651643539836711 menuName=ICED프리미엄티 step=3 message="cup mount wait"
+[2026-08-18 05:19:49.476] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02036APC6D\\x03')"
+[2026-08-18 05:19:49.478] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"6\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:49.491] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=6 action=A
+[2026-08-18 05:19:49.624] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02034QCP7B\\x03')"
+[2026-08-18 05:19:49.677] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=50 message="bytearray(b'\\x02174DPC0000100000100010000100000000000000000000F7\\x03')"
+[2026-08-18 05:19:49.679] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"4\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":48,\"2\":48,\"3\":48,\"4\":49,\"5\":48,\"6\":48,\"7\":48,\"8\":48,\"9\":48,\"10\":49,\"11\":48,\"12\":48,\"13\":48,\"14\":49,\"15\":48,\"16\":48,\"17\":48,\"18\":48,\"19\":49,\"20\":48,\"21\":48,\"22\":48,\"23\":48,\"24\":48,\"25\":48,\"26\":48,\"27\":48,\"28\":48,\"29\":48,\"30\":48,\"31\":48,\"32\":48,\"33\":48,\"34\":48,\"35\":48,\"36\":48,\"37\":48,\"38\":48,\"39\":48,\"40\":70},\"values\":[0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:49.682] [debug] [cup] [cup] event=cup.mount status=success sensor=slideDoorSafetySensor2
+[2026-08-18 05:19:49.685] [debug] [api] [api] event=did.callback status=started orderId=744651643539836711 menuName=ICED프리미엄티 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.688] [debug] [api] [api] event=did.callback status=started orderId=744651643539836711 menuName=ICED프리미엄티 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.712] [debug] [task] [task] event=brew.step status=started orderId=744651643539836711 menuName=ICED프리미엄티 step=4 message="beverage action started (1st golden forkJoin)"
+[2026-08-18 05:19:49.716] [debug] [water] [water] event=ice.out status=success protocol=ICE amount=5100 goal=5610 current=0 phase=started
+[2026-08-18 05:19:49.722] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:49.726] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-18 05:19:50.328] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201B03300820341\\x03')"
+[2026-08-18 05:19:50.355] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200B03300830341\\x03')"
+[2026-08-18 05:19:50.358] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":66,\"5\":48,\"6\":51,\"7\":51,\"8\":48,\"9\":48,\"10\":56,\"11\":51,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"B0\",\"33\",\"00\",\"83\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:50.556] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-18 05:19:50.710] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP20C84E\\x03')"
+[2026-08-18 05:19:50.743] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100022563000400050006000700080009000:000;000<000=000>000?000@000A148B000C000D0006A\\x03')"
+[2026-08-18 05:19:50.744] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":50,\"6\":53,\"7\":54,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-18 05:19:50.747] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02035APC6C\\x03')"
+[2026-08-18 05:19:50.750] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"5\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:50.751] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=5 action=A
+[2026-08-18 05:19:50.843] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=14 message="bytearray(b'\\x02055DCP200033\\x03')"
+[2026-08-18 05:19:50.846] [debug] [water] [water] event=water.out status=success protocol=COLD name=정수 amount=240 goal=302 current=328 lastValue=328
+[2026-08-18 05:19:50.959] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=10 message="bytearray(b'\\x02035APC6C\\x03')"
+[2026-08-18 05:19:50.960] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"5\",\"act\":\"A\",\"data\":{\"0\":54},\"values\":[],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-18 05:19:50.964] [debug] [serialport] [serialport] event=serialport.packet.response status=success boardName=board1 functionGroup=5 action=A
