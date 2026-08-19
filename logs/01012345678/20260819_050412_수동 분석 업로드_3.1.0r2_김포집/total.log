@@ -1,0 +1,1000 @@
+[2026-08-19 13:22:22.516] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:22:24.423] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1787113344116 productNo=MDH1008
+[2026-08-19 13:22:24.426] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1787113344116 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-19 13:22:24.429] [info]  [kiosk] [manual] event=order.received status=success source=manual mode=dry_run orderId=TEST-1787113344116 bill=0000 menuCount=1 mappings=[{"baseCode":"MDH1008","recipeCode":"MDH1008","matchedMenuName":"HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV","stepsSummary":"CUP:HOT,_HOT:260,_SIRUP6:35,_COFFEE:90,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-19 13:22:24.430] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1787113344116 priority=99 description=음료_제조_(TEST-1787113344116)
+[2026-08-19 13:22:24.432] [debug] [task] [task] event=task.start status=started source=manual_test mode=dry_run orderId=TEST-1787113344116 menuCount=1
+[2026-08-19 13:22:24.434] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1787113344116 productNo=MDH1008 bill=0000
+[2026-08-19 13:22:24.451] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1787113344116 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV stepCount=10
+[2026-08-19 13:22:24.481] [debug] [task] [task] event=brew.step status=started orderId=TEST-1787113344116 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV step=2 message="cup drop started"
+[2026-08-19 13:22:24.484] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-19 13:22:24.485] [error] [task] [task] event=parts.command status=failed reason=send_failed action=sensor_check boardName=board1 part=dispenserInputSensor7
+[2026-08-19 13:22:24.511] [error] [task] [task] event=brew.step status=failed orderId=TEST-1787113344116 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV step=step2 reason=step_failed message="[TEST-1787113344116] [HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV] 컵 추출 실패: 컵5"
+[2026-08-19 13:22:24.515] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113344116 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:24.517] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113344116 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:24.523] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:24.526] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:24.530] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:24.532] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:25.010] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:25.014] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:25.070] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:25.072] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:26.055] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:26.058] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:26.145] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:26.148] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:28.166] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:28.169] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:28.317] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:22:28.319] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:22:28.321] [error] [task] [task] event=task.fail status=failed orderId=TEST-1787113344116 reason=brew_failed message="[TEST-1787113344116] [HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV] 컵 추출 실패: 컵5"
+[2026-08-19 13:22:28.331] [error] [task] [task] event=task.queue status=failed orderId=TEST-1787113344116 reason=task_run_failed description=음료_제조_(TEST-1787113344116) message="BREW_STEP_FAILED:2:[TEST-1787113344116] [HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV] 컵 추출 실패: 컵5"
+[2026-08-19 13:30:15.970] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-19 13:30:16.381] [info]  [app] event=app.startup status=started appVersion=3.1.0r2 packaged=false
+[2026-08-19 13:30:16.443] [info]  [app] event=app.window status=success
+[2026-08-19 13:30:16.510] [info]  [app] event=app.tray status=success
+[2026-08-19 13:30:16.511] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-19 13:30:16.515] [info]  [app] event=app.ipc status=success
+[2026-08-19 13:30:16.518] [info]  [app] event=task.start status=success
+[2026-08-19 13:30:16.520] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-19 13:30:16.523] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-19 13:30:16.534] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-19 13:30:16.539] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-19 13:30:16.541] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-19 13:30:16.544] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:30:16.547] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-19 13:30:16.550] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:30:16.560] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-19 13:30:16.563] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-19 13:30:16.567] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:16.570] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:16.572] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:30:16.575] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:16.576] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:16.578] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:30:16.581] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-19 13:30:16.587] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-19 13:30:16.588] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:30:16.591] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:30:16.592] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:30:16.594] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-19 13:30:16.596] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:30:16.600] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=60 normalizedIntervalSec=60
+[2026-08-19 13:30:16.602] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-19 13:30:16.603] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-19 13:30:16.604] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-19 13:30:16.605] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-19 13:30:16.631] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:30:16.635] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:30:16.636] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:30:21.561] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:30:21.566] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:30:23.718] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:30:23.722] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:23.783] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:30:24.038] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.042] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.045] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.090] [info]  [task] [HASTE Single Correct] Corrected productNo=undefined (type=name_only) to match Google standard
+[2026-08-19 13:30:24.093] [error] [Client] [POS_SYNC] [IMPORT_FAIL] : 가져올 키오스크 상품 번호가 전달되지 않았습니다.
+[2026-08-19 13:30:24.103] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.105] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.107] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-19 13:30:24.110] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "true"
+[2026-08-19 13:30:24.113] [info]  [HASTE] Successfully cloned 61 kiosk items to local SQLite DB & store!
+[2026-08-19 13:30:24.122] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.125] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.126] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-19 13:30:24.129] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "true"
+[2026-08-19 13:30:24.202] [info]  [HASTE Standard Recipe Apply] Successfully synced 61 Toss Kiosk products from Google Sheet SOT! (Tier: MV_STANDARD)
+[2026-08-19 13:30:24.203] [info]  [HASTE Standard Recipe Apply] Successfully generated and injected 218 store-matched physical recipes & Toss Kiosk menu from Google Sheet SOT! (Hopper1: D_SAVE, Hopper2: N_SAVE)
+[2026-08-19 13:30:24.221] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:24.223] [info]  [task] [HASTE Pricing] Successfully applied pricing tier 'MV_STANDARD' to 61 kiosk menu items.
+[2026-08-19 13:30:24.513] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:30:31.569] [debug] [api] [api] event=order.create status=started version=v1 orderId=INSTANT-1787113831255 productNo=MMI3007
+[2026-08-19 13:30:31.571] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=INSTANT-1787113831255 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-19 13:30:31.574] [info]  [kiosk] [manual] event=order.received status=success source=manual mode=dry_run orderId=INSTANT-1787113831255 bill=0000 menuCount=1 mappings=[{"baseCode":"MMI3007","recipeCode":"MMI3007","matchedMenuName":"ICED군고구마라떼(말차)_MV","stepsSummary":"CUP:ICE,_ICE:5100,_COLD_MILK:200,_SIRUP19:40,_SIRUP20:30,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-19 13:30:31.576] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787113831255 priority=99 description=음료_제조_(INSTANT-1787113831255)
+[2026-08-19 13:30:31.579] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787113831255 menuCount=1
+[2026-08-19 13:30:31.584] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787113831255 productNo=MMI3007 bill=0000
+[2026-08-19 13:30:31.588] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV stepCount=10
+[2026-08-19 13:30:32.622] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV step=주문스텝2
+[2026-08-19 13:30:32.625] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:32.627] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:32.633] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:32.635] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:32.638] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:32.640] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:33.122] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:33.125] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:33.167] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:33.170] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:34.181] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:34.184] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:34.186] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:34.188] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:36.209] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:36.211] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:36.254] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:36.256] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:37.282] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV step=주문스텝3
+[2026-08-19 13:30:37.285] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:37.287] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:37.291] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:37.293] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:37.295] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:37.297] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:37.663] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000 message="connect ETIMEDOUT 192.168.10.138:25000"
+[2026-08-19 13:30:37.783] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:37.786] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:37.844] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:37.847] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:38.863] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:38.866] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:38.908] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:38.910] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:40.968] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:40.971] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:41.058] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:41.061] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:47.106] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV step=주문스텝4
+[2026-08-19 13:30:47.109] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:47.114] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:47.126] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:47.128] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:47.131] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:47.133] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:47.622] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:47.624] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:47.697] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:47.699] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:48.637] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:48.640] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:48.742] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:48.746] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:50.603] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:50.605] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:50.861] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:50.865] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:51.920] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV step=주문스텝5
+[2026-08-19 13:30:51.923] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:51.925] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787113831255 menuName=ICED군고구마라떼(말차)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:51.930] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:51.932] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:51.933] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:51.935] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:52.422] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:52.424] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:52.498] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:52.500] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:53.421] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:53.424] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:53.526] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:53.531] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:55.421] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:55.423] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:55.678] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:30:55.681] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:30:55.692] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787113831255
+[2026-08-19 13:31:47.146] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1787113906831 productNo=MDH1006
+[2026-08-19 13:31:47.148] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1787113906831 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-19 13:31:47.152] [info]  [kiosk] [manual] event=order.received status=success source=manual mode=dry_run orderId=TEST-1787113906831 bill=0000 menuCount=1 mappings=[{"baseCode":"MDH1006","recipeCode":"MDH1006","matchedMenuName":"HOT아메리카노(다크시그니처)(설탕)(연하게)_MV","stepsSummary":"CUP:HOT,_HOT:300,_SIRUP6:35,_COFFEE:45,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-19 13:31:47.154] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1787113906831 priority=99 description=음료_제조_(TEST-1787113906831)
+[2026-08-19 13:31:47.156] [debug] [task] [task] event=task.start status=started source=manual_test mode=dry_run orderId=TEST-1787113906831 menuCount=1
+[2026-08-19 13:31:47.158] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1787113906831 productNo=MDH1006 bill=0000
+[2026-08-19 13:31:47.164] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV stepCount=10
+[2026-08-19 13:31:48.200] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝2
+[2026-08-19 13:31:48.203] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:48.207] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:48.213] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:48.215] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:48.220] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:48.222] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:48.718] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:48.720] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:48.748] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:48.751] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:49.743] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:49.746] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:49.803] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:49.805] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:51.785] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:51.787] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:51.922] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:51.924] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:52.951] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝3
+[2026-08-19 13:31:52.953] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:52.955] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:52.960] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:52.962] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:52.967] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:52.969] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:53.468] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:53.471] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:53.516] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:53.519] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:54.419] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:54.422] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:54.601] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:54.604] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:56.251] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:56.254] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:31:56.525] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:31:56.527] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:01.091] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝4
+[2026-08-19 13:32:01.095] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:01.099] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:01.106] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:01.110] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:01.114] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:01.117] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:01.609] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:01.612] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:01.654] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:01.657] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:02.576] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:02.579] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:02.742] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:02.744] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:04.768] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:04.770] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:04.859] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:04.861] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:05.904] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝5
+[2026-08-19 13:32:05.907] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:05.909] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787113906831 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:05.915] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:05.917] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:05.919] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:05.922] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:06.390] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:06.392] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:06.451] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:06.453] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:07.451] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:07.454] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:07.467] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:07.469] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:09.390] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:09.392] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:09.542] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:32:09.544] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:32:09.556] [debug] [task] [task] event=task.complete status=success orderId=TEST-1787113906831
+[2026-08-19 13:34:38.370] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-19 13:34:38.780] [info]  [app] event=app.startup status=started appVersion=3.1.0r2 packaged=false
+[2026-08-19 13:34:38.840] [info]  [app] event=app.window status=success
+[2026-08-19 13:34:38.905] [info]  [app] event=app.tray status=success
+[2026-08-19 13:34:38.906] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-19 13:34:38.909] [info]  [app] event=app.ipc status=success
+[2026-08-19 13:34:38.911] [info]  [app] event=task.start status=success
+[2026-08-19 13:34:38.913] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-19 13:34:38.917] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-19 13:34:38.926] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-19 13:34:38.931] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-19 13:34:38.933] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-19 13:34:38.940] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:34:38.944] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-19 13:34:38.947] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:34:38.956] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-19 13:34:38.958] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-19 13:34:38.966] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:38.969] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:38.971] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:34:38.974] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:38.977] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:38.979] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:34:38.981] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-19 13:34:38.986] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-19 13:34:38.987] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:34:38.989] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:34:38.991] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:34:38.992] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-19 13:34:38.994] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:34:38.995] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=60 normalizedIntervalSec=60
+[2026-08-19 13:34:38.997] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-19 13:34:39.001] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-19 13:34:39.002] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-19 13:34:39.003] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-19 13:34:39.028] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:34:39.032] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:34:39.034] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:34:43.955] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:34:43.957] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:34:47.965] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:34:47.970] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.033] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:34:48.557] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.561] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.564] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.612] [info]  [task] [HASTE Single Correct] Corrected productNo=undefined (type=name_only) to match Google standard
+[2026-08-19 13:34:48.617] [error] [Client] [POS_SYNC] [IMPORT_FAIL] : 가져올 키오스크 상품 번호가 전달되지 않았습니다.
+[2026-08-19 13:34:48.626] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.628] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.630] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-19 13:34:48.635] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "true"
+[2026-08-19 13:34:48.637] [info]  [HASTE] Successfully cloned 61 kiosk items to local SQLite DB & store!
+[2026-08-19 13:34:48.647] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.650] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.651] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-19 13:34:48.657] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "true"
+[2026-08-19 13:34:48.735] [info]  [HASTE Standard Recipe Apply] Successfully synced 61 Toss Kiosk products from Google Sheet SOT! (Tier: MV_STANDARD)
+[2026-08-19 13:34:48.737] [info]  [HASTE Standard Recipe Apply] Successfully generated and injected 218 store-matched physical recipes & Toss Kiosk menu from Google Sheet SOT! (Hopper1: D_SAVE, Hopper2: N_SAVE)
+[2026-08-19 13:34:48.757] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:48.758] [info]  [task] [HASTE Pricing] Successfully applied pricing tier 'MV_STANDARD' to 61 kiosk menu items.
+[2026-08-19 13:34:49.008] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:34:49.230] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1787114088914 productNo=MDH1009
+[2026-08-19 13:34:49.233] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1787114088914 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-19 13:34:49.237] [info]  [kiosk] [manual] event=order.received status=success source=manual mode=dry_run orderId=TEST-1787114088914 bill=0000 menuCount=1 mappings=[{"baseCode":"MDH1009","recipeCode":"MDH1009","matchedMenuName":"HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV","stepsSummary":"CUP:HOT,_HOT:300,_SIRUP7:35,_COFFEE:45,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-19 13:34:49.241] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1787114088914 priority=99 description=음료_제조_(TEST-1787114088914)
+[2026-08-19 13:34:49.244] [debug] [task] [task] event=task.start status=started source=manual_test mode=dry_run orderId=TEST-1787114088914 menuCount=1
+[2026-08-19 13:34:49.247] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1787114088914 productNo=MDH1009 bill=0000
+[2026-08-19 13:34:49.256] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV stepCount=10
+[2026-08-19 13:34:50.299] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV step=주문스텝2
+[2026-08-19 13:34:50.304] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:50.307] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:50.317] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:50.320] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:50.324] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:50.326] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:50.803] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:50.805] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:50.863] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:50.865] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:51.785] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:51.787] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:51.891] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:51.894] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:53.833] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:53.836] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:53.894] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:53.896] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:54.919] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV step=주문스텝3
+[2026-08-19 13:34:54.921] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:54.924] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:54.930] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:54.933] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:54.937] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:54.938] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:55.421] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:55.424] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:55.512] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:55.515] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:56.360] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:56.362] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:56.512] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:56.515] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:58.236] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:58.239] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:34:58.342] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:34:58.345] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:00.066] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000 message="connect ETIMEDOUT 192.168.10.138:25000"
+[2026-08-19 13:35:02.898] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV step=주문스텝4
+[2026-08-19 13:35:02.901] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:02.903] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:02.907] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:02.909] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:02.911] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:02.913] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:03.429] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:03.431] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:03.444] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:03.445] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:04.396] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:04.399] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:04.441] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:04.444] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:06.429] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:06.432] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:06.521] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:06.523] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:07.552] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV step=주문스텝5
+[2026-08-19 13:35:07.555] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:07.556] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787114088914 menuName=HOT아메리카노(다크시그니처)(헤이즐넛)(연하게)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:07.561] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:07.563] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:07.566] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:07.567] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:08.053] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:08.056] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:08.113] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:08.116] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:09.131] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:09.135] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:09.148] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:09.150] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:11.236] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:11.238] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:11.358] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:35:11.361] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:35:11.373] [debug] [task] [task] event=task.complete status=success orderId=TEST-1787114088914
+[2026-08-19 13:53:07.986] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-19 13:53:08.425] [info]  [app] event=app.startup status=started appVersion=3.1.0r2 packaged=false
+[2026-08-19 13:53:08.526] [info]  [app] event=app.window status=success
+[2026-08-19 13:53:08.594] [info]  [app] event=app.tray status=success
+[2026-08-19 13:53:08.595] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-19 13:53:08.599] [info]  [app] event=app.ipc status=success
+[2026-08-19 13:53:08.601] [info]  [app] event=task.start status=success
+[2026-08-19 13:53:08.603] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-19 13:53:08.607] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-19 13:53:08.617] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-19 13:53:08.622] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-19 13:53:08.625] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-19 13:53:08.627] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:53:08.630] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-19 13:53:08.633] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:53:08.642] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-19 13:53:08.645] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-19 13:53:08.649] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:08.652] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:08.654] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:53:08.658] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:08.660] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:08.661] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:53:08.663] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-19 13:53:08.667] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-19 13:53:08.668] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:53:08.671] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:53:08.674] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:53:08.675] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-19 13:53:08.677] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:53:08.678] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=60 normalizedIntervalSec=60
+[2026-08-19 13:53:08.680] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-19 13:53:08.680] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-19 13:53:08.685] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-19 13:53:08.686] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-19 13:53:08.710] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:53:08.714] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:53:08.717] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:53:13.648] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:53:13.652] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:53:18.495] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:53:18.500] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.550] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:53:18.801] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.804] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.807] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.855] [info]  [task] [HASTE Single Correct] Corrected productNo=undefined (type=name_only) to match Google standard
+[2026-08-19 13:53:18.859] [error] [Client] [POS_SYNC] [IMPORT_FAIL] : 가져올 키오스크 상품 번호가 전달되지 않았습니다.
+[2026-08-19 13:53:18.866] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.869] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.871] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-19 13:53:18.876] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "true"
+[2026-08-19 13:53:18.878] [info]  [HASTE] Successfully cloned 61 kiosk items to local SQLite DB & store!
+[2026-08-19 13:53:18.887] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.889] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.891] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-19 13:53:18.894] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "true"
+[2026-08-19 13:53:18.973] [info]  [HASTE Standard Recipe Apply] Successfully synced 61 Toss Kiosk products from Google Sheet SOT! (Tier: MV_STANDARD)
+[2026-08-19 13:53:18.974] [info]  [HASTE Standard Recipe Apply] Successfully generated and injected 218 store-matched physical recipes & Toss Kiosk menu from Google Sheet SOT! (Hopper1: D_SAVE, Hopper2: N_SAVE)
+[2026-08-19 13:53:18.993] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:18.994] [info]  [task] [HASTE Pricing] Successfully applied pricing tier 'MV_STANDARD' to 61 kiosk menu items.
+[2026-08-19 13:53:19.303] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 13:53:23.311] [debug] [api] [api] event=order.create status=started version=v1 orderId=TEST-1787115202990 productNo=MDH1000
+[2026-08-19 13:53:23.314] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=TEST-1787115202990 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-19 13:53:23.317] [info]  [kiosk] [manual] event=order.received status=success source=manual mode=dry_run orderId=TEST-1787115202990 bill=0000 menuCount=1 mappings=[{"baseCode":"MDH1000","recipeCode":"MDH1000","matchedMenuName":"HOT에스프레소_도피오(다크시그니처)_MV","stepsSummary":"CUP:HOT,_COFFEE:45,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-19 13:53:23.319] [debug] [task] [task] event=task.enqueue status=accepted orderId=TEST-1787115202990 priority=99 description=음료_제조_(TEST-1787115202990)
+[2026-08-19 13:53:23.322] [debug] [task] [task] event=task.start status=started source=manual_test mode=dry_run orderId=TEST-1787115202990 menuCount=1
+[2026-08-19 13:53:23.326] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=TEST-1787115202990 productNo=MDH1000 bill=0000
+[2026-08-19 13:53:23.329] [debug] [task] [task] event=brew.menu status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV stepCount=10
+[2026-08-19 13:53:24.338] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝2
+[2026-08-19 13:53:24.342] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:24.344] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:24.350] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:24.352] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:24.358] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:24.360] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:24.827] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:24.829] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:24.930] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:24.933] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:25.822] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:25.826] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:26.048] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:26.051] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:27.727] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:27.730] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:28.242] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:28.245] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:29.298] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝3
+[2026-08-19 13:53:29.301] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:29.303] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:29.310] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:29.311] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:29.314] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:29.316] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:29.738] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000 message="connect ETIMEDOUT 192.168.10.138:25000"
+[2026-08-19 13:53:29.814] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:29.817] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:29.819] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:29.821] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:30.785] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:30.787] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:30.846] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:30.848] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:32.722] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:32.726] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:32.872] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:32.875] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:34.417] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝4
+[2026-08-19 13:53:34.420] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:34.425] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:34.433] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:34.435] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:34.439] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:34.444] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:34.965] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:34.968] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:34.971] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:34.975] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:36.012] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:36.015] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:36.057] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:36.061] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:38.100] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:38.103] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:38.161] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:38.165] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:39.204] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝5
+[2026-08-19 13:53:39.208] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:39.210] [debug] [api] [api] event=did.callback status=started orderId=TEST-1787115202990 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:39.216] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:39.217] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:39.219] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:39.223] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:39.706] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:39.709] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:39.751] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:39.753] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:40.645] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:40.647] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:40.781] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:40.783] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:42.692] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:42.695] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:42.699] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:42.700] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:42.703] [debug] [task] [task] event=task.complete status=success orderId=TEST-1787115202990
+[2026-08-19 13:53:56.507] [debug] [api] [api] event=order.create status=started version=v1 orderId=BULK-TEST-1787115236504 productNo=MDH1000
+[2026-08-19 13:53:56.510] [warn]  [api] [api] event=api.auth status=warning version=v1 command=ORDER orderId=BULK-TEST-1787115236504 reason=invalid_token_bypassed receivedToken=TEST_BREW_TOKEN
+[2026-08-19 13:53:56.513] [info]  [kiosk] [manual] event=order.received status=success source=manual mode=dry_run orderId=BULK-TEST-1787115236504 bill=7777 menuCount=4 mappings=[{"baseCode":"MDH1000","recipeCode":"MDH1000","matchedMenuName":"HOT에스프레소_도피오(다크시그니처)_MV","stepsSummary":"CUP:HOT,_COFFEE:45,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"},{"baseCode":"MDH1006","recipeCode":"MDH1006","matchedMenuName":"HOT아메리카노(다크시그니처)(설탕)(연하게)_MV","stepsSummary":"CUP:HOT,_HOT:300,_SIRUP6:35,_COFFEE:45,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"},{"baseCode":"MDH1007","recipeCode":"MDH1007","matchedMenuName":"HOT아메리카노(다크시그니처)(설탕)_MV","stepsSummary":"CUP:HOT,_HOT:300,_SIRUP6:35,_COFFEE:62,_NONE:NONE,_NONE:NONE,_N... isTestBrew=true
+[2026-08-19 13:53:56.515] [debug] [task] [task] event=task.enqueue status=accepted orderId=BULK-TEST-1787115236504 priority=99 description=음료_제조_(BULK-TEST-1787115236504)
+[2026-08-19 13:53:56.517] [debug] [task] [task] event=task.start status=started source=bulk_test mode=dry_run orderId=BULK-TEST-1787115236504 menuCount=4
+[2026-08-19 13:53:56.519] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=BULK-TEST-1787115236504 productNo=MDH1000 bill=7777 barcode=99999
+[2026-08-19 13:53:56.524] [debug] [task] [task] event=brew.menu status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV stepCount=10
+[2026-08-19 13:53:57.553] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝2
+[2026-08-19 13:53:57.555] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:57.559] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:57.565] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:57.567] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:57.569] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:57.571] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:58.098] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:58.101] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:58.144] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:58.147] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:59.113] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:59.115] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:53:59.119] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:53:59.120] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:00.972] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:00.975] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:01.247] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:01.249] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:02.303] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝3
+[2026-08-19 13:54:02.305] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:02.308] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:02.313] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:02.314] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:02.317] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:02.320] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:02.803] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:02.806] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:02.809] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:02.810] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:03.912] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:03.915] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:03.917] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:03.918] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:05.915] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:05.917] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:05.945] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:05.947] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:07.489] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝4
+[2026-08-19 13:54:07.492] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:07.495] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:07.499] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:07.500] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:07.502] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:07.504] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:08.021] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:08.024] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:08.027] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:08.029] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:09.070] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:09.072] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:09.130] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:09.133] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:11.161] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:11.163] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:11.206] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:11.209] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:12.221] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV step=주문스텝5
+[2026-08-19 13:54:12.226] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:12.228] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT에스프레소_도피오(다크시그니처)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:12.232] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:12.234] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:12.238] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:12.240] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:12.722] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:12.726] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:12.812] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:12.815] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:13.707] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:13.709] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:13.752] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:13.755] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:15.599] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:15.602] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:15.933] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:15.935] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:15.947] [debug] [task] [task] event=brew.menu status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV stepCount=10
+[2026-08-19 13:54:16.964] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝2
+[2026-08-19 13:54:16.967] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:16.970] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:16.975] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:16.977] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:16.979] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:16.982] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:17.540] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:17.543] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:17.545] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:17.546] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:18.508] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:18.510] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:18.660] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:18.662] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:20.432] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:20.434] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:20.674] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:20.677] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:21.720] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝3
+[2026-08-19 13:54:21.722] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:21.726] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:21.730] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:21.732] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:21.735] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:21.738] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:22.267] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:22.270] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:22.297] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:22.299] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:23.266] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:23.269] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:23.373] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:23.378] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:25.387] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:25.391] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:25.463] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:25.466] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:30.007] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝4
+[2026-08-19 13:54:30.010] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:30.013] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:30.018] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:30.020] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:30.024] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:30.028] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:30.567] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:30.570] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:30.582] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:30.585] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:31.548] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:31.550] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:31.638] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:31.641] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:33.502] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:33.504] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:33.791] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:33.795] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:34.807] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV step=주문스텝5
+[2026-08-19 13:54:34.809] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:34.812] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(연하게)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:34.816] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:34.817] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:34.820] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:34.822] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:35.352] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:35.354] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:35.358] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:35.359] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:36.365] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:36.368] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:36.411] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:36.414] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:38.483] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:38.486] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:38.618] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:38.621] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:38.632] [debug] [task] [task] event=brew.menu status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV stepCount=10
+[2026-08-19 13:54:39.678] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV step=주문스텝2
+[2026-08-19 13:54:39.684] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:39.689] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:39.701] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:39.704] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:39.708] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:39.713] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:40.238] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:40.242] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:40.245] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:40.247] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:41.194] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:41.198] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:41.254] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:41.257] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:43.159] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:43.162] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:43.310] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:43.312] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:44.327] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV step=주문스텝3
+[2026-08-19 13:54:44.330] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:44.333] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:44.338] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:44.341] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:44.346] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:44.347] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:44.826] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:44.828] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:44.831] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:44.833] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:45.842] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:45.847] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:45.869] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:45.874] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:47.713] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:47.716] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:47.988] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:47.992] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:52.559] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV step=주문스텝4
+[2026-08-19 13:54:52.561] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:52.563] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:52.567] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:52.569] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:52.572] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:52.573] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:53.077] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:53.079] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:53.135] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:53.137] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:54.093] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:54.095] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:54.182] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:54.187] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:56.122] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:56.127] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:56.287] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:56.291] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:57.333] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV step=주문스텝5
+[2026-08-19 13:54:57.337] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:57.341] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:57.347] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:57.351] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:57.354] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:57.358] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:57.878] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:57.881] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:57.909] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:57.912] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:58.909] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:58.911] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:54:58.923] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:54:58.926] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:00.829] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:00.832] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:00.920] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:00.923] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:00.935] [debug] [task] [task] event=brew.menu status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV stepCount=10
+[2026-08-19 13:55:01.965] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV step=주문스텝2
+[2026-08-19 13:55:01.973] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:01.982] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:01.996] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:02.001] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:02.006] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:02.011] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:02.482] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:02.490] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:02.528] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:02.533] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:03.451] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:03.454] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:03.456] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:03.459] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:05.344] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:05.348] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:05.433] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:05.436] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:06.459] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV step=주문스텝3
+[2026-08-19 13:55:06.462] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:06.464] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:06.477] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:06.479] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:06.485] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:06.487] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:06.975] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:06.978] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:06.992] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:06.994] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:08.068] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:08.071] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:08.076] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:08.078] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:09.980] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:09.983] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:10.225] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:10.227] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:14.786] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV step=주문스텝4
+[2026-08-19 13:55:14.789] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:14.795] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:14.803] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:14.805] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:14.810] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:14.812] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:15.304] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:15.306] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:15.311] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:15.313] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:16.305] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:16.307] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:16.350] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:16.352] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:18.243] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:18.246] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:18.395] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:18.397] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:19.439] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV step=주문스텝5
+[2026-08-19 13:55:19.443] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:19.445] [debug] [api] [api] event=did.callback status=started orderId=BULK-TEST-1787115236504 menuName=HOT아메리카노(다크시그니처)(설탕)(샷추가)_MV state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:19.449] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:19.450] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:19.452] [debug] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:19.454] [error] [api] [api] event=did.callback status=failed attempt=1 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:19.957] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:19.961] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:20.017] [debug] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:20.020] [error] [api] [api] event=did.callback status=failed attempt=2 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:21.018] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:21.020] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:21.079] [debug] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:21.081] [error] [api] [api] event=did.callback status=failed attempt=3 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:22.927] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:22.930] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:22.988] [debug] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 url=http://127.0.0.1:8080/sse/did
+[2026-08-19 13:55:22.991] [error] [api] [api] event=did.callback status=failed attempt=4 httpStatus=404 reason=http_error url=http://127.0.0.1:8080/sse/did message="callback returned non-json response"
+[2026-08-19 13:55:23.002] [debug] [task] [task] event=task.complete status=success orderId=BULK-TEST-1787115236504
+[2026-08-19 13:56:51.245] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-19 13:56:51.784] [info]  [app] event=app.startup status=started appVersion=3.1.0r2 packaged=false
+[2026-08-19 13:56:51.866] [info]  [app] event=app.window status=success
+[2026-08-19 13:56:51.948] [info]  [app] event=app.tray status=success
+[2026-08-19 13:56:51.949] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-19 13:56:51.953] [info]  [app] event=app.ipc status=success
+[2026-08-19 13:56:51.955] [info]  [app] event=task.start status=success
+[2026-08-19 13:56:51.960] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-19 13:56:51.966] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-19 13:56:51.981] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-19 13:56:51.991] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-19 13:56:51.994] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-19 13:56:51.996] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:56:52.003] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-19 13:56:52.006] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:56:52.020] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-19 13:56:52.023] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-19 13:56:52.032] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:56:52.035] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:56:52.037] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:56:52.041] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:56:52.046] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:56:52.050] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:56:52.053] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-19 13:56:52.056] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-19 13:56:52.059] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:56:52.065] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:56:52.068] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:56:52.070] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-19 13:56:52.073] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:56:52.082] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=60 normalizedIntervalSec=60
+[2026-08-19 13:56:52.084] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-19 13:56:52.085] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-19 13:56:52.086] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-19 13:56:52.087] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-19 13:56:52.124] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:56:52.130] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:56:52.132] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:56:57.022] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:56:57.027] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:57:13.143] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000 message="connect ETIMEDOUT 192.168.10.138:25000"
+[2026-08-19 13:57:27.945] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-19 13:57:28.528] [info]  [app] event=app.startup status=started appVersion=3.1.0r2 packaged=false
+[2026-08-19 13:57:28.604] [info]  [app] event=app.window status=success
+[2026-08-19 13:57:28.642] [info]  [app] event=app.tray status=success
+[2026-08-19 13:57:28.645] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-19 13:57:28.649] [info]  [app] event=app.ipc status=success
+[2026-08-19 13:57:28.652] [info]  [app] event=task.start status=success
+[2026-08-19 13:57:28.655] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-19 13:57:28.662] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-19 13:57:28.674] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-19 13:57:28.682] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-19 13:57:28.684] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-19 13:57:28.687] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:57:28.690] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-19 13:57:28.697] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:57:28.706] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-19 13:57:28.708] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-19 13:57:28.716] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:57:28.719] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:57:28.721] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 13:57:28.724] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:57:28.729] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 13:57:28.731] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 13:57:28.734] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-19 13:57:28.736] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-19 13:57:28.738] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:57:28.743] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:57:28.747] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 13:57:28.750] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-19 13:57:28.753] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 13:57:28.756] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=60 normalizedIntervalSec=60
+[2026-08-19 13:57:28.763] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-19 13:57:28.764] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-19 13:57:28.766] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-19 13:57:28.767] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-19 13:57:28.797] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:57:28.801] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 13:57:28.803] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 13:57:33.710] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:57:33.714] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 13:57:49.810] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000 message="connect ETIMEDOUT 192.168.10.138:25000"
+[2026-08-19 14:04:02.218] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-19 14:04:02.728] [info]  [app] event=app.startup status=started appVersion=3.1.0r2 packaged=false
+[2026-08-19 14:04:02.811] [info]  [app] event=app.window status=success
+[2026-08-19 14:04:02.892] [info]  [app] event=app.tray status=success
+[2026-08-19 14:04:02.894] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-19 14:04:02.898] [info]  [app] event=app.ipc status=success
+[2026-08-19 14:04:02.901] [info]  [app] event=task.start status=success
+[2026-08-19 14:04:02.902] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-19 14:04:02.908] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-19 14:04:02.919] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-19 14:04:02.925] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-19 14:04:02.927] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-19 14:04:02.930] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 14:04:02.933] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-19 14:04:02.936] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 14:04:02.949] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-19 14:04:02.952] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-19 14:04:02.959] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:02.963] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:02.965] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-19 14:04:02.968] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:02.971] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:02.973] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 14:04:02.975] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-19 14:04:02.977] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-19 14:04:02.980] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 14:04:02.984] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 14:04:02.986] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-19 14:04:02.988] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-19 14:04:02.990] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-19 14:04:02.991] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=60 normalizedIntervalSec=60
+[2026-08-19 14:04:02.993] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-19 14:04:02.994] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-19 14:04:02.999] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-19 14:04:03.000] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-19 14:04:03.026] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 14:04:03.032] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM3 message="Opening COM3: File not found"
+[2026-08-19 14:04:03.035] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 14:04:07.944] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 14:04:07.947] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.138 port=25000
+[2026-08-19 14:04:11.881] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-19 14:04:11.885] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:11.947] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-19 14:04:12.187] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:12.190] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-19 14:04:12.193] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
