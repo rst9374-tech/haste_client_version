@@ -1,0 +1,52 @@
+[2026-08-20 00:02:19.777] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-20 00:02:21.005] [info]  [app] event=app.startup status=started appVersion=3.1.0t33 packaged=false
+[2026-08-20 00:02:21.368] [info]  [app] event=app.window status=success
+[2026-08-20 00:02:21.569] [info]  [app] event=app.tray status=success
+[2026-08-20 00:02:21.570] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-20 00:02:21.574] [info]  [app] event=app.ipc status=success
+[2026-08-20 00:02:21.577] [info]  [app] event=task.start status=success
+[2026-08-20 00:02:21.580] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-20 00:02:21.586] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-20 00:02:21.635] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-20 00:02:21.661] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-20 00:02:21.663] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-20 00:02:21.666] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-20 00:02:21.670] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-20 00:02:21.675] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-20 00:02:21.690] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-20 00:02:21.692] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-20 00:02:21.701] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:21.707] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:21.708] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-20 00:02:21.713] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:21.717] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:21.719] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-20 00:02:21.721] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-20 00:02:21.724] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-20 00:02:21.726] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-20 00:02:21.732] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-20 00:02:21.735] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-20 00:02:21.737] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-20 00:02:21.740] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-20 00:02:21.743] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-20 00:02:21.750] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-20 00:02:21.751] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-20 00:02:21.753] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-20 00:02:21.754] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-20 00:02:21.805] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-20 00:02:21.811] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-20 00:02:21.816] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-20 00:02:21.818] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-20 00:02:21.820] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-20 00:02:26.689] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-20 00:02:26.696] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-20 00:02:42.807] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-20 00:02:54.604] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:54.606] [info]  [HASTE DB Save] Settings category "product" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:54.607] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-20 00:02:54.612] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-20 00:02:54.707] [info]  [HASTE Standard Recipe Apply] Successfully synced 67 Toss Kiosk products from Google Sheet SOT! (Tier: MV_STANDARD)
+[2026-08-20 00:02:54.708] [info]  [HASTE Standard Recipe Apply] Successfully generated and injected 218 store-matched physical recipes & Toss Kiosk menu from Google Sheet SOT! (Hopper1: D_SAVE, Hopper2: N_SAVE)
+[2026-08-20 00:02:54.986] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:54.990] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-20 00:02:54.993] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
