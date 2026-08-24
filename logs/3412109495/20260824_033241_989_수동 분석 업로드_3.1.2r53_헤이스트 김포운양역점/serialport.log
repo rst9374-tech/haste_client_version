@@ -1,0 +1,17 @@
+[2026-08-24 12:16:24.847] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 12:16:24.874] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 12:16:25.055] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-24 12:16:25.056] [error] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-24 12:16:25.347] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-24 12:16:25.352] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-24 12:16:25.656] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-24 12:16:25.674] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-24 12:16:25.675] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-24 12:32:25.820] [info]  [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 12:32:26.135] [debug] [serialport] event=serialport.close status=success boardName=board1 port=COM6
+[2026-08-24 12:32:26.136] [debug] [serialport] event=serialport.close status=success boardName=board2 port=COM7
+[2026-08-24 12:32:26.455] [debug] [serialport] event=serialport.connect status=success boardName=board1 port=COM6
+[2026-08-24 12:32:26.458] [debug] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-24 12:32:26.535] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-24 12:32:26.657] [debug] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-24 12:32:26.659] [debug] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
