@@ -1,0 +1,44 @@
+[2026-08-24 15:15:01.148] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-24 15:15:01.151] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-24 15:15:01.153] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 15:15:01.155] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-24 15:15:01.218] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-24 15:15:01.360] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-24 15:15:01.362] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-24 15:15:01.393] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:01.413] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:01.428] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 15:15:01.445] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:01.472] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:01.474] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-24 15:15:01.476] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-24 15:15:01.480] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-24 15:15:01.495] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-24 15:15:01.518] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-24 15:15:01.521] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-24 15:15:01.547] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-24 15:15:01.564] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-24 15:15:01.567] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-24 15:15:01.570] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-24 15:15:01.571] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-24 15:15:01.585] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-24 15:15:01.602] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-24 15:15:01.623] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: Access denied"
+[2026-08-24 15:15:01.631] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: Access denied"
+[2026-08-24 15:15:01.636] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-24 15:15:01.703] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board2 port=COM7
+[2026-08-24 15:15:01.767] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-24 15:15:01.843] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40501
+[2026-08-24 15:15:01.965] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:02.365] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-24 15:15:02.435] [debug] [coffee] [coffee] event=temperature.change status=success value=96
+[2026-08-24 15:15:02.448] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-24 15:15:03.675] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-24 15:15:05.643] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-08-24 15:15:05.685] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-24 15:15:05.777] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:05.834] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-24 15:15:06.833] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=A8%3AA1%3A59%3ADD%3A64%3A66
+[2026-08-24 15:15:06.921] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-24 15:15:06.930] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 15:15:06.986] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
