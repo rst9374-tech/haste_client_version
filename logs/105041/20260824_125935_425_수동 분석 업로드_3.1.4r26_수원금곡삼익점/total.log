@@ -1,0 +1,1000 @@
+[2026-08-24 21:45:41.422] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:41.425] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:41.721] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:45:41.724] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:41.726] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:41.743] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:41.745] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:42.847] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:45:42.849] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:42.852] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:42.865] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:42.867] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:43.129] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:45:43.131] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:43.133] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575540979 menuName=ICED카페라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:43.172] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:43.175] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:43.178] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575540979
+[2026-08-24 21:45:43.180] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575540979 bill=0000 menuCount=1
+[2026-08-24 21:45:53.021] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575552701 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2003","recipeCode":"GSI2003","matchedMenuName":"ICED바닐라라떼(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD_MILK:140,_SIRUP8:35,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:45:53.023] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575552701 priority=99 description=음료_제조_(INSTANT-1787575552701)
+[2026-08-24 21:45:53.025] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575552701 menuCount=1
+[2026-08-24 21:45:53.026] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575552701 productNo=GSI2003 bill=0000
+[2026-08-24 21:45:53.143] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:45:53.146] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) stepCount=10
+[2026-08-24 21:45:53.250] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:45:53.252] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:45:53.435] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) step=주문스텝2
+[2026-08-24 21:45:53.436] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.437] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.445] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.446] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.746] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:45:53.748] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.750] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.768] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:53.794] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.254] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:45:55.255] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.259] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.282] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.287] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.554] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:45:55.555] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.557] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575552701 menuName=ICED바닐라라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.566] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.569] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:45:55.586] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575552701
+[2026-08-24 21:45:55.587] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575552701 bill=0000 menuCount=1
+[2026-08-24 21:46:11.335] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575571331 bill=0000 menuCount=1 mappings=[{"baseCode":"GMI3006","recipeCode":"GMI3006","matchedMenuName":"ICED초코라떼","stepsSummary":"CUP:ICE,_ICE:4000,_COLD_MILK:180,_SIRUP1:60,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:46:11.337] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575571331 priority=99 description=음료_제조_(INSTANT-1787575571331)
+[2026-08-24 21:46:11.340] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575571331 menuCount=1
+[2026-08-24 21:46:11.342] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575571331 productNo=GMI3006 bill=0000
+[2026-08-24 21:46:11.510] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:46:11.512] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 stepCount=10
+[2026-08-24 21:46:11.618] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:46:11.620] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:46:11.793] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575571331 menuName=ICED초코라떼 step=주문스텝2
+[2026-08-24 21:46:11.796] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:11.798] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:11.803] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:11.805] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:12.077] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575571331 menuName=ICED초코라떼 step=주문스텝3
+[2026-08-24 21:46:12.079] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:12.082] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:12.098] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:12.100] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.184] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575571331 menuName=ICED초코라떼 step=주문스텝4
+[2026-08-24 21:46:13.186] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.190] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.201] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.204] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.474] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575571331 menuName=ICED초코라떼 step=주문스텝5
+[2026-08-24 21:46:13.476] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.479] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575571331 menuName=ICED초코라떼 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.489] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.491] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:13.505] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575571331
+[2026-08-24 21:46:13.507] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575571331 bill=0000 menuCount=1
+[2026-08-24 21:46:19.119] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575578797 bill=0000 menuCount=1 mappings=[{"baseCode":"GMI3009","recipeCode":"GMI3009","matchedMenuName":"ICED딸기라떼","stepsSummary":"CUP:ICE,_ICE:4000,_COLD_MILK:180,_SIRUP5:50,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:46:19.121] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575578797 priority=99 description=음료_제조_(INSTANT-1787575578797)
+[2026-08-24 21:46:19.123] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575578797 menuCount=1
+[2026-08-24 21:46:19.125] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575578797 productNo=GMI3009 bill=0000
+[2026-08-24 21:46:19.227] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:46:19.229] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 stepCount=10
+[2026-08-24 21:46:19.327] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:46:19.329] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:46:19.513] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 step=주문스텝2
+[2026-08-24 21:46:19.515] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.518] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.525] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.530] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.810] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 step=주문스텝3
+[2026-08-24 21:46:19.811] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.812] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.816] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:19.818] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:20.925] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 step=주문스텝4
+[2026-08-24 21:46:20.926] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:20.929] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:20.938] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:20.941] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:21.221] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 step=주문스텝5
+[2026-08-24 21:46:21.223] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:21.225] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575578797 menuName=ICED딸기라떼 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:21.258] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:21.261] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:21.269] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575578797
+[2026-08-24 21:46:21.270] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575578797 bill=0000 menuCount=1
+[2026-08-24 21:46:29.072] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575589063 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI1003","recipeCode":"GSI1003","matchedMenuName":"ICED아샷추(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD:140,_SIRUP11:50,_SIRUP12:5,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:46:29.074] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575589063 priority=99 description=음료_제조_(INSTANT-1787575589063)
+[2026-08-24 21:46:29.077] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575589063 menuCount=1
+[2026-08-24 21:46:29.079] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575589063 productNo=GSI1003 bill=0000
+[2026-08-24 21:46:29.219] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:46:29.221] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) stepCount=10
+[2026-08-24 21:46:29.443] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:46:29.445] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:46:29.478] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) step=주문스텝2
+[2026-08-24 21:46:29.480] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.481] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.491] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.495] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.776] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) step=주문스텝3
+[2026-08-24 21:46:29.778] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.782] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.791] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:29.795] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.614] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) step=주문스텝4
+[2026-08-24 21:46:31.616] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.619] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.630] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.632] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.897] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) step=주문스텝5
+[2026-08-24 21:46:31.899] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.902] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575589063 menuName=ICED아샷추(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.911] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.914] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:31.917] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575589063
+[2026-08-24 21:46:31.919] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575589063 bill=0000 menuCount=1
+[2026-08-24 21:46:36.536] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:46:52.321] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575612000 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI1001","recipeCode":"GSI1001","matchedMenuName":"ICED아메리카노(스탠다드)(연하게)","stepsSummary":"CUP:ICE,_COFFEE:30,_ICE:4000,_COLD:175,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:46:52.323] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575612000 priority=99 description=음료_제조_(INSTANT-1787575612000)
+[2026-08-24 21:46:52.325] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575612000 menuCount=1
+[2026-08-24 21:46:52.327] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575612000 productNo=GSI1001 bill=0000
+[2026-08-24 21:46:52.419] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:46:52.421] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) stepCount=10
+[2026-08-24 21:46:52.569] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:46:52.571] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:46:52.677] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝2
+[2026-08-24 21:46:52.680] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.684] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.694] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.697] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.958] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝3
+[2026-08-24 21:46:52.959] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.960] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.965] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:52.966] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.093] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝4
+[2026-08-24 21:46:54.098] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.102] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.114] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.117] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.405] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝5
+[2026-08-24 21:46:54.407] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.409] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575612000 menuName=ICED아메리카노(스탠다드)(연하게) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.425] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.429] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:46:54.431] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575612000
+[2026-08-24 21:46:54.434] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575612000 bill=0000 menuCount=1
+[2026-08-24 21:47:04.162] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575624151 bill=0000 menuCount=1 mappings=[{"baseCode":"GPI2006","recipeCode":"GPI2006","matchedMenuName":"ICED카페모카(스페셜)","stepsSummary":"CUP:ICE,_COFFEE:61,_ICE:4000,_COLD:61,_COLD_MILK:140,_SIRUP1:30,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:47:04.163] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575624151 priority=99 description=음료_제조_(INSTANT-1787575624151)
+[2026-08-24 21:47:04.167] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575624151 menuCount=1
+[2026-08-24 21:47:04.169] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575624151 productNo=GPI2006 bill=0000
+[2026-08-24 21:47:04.336] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:47:04.338] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) stepCount=10
+[2026-08-24 21:47:04.599] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:47:04.600] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:47:04.611] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) step=주문스텝2
+[2026-08-24 21:47:04.613] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.615] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.621] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.623] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.907] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) step=주문스텝3
+[2026-08-24 21:47:04.909] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.911] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.928] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:04.930] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:06.781] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) step=주문스텝4
+[2026-08-24 21:47:06.783] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:06.785] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:06.814] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:06.817] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:07.079] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) step=주문스텝5
+[2026-08-24 21:47:07.080] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:07.084] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575624151 menuName=ICED카페모카(스페셜) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:07.093] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:07.096] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:07.112] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575624151
+[2026-08-24 21:47:07.113] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575624151 bill=0000 menuCount=1
+[2026-08-24 21:47:15.782] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575635457 bill=0000 menuCount=1 mappings=[{"baseCode":"GAI4013","recipeCode":"GAI4013","matchedMenuName":"ICED복숭아에이드","stepsSummary":"CUP:ICE,_ICE:4400,_SPARKLE:180,_SIRUP11:50,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:47:15.784] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575635457 priority=99 description=음료_제조_(INSTANT-1787575635457)
+[2026-08-24 21:47:15.787] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575635457 menuCount=1
+[2026-08-24 21:47:15.789] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575635457 productNo=GAI4013 bill=0000
+[2026-08-24 21:47:15.881] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:47:15.883] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 stepCount=10
+[2026-08-24 21:47:15.984] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:47:15.986] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:47:16.172] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 step=주문스텝2
+[2026-08-24 21:47:16.174] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.177] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.186] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.188] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.476] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 step=주문스텝3
+[2026-08-24 21:47:16.478] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.480] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.498] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:16.502] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.606] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 step=주문스텝4
+[2026-08-24 21:47:17.608] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.610] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.636] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.638] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.905] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 step=주문스텝5
+[2026-08-24 21:47:17.907] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.909] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575635457 menuName=ICED복숭아에이드 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.941] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.945] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:17.947] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575635457
+[2026-08-24 21:47:17.948] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575635457 bill=0000 menuCount=1
+[2026-08-24 21:47:26.378] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575646371 bill=0000 menuCount=1 mappings=[{"baseCode":"GAI4005","recipeCode":"GAI4005","matchedMenuName":"ICED오미자에이드","stepsSummary":"CUP:ICE,_ICE:4400,_SPARKLE:180,_SIRUP4:60,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:47:26.380] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575646371 priority=99 description=음료_제조_(INSTANT-1787575646371)
+[2026-08-24 21:47:26.383] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575646371 menuCount=1
+[2026-08-24 21:47:26.384] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575646371 productNo=GAI4005 bill=0000
+[2026-08-24 21:47:26.515] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:47:26.517] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 stepCount=10
+[2026-08-24 21:47:26.606] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:47:26.609] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:47:26.789] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 step=주문스텝2
+[2026-08-24 21:47:26.790] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:26.793] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:26.801] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:26.803] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:27.084] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 step=주문스텝3
+[2026-08-24 21:47:27.086] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:27.088] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:27.125] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:27.128] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.232] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 step=주문스텝4
+[2026-08-24 21:47:28.234] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.237] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.268] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.271] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.562] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 step=주문스텝5
+[2026-08-24 21:47:28.564] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.566] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575646371 menuName=ICED오미자에이드 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.583] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.586] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:28.588] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575646371
+[2026-08-24 21:47:28.590] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575646371 bill=0000 menuCount=1
+[2026-08-24 21:47:36.514] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:47:36.586] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575656239 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5002","recipeCode":"GTI5002","matchedMenuName":"ICED레몬차","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP9:50,_SIRUP8:45,_SIRUP6:10,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:47:36.587] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575656239 priority=99 description=음료_제조_(INSTANT-1787575656239)
+[2026-08-24 21:47:36.589] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575656239 menuCount=1
+[2026-08-24 21:47:36.591] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575656239 productNo=GTI5002 bill=0000
+[2026-08-24 21:47:36.702] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:47:36.704] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 stepCount=10
+[2026-08-24 21:47:36.817] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:47:36.819] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:47:36.973] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575656239 menuName=ICED레몬차 step=주문스텝2
+[2026-08-24 21:47:36.975] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:36.978] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:36.986] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:36.987] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:37.271] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575656239 menuName=ICED레몬차 step=주문스텝3
+[2026-08-24 21:47:37.273] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:37.275] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:37.283] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:37.286] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.106] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575656239 menuName=ICED레몬차 step=주문스텝4
+[2026-08-24 21:47:39.107] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.111] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.146] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.150] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.434] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575656239 menuName=ICED레몬차 step=주문스텝5
+[2026-08-24 21:47:39.435] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.438] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575656239 menuName=ICED레몬차 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.456] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.459] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:39.462] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575656239
+[2026-08-24 21:47:39.465] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575656239 bill=0000 menuCount=1
+[2026-08-24 21:47:50.968] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575670963 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5002","recipeCode":"GTI5002","matchedMenuName":"ICED레몬차","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP9:50,_SIRUP8:45,_SIRUP6:10,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:47:50.970] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575670963 priority=99 description=음료_제조_(INSTANT-1787575670963)
+[2026-08-24 21:47:50.972] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575670963 menuCount=1
+[2026-08-24 21:47:50.974] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575670963 productNo=GTI5002 bill=0000
+[2026-08-24 21:47:51.097] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:47:51.099] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 stepCount=10
+[2026-08-24 21:47:51.185] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:47:51.187] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:47:51.355] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575670963 menuName=ICED레몬차 step=주문스텝2
+[2026-08-24 21:47:51.356] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.358] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.368] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.369] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.652] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575670963 menuName=ICED레몬차 step=주문스텝3
+[2026-08-24 21:47:51.654] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.656] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.689] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:51.691] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.501] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575670963 menuName=ICED레몬차 step=주문스텝4
+[2026-08-24 21:47:53.503] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.505] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.521] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.524] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.782] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575670963 menuName=ICED레몬차 step=주문스텝5
+[2026-08-24 21:47:53.785] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.787] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575670963 menuName=ICED레몬차 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.799] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.801] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:47:53.816] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575670963
+[2026-08-24 21:47:53.818] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575670963 bill=0000 menuCount=1
+[2026-08-24 21:48:12.065] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575691744 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5019","recipeCode":"GTI5019","matchedMenuName":"ICED청포도티","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP10:50,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:48:12.067] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575691744 priority=99 description=음료_제조_(INSTANT-1787575691744)
+[2026-08-24 21:48:12.071] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575691744 menuCount=1
+[2026-08-24 21:48:12.072] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575691744 productNo=GTI5019 bill=0000
+[2026-08-24 21:48:12.179] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:48:12.180] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 stepCount=10
+[2026-08-24 21:48:12.263] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:48:12.266] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:48:12.465] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575691744 menuName=ICED청포도티 step=주문스텝2
+[2026-08-24 21:48:12.466] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.467] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.472] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.474] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.747] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575691744 menuName=ICED청포도티 step=주문스텝3
+[2026-08-24 21:48:12.748] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.752] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.782] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:12.786] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:13.912] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575691744 menuName=ICED청포도티 step=주문스텝4
+[2026-08-24 21:48:13.914] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:13.916] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:13.933] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:13.936] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:14.223] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575691744 menuName=ICED청포도티 step=주문스텝5
+[2026-08-24 21:48:14.225] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:14.227] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575691744 menuName=ICED청포도티 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:14.260] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:14.263] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:14.267] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575691744
+[2026-08-24 21:48:14.269] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575691744 bill=0000 menuCount=1
+[2026-08-24 21:48:28.635] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575708630 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5002","recipeCode":"GTI5002","matchedMenuName":"ICED레몬차","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP9:50,_SIRUP8:45,_SIRUP6:10,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:48:28.637] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575708630 priority=99 description=음료_제조_(INSTANT-1787575708630)
+[2026-08-24 21:48:28.639] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575708630 menuCount=1
+[2026-08-24 21:48:28.641] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575708630 productNo=GTI5002 bill=0000
+[2026-08-24 21:48:28.786] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:48:28.788] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 stepCount=10
+[2026-08-24 21:48:29.046] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:48:29.048] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:48:29.050] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575708630 menuName=ICED레몬차 step=주문스텝2
+[2026-08-24 21:48:29.052] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.054] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.067] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.070] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.352] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575708630 menuName=ICED레몬차 step=주문스텝3
+[2026-08-24 21:48:29.354] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.356] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.371] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:29.374] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.198] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575708630 menuName=ICED레몬차 step=주문스텝4
+[2026-08-24 21:48:31.201] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.203] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.251] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.254] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.541] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575708630 menuName=ICED레몬차 step=주문스텝5
+[2026-08-24 21:48:31.543] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.545] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575708630 menuName=ICED레몬차 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.551] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.553] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:48:31.555] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575708630
+[2026-08-24 21:48:31.557] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575708630 bill=0000 menuCount=1
+[2026-08-24 21:48:36.533] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:49:36.515] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:50:36.545] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:50:40.284] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575839959 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5002","recipeCode":"GTI5002","matchedMenuName":"ICED레몬차","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP9:50,_SIRUP8:45,_SIRUP6:10,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:50:40.286] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575839959 priority=99 description=음료_제조_(INSTANT-1787575839959)
+[2026-08-24 21:50:40.288] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575839959 menuCount=1
+[2026-08-24 21:50:40.290] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575839959 productNo=GTI5002 bill=0000
+[2026-08-24 21:50:40.386] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:50:40.387] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 stepCount=10
+[2026-08-24 21:50:40.513] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:50:40.516] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:50:40.658] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575839959 menuName=ICED레몬차 step=주문스텝2
+[2026-08-24 21:50:40.659] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.661] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.666] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.667] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.957] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575839959 menuName=ICED레몬차 step=주문스텝3
+[2026-08-24 21:50:40.959] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.961] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.992] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:40.995] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:42.807] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575839959 menuName=ICED레몬차 step=주문스텝4
+[2026-08-24 21:50:42.809] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:42.811] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:42.820] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:42.823] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:43.119] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575839959 menuName=ICED레몬차 step=주문스텝5
+[2026-08-24 21:50:43.121] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:43.123] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575839959 menuName=ICED레몬차 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:43.139] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:43.142] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:43.145] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575839959
+[2026-08-24 21:50:43.147] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575839959 bill=0000 menuCount=1
+[2026-08-24 21:50:51.218] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575851216 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5003","recipeCode":"GTI5003","matchedMenuName":"ICED자몽차","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP6:10,_SIRUP3:50,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:50:51.221] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575851216 priority=99 description=음료_제조_(INSTANT-1787575851216)
+[2026-08-24 21:50:51.222] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575851216 menuCount=1
+[2026-08-24 21:50:51.224] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575851216 productNo=GTI5003 bill=0000
+[2026-08-24 21:50:51.321] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:50:51.323] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 stepCount=10
+[2026-08-24 21:50:51.504] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:50:51.507] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:50:51.602] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575851216 menuName=ICED자몽차 step=주문스텝2
+[2026-08-24 21:50:51.603] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.604] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.610] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.618] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.883] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575851216 menuName=ICED자몽차 step=주문스텝3
+[2026-08-24 21:50:51.885] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.887] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.904] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:51.906] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.352] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575851216 menuName=ICED자몽차 step=주문스텝4
+[2026-08-24 21:50:53.354] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.356] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.386] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.388] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.668] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575851216 menuName=ICED자몽차 step=주문스텝5
+[2026-08-24 21:50:53.669] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.670] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575851216 menuName=ICED자몽차 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.682] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.684] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:50:53.687] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575851216
+[2026-08-24 21:50:53.689] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575851216 bill=0000 menuCount=1
+[2026-08-24 21:51:01.063] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575860742 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5000","recipeCode":"GTI5000","matchedMenuName":"ICED복숭아티","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP11:50,_SIRUP12:10,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:51:01.067] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575860742 priority=99 description=음료_제조_(INSTANT-1787575860742)
+[2026-08-24 21:51:01.069] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575860742 menuCount=1
+[2026-08-24 21:51:01.072] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575860742 productNo=GTI5000 bill=0000
+[2026-08-24 21:51:01.169] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:51:01.170] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 stepCount=10
+[2026-08-24 21:51:01.349] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:51:01.350] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:51:01.446] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575860742 menuName=ICED복숭아티 step=주문스텝2
+[2026-08-24 21:51:01.447] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.451] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.461] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.464] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.742] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575860742 menuName=ICED복숭아티 step=주문스텝3
+[2026-08-24 21:51:01.744] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.746] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.751] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:01.755] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.229] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575860742 menuName=ICED복숭아티 step=주문스텝4
+[2026-08-24 21:51:03.231] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.234] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.257] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.261] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.545] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575860742 menuName=ICED복숭아티 step=주문스텝5
+[2026-08-24 21:51:03.546] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.549] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575860742 menuName=ICED복숭아티 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.558] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.562] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:03.564] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575860742
+[2026-08-24 21:51:03.566] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575860742 bill=0000 menuCount=1
+[2026-08-24 21:51:10.067] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575870063 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5001","recipeCode":"GTI5001","matchedMenuName":"ICED오미자차","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP4:60,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:51:10.069] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575870063 priority=99 description=음료_제조_(INSTANT-1787575870063)
+[2026-08-24 21:51:10.071] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575870063 menuCount=1
+[2026-08-24 21:51:10.073] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575870063 productNo=GTI5001 bill=0000
+[2026-08-24 21:51:10.188] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:51:10.189] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 stepCount=10
+[2026-08-24 21:51:10.299] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:51:10.300] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:51:10.456] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575870063 menuName=ICED오미자차 step=주문스텝2
+[2026-08-24 21:51:10.458] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.462] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.472] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.474] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.737] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575870063 menuName=ICED오미자차 step=주문스텝3
+[2026-08-24 21:51:10.740] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.742] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.759] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:10.762] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:11.849] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575870063 menuName=ICED오미자차 step=주문스텝4
+[2026-08-24 21:51:11.851] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:11.855] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:11.867] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:11.879] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:12.146] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575870063 menuName=ICED오미자차 step=주문스텝5
+[2026-08-24 21:51:12.149] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:12.152] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575870063 menuName=ICED오미자차 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:12.168] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:12.169] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:12.171] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575870063
+[2026-08-24 21:51:12.173] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575870063 bill=0000 menuCount=1
+[2026-08-24 21:51:23.997] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575883679 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5019","recipeCode":"GTI5019","matchedMenuName":"ICED청포도티","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP10:50,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:51:23.999] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575883679 priority=99 description=음료_제조_(INSTANT-1787575883679)
+[2026-08-24 21:51:24.002] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575883679 menuCount=1
+[2026-08-24 21:51:24.004] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575883679 productNo=GTI5019 bill=0000
+[2026-08-24 21:51:24.126] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:51:24.128] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 stepCount=10
+[2026-08-24 21:51:24.235] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:51:24.236] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:51:24.395] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575883679 menuName=ICED청포도티 step=주문스텝2
+[2026-08-24 21:51:24.399] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.401] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.411] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.414] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.695] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575883679 menuName=ICED청포도티 step=주문스텝3
+[2026-08-24 21:51:24.696] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.698] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.716] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:24.719] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:25.840] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575883679 menuName=ICED청포도티 step=주문스텝4
+[2026-08-24 21:51:25.842] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:25.844] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:25.882] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:25.884] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:26.154] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575883679 menuName=ICED청포도티 step=주문스텝5
+[2026-08-24 21:51:26.155] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:26.157] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575883679 menuName=ICED청포도티 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:26.182] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:26.184] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:26.186] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575883679
+[2026-08-24 21:51:26.188] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575883679 bill=0000 menuCount=1
+[2026-08-24 21:51:32.335] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575892331 bill=0000 menuCount=1 mappings=[{"baseCode":"GTI5009","recipeCode":"GTI5009","matchedMenuName":"ICED얼그레이티","stepsSummary":"CUP:ICE,_ICE:4000,_COLD:160,_SIRUP12:30,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:51:32.337] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575892331 priority=99 description=음료_제조_(INSTANT-1787575892331)
+[2026-08-24 21:51:32.338] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575892331 menuCount=1
+[2026-08-24 21:51:32.341] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575892331 productNo=GTI5009 bill=0000
+[2026-08-24 21:51:32.491] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:51:32.500] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 stepCount=10
+[2026-08-24 21:51:32.630] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:51:32.631] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:51:32.763] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 step=주문스텝2
+[2026-08-24 21:51:32.765] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:32.768] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:32.778] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:32.781] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:33.065] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 step=주문스텝3
+[2026-08-24 21:51:33.066] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:33.068] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:33.100] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:33.105] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.193] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 step=주문스텝4
+[2026-08-24 21:51:34.196] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.199] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.225] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.227] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.522] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 step=주문스텝5
+[2026-08-24 21:51:34.524] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.527] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575892331 menuName=ICED얼그레이티 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.533] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.536] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:34.554] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575892331
+[2026-08-24 21:51:34.555] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575892331 bill=0000 menuCount=1
+[2026-08-24 21:51:36.527] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:51:44.459] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575904134 bill=0000 menuCount=1 mappings=[{"baseCode":"GPI1002","recipeCode":"GPI1002","matchedMenuName":"ICED아메리카노(스페셜)","stepsSummary":"CUP:ICE,_COFFEE:61,_ICE:4000,_COLD:61,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:51:44.461] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575904134 priority=99 description=음료_제조_(INSTANT-1787575904134)
+[2026-08-24 21:51:44.462] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575904134 menuCount=1
+[2026-08-24 21:51:44.465] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575904134 productNo=GPI1002 bill=0000
+[2026-08-24 21:51:44.547] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:51:44.548] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) stepCount=10
+[2026-08-24 21:51:44.727] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:51:44.729] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:51:44.817] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) step=주문스텝2
+[2026-08-24 21:51:44.819] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:44.821] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:44.833] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:44.836] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:45.132] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) step=주문스텝3
+[2026-08-24 21:51:45.133] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:45.136] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:45.144] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:45.147] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.262] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) step=주문스텝4
+[2026-08-24 21:51:46.264] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.269] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.299] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.304] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.571] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) step=주문스텝5
+[2026-08-24 21:51:46.573] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.575] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575904134 menuName=ICED아메리카노(스페셜) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.583] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.586] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:46.602] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575904134
+[2026-08-24 21:51:46.604] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575904134 bill=0000 menuCount=1
+[2026-08-24 21:51:53.620] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575913616 bill=0000 menuCount=1 mappings=[{"baseCode":"GPI2001","recipeCode":"GPI2001","matchedMenuName":"ICED카페라떼(스페셜)","stepsSummary":"CUP:ICE,_COFFEE:61,_ICE:4000,_COLD:61,_COLD_MILK:180,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:51:53.622] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575913616 priority=99 description=음료_제조_(INSTANT-1787575913616)
+[2026-08-24 21:51:53.625] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575913616 menuCount=1
+[2026-08-24 21:51:53.627] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575913616 productNo=GPI2001 bill=0000
+[2026-08-24 21:51:53.735] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:51:53.737] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) stepCount=10
+[2026-08-24 21:51:53.900] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:51:53.902] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:51:53.996] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) step=주문스텝2
+[2026-08-24 21:51:53.997] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:53.998] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:54.002] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:54.003] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:54.264] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) step=주문스텝3
+[2026-08-24 21:51:54.265] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:54.267] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:54.286] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:54.288] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:55.741] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) step=주문스텝4
+[2026-08-24 21:51:55.743] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:55.745] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:55.760] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:55.763] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:56.039] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) step=주문스텝5
+[2026-08-24 21:51:56.041] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:56.043] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575913616 menuName=ICED카페라떼(스페셜) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:56.053] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:56.055] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:51:56.057] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575913616
+[2026-08-24 21:51:56.059] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575913616 bill=0000 menuCount=1
+[2026-08-24 21:52:24.489] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575944176 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2001","recipeCode":"GSI2001","matchedMenuName":"ICED카페라떼(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD_MILK:160,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:52:24.493] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575944176 priority=99 description=음료_제조_(INSTANT-1787575944176)
+[2026-08-24 21:52:24.496] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575944176 menuCount=1
+[2026-08-24 21:52:24.499] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575944176 productNo=GSI2001 bill=0000
+[2026-08-24 21:52:24.675] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:52:24.677] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) stepCount=10
+[2026-08-24 21:52:24.763] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:52:24.764] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:52:24.966] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) step=주문스텝2
+[2026-08-24 21:52:24.968] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:24.971] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:24.984] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:24.986] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:25.251] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:52:25.252] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:25.254] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:25.285] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:25.287] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.381] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:52:26.386] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.387] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.414] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.417] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.712] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:52:26.713] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.718] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575944176 menuName=ICED카페라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.739] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.742] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:52:26.744] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575944176
+[2026-08-24 21:52:26.751] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575944176 bill=0000 menuCount=1
+[2026-08-24 21:52:36.554] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:53:14.720] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787575994712 bill=0000 menuCount=1 mappings=[{"baseCode":"GSH2001","recipeCode":"GSH2001","matchedMenuName":"HOT카페라떼(스탠다드)","stepsSummary":"CUP:HOT,_COFFEE:60,_HOT_MILK:260,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:53:14.722] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787575994712 priority=99 description=음료_제조_(INSTANT-1787575994712)
+[2026-08-24 21:53:14.725] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787575994712 menuCount=1
+[2026-08-24 21:53:14.727] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787575994712 productNo=GSH2001 bill=0000
+[2026-08-24 21:53:14.872] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:53:14.873] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) stepCount=10
+[2026-08-24 21:53:15.158] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) step=주문스텝2
+[2026-08-24 21:53:15.161] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.164] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.174] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.178] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.191] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:53:15.192] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:53:15.458] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:53:15.465] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.468] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.479] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:15.482] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.207] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:53:16.209] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.210] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.236] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.238] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.517] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:53:16.519] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.521] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787575994712 menuName=HOT카페라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.530] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.532] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:16.534] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787575994712
+[2026-08-24 21:53:16.535] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787575994712 bill=0000 menuCount=1
+[2026-08-24 21:53:25.357] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576005038 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2001","recipeCode":"GSI2001","matchedMenuName":"ICED카페라떼(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD_MILK:160,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:53:25.358] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576005038 priority=99 description=음료_제조_(INSTANT-1787576005038)
+[2026-08-24 21:53:25.360] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576005038 menuCount=1
+[2026-08-24 21:53:25.362] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576005038 productNo=GSI2001 bill=0000
+[2026-08-24 21:53:25.453] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:53:25.455] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) stepCount=10
+[2026-08-24 21:53:25.563] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:53:25.566] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:53:25.712] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) step=주문스텝2
+[2026-08-24 21:53:25.714] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:25.715] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:25.720] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:25.721] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:25.995] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:53:25.997] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:25.999] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:26.007] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:26.010] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.107] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:53:27.109] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.111] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.119] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.122] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.418] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:53:27.420] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.422] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576005038 menuName=ICED카페라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.437] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.440] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:53:27.444] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576005038
+[2026-08-24 21:53:27.445] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576005038 bill=0000 menuCount=1
+[2026-08-24 21:53:36.551] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:53:50.446] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-24 21:53:50.450] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=wmf_error trigger=scheduled
+[2026-08-24 21:53:50.452] [debug] [task] [task] event=maintenance.enqueue status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-24 21:53:50.454] [debug] [task] [task] event=maintenance.routine status=ignored reason=sales_open routine=temperature trigger=scheduled
+[2026-08-24 21:54:10.773] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576050766 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2003","recipeCode":"GSI2003","matchedMenuName":"ICED바닐라라떼(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD_MILK:140,_SIRUP8:35,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:54:10.776] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576050766 priority=99 description=음료_제조_(INSTANT-1787576050766)
+[2026-08-24 21:54:10.780] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576050766 menuCount=1
+[2026-08-24 21:54:10.783] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576050766 productNo=GSI2003 bill=0000
+[2026-08-24 21:54:10.925] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:54:10.927] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) stepCount=10
+[2026-08-24 21:54:11.082] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:54:11.083] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:54:11.198] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) step=주문스텝2
+[2026-08-24 21:54:11.200] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.201] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.209] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.211] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.495] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:54:11.496] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.499] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.519] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:11.522] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:12.975] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:54:12.977] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:12.980] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.007] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.009] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.276] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:54:13.277] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.279] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576050766 menuName=ICED바닐라라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.313] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.316] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:13.319] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576050766
+[2026-08-24 21:54:13.320] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576050766 bill=0000 menuCount=1
+[2026-08-24 21:54:24.511] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576064183 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2004","recipeCode":"GSI2004","matchedMenuName":"ICED헤이즐넛라떼(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD_MILK:140,_SIRUP7:35,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:54:24.513] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576064183 priority=99 description=음료_제조_(INSTANT-1787576064183)
+[2026-08-24 21:54:24.515] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576064183 menuCount=1
+[2026-08-24 21:54:24.517] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576064183 productNo=GSI2004 bill=0000
+[2026-08-24 21:54:24.644] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:54:24.646] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) stepCount=10
+[2026-08-24 21:54:24.818] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:54:24.819] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:54:24.928] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) step=주문스텝2
+[2026-08-24 21:54:24.930] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:24.933] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:24.941] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:24.944] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:25.227] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) step=주문스텝3
+[2026-08-24 21:54:25.228] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:25.230] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:25.237] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:25.240] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:26.703] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) step=주문스텝4
+[2026-08-24 21:54:26.705] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:26.709] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:26.717] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:26.719] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:27.003] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) step=주문스텝5
+[2026-08-24 21:54:27.005] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:27.007] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576064183 menuName=ICED헤이즐넛라떼(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:27.036] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:27.038] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:27.041] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576064183
+[2026-08-24 21:54:27.043] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576064183 bill=0000 menuCount=1
+[2026-08-24 21:54:36.542] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:54:40.022] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576080016 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2000","recipeCode":"GSI2000","matchedMenuName":"ICED카페라떼(스탠다드)(연하게)","stepsSummary":"CUP:ICE,_COFFEE:30,_ICE:4000,_COLD_MILK:160,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:54:40.024] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576080016 priority=99 description=음료_제조_(INSTANT-1787576080016)
+[2026-08-24 21:54:40.027] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576080016 menuCount=1
+[2026-08-24 21:54:40.029] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576080016 productNo=GSI2000 bill=0000
+[2026-08-24 21:54:40.165] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:54:40.168] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) stepCount=10
+[2026-08-24 21:54:40.317] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:54:40.317] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:54:40.453] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) step=주문스텝2
+[2026-08-24 21:54:40.456] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.458] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.468] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.470] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.752] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) step=주문스텝3
+[2026-08-24 21:54:40.754] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.755] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.772] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:40.775] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:41.869] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) step=주문스텝4
+[2026-08-24 21:54:41.871] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:41.874] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:41.890] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:41.893] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:42.152] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) step=주문스텝5
+[2026-08-24 21:54:42.154] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:42.155] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576080016 menuName=ICED카페라떼(스탠다드)(연하게) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:42.187] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:42.189] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:42.192] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576080016
+[2026-08-24 21:54:42.194] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576080016 bill=0000 menuCount=1
+[2026-08-24 21:54:49.714] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576089392 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI2006","recipeCode":"GSI2006","matchedMenuName":"ICED카페모카(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD_MILK:140,_SIRUP1:30,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:54:49.719] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576089392 priority=99 description=음료_제조_(INSTANT-1787576089392)
+[2026-08-24 21:54:49.721] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576089392 menuCount=1
+[2026-08-24 21:54:49.725] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576089392 productNo=GSI2006 bill=0000
+[2026-08-24 21:54:49.847] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:54:49.850] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) stepCount=10
+[2026-08-24 21:54:50.044] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:54:50.045] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:54:50.116] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) step=주문스텝2
+[2026-08-24 21:54:50.117] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.118] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.124] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.127] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.402] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) step=주문스텝3
+[2026-08-24 21:54:50.404] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.406] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.413] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:50.416] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:51.872] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) step=주문스텝4
+[2026-08-24 21:54:51.874] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:51.877] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:51.912] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:51.919] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:52.200] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) step=주문스텝5
+[2026-08-24 21:54:52.202] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:52.204] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576089392 menuName=ICED카페모카(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:52.215] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:52.217] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:54:52.219] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576089392
+[2026-08-24 21:54:52.221] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576089392 bill=0000 menuCount=1
+[2026-08-24 21:55:02.302] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576102294 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI1003","recipeCode":"GSI1003","matchedMenuName":"ICED아샷추(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD:140,_SIRUP11:50,_SIRUP12:5,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:55:02.304] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576102294 priority=99 description=음료_제조_(INSTANT-1787576102294)
+[2026-08-24 21:55:02.306] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576102294 menuCount=1
+[2026-08-24 21:55:02.308] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576102294 productNo=GSI1003 bill=0000
+[2026-08-24 21:55:02.434] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:55:02.435] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) stepCount=10
+[2026-08-24 21:55:02.588] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:55:02.589] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:55:02.708] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) step=주문스텝2
+[2026-08-24 21:55:02.711] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:02.712] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:02.721] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:02.724] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:03.006] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) step=주문스텝3
+[2026-08-24 21:55:03.008] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:03.010] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:03.026] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:03.029] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:04.844] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) step=주문스텝4
+[2026-08-24 21:55:04.845] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:04.849] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:04.879] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:04.881] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:05.154] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) step=주문스텝5
+[2026-08-24 21:55:05.155] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:05.156] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576102294 menuName=ICED아샷추(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:05.191] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:05.194] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:05.200] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576102294
+[2026-08-24 21:55:05.202] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576102294 bill=0000 menuCount=1
+[2026-08-24 21:55:16.800] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576116486 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI1002","recipeCode":"GSI1002","matchedMenuName":"ICED아메리카노(스탠다드)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:4000,_COLD:145,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:55:16.804] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576116486 priority=99 description=음료_제조_(INSTANT-1787576116486)
+[2026-08-24 21:55:16.806] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576116486 menuCount=1
+[2026-08-24 21:55:16.810] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576116486 productNo=GSI1002 bill=0000
+[2026-08-24 21:55:16.916] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:55:16.917] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) stepCount=10
+[2026-08-24 21:55:17.082] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-08-24 21:55:17.083] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:55:17.214] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) step=주문스텝2
+[2026-08-24 21:55:17.215] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.217] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.226] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.229] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.498] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) step=주문스텝3
+[2026-08-24 21:55:17.502] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.503] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.511] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:17.514] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.651] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) step=주문스텝4
+[2026-08-24 21:55:18.653] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.655] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.670] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.674] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.934] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) step=주문스텝5
+[2026-08-24 21:55:18.935] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.936] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576116486 menuName=ICED아메리카노(스탠다드) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.974] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.977] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:55:18.995] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576116486
+[2026-08-24 21:55:18.997] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576116486 bill=0000 menuCount=1
+[2026-08-24 21:55:36.570] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:56:36.560] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:57:36.544] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:58:02.911] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787576282595 bill=0000 menuCount=1 mappings=[{"baseCode":"GSI1001","recipeCode":"GSI1001","matchedMenuName":"ICED아메리카노(스탠다드)(연하게)","stepsSummary":"CUP:ICE,_COFFEE:30,_ICE:4000,_COLD:175,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-24 21:58:02.913] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787576282595 priority=99 description=음료_제조_(INSTANT-1787576282595)
+[2026-08-24 21:58:02.916] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787576282595 menuCount=1
+[2026-08-24 21:58:02.918] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787576282595 productNo=GSI1001 bill=0000
+[2026-08-24 21:58:03.017] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-08-24 21:58:03.019] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) stepCount=10
+[2026-08-24 21:58:03.200] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020113000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00052\\x03')"
+[2026-08-24 21:58:03.201] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":49,\"7\":49,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-08-24 21:58:03.286] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝2
+[2026-08-24 21:58:03.287] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.288] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.294] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.295] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.567] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝3
+[2026-08-24 21:58:03.568] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.570] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.598] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:03.601] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:04.691] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝4
+[2026-08-24 21:58:04.692] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:04.695] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:04.742] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:04.745] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:05.035] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) step=주문스텝5
+[2026-08-24 21:58:05.036] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:05.038] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787576282595 menuName=ICED아메리카노(스탠다드)(연하게) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:05.047] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:05.049] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-24 21:58:05.067] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787576282595
+[2026-08-24 21:58:05.069] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787576282595 bill=0000 menuCount=1
+[2026-08-24 21:58:36.565] [warn]  [api] [api] event=api.request status=ignored version=v1 reason=unsupported_command
+[2026-08-24 21:59:23.743] [info]  [task] [HASTE Direct File Hotpatch] Selected file: C:\Users\커피에반하다\Desktop\hasteai_client_v3.1.4r26.asar
+[2026-08-24 21:59:23.745] [info]  [task] [HASTE Direct File Hotpatch] Target ASAR: C:\Users\커피에반하다\AppData\Local\haste_client3.1\resources\app.asar
+[2026-08-24 21:59:23.746] [info]  [task] [HASTE Direct File Hotpatch] Relaunch EXE: C:\Users\커피에반하다\AppData\Local\haste_client3.1\haste_client3.1.exe
+[2026-08-24 21:59:23.747] [info]  [task] [HASTE Direct File Hotpatch] PS1 script written: C:\Users\커피에~1\AppData\Local\Temp\haste_patch_1787576363746.ps1
+[2026-08-24 21:59:24.778] [info]  [HASTE Shutdown] Releasing all serial ports...
+[2026-08-24 21:59:24.778] [info]  [app] event=app.shutdown status=started
+[2026-08-24 21:59:25.770] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "수원금곡삼익점", StoreNo: "105041", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-24 21:59:26.248] [info]  [app] event=app.startup status=started appVersion=3.1.4r26 packaged=true
+[2026-08-24 21:59:26.255] [info]  [HASTE Media Sync] Synchronized 0 DID media files from ASAR to external resources.
+[2026-08-24 21:59:26.325] [info]  [app] event=app.window status=success
+[2026-08-24 21:59:26.366] [info]  [app] event=app.tray status=success
+[2026-08-24 21:59:26.367] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-24 21:59:26.371] [info]  [app] event=app.ipc status=success
+[2026-08-24 21:59:26.450] [info]  [app] event=task.start status=success
+[2026-08-24 21:59:26.452] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=105041 deviceModelId=D0000
+[2026-08-24 21:59:26.456] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\커피에반하다\AppData\Local\haste_client3.1\resources\resources
+[2026-08-24 21:59:26.458] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-24 21:59:26.462] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-24 21:59:26.464] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-24 21:59:26.465] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 21:59:26.467] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-24 21:59:26.469] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-24 21:59:26.475] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-24 21:59:26.476] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-24 21:59:26.481] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:26.485] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:26.486] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-24 21:59:26.488] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:26.490] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:26.491] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-24 21:59:26.492] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-24 21:59:26.494] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-24 21:59:26.495] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=1500 normalizedIntervalSec=1500
+[2026-08-24 21:59:26.497] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-24 21:59:26.498] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-24 21:59:26.499] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-24 21:59:26.501] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-24 21:59:26.502] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-24 21:59:26.503] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-24 21:59:26.504] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-24 21:59:26.506] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-24 21:59:26.523] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM5 message="Opening COM5: Access denied"
+[2026-08-24 21:59:26.544] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-24 21:59:26.563] [debug] [coffee] [coffee] event=coffee.socket status=success transport=ws machineName=WMF action=connected
+[2026-08-24 21:59:26.596] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getApiVersion returnvalue=40401
+[2026-08-24 21:59:26.914] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:26.949] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:26.950] [info]  [app] event=license.verify status=success state=approved storeId=105041
+[2026-08-24 21:59:27.035] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-24 21:59:27.036] [debug] [serialport] [serialport] event=serialport.connect status=success boardName=board1 port=COM5
+[2026-08-24 21:59:27.107] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getDiagnosticData returnvalue=0
+[2026-08-24 21:59:27.108] [debug] [coffee] [coffee] event=temperature.change status=success value=95
+[2026-08-24 21:59:27.109] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-24 21:59:27.110] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DCP0201A00101A10344\\x03')"
+[2026-08-24 21:59:27.240] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=24 message="bytearray(b'\\x020A1DPC0200A00101A00342\\x03')"
+[2026-08-24 21:59:27.241] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"1\",\"act\":\"D\",\"data\":{\"0\":48,\"1\":50,\"2\":48,\"3\":48,\"4\":65,\"5\":48,\"6\":48,\"7\":49,\"8\":48,\"9\":49,\"10\":65,\"11\":48,\"12\":48,\"13\":51,\"14\":52},\"values\":[\"02\",\"00\",\"A0\",\"01\",\"01\",\"A0\",\"03\"],\"part\":{},\"isValidChecksum\":true}"
+[2026-08-24 21:59:28.240] [debug] [coffee] [coffee] event=hardware.response status=success machineName=Lilly_(WMF) command=getMachineInfo returnvalue=0
+[2026-08-24 21:59:33.099] [info]  [task] [HASTE Google Sheet Sync] Synchronizing latest SOT directly from Google Sheets...
+[2026-08-24 21:59:33.101] [info]  [HASTE DB Sync] Reloading memory settingsStore from SQLite database...
+[2026-08-24 21:59:33.103] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "수원금곡삼익점", StoreNo: "105041", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-24 21:59:33.106] [info]  [task] [HASTE Google Sheet Sync] Google Sheet sync & local DB injection completed successfully!
+[2026-08-24 21:59:33.261] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:33.263] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-24 21:59:33.268] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
