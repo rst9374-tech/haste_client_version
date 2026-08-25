@@ -1,0 +1,1000 @@
+[2026-08-26 01:09:18.637] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674156615 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:09:18.640] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674156615 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:09:18.655] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:09:18.658] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:09:18.660] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674156615
+[2026-08-26 01:09:18.663] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674156615 bill=0000 menuCount=1
+[2026-08-26 01:10:07.865] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674207548 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:10:07.867] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674207548 priority=99 description=음료_제조_(INSTANT-1787674207548)
+[2026-08-26 01:10:07.868] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674207548 menuCount=1
+[2026-08-26 01:10:07.870] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674207548 productNo=MDI1002 bill=0000
+[2026-08-26 01:10:07.873] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:10:07.875] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:10:07.877] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:10:08.151] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:10:08.153] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.155] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.163] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.166] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.441] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:10:08.445] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.448] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.464] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:08.467] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.581] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:10:09.584] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.586] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.590] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.598] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.870] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:10:09.873] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.875] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674207548 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.889] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.892] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:09.897] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674207548
+[2026-08-26 01:10:09.899] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674207548 bill=0000 menuCount=1
+[2026-08-26 01:10:30.672] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674230670 bill=0000 menuCount=1 mappings=[{"baseCode":"MNI2011","recipeCode":"MNI2011","matchedMenuName":"ICED_군고구마샷라떼(디카페인)","stepsSummary":"CUP:ICE,_COFFEE:46,_ICE:5600,_COLD_MILK:200,_SIRUP19:55,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:10:30.683] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674230670 priority=99 description=음료_제조_(INSTANT-1787674230670)
+[2026-08-26 01:10:30.688] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674230670 menuCount=1
+[2026-08-26 01:10:30.692] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674230670 productNo=MNI2011 bill=0000
+[2026-08-26 01:10:30.705] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:10:30.710] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:10:30.717] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) stepCount=10
+[2026-08-26 01:10:30.981] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝2
+[2026-08-26 01:10:30.986] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:30.989] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:31.007] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:31.013] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:31.283] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝3
+[2026-08-26 01:10:31.287] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:31.289] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:31.299] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:31.304] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:32.767] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝4
+[2026-08-26 01:10:32.772] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:32.776] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:32.793] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:32.798] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:33.069] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝5
+[2026-08-26 01:10:33.073] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:33.076] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674230670 menuName=ICED_군고구마샷라떼(디카페인) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:33.090] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:33.094] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:33.104] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674230670
+[2026-08-26 01:10:33.107] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674230670 bill=0000 menuCount=1
+[2026-08-26 01:10:38.444] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674238128 bill=0000 menuCount=1 mappings=[{"baseCode":"MMI3000","recipeCode":"MMI3000","matchedMenuName":"ICED_군고구마라떼","stepsSummary":"CUP:ICE,_ICE:5600,_COLD_MILK:200,_SIRUP19:40,_SIRUP1:25,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:10:38.449] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674238128 priority=99 description=음료_제조_(INSTANT-1787674238128)
+[2026-08-26 01:10:38.452] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674238128 menuCount=1
+[2026-08-26 01:10:38.454] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674238128 productNo=MMI3000 bill=0000
+[2026-08-26 01:10:38.457] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:10:38.461] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:10:38.465] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 stepCount=10
+[2026-08-26 01:10:38.728] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 step=주문스텝2
+[2026-08-26 01:10:38.733] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:38.737] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:38.748] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:38.752] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:39.016] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 step=주문스텝3
+[2026-08-26 01:10:39.019] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:39.022] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:39.030] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:39.038] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.486] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 step=주문스텝4
+[2026-08-26 01:10:40.489] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.491] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.505] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.508] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.773] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 step=주문스텝5
+[2026-08-26 01:10:40.778] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.783] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674238128 menuName=ICED_군고구마라떼 state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.807] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.814] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:10:40.818] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674238128
+[2026-08-26 01:10:40.822] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674238128 bill=0000 menuCount=1
+[2026-08-26 01:11:02.100] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:11:02.526] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:11:02.592] [info]  [app] event=app.window status=success
+[2026-08-26 01:11:02.656] [info]  [app] event=app.tray status=success
+[2026-08-26 01:11:02.657] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:11:02.662] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:11:02.694] [info]  [app] event=task.start status=success
+[2026-08-26 01:11:02.696] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:11:02.700] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:11:02.703] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:11:02.706] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:11:02.708] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:11:02.710] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:11:02.713] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:11:02.720] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:11:02.722] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:11:02.726] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:02.728] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:02.730] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:11:02.734] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:02.736] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:02.737] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:11:02.739] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:11:02.742] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:11:02.743] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:11:02.748] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:11:02.751] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:11:02.754] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:11:02.757] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:11:02.760] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:11:02.767] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:11:02.768] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:11:02.772] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:11:02.800] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:11:02.804] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:11:02.806] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:11:03.050] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:03.057] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:03.058] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:11:07.716] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:11:07.720] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:11:09.762] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:11:09.769] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:14.049] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:11:14.054] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:14.101] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:11:14.288] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:14.291] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:14.293] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:14.573] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:14.785] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:11:17.171] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674276853 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:11:17.175] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674276853 priority=99 description=음료_제조_(INSTANT-1787674276853)
+[2026-08-26 01:11:17.177] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674276853 menuCount=1
+[2026-08-26 01:11:17.179] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674276853 productNo=MDI1002 bill=0000
+[2026-08-26 01:11:17.198] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:11:17.201] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:11:17.203] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:11:17.484] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:11:17.487] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.490] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.499] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.502] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.801] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:11:17.804] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.807] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.820] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:17.822] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:18.932] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:11:18.934] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:18.937] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:18.942] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:18.944] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:19.233] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:11:19.237] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:19.239] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674276853 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:19.254] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:19.256] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:19.259] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674276853
+[2026-08-26 01:11:19.261] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674276853 bill=0000 menuCount=1
+[2026-08-26 01:11:22.837] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674282835 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:11:22.840] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674282835 priority=99 description=음료_제조_(INSTANT-1787674282835)
+[2026-08-26 01:11:22.842] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674282835 menuCount=1
+[2026-08-26 01:11:22.844] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674282835 productNo=MDI1002 bill=0000
+[2026-08-26 01:11:22.847] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:11:22.850] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:11:22.852] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:11:23.124] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:11:23.127] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.129] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.136] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.141] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.413] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:11:23.417] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.420] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.434] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.436] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:23.821] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-26 01:11:24.532] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:11:24.534] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.536] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.553] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.556] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.819] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:11:24.823] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.825] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674282835 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.839] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.843] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:11:24.845] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674282835
+[2026-08-26 01:11:24.847] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674282835 bill=0000 menuCount=1
+[2026-08-26 01:12:20.107] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674339792 bill=0000 menuCount=1 mappings=[{"baseCode":"MNI2014","recipeCode":"MNI2014","matchedMenuName":"ICED_민트샷라떼(디카페인)","stepsSummary":"CUP:ICE,_COFFEE:46,_ICE:5600,_COLD_MILK:200,_SIRUP23:50,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:12:20.113] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674339792 priority=99 description=음료_제조_(INSTANT-1787674339792)
+[2026-08-26 01:12:20.123] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674339792 menuCount=1
+[2026-08-26 01:12:20.128] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674339792 productNo=MNI2014 bill=0000
+[2026-08-26 01:12:20.134] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:12:20.138] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:12:20.140] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) stepCount=10
+[2026-08-26 01:12:20.404] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) step=주문스텝2
+[2026-08-26 01:12:20.408] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.412] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.422] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.428] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.692] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) step=주문스텝3
+[2026-08-26 01:12:20.697] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.702] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.710] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:20.715] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.174] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) step=주문스텝4
+[2026-08-26 01:12:22.177] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.178] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.193] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.195] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.463] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) step=주문스텝5
+[2026-08-26 01:12:22.467] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.470] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674339792 menuName=ICED_민트샷라떼(디카페인) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.482] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.486] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:12:22.491] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674339792
+[2026-08-26 01:12:22.493] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674339792 bill=0000 menuCount=1
+[2026-08-26 01:14:50.357] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674490041 bill=0000 menuCount=1 mappings=[{"baseCode":"MNI2001","recipeCode":"MNI2001","matchedMenuName":"ICED_카페라떼(디카페인)","stepsSummary":"CUP:ICE,_COFFEE:61,_ICE:5600,_COLD_MILK:200,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:14:50.361] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674490041 priority=99 description=음료_제조_(INSTANT-1787674490041)
+[2026-08-26 01:14:50.363] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674490041 menuCount=1
+[2026-08-26 01:14:50.365] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674490041 productNo=MNI2001 bill=0000
+[2026-08-26 01:14:50.371] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:14:50.374] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:14:50.376] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) stepCount=10
+[2026-08-26 01:14:50.645] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) step=주문스텝2
+[2026-08-26 01:14:50.648] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.652] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.659] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.664] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.933] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) step=주문스텝3
+[2026-08-26 01:14:50.938] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.941] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.958] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:50.962] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.057] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) step=주문스텝4
+[2026-08-26 01:14:52.059] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.061] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.076] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.079] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.349] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) step=주문스텝5
+[2026-08-26 01:14:52.354] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.357] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674490041 menuName=ICED_카페라떼(디카페인) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.371] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.374] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:14:52.376] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674490041
+[2026-08-26 01:14:52.377] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674490041 bill=0000 menuCount=1
+[2026-08-26 01:15:02.602] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674502597 bill=0000 menuCount=1 mappings=[{"baseCode":"MNI2016","recipeCode":"MNI2016","matchedMenuName":"ICED_슈크림샷라떼(디카페인)","stepsSummary":"CUP:ICE,_COFFEE:61,_ICE:5600,_COLD_MILK:200,_SIRUP11:60,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:15:02.606] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674502597 priority=99 description=음료_제조_(INSTANT-1787674502597)
+[2026-08-26 01:15:02.608] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674502597 menuCount=1
+[2026-08-26 01:15:02.612] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674502597 productNo=MNI2016 bill=0000
+[2026-08-26 01:15:02.622] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:15:02.627] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:15:02.632] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) stepCount=10
+[2026-08-26 01:15:02.907] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) step=주문스텝2
+[2026-08-26 01:15:02.910] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:02.912] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:02.920] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:02.923] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:03.198] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) step=주문스텝3
+[2026-08-26 01:15:03.202] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:03.205] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:03.222] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:03.225] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.676] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) step=주문스텝4
+[2026-08-26 01:15:04.679] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.681] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.688] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.695] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.964] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) step=주문스텝5
+[2026-08-26 01:15:04.968] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.971] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674502597 menuName=ICED_슈크림샷라떼(디카페인) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.985] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.988] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:15:04.995] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674502597
+[2026-08-26 01:15:04.998] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674502597 bill=0000 menuCount=1
+[2026-08-26 01:18:56.807] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:18:57.237] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:18:57.303] [info]  [app] event=app.window status=success
+[2026-08-26 01:18:57.373] [info]  [app] event=app.tray status=success
+[2026-08-26 01:18:57.374] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:18:57.380] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:18:57.413] [info]  [app] event=task.start status=success
+[2026-08-26 01:18:57.415] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:18:57.420] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:18:57.424] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:18:57.426] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:18:57.428] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:18:57.430] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:18:57.433] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:18:57.440] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:18:57.443] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:18:57.450] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:18:57.454] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:18:57.456] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:18:57.459] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:18:57.463] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:18:57.464] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:18:57.466] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:18:57.471] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:18:57.472] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:18:57.474] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:18:57.476] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:18:57.478] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:18:57.480] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:18:57.482] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:18:57.486] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:18:57.487] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:18:57.489] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:18:57.508] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:18:57.511] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:18:57.524] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:18:57.765] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:18:57.859] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:18:57.861] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:19:02.437] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:19:02.440] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:19:06.240] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:19:06.248] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:09.670] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:19:09.676] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:09.731] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:19:09.903] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:09.906] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:09.909] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:10.191] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:10.402] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:19:12.488] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674752173 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:19:12.491] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674752173 priority=99 description=음료_제조_(INSTANT-1787674752173)
+[2026-08-26 01:19:12.493] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674752173 menuCount=1
+[2026-08-26 01:19:12.495] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674752173 productNo=MDI1002 bill=0000
+[2026-08-26 01:19:12.500] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:19:12.504] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:19:12.506] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:19:13.516] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:19:13.519] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:13.522] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:13.528] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:13.531] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:14.586] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:19:14.589] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:14.592] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:14.597] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:14.600] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:17.651] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:19:17.655] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:17.657] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:17.665] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:17.671] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:17.954] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674757951 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:19:17.957] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674757951 priority=99 description=음료_제조_(INSTANT-1787674757951)
+[2026-08-26 01:19:17.959] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674757951 productNo=MDI1002 bill=0000
+[2026-08-26 01:19:18.542] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-26 01:19:18.678] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:19:18.681] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:18.683] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674752173 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:18.698] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:18.702] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:18.708] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674752173
+[2026-08-26 01:19:18.712] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674752173 bill=0000 menuCount=1
+[2026-08-26 01:19:18.725] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674757951 menuCount=1
+[2026-08-26 01:19:18.730] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:19:18.732] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:19:18.734] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:19:19.751] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:19:19.754] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:19.756] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:19.771] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:19.773] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:20.794] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:19:20.797] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:20.799] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:20.806] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:20.809] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:23.838] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:19:23.840] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:23.842] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:23.849] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:23.853] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:24.871] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:19:24.874] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:24.876] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674757951 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:24.890] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:24.893] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:24.897] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674757951
+[2026-08-26 01:19:24.899] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674757951 bill=0000 menuCount=1
+[2026-08-26 01:19:29.694] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674769691 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:19:29.697] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674769691 priority=99 description=음료_제조_(INSTANT-1787674769691)
+[2026-08-26 01:19:29.699] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674769691 menuCount=1
+[2026-08-26 01:19:29.702] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674769691 productNo=MDI1002 bill=0000
+[2026-08-26 01:19:29.706] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:19:29.709] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:19:29.712] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:19:30.719] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:19:30.722] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:30.725] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:30.732] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:30.738] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:31.762] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:19:31.764] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:31.770] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:31.782] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:31.785] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:34.797] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:19:34.800] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:34.803] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:34.810] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:34.815] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:35.828] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:19:35.831] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:35.834] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674769691 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:35.843] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:35.847] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:19:35.852] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674769691
+[2026-08-26 01:19:35.854] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674769691 bill=0000 menuCount=1
+[2026-08-26 01:20:24.944] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:20:24.952] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:20:24.955] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-26 01:20:28.397] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:20:28.406] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:20:50.211] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:20:50.219] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:20:52.722] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:20:52.729] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:20:53.321] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:20:53.328] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:06.116] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:22:06.532] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:22:06.600] [info]  [app] event=app.window status=success
+[2026-08-26 01:22:06.665] [info]  [app] event=app.tray status=success
+[2026-08-26 01:22:06.665] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:22:06.670] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:22:06.703] [info]  [app] event=task.start status=success
+[2026-08-26 01:22:06.705] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:22:06.709] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:22:06.713] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:22:06.715] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:22:06.717] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:22:06.719] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:22:06.722] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:22:06.731] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:22:06.733] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:22:06.740] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:06.743] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:06.745] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:22:06.749] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:06.753] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:06.757] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:22:06.760] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:22:06.764] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:22:06.766] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:22:06.774] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:22:06.777] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:22:06.780] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:22:06.783] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:22:06.788] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:22:06.790] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:22:06.791] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:22:06.794] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:22:06.813] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:22:06.818] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:22:06.821] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:22:07.086] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:07.087] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:22:07.093] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:11.740] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:22:11.743] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:22:13.538] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:22:13.549] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:27.834] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-26 01:22:29.148] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:22:29.155] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:29.206] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:22:29.407] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:29.411] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:29.414] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:29.697] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:29.907] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:22:32.117] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787674951795 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:22:32.122] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787674951795 priority=99 description=음료_제조_(INSTANT-1787674951795)
+[2026-08-26 01:22:32.124] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787674951795 menuCount=1
+[2026-08-26 01:22:32.127] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787674951795 productNo=MDI1002 bill=0000
+[2026-08-26 01:22:32.144] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:22:32.146] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:22:32.148] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:22:33.169] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:22:33.173] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:33.176] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:33.188] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:33.197] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:34.214] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:22:34.219] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:34.224] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:34.240] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:34.243] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:37.264] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:22:37.267] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:37.272] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:37.280] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:37.288] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:38.311] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:22:38.313] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:38.315] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787674951795 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:38.333] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:38.338] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:22:38.344] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787674951795
+[2026-08-26 01:22:38.346] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787674951795 bill=0000 menuCount=1
+[2026-08-26 01:23:18.551] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:23:18.975] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:23:19.045] [info]  [app] event=app.window status=success
+[2026-08-26 01:23:19.123] [info]  [app] event=app.tray status=success
+[2026-08-26 01:23:19.124] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:23:19.129] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:23:19.162] [info]  [app] event=task.start status=success
+[2026-08-26 01:23:19.164] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:23:19.168] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:23:19.170] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:23:19.173] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:23:19.174] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:23:19.176] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:23:19.178] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:23:19.191] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:23:19.193] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:23:19.199] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:19.202] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:19.203] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:23:19.207] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:19.209] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:19.211] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:23:19.214] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:23:19.217] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:23:19.217] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:23:19.221] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:23:19.222] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:23:19.224] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:23:19.228] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:23:19.231] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:23:19.233] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:23:19.233] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:23:19.236] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:23:19.256] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:23:19.260] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:23:19.274] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:23:19.512] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:19.516] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:19.518] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:23:24.190] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:23:24.192] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:23:26.379] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:23:26.385] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:31.431] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:23:31.454] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:31.489] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:23:31.530] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:31.533] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:31.535] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:31.812] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:32.025] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:23:33.548] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675013231 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:23:33.554] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675013231 priority=99 description=음료_제조_(INSTANT-1787675013231)
+[2026-08-26 01:23:33.557] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675013231 menuCount=1
+[2026-08-26 01:23:33.559] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675013231 productNo=MDI1002 bill=0000
+[2026-08-26 01:23:33.574] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:23:33.577] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:23:33.579] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:23:34.600] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:23:34.603] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:34.606] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:34.613] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:34.615] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:35.659] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:23:35.662] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:35.664] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:35.677] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:35.679] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:38.738] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:23:38.742] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:38.745] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:38.760] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:38.764] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:39.799] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:23:39.802] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:39.805] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675013231 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:39.810] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:39.812] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=202 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:23:39.830] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675013231
+[2026-08-26 01:23:39.832] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675013231 bill=0000 menuCount=1
+[2026-08-26 01:23:40.283] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-26 01:23:40.325] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-08-26 01:23:40.846] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:23:40.853] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:09.899] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:29:10.317] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:29:10.384] [info]  [app] event=app.window status=success
+[2026-08-26 01:29:10.447] [info]  [app] event=app.tray status=success
+[2026-08-26 01:29:10.447] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:29:10.452] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:29:10.483] [info]  [app] event=task.start status=success
+[2026-08-26 01:29:10.485] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:29:10.489] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:29:10.492] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:29:10.494] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:29:10.495] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:29:10.497] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:29:10.499] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:29:10.507] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:29:10.509] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:29:10.512] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:10.515] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:10.517] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:29:10.520] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:10.522] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:10.523] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:29:10.525] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:29:10.528] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:29:10.529] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:29:10.533] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:29:10.534] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:29:10.536] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:29:10.537] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:29:10.539] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:29:10.540] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:29:10.541] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:29:10.543] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:29:10.562] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:29:10.567] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:29:10.578] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:29:10.803] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:10.926] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:10.928] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:29:15.508] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:29:15.511] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:29:15.628] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:29:15.634] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:17.870] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:29:17.877] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:17.925] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:29:18.107] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:18.111] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:18.113] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:18.380] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:18.604] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:29:20.591] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675360274 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:29:20.595] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675360274 priority=99 description=음료_제조_(INSTANT-1787675360274)
+[2026-08-26 01:29:20.598] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675360274 menuCount=1
+[2026-08-26 01:29:20.600] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675360274 productNo=MDI1002 bill=0000
+[2026-08-26 01:29:20.617] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:29:20.620] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:29:20.623] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:29:21.632] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:29:21.635] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:21.638] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:21.646] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:21.649] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:22.686] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:29:22.690] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:22.693] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:22.704] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:22.708] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:25.744] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:29:25.748] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:25.751] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:25.767] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:25.769] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:26.787] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:29:26.791] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:26.793] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675360274 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:26.809] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:26.811] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:26.815] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675360274
+[2026-08-26 01:29:26.817] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675360274 bill=0000 menuCount=1
+[2026-08-26 01:29:28.515] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675368512 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:29:28.518] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675368512 priority=99 description=음료_제조_(INSTANT-1787675368512)
+[2026-08-26 01:29:28.520] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675368512 menuCount=1
+[2026-08-26 01:29:28.523] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675368512 productNo=MDI1002 bill=0000
+[2026-08-26 01:29:28.533] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:29:28.536] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:29:28.538] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:29:29.574] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:29:29.576] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:29.578] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:29.595] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:29.598] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:30.616] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:29:30.619] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:30.621] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:30.628] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:30.631] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:31.585] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-26 01:29:33.671] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:29:33.675] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:33.678] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:33.684] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:33.690] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:34.701] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:29:34.704] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:34.706] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675368512 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:34.720] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:34.724] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:29:34.729] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675368512
+[2026-08-26 01:29:34.731] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675368512 bill=0000 menuCount=1
+[2026-08-26 01:33:46.993] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675626678 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:33:46.996] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675626678 priority=99 description=음료_제조_(INSTANT-1787675626678)
+[2026-08-26 01:33:47.002] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675626678 menuCount=1
+[2026-08-26 01:33:47.007] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675626678 productNo=MDI1002 bill=0000
+[2026-08-26 01:33:47.014] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:33:47.016] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:33:47.018] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:33:48.049] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:33:48.052] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:48.055] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:48.061] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:48.067] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:49.075] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:33:49.079] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:49.081] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:49.097] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:49.099] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:52.106] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:33:52.110] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:52.113] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:52.119] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:52.122] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:53.136] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:33:53.139] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:53.142] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675626678 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:53.150] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:53.154] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:33:53.160] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675626678
+[2026-08-26 01:33:53.162] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675626678 bill=0000 menuCount=1
+[2026-08-26 01:36:45.507] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675805195 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:36:45.512] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675805195 priority=99 description=음료_제조_(INSTANT-1787675805195)
+[2026-08-26 01:36:45.514] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675805195 menuCount=1
+[2026-08-26 01:36:45.516] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675805195 productNo=MDI1002 bill=0000
+[2026-08-26 01:36:45.519] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:36:45.525] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:36:45.529] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:36:46.547] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:36:46.549] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:46.553] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:46.559] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:46.566] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:47.587] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:36:47.590] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:47.594] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:47.606] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:47.610] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:50.638] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:36:50.641] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:50.644] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:50.651] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:50.654] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:51.669] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:36:51.673] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:51.678] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675805195 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:51.684] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:51.692] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:36:51.696] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675805195
+[2026-08-26 01:36:51.699] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675805195 bill=0000 menuCount=1
+[2026-08-26 01:38:29.973] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:38:30.429] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:38:30.504] [info]  [app] event=app.window status=success
+[2026-08-26 01:38:30.575] [info]  [app] event=app.tray status=success
+[2026-08-26 01:38:30.577] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:38:30.584] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:38:30.618] [info]  [app] event=task.start status=success
+[2026-08-26 01:38:30.621] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:38:30.625] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:38:30.628] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:38:30.631] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:38:30.632] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:38:30.635] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:38:30.637] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:38:30.644] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:38:30.647] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:38:30.653] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:38:30.655] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:38:30.657] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:38:30.662] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:38:30.664] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:38:30.666] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:38:30.668] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:38:30.670] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:38:30.671] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:38:30.674] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:38:30.677] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:38:30.680] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:38:30.682] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:38:30.683] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:38:30.685] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:38:30.686] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:38:30.689] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:38:30.719] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:38:30.723] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:38:30.725] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:38:30.984] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:38:31.099] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:38:31.102] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:39:17.198] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:39:17.620] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:39:17.698] [info]  [app] event=app.window status=success
+[2026-08-26 01:39:17.733] [info]  [app] event=app.tray status=success
+[2026-08-26 01:39:17.734] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:39:17.739] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:39:17.775] [info]  [app] event=task.start status=success
+[2026-08-26 01:39:17.777] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:39:17.781] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:39:17.784] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:39:17.787] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:39:17.788] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:39:17.791] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:39:17.795] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:39:17.806] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:39:17.808] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:39:17.814] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:17.817] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:17.819] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:39:17.823] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:17.826] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:17.829] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:39:17.831] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:39:17.834] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:39:17.835] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:39:17.839] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:39:17.841] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:39:17.846] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:39:17.849] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:39:17.851] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:39:17.854] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:39:17.855] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:39:17.860] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:39:17.885] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:39:17.892] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:39:17.901] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:39:18.128] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:18.130] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:39:18.135] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:22.802] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:39:22.806] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:39:23.861] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:39:23.869] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:27.392] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:39:27.399] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:27.454] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:39:27.632] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:27.634] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:27.636] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:27.891] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:28.107] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:39:29.650] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675969337 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:39:29.654] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675969337 priority=99 description=음료_제조_(INSTANT-1787675969337)
+[2026-08-26 01:39:29.657] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675969337 menuCount=1
+[2026-08-26 01:39:29.661] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675969337 productNo=MDI1002 bill=0000
+[2026-08-26 01:39:29.669] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:39:29.671] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:39:29.674] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:39:30.700] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:39:30.703] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:30.705] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:30.714] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:30.718] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:31.762] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:39:31.764] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:31.767] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:31.784] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:31.786] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:34.823] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:39:34.827] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:34.830] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:34.844] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:34.847] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:35.649] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787675975646 bill=0000 menuCount=1 mappings=[{"baseCode":"MDI1002","recipeCode":"MDI1002","matchedMenuName":"ICED_아메리카노(다크시그니처)","stepsSummary":"CUP:ICE,_COFFEE:62,_ICE:5600,_COLD:165,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:39:35.652] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787675975646 priority=99 description=음료_제조_(INSTANT-1787675975646)
+[2026-08-26 01:39:35.653] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787675975646 productNo=MDI1002 bill=0000
+[2026-08-26 01:39:35.867] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:39:35.870] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:35.872] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675969337 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:35.887] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:35.889] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:35.891] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675969337
+[2026-08-26 01:39:35.894] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675969337 bill=0000 menuCount=1
+[2026-08-26 01:39:35.902] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787675975646 menuCount=1
+[2026-08-26 01:39:35.912] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:39:35.917] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:39:35.920] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) stepCount=10
+[2026-08-26 01:39:36.927] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) step=주문스텝2
+[2026-08-26 01:39:36.930] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:36.933] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:36.948] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:36.951] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:37.972] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) step=주문스텝3
+[2026-08-26 01:39:37.975] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:37.979] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:37.991] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:37.995] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:38.897] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-08-26 01:39:41.031] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) step=주문스텝4
+[2026-08-26 01:39:41.034] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:41.036] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:41.042] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:41.049] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:42.057] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) step=주문스텝5
+[2026-08-26 01:39:42.062] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:42.064] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787675975646 menuName=ICED_아메리카노(다크시그니처) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:42.077] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:42.080] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:39:42.085] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787675975646
+[2026-08-26 01:39:42.087] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787675975646 bill=0000 menuCount=1
+[2026-08-26 01:40:24.326] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1787676024322 bill=0000 menuCount=1 mappings=[{"baseCode":"MNI2011","recipeCode":"MNI2011","matchedMenuName":"ICED_군고구마샷라떼(디카페인)","stepsSummary":"CUP:ICE,_COFFEE:46,_ICE:5600,_COLD_MILK:200,_SIRUP19:55,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-08-26 01:40:24.332] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1787676024322 priority=99 description=음료_제조_(INSTANT-1787676024322)
+[2026-08-26 01:40:24.334] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1787676024322 menuCount=1
+[2026-08-26 01:40:24.337] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1787676024322 productNo=MNI2011 bill=0000
+[2026-08-26 01:40:24.348] [error] [serialport] [serialport] event=serialport.send status=failed reason=not_connected boardName=board1
+[2026-08-26 01:40:24.351] [error] [task] [task] event=parts.command status=failed reason=send_failed action=flow_reset boardName=board1 part=filter1FlowSensor
+[2026-08-26 01:40:24.353] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) stepCount=10
+[2026-08-26 01:40:25.370] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝2
+[2026-08-26 01:40:25.374] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:25.376] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:25.388] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:25.395] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:26.416] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝3
+[2026-08-26 01:40:26.419] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:26.421] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:26.435] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:26.437] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:30.490] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝4
+[2026-08-26 01:40:30.495] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:30.498] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:30.506] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:30.509] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:31.521] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) step=주문스텝5
+[2026-08-26 01:40:31.525] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:31.528] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1787676024322 menuName=ICED_군고구마샷라떼(디카페인) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:31.541] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:31.544] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-08-26 01:40:31.556] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1787676024322
+[2026-08-26 01:40:31.558] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1787676024322 bill=0000 menuCount=1
+[2026-08-26 01:43:14.568] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-08-26 01:43:15.041] [info]  [app] event=app.startup status=started appVersion=3.3.0r34 packaged=false
+[2026-08-26 01:43:15.118] [info]  [app] event=app.window status=success
+[2026-08-26 01:43:15.197] [info]  [app] event=app.tray status=success
+[2026-08-26 01:43:15.198] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-08-26 01:43:15.205] [info]  [app] event=app.ipc status=success
+[2026-08-26 01:43:15.242] [info]  [app] event=task.start status=success
+[2026-08-26 01:43:15.245] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-08-26 01:43:15.250] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-08-26 01:43:15.253] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-08-26 01:43:15.256] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-08-26 01:43:15.258] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-08-26 01:43:15.261] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-08-26 01:43:15.267] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:43:15.275] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-08-26 01:43:15.279] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-08-26 01:43:15.286] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:15.288] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:15.291] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-08-26 01:43:15.297] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:15.300] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:15.302] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:43:15.304] [debug] [api] [api] event=did.callback status=started target=local screen=/ reason=local_api_down
+[2026-08-26 01:43:15.307] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-08-26 01:43:15.308] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=6000 normalizedIntervalSec=6000
+[2026-08-26 01:43:15.312] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:43:15.315] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-08-26 01:43:15.318] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:43:15.320] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-08-26 01:43:15.322] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-08-26 01:43:15.327] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-08-26 01:43:15.327] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-08-26 01:43:15.330] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-08-26 01:43:15.350] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-08-26 01:43:15.354] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-08-26 01:43:15.358] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:43:15.612] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:15.617] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:15.619] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-08-26 01:43:20.277] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:43:20.281] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-08-26 01:43:21.688] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-08-26 01:43:21.695] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:25.858] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-08-26 01:43:25.864] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:25.923] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-08-26 01:43:26.093] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:26.096] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-08-26 01:43:26.099] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
