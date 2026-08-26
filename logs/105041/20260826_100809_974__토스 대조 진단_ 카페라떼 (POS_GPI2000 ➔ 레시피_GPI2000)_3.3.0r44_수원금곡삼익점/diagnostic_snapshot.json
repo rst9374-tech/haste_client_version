@@ -1,0 +1,104 @@
+{
+  "storeNo": "105041",
+  "storeName": "수원금곡삼익점",
+  "reportedSymptom": "[토스 대조 진단] 카페라떼 (POS:GPI2000 ➔ 레시피:GPI2000)",
+  "clientVersion": "3.3.0r44",
+  "uploadedAt": "2026-08-26T01:08:09.974Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.09 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "PREMIUM",
+      "expireDate": "2027-08-06",
+      "lastSuccessfulVerifiedAt": 1787706188510
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM5",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "747623009914932662",
+      "menuName": "카페라떼",
+      "rawProductNo": "GPI2000",
+      "productNo": "GPI2000",
+      "bill": "747623009914932662",
+      "createdAt": "10:06:54",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "대기 중...",
+          "match": false
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "5000 ms (5.0초)",
+          "actual": "5000 ms (5.0초)",
+          "match": true
+        },
+        {
+          "type": "COLD_MILK",
+          "protocol": "COLD_MILK",
+          "label": "우유 공급",
+          "target": "180 cc",
+          "actual": "180 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "대기 중...",
+          "match": false
+        }
+      ]
+    }
+  }
+}
