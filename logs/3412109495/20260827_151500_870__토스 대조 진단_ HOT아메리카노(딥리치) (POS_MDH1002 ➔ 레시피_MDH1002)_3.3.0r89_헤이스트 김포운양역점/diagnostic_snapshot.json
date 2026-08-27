@@ -1,0 +1,109 @@
+{
+  "storeNo": "3412109495",
+  "storeName": "헤이스트 김포운양역점",
+  "reportedSymptom": "[토스 대조 진단] HOT아메리카노(딥리치) (POS:MDH1002 ➔ 레시피:MDH1002)",
+  "clientVersion": "3.3.0r89",
+  "uploadedAt": "2026-08-27T06:15:00.870Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "2.97 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "멤버십",
+      "expireDate": "2027-08-06",
+      "lastSuccessfulVerifiedAt": 1787806935858
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "748062316584906047",
+      "menuName": "HOT아메리카노(딥리치)",
+      "rawProductNo": "MDH1002",
+      "productNo": "MDH1002",
+      "bill": "748062316584906047",
+      "createdAt": "15:12:27",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "HOT",
+          "actual": "HOT",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "COFFEE",
+          "protocol": "COFFEE",
+          "label": "커피",
+          "target": "62",
+          "actual": "62",
+          "match": true
+        },
+        {
+          "type": "WATER",
+          "protocol": "HOT",
+          "label": "온수 공급",
+          "target": "300 cc",
+          "actual": "300 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "제거됨",
+          "match": true
+        }
+      ]
+    }
+  }
+}
