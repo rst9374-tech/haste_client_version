@@ -1,0 +1,120 @@
+{
+  "storeNo": "105041",
+  "storeName": "수원금곡삼익점",
+  "reportedSymptom": "[토스 대조 진단] ICED딸기라떼 (POS:GMI3002 ➔ 레시피:GMI3002)",
+  "clientVersion": "3.3.0r81",
+  "uploadedAt": "2026-08-30T12:39:26.801Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.49 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "체험기간 (30일)",
+      "expireDate": "2026-09-27",
+      "lastSuccessfulVerifiedAt": 1787984117099
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM5",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "749246695222908867",
+      "menuName": "ICED딸기라떼",
+      "rawProductNo": "GMI3002",
+      "productNo": "GMI3002",
+      "bill": "749246695222908867",
+      "createdAt": "21:38:40",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "5000 ms (5.0초)",
+          "actual": "5000 ms (5.0초)",
+          "match": true
+        },
+        {
+          "type": "COLD_MILK",
+          "protocol": "COLD_MILK",
+          "label": "우유 공급",
+          "target": "170 cc",
+          "actual": "170 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "딸기",
+          "label": "5. 딸기",
+          "target": "50 cc",
+          "actual": "25 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "초코",
+          "label": "1. 초코",
+          "target": "25 cc",
+          "actual": "25 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "대기 중...",
+          "match": false
+        }
+      ]
+    }
+  }
+}
