@@ -1,0 +1,184 @@
+[2026-09-01 15:07:18.305] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:07:18.950] [info]  [app] event=app.startup status=started appVersion=3.3.1r42 packaged=true
+[2026-09-01 15:07:18.964] [info]  [HASTE Media Sync] Synchronized 0 DID media files from ASAR to external resources.
+[2026-09-01 15:07:19.027] [info]  [app] event=app.window status=success
+[2026-09-01 15:07:19.060] [info]  [app] event=app.tray status=success
+[2026-09-01 15:07:19.061] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-09-01 15:07:19.066] [info]  [app] event=app.ipc status=success
+[2026-09-01 15:07:19.105] [info]  [app] event=task.start status=success
+[2026-09-01 15:07:19.108] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=01012345678 deviceModelId=D0000
+[2026-09-01 15:07:19.112] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\AppData\Local\haste_client3\resources\resources
+[2026-09-01 15:07:19.115] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-09-01 15:07:19.117] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-09-01 15:07:19.119] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-09-01 15:07:19.123] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-09-01 15:07:19.127] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-01 15:07:19.135] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-09-01 15:07:19.139] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-09-01 15:07:19.147] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:07:19.149] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:07:19.152] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:07:19.157] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:07:19.159] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-01 15:07:19.161] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-09-01 15:07:19.164] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-09-01 15:07:19.165] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=3600 normalizedIntervalSec=3600
+[2026-09-01 15:07:19.168] [warn]  [HASTE Foamer Schedule] Could not resolve last foamer time: Cannot find module '../services/haste_foamer_stats'
+Require stack:
+- C:\Users\김성규\AppData\Local\haste_client3\resources\app.asar\out\main\index.js
+- 
+[2026-09-01 15:07:19.170] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-01 15:07:19.172] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-01 15:07:19.174] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-01 15:07:19.176] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-01 15:07:19.178] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-09-01 15:07:19.180] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-09-01 15:07:19.180] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-09-01 15:07:19.182] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-09-01 15:07:19.182] [info]  [HASTE Official Auto-Updater] Initialized background auto-updater (Target hotpatches & Official releases).
+[2026-09-01 15:07:19.237] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-01 15:07:19.456] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:07:19.457] [info]  [app] event=license.verify status=success state=approved storeId=01012345678
+[2026-09-01 15:07:19.566] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:07:21.192] [info]  [HASTE Startup Auto-Rescue] Serialport incomplete after boot. Executing 1-shot automatic refresh reconnection...
+[2026-09-01 15:07:21.194] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-09-01 15:07:21.199] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-09-01 15:07:21.200] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-09-01 15:07:22.774] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-09-01 15:07:22.872] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-09-01 15:07:22.874] [info]  [HASTE Auto-DID] Successfully auto-launched dual DIDs with restored monitor positions!
+[2026-09-01 15:07:23.462] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=TypeError_[ERR_INVALID_STATE]:_Invalid_state:_ReadableStream_is_already_closed_at_ReadableByteStreamController.close_(node:internal/webstreams/readablestream:1190:13)_at_node:internal/deps/undici/undici:1583:30_at_process.processTicksAndRejections_(node:internal/process/task_queues:104:5) message="Invalid state: ReadableStream is already closed"
+[2026-09-01 15:07:24.134] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-01 15:07:24.136] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-01 15:07:40.228] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-09-01 15:09:22.372] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=TypeError_[ERR_INVALID_STATE]:_Invalid_state:_ReadableStream_is_already_closed_at_ReadableByteStreamController.close_(node:internal/webstreams/readablestream:1190:13)_at_node:internal/deps/undici/undici:1583:30_at_process.processTicksAndRejections_(node:internal/process/task_queues:104:5) message="Invalid state: ReadableStream is already closed"
+[2026-09-01 15:09:26.307] [warn]  [HASTE DB Reset] Settings initialization triggered. Backing up store environment & hardware parts...
+[2026-09-01 15:09:26.308] [warn]  [HASTE DB Reset] Dropping settings table...
+[2026-09-01 15:09:26.314] [info]  [HASTE DB Reset] Creating fresh settings table...
+[2026-09-01 15:09:26.315] [info]  [HASTE DB Reset] Inserting defaults settings values...
+[2026-09-01 15:09:26.346] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:09:26.348] [info]  [HASTE DB Reset] Reset completed and store state updated with preserved environment and hardware calibrations.
+[2026-09-01 15:09:26.365] [info]  [task] [HASTE DB Reset] Cleaned menu_item and store_agent tables successfully.
+[2026-09-01 15:09:26.373] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "01012345678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:09:26.375] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-01 15:09:26.376] [info]  [task] [HASTE DB Reset] Settings store reset completed successfully.
+[2026-09-01 15:09:36.182] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=010-1234-5678 deviceModelId=D0000
+[2026-09-01 15:09:36.184] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-01 15:09:36.190] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:36.248] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-01 15:09:36.308] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:36.310] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:36.312] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:36.313] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:36.315] [info]  [task] [HASTE Hard-Relaunch] App exit triggered from Renderer safely. Executing OS-Level Hard Relaunch...
+[2026-09-01 15:09:36.320] [info]  [task] [HASTE Hard-Relaunch] Gracefully releasing all serial ports before OS-level exit...
+[2026-09-01 15:09:36.321] [info]  [task] [HASTE Hard-Relaunch] [Prod Mode] Spawning next Lilly process via PS1: C:\Users\김성규\AppData\Local\haste_client3\haste_client3.exe
+[2026-09-01 15:09:36.324] [info]  [task] [HASTE Hard-Relaunch] PS1 written: C:\Users\김성규\AppData\Local\Temp\haste_relaunch_1788242976323.ps1
+[2026-09-01 15:09:36.445] [info]  [task] [HASTE Hard-Relaunch] Current process exiting via app.exit(0) safely.
+[2026-09-01 15:09:40.331] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "010-1234-5678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:09:40.857] [info]  [app] event=app.startup status=started appVersion=3.3.1r42 packaged=true
+[2026-09-01 15:09:40.871] [info]  [HASTE Media Sync] Synchronized 0 DID media files from ASAR to external resources.
+[2026-09-01 15:09:40.947] [info]  [app] event=app.window status=success
+[2026-09-01 15:09:40.988] [info]  [app] event=app.tray status=success
+[2026-09-01 15:09:40.989] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-09-01 15:09:40.997] [info]  [app] event=app.ipc status=success
+[2026-09-01 15:09:41.033] [info]  [app] event=task.start status=success
+[2026-09-01 15:09:41.035] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=010-1234-5678 deviceModelId=D0000
+[2026-09-01 15:09:41.040] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\AppData\Local\haste_client3\resources\resources
+[2026-09-01 15:09:41.044] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-09-01 15:09:41.047] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-09-01 15:09:41.049] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-09-01 15:09:41.050] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-09-01 15:09:41.053] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-01 15:09:41.062] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-09-01 15:09:41.063] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-09-01 15:09:41.074] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:41.077] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:41.080] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:41.081] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:41.082] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-01 15:09:41.083] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-09-01 15:09:41.085] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-09-01 15:09:41.086] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=3600 normalizedIntervalSec=3600
+[2026-09-01 15:09:41.089] [warn]  [HASTE Foamer Schedule] Could not resolve last foamer time: Cannot find module '../services/haste_foamer_stats'
+Require stack:
+- C:\Users\김성규\AppData\Local\haste_client3\resources\app.asar\out\main\index.js
+- 
+[2026-09-01 15:09:41.092] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-01 15:09:41.093] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-01 15:09:41.095] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-01 15:09:41.096] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-01 15:09:41.097] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-09-01 15:09:41.098] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-09-01 15:09:41.099] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-09-01 15:09:41.101] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-09-01 15:09:41.101] [info]  [HASTE Official Auto-Updater] Initialized background auto-updater (Target hotpatches & Official releases).
+[2026-09-01 15:09:41.160] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-01 15:09:41.359] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:41.361] [info]  [app] event=license.verify status=success state=approved storeId=010-1234-5678
+[2026-09-01 15:09:41.364] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:09:43.116] [info]  [HASTE Startup Auto-Rescue] Serialport incomplete after boot. Executing 1-shot automatic refresh reconnection...
+[2026-09-01 15:09:43.117] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-09-01 15:09:43.124] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-09-01 15:09:43.126] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-09-01 15:09:44.678] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-09-01 15:09:44.768] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-09-01 15:09:44.770] [info]  [HASTE Auto-DID] Successfully auto-launched dual DIDs with restored monitor positions!
+[2026-09-01 15:09:46.070] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-01 15:09:46.072] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-01 15:10:02.140] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="connect ETIMEDOUT 192.168.10.99:25000"
+[2026-09-01 15:10:15.294] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:20:41.464] [info]  🚀 [HASTE Target Updater] New remote deployment detected (3.3.1r43 > 3.3.1r42). Auto-applying update immediately...
+[2026-09-01 15:20:41.465] [info]  [HASTE Official Updater] Downloading official update v3.3.1r43 from: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.3.1r43/hasteai_client_v3.3.1r43.asar
+[2026-09-01 15:20:41.467] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=Error:_Invalid_package_C:\Users\김성규\AppData\Local\Temp\hasteai_official_v3.3.1r43.asar_at_createError_(node:electron/js2c/node_init:2:2369)_at_t.<computed>_[as_open]_(node:electron/js2c/node_init:2:3203)_at_WriteStream._construct_(node:internal/fs/streams:74:17)_at_constructNT_(node:internal/streams/destroy:300:12)_at_process.processTicksAndRejections_(node:internal/process/task_queues:89:21) message="Invalid package C:\\Users\\김성규\\AppData\\Local\\Temp\\hasteai_official_v3.3.1r43.asar"
+[2026-09-01 15:21:41.434] [info]  🚀 [HASTE Target Updater] New remote deployment detected (3.3.1r43 > 3.3.1r42). Auto-applying update immediately...
+[2026-09-01 15:21:41.435] [info]  [HASTE Official Updater] Downloading official update v3.3.1r43 from: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.3.1r43/hasteai_client_v3.3.1r43.asar
+[2026-09-01 15:21:41.436] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=Error:_Invalid_package_C:\Users\김성규\AppData\Local\Temp\hasteai_official_v3.3.1r43.asar_at_createError_(node:electron/js2c/node_init:2:2369)_at_t.<computed>_[as_open]_(node:electron/js2c/node_init:2:3203)_at_WriteStream._construct_(node:internal/fs/streams:74:17)_at_constructNT_(node:internal/streams/destroy:300:12)_at_process.processTicksAndRejections_(node:internal/process/task_queues:89:21) message="Invalid package C:\\Users\\김성규\\AppData\\Local\\Temp\\hasteai_official_v3.3.1r43.asar"
+[2026-09-01 15:22:41.444] [info]  🚀 [HASTE Target Updater] New remote deployment detected (3.3.1r43 > 3.3.1r42). Auto-applying update immediately...
+[2026-09-01 15:22:41.445] [info]  [HASTE Official Updater] Downloading official update v3.3.1r43 from: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.3.1r43/hasteai_client_v3.3.1r43.asar
+[2026-09-01 15:22:41.447] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=Error:_Invalid_package_C:\Users\김성규\AppData\Local\Temp\hasteai_official_v3.3.1r43.asar_at_createError_(node:electron/js2c/node_init:2:2369)_at_t.<computed>_[as_open]_(node:electron/js2c/node_init:2:3203)_at_WriteStream._construct_(node:internal/fs/streams:74:17)_at_constructNT_(node:internal/streams/destroy:300:12)_at_process.processTicksAndRejections_(node:internal/process/task_queues:89:21) message="Invalid package C:\\Users\\김성규\\AppData\\Local\\Temp\\hasteai_official_v3.3.1r43.asar"
+[2026-09-01 15:23:20.525] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:23.649] [info]  [task] [HASTE Google Sheet Sync] Synchronizing latest SOT directly from Google Sheets...
+[2026-09-01 15:23:24.488] [info]  [task] [HASTE Google Sheet Sync] ✅ 실시간 파싱 무결성 100% 검증 통과! (총 794개 레시피, 커피 556개 펄스 정상)
+[2026-09-01 15:23:24.490] [info]  [task] [HASTE IPC] Executing executeApplyStandardRecipes (Store Environment Optimized SOT)...
+[2026-09-01 15:23:24.499] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:24.502] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:24.508] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "010-1234-5678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:23:24.510] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-01 15:23:24.511] [info]  [task] [HASTE SOT] Successfully injected standard recipes. Total: 255.
+[2026-09-01 15:23:24.514] [warn]  [task] [HASTE SOT] Kiosk DB sync notice: FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.526] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "010-1234-5678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:23:24.528] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-01 15:23:24.530] [info]  [task] [HASTE Google Sheet Sync] Live sync & local DB injection completed successfully!
+[2026-09-01 15:23:24.534] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.535] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.536] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.539] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.545] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.559] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:24.561] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:24.564] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:24.621] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:24.912] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:25.036] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:30.909] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:30.910] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:38.960] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:39.206] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:39.938] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:39.949] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:41.304] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:41.457] [info]  🚀 [HASTE Target Updater] New remote deployment detected (3.3.1r43 > 3.3.1r42). Auto-applying update immediately...
+[2026-09-01 15:23:41.457] [info]  [HASTE Official Updater] Downloading official update v3.3.1r43 from: https://github.com/rst9374-tech/haste_client_version/releases/download/v3.3.1r43/hasteai_client_v3.3.1r43.asar
+[2026-09-01 15:23:41.459] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=Error:_Invalid_package_C:\Users\김성규\AppData\Local\Temp\hasteai_official_v3.3.1r43.asar_at_createError_(node:electron/js2c/node_init:2:2369)_at_t.<computed>_[as_open]_(node:electron/js2c/node_init:2:3203)_at_WriteStream._construct_(node:internal/fs/streams:74:17)_at_constructNT_(node:internal/streams/destroy:300:12)_at_process.processTicksAndRejections_(node:internal/process/task_queues:89:21) message="Invalid package C:\\Users\\김성규\\AppData\\Local\\Temp\\hasteai_official_v3.3.1r43.asar"
+[2026-09-01 15:23:41.495] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:45.956] [info]  [task] [HASTE Reset Menu] Pure Reset: Completely clearing all local menus and kiosk items to empty...
+[2026-09-01 15:23:45.961] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:45.963] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:45.970] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "김포집", StoreNo: "010-1234-5678", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-01 15:23:45.972] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-01 15:23:45.974] [info]  [task] [HASTE Reset Menu] Pure Reset complete: 0 menus, 0 kiosk items.
+[2026-09-01 15:23:46.002] [error] [Client] [POS_SYNC] [GET_KIOSK_FAIL] : FOREIGN KEY constraint failed
+[2026-09-01 15:23:46.022] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:46.024] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-01 15:23:46.025] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
