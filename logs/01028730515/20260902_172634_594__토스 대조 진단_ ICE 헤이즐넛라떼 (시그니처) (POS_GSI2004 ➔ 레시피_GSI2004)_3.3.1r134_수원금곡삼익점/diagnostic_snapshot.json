@@ -1,0 +1,120 @@
+{
+  "storeNo": "01028730515",
+  "storeName": "수원금곡삼익점",
+  "reportedSymptom": "[토스 대조 진단] ICE 헤이즐넛라떼 (시그니처) (POS:GSI2004 ➔ 레시피:GSI2004)",
+  "clientVersion": "3.3.1r134",
+  "uploadedAt": "2026-09-02T08:26:34.594Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "1.97 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-09-27",
+      "lastSuccessfulVerifiedAt": 1788337520455
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM5",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "750270293081706762",
+      "menuName": "ICE 헤이즐넛라떼 (시그니처)",
+      "rawProductNo": "GSI2004",
+      "productNo": "GSI2004",
+      "bill": "750270293081706762",
+      "createdAt": "17:26:04",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "COFFEE",
+          "protocol": "COFFEE",
+          "label": "커피",
+          "target": "60",
+          "actual": "60",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "5000 ms (5.0초) (+0초)",
+          "actual": "5000 ms (5.0초)",
+          "match": true
+        },
+        {
+          "type": "COLD_MILK",
+          "protocol": "COLD_MILK",
+          "label": "우유 공급",
+          "target": "140 cc (+0)",
+          "actual": "140 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "헤이즐넛",
+          "label": "7. 헤이즐넛",
+          "target": "35 cc (+0)",
+          "actual": "35 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "제거됨",
+          "match": true
+        }
+      ]
+    }
+  }
+}
