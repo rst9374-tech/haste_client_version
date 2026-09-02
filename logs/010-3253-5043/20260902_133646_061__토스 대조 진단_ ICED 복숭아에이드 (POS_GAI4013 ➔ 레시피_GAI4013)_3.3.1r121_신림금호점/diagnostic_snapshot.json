@@ -1,0 +1,112 @@
+{
+  "storeNo": "010-3253-5043",
+  "storeName": "신림금호점",
+  "reportedSymptom": "[토스 대조 진단] ICED 복숭아에이드 (POS:GAI4013 ➔ 레시피:GAI4013)",
+  "clientVersion": "3.3.1r121",
+  "uploadedAt": "2026-09-02T04:36:46.061Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "1.96 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-09-15",
+      "lastSuccessfulVerifiedAt": 1788323733168
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "INSTANT-1788323757296",
+      "menuName": "ICED 복숭아에이드",
+      "rawProductNo": "GAI4013",
+      "productNo": "GAI4013",
+      "bill": "0000",
+      "createdAt": "13:35:57",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "5000 ms (5.0초) (+0초)",
+          "actual": "5000 ms (5.0초)",
+          "match": true
+        },
+        {
+          "type": "WATER",
+          "protocol": "SPARKLE",
+          "label": "탄산수 공급",
+          "target": "160 cc (+13)",
+          "actual": "173 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "복숭아",
+          "label": "11. 복숭아",
+          "target": "40 cc (+0)",
+          "actual": "40 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "제거됨",
+          "match": true
+        }
+      ]
+    }
+  }
+}
