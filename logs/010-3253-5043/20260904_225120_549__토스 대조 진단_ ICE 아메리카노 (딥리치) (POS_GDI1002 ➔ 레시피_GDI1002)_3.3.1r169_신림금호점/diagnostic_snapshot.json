@@ -1,0 +1,112 @@
+{
+  "storeNo": "010-3253-5043",
+  "storeName": "신림금호점",
+  "reportedSymptom": "[토스 대조 진단] ICE 아메리카노 (딥리치) (POS:GDI1002 ➔ 레시피:GDI1002)",
+  "clientVersion": "3.3.1r169",
+  "uploadedAt": "2026-09-04T13:51:20.549Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.21 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-09-15",
+      "lastSuccessfulVerifiedAt": 1788522968012
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "751076377883346634",
+      "menuName": "ICE 아메리카노 (딥리치)",
+      "rawProductNo": "GDI1002",
+      "productNo": "GDI1002",
+      "bill": "751076377883346634",
+      "createdAt": "22:49:27",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "COFFEE",
+          "protocol": "COFFEE",
+          "label": "커피",
+          "target": "60",
+          "actual": "60",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "5000 ms (5.0초) (+0초)",
+          "actual": "5000 ms (5.0초)",
+          "match": true
+        },
+        {
+          "type": "WATER",
+          "protocol": "COLD",
+          "label": "정수 공급",
+          "target": "120 cc (+0)",
+          "actual": "120 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "제거됨",
+          "match": true
+        }
+      ]
+    }
+  }
+}
