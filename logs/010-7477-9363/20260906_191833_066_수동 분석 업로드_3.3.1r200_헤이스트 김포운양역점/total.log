@@ -1,0 +1,821 @@
+[2026-09-06 18:38:25.685] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:25.694] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:25.696] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:38:30.535] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:38:30.701] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:35.706] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:35.708] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:35.711] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:38:40.549] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:38:40.715] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:12.644] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:39:13.090] [info]  [app] event=app.startup status=started appVersion=3.3.1r200 packaged=false
+[2026-09-06 18:39:13.172] [info]  [app] event=app.window status=success
+[2026-09-06 18:39:13.231] [info]  [app] event=app.tray status=success
+[2026-09-06 18:39:13.233] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-09-06 18:39:13.241] [info]  [app] event=app.ipc status=success
+[2026-09-06 18:39:13.281] [info]  [app] event=task.start status=success
+[2026-09-06 18:39:13.283] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=010-7477-9363 deviceModelId=D0000
+[2026-09-06 18:39:13.288] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-09-06 18:39:13.291] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-09-06 18:39:13.295] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-09-06 18:39:13.297] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-09-06 18:39:13.299] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-09-06 18:39:13.306] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-09-06 18:39:13.310] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-09-06 18:39:13.317] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.321] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.325] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.328] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.330] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 18:39:13.332] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-09-06 18:39:13.335] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-09-06 18:39:13.339] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=3600 normalizedIntervalSec=3600
+[2026-09-06 18:39:13.343] [info]  [HASTE Foamer Schedule] No foamer history today (fresh install / daily first boot). Triggering initial rinse in 5s!
+[2026-09-06 18:39:13.345] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 18:39:13.346] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 18:39:13.348] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 18:39:13.351] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 18:39:13.356] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-09-06 18:39:13.358] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-09-06 18:39:13.360] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-09-06 18:39:13.364] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-09-06 18:39:13.365] [info]  [HASTE Official Auto-Updater] Initialized background auto-updater (Target hotpatches & Official releases).
+[2026-09-06 18:39:13.382] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 18:39:13.456] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:13.614] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.633] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.640] [info]  [app] event=license.verify status=success state=approved storeId=010-7477-9363
+[2026-09-06 18:39:15.377] [info]  [HASTE Startup Auto-Rescue] Serialport incomplete after boot. Executing 1-shot automatic refresh reconnection...
+[2026-09-06 18:39:15.379] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-09-06 18:39:15.388] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-09-06 18:39:15.390] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-09-06 18:39:16.940] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-09-06 18:39:17.039] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-09-06 18:39:17.046] [info]  [HASTE Auto-DID] Successfully auto-launched dual DIDs for approved store "010-7477-9363"!
+[2026-09-06 18:39:18.305] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:39:18.314] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:39:18.318] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:18.478] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:21.721] [info]  [task] [HASTE Google Sheet Sync] Synchronizing latest SOT directly from Google Sheets...
+[2026-09-06 18:39:22.517] [info]  [task] [HASTE Google Sheet Sync] ✅ 실시간 파싱 무결성 100% 검증 통과! (총 794개 레시피, 커피 556개 펄스 정상)
+[2026-09-06 18:39:22.527] [info]  [task] [HASTE IPC] Executing executeApplyStandardRecipes (Store Environment Optimized SOT)...
+[2026-09-06 18:39:22.547] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.550] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.558] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:39:22.561] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 18:39:22.569] [info]  [task] [HASTE SOT] Successfully injected standard recipes. Total: 260.
+[2026-09-06 18:39:22.591] [info]  [task] [HASTE SOT] Populated 104 Toss Kiosk representative menus into menu_item table.
+[2026-09-06 18:39:22.605] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:39:22.609] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 18:39:22.611] [info]  [task] [HASTE Google Sheet Sync] Live sync & local DB injection completed successfully!
+[2026-09-06 18:39:22.780] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.782] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.784] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:23.154] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:23.395] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:23.488] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:23.490] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:23.492] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:39:28.311] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:39:28.479] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:33.491] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:33.493] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:33.495] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:39:38.337] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:39:38.504] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:43.506] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:43.507] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:43.509] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:39:48.344] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:39:48.511] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:53.517] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:53.520] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:53.523] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:39:58.359] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:39:58.525] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:03.536] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:03.538] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:03.540] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:40:08.378] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:40:08.544] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:13.552] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:13.556] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:13.559] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:40:18.396] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:40:18.561] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:23.566] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:23.569] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:23.572] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:40:28.403] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:40:28.569] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:33.580] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:33.583] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:33.587] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:40:38.424] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:40:38.591] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:43.598] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:43.601] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:43.605] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:40:48.443] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:40:48.610] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:53.621] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:53.624] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:40:53.626] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:40:58.456] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:40:58.623] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:03.629] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:03.632] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:03.634] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:41:08.473] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:41:08.640] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:13.654] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:13.657] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:13.659] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:41:18.479] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:41:18.644] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:23.660] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:23.666] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:23.670] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:41:28.482] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:41:28.648] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:33.657] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:33.660] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:33.663] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:41:38.497] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:41:38.662] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:43.671] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:43.674] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:43.676] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:41:48.510] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:41:48.676] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:53.681] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:53.684] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:41:53.686] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:41:58.522] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:41:58.687] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:03.691] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:03.694] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:03.696] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:42:08.532] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:42:08.699] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:13.708] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:13.711] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:13.713] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:42:18.543] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:42:18.709] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:23.725] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:23.728] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:23.730] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:42:28.548] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:42:28.713] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:33.723] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:33.727] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:33.731] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:42:38.562] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:42:38.727] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:43.735] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:43.740] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:43.741] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:42:48.571] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:42:48.738] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:53.744] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:53.747] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:42:53.749] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:42:58.582] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:42:58.748] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:03.758] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:03.759] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:03.761] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:43:08.605] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:43:08.770] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:12.308] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 18:43:12.313] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:12.317] [info]  [HASTE DB Save] Settings category "coffee" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:12.367] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 18:43:12.440] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:12.443] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:12.445] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:12.752] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:12.969] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:13.776] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:13.779] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:13.781] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:43:18.616] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:43:18.782] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:19.149] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:19.150] [info]  [task] [HASTE IPC] Executing executeApplyStandardRecipes (Store Environment Optimized SOT)...
+[2026-09-06 18:43:19.162] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:19.165] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:19.174] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:43:19.176] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 18:43:19.183] [info]  [task] [HASTE SOT] Successfully injected standard recipes. Total: 265.
+[2026-09-06 18:43:19.197] [info]  [task] [HASTE SOT] Populated 104 Toss Kiosk representative menus into menu_item table.
+[2026-09-06 18:43:19.536] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:19.539] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:19.542] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:19.804] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:20.049] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:23.792] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:23.795] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:23.797] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:43:28.637] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:43:28.789] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:33.289] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 18:43:33.291] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:33.293] [info]  [HASTE DB Save] Settings category "coffee" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:33.346] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 18:43:33.393] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:33.394] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:33.397] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:33.724] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:33.799] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:33.801] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:33.804] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:43:33.973] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:38.655] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:43:38.820] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:39.173] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.174] [info]  [task] [HASTE IPC] Executing executeApplyStandardRecipes (Store Environment Optimized SOT)...
+[2026-09-06 18:43:39.185] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.189] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.196] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:43:39.199] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 18:43:39.206] [info]  [task] [HASTE SOT] Successfully injected standard recipes. Total: 259.
+[2026-09-06 18:43:39.219] [info]  [task] [HASTE SOT] Populated 104 Toss Kiosk representative menus into menu_item table.
+[2026-09-06 18:43:39.239] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.241] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.243] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.515] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:39.750] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:43:43.829] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:43.832] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:43.834] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:43:48.665] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:43:48.830] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:53.834] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:53.837] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:43:53.841] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:43:58.674] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:43:58.840] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:03.851] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:03.854] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:03.857] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:44:08.688] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:44:08.855] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:13.871] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:13.874] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:13.876] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:44:18.694] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:44:18.860] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:23.867] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:23.870] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:23.873] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:44:28.707] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:44:28.874] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:33.882] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:33.886] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:33.891] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:44:38.720] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:44:38.886] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:43.893] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:43.895] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:43.896] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:44:48.730] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:44:48.896] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:53.913] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:53.915] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:44:53.917] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:44:58.736] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:44:58.896] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:03.906] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:03.909] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:03.911] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:45:08.742] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:45:08.907] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:13.925] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:13.929] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:13.931] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:45:18.754] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:45:18.919] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:29.618] [info]  [HASTE FORCE COFFEE REPAIR] Successfully force-repaired SETTINGS.MENU table!
+[2026-09-06 18:45:29.644] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:45:30.058] [info]  [app] event=app.startup status=started appVersion=3.3.1r200 packaged=false
+[2026-09-06 18:45:30.121] [info]  [app] event=app.window status=success
+[2026-09-06 18:45:30.170] [info]  [app] event=app.tray status=success
+[2026-09-06 18:45:30.171] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-09-06 18:45:30.178] [info]  [app] event=app.ipc status=success
+[2026-09-06 18:45:30.214] [info]  [app] event=task.start status=success
+[2026-09-06 18:45:30.216] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=010-7477-9363 deviceModelId=D0000
+[2026-09-06 18:45:30.220] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-09-06 18:45:30.224] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-09-06 18:45:30.227] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-09-06 18:45:30.229] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-09-06 18:45:30.230] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-09-06 18:45:30.236] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-09-06 18:45:30.240] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-09-06 18:45:30.246] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:45:30.248] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:45:30.250] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:45:30.253] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:45:30.255] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 18:45:30.257] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-09-06 18:45:30.260] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-09-06 18:45:30.261] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=3600 normalizedIntervalSec=3600
+[2026-09-06 18:45:30.264] [info]  [HASTE Foamer Schedule] No foamer history today (fresh install / daily first boot). Triggering initial rinse in 5s!
+[2026-09-06 18:45:30.265] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 18:45:30.267] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 18:45:30.271] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 18:45:30.273] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 18:45:30.275] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-09-06 18:45:30.277] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-09-06 18:45:30.278] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-09-06 18:45:30.280] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-09-06 18:45:30.281] [info]  [HASTE Official Auto-Updater] Initialized background auto-updater (Target hotpatches & Official releases).
+[2026-09-06 18:45:30.323] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 18:45:30.389] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:30.597] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:45:30.601] [info]  [app] event=license.verify status=success state=approved storeId=010-7477-9363
+[2026-09-06 18:45:30.630] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:45:32.291] [info]  [HASTE Startup Auto-Rescue] Serialport incomplete after boot. Executing 1-shot automatic refresh reconnection...
+[2026-09-06 18:45:32.294] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-09-06 18:45:32.300] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-09-06 18:45:32.302] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-09-06 18:45:33.892] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-09-06 18:45:33.983] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-09-06 18:45:33.990] [info]  [HASTE Auto-DID] Successfully auto-launched dual DIDs for approved store "010-7477-9363"!
+[2026-09-06 18:45:35.242] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:45:35.247] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:45:35.252] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:35.396] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:40.403] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:40.406] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:40.408] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:45:45.260] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:45:45.427] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:50.445] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:50.448] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:45:50.449] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:45:55.272] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:45:55.437] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:00.456] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:00.459] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:00.461] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:46:05.279] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:46:05.445] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:10.450] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:10.453] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:10.455] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:46:15.288] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:46:15.453] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:20.458] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:20.461] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:20.463] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:46:25.301] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:46:25.467] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:30.474] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:30.476] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:30.478] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:46:35.317] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:46:35.483] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:40.487] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:40.490] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:40.492] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:46:45.325] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:46:45.490] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:50.497] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:50.499] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:46:50.501] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:46:55.337] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:46:55.503] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:00.509] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:00.512] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:00.514] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:47:05.350] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:47:05.502] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:10.507] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:10.510] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:10.512] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:47:15.361] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:47:15.526] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:20.532] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:20.535] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:20.537] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:47:25.365] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:47:25.518] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:30.527] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:30.530] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:30.532] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:47:35.382] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:47:35.549] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:40.554] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:40.557] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:40.559] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:47:45.394] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:47:45.560] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:50.577] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:50.580] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:47:50.582] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:47:55.400] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:47:55.565] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:00.573] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:00.576] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:00.578] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:48:05.415] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:48:05.580] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:10.586] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:10.589] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:10.591] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:48:15.428] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:48:15.594] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:20.609] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:20.612] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:20.614] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:48:25.435] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:48:25.601] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:30.609] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:30.612] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:30.614] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:48:35.448] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:48:35.615] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:40.621] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:40.623] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:40.626] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:48:45.461] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:48:45.627] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:50.633] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:50.635] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:48:50.637] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:48:55.472] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:48:55.638] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:00.645] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:00.648] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:00.650] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:49:05.485] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:49:05.651] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:10.665] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:10.667] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:10.669] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:49:15.492] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:49:15.657] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:20.666] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:20.668] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:20.671] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:49:25.512] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:49:25.677] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:30.695] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:30.698] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:30.700] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:49:35.518] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:49:35.684] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:40.701] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:40.703] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:40.705] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:49:45.528] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:49:45.695] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:50.699] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:50.701] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:49:50.703] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:49:55.541] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:49:55.706] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:00.713] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:00.716] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:00.718] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:50:05.556] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:50:05.722] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:10.726] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:10.729] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:10.731] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:50:15.568] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:50:15.733] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:20.742] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:20.746] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:20.748] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:50:25.579] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:50:25.744] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:30.752] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:30.755] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:30.757] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:50:35.592] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:50:35.757] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:40.775] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:40.777] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:40.780] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:50:45.605] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:50:45.771] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:50.775] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:50.778] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:50:50.780] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:50:55.615] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:50:55.782] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:00.799] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:00.802] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:00.803] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:51:05.621] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:51:05.789] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:10.796] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:10.799] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:10.802] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:51:15.636] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:51:15.801] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:20.817] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:20.820] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:20.823] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:51:25.646] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:51:25.812] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:30.819] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:30.821] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:30.823] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:51:35.659] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:51:35.824] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:40.833] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:40.836] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:40.837] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:51:45.673] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:51:45.839] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:50.844] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:50.845] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:51:50.848] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:51:55.680] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:51:55.846] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:00.852] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:00.857] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:00.862] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:52:05.689] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:52:05.855] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:10.863] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:10.865] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:10.867] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:52:15.705] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:52:15.871] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:20.887] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:20.890] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:20.892] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:52:25.709] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:52:25.875] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:30.880] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:30.883] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:30.885] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:52:35.714] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:52:35.879] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:40.889] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:40.891] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:40.893] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:52:45.733] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:52:45.898] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:50.902] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:50.904] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:52:50.906] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:52:55.742] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:52:55.907] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:00.914] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:00.918] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:00.920] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:53:05.755] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:53:05.920] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:10.925] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:10.928] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:10.930] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:53:15.766] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:53:15.932] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:20.937] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:20.940] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:20.942] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:53:25.778] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:53:25.943] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:30.954] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:30.956] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:30.958] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:53:35.791] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:53:35.957] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:40.965] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:40.967] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:40.969] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:53:45.809] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:53:45.975] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:50.992] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:50.995] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:53:50.997] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:53:55.816] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:53:55.981] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:00.988] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:00.991] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:00.993] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:54:05.826] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:54:05.992] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:10.999] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:11.001] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:11.003] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:54:15.838] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:54:16.004] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:21.014] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:21.016] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:21.019] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:54:25.852] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:54:26.017] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:31.022] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:31.025] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:31.026] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:54:35.866] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:54:36.031] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:41.039] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:41.042] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:41.045] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:54:45.883] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:54:46.050] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:51.054] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:51.056] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:54:51.058] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:54:55.893] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:54:56.060] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:01.062] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:01.065] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:01.067] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:55:05.900] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:55:06.066] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:11.070] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:11.072] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:11.075] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:55:15.906] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:55:16.072] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:21.081] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:21.083] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:21.086] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:55:25.919] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:55:26.086] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:31.092] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:31.095] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:31.097] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:55:35.942] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:55:36.109] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:41.116] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:41.119] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:41.121] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:55:45.952] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:55:46.117] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:51.124] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:51.127] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:55:51.129] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:55:55.965] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:55:56.131] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:01.138] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:01.141] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:01.143] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:56:05.976] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:56:06.142] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:11.145] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:11.148] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:11.150] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:56:15.983] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:56:16.150] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:21.167] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:21.169] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:21.171] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:56:25.992] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:56:26.159] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:31.164] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:31.167] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:31.169] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:56:36.012] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:56:36.177] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:41.196] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:41.198] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:41.201] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:56:46.020] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:56:46.186] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:51.191] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:51.194] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:56:51.196] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:56:56.040] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:56:56.205] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:01.221] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:01.224] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:01.226] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:57:06.043] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:57:06.209] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:11.213] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:11.215] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:11.217] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:57:16.052] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:57:16.218] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:21.234] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:21.236] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:21.238] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:57:26.053] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:57:26.218] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:31.234] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:31.237] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:31.239] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:57:36.058] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:57:36.223] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:41.239] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:41.242] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:41.244] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:57:46.062] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:57:46.229] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:51.235] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:51.237] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:57:51.240] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:57:56.069] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:57:56.235] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:01.238] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:01.241] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:01.243] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:58:06.077] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:58:06.243] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:11.247] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:11.249] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:11.251] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:58:16.082] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:58:16.247] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:21.251] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:21.253] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:21.256] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:58:26.089] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:58:26.255] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:31.262] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:31.264] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:58:31.266] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 19:17:55.386] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 19:17:55.852] [info]  [app] event=app.startup status=started appVersion=3.3.1r200 packaged=false
+[2026-09-06 19:17:55.928] [info]  [app] event=app.window status=success
+[2026-09-06 19:17:55.987] [info]  [app] event=app.tray status=success
+[2026-09-06 19:17:55.989] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-09-06 19:17:55.999] [info]  [app] event=app.ipc status=success
+[2026-09-06 19:17:56.040] [info]  [app] event=task.start status=success
+[2026-09-06 19:17:56.042] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=010-7477-9363 deviceModelId=D0000
+[2026-09-06 19:17:56.046] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-09-06 19:17:56.050] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-09-06 19:17:56.053] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-09-06 19:17:56.055] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-09-06 19:17:56.059] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-09-06 19:17:56.065] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-09-06 19:17:56.069] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-09-06 19:17:56.078] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 19:17:56.082] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 19:17:56.084] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 19:17:56.087] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 19:17:56.088] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 19:17:56.092] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-09-06 19:17:56.094] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-09-06 19:17:56.097] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=3600 normalizedIntervalSec=3600
+[2026-09-06 19:17:56.103] [info]  [HASTE Foamer Schedule] No foamer history today (fresh install / daily first boot). Triggering initial rinse in 5s!
+[2026-09-06 19:17:56.107] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 19:17:56.109] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 19:17:56.112] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 19:17:56.114] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 19:17:56.116] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-09-06 19:17:56.118] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-09-06 19:17:56.119] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-09-06 19:17:56.121] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-09-06 19:17:56.122] [info]  [HASTE Official Auto-Updater] Initialized background auto-updater (Target hotpatches & Official releases).
+[2026-09-06 19:17:56.151] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 19:17:56.217] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:17:56.424] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:17:56.428] [info]  [app] event=license.verify status=success state=approved storeId=010-7477-9363
+[2026-09-06 19:17:56.450] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:17:58.137] [info]  [HASTE Startup Auto-Rescue] Serialport incomplete after boot. Executing 1-shot automatic refresh reconnection...
+[2026-09-06 19:17:58.138] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-09-06 19:17:58.147] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-09-06 19:17:58.151] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-09-06 19:17:59.759] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-09-06 19:17:59.910] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-09-06 19:17:59.913] [info]  [HASTE Auto-DID] Successfully auto-launched dual DIDs for approved store "010-7477-9363"!
+[2026-09-06 19:18:01.063] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 19:18:01.071] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 19:18:01.076] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:01.115] [error] [app] event=main_process.error status=failed reason=uncaught_exception stack=TypeError_[ERR_INVALID_STATE]:_Invalid_state:_ReadableStream_is_already_closed_at_ReadableByteStreamController.close_(node:internal/webstreams/readablestream:1190:13)_at_node:internal/deps/undici/undici:1583:30_at_process.processTicksAndRejections_(node:internal/process/task_queues:104:5) message="Invalid state: ReadableStream is already closed"
+[2026-09-06 19:18:01.227] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:06.238] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:06.242] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:06.249] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 19:18:11.079] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 19:18:11.246] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:16.259] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:16.261] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:16.263] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 19:18:21.096] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 19:18:21.248] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:23.345] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 19:18:23.349] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:23.351] [info]  [HASTE DB Save] Settings category "coffee" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:23.408] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 19:18:23.466] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:23.469] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:23.472] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:23.794] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:24.031] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:26.259] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:26.262] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 19:18:26.264] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 19:18:30.163] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:30.193] [info]  [task] [HASTE IPC] Executing executeApplyStandardRecipes (Store Environment Optimized SOT)...
+[2026-09-06 19:18:30.209] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:30.214] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:30.228] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 19:18:30.231] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 19:18:30.240] [info]  [task] [HASTE SOT] Successfully injected standard recipes. Total: 265.
+[2026-09-06 19:18:30.256] [info]  [task] [HASTE SOT] Populated 104 Toss Kiosk representative menus into menu_item table.
+[2026-09-06 19:18:30.293] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:30.298] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 19:18:30.300] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
