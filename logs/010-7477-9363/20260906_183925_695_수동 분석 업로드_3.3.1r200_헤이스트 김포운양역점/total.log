@@ -1,0 +1,74 @@
+[2026-09-06 18:38:25.685] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:25.694] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:25.696] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:38:30.535] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:38:30.701] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:35.706] [error] [coffee] [coffee] event=coffee.socket status=failed reason=open_timeout transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:35.708] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:38:35.711] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:38:40.549] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:38:40.715] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:12.644] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:39:13.090] [info]  [app] event=app.startup status=started appVersion=3.3.1r200 packaged=false
+[2026-09-06 18:39:13.172] [info]  [app] event=app.window status=success
+[2026-09-06 18:39:13.231] [info]  [app] event=app.tray status=success
+[2026-09-06 18:39:13.233] [info]  [app] event=updater.check status=ignored reason=store_managed_distribution
+[2026-09-06 18:39:13.241] [info]  [app] event=app.ipc status=success
+[2026-09-06 18:39:13.281] [info]  [app] event=task.start status=success
+[2026-09-06 18:39:13.283] [debug] [api] [api] event=settings.change status=success port=8080 posStoreNo=010-7477-9363 deviceModelId=D0000
+[2026-09-06 18:39:13.288] [info]  [api] [HASTE] Found SSL Certificates at: C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources
+[2026-09-06 18:39:13.291] [info]  [api] [HASTE] Started HTTP Hono Server on port 8080 (Toss Place HTTP Mode).
+[2026-09-06 18:39:13.295] [info]  [api] [HASTE] Started HTTPS Hono Server on port 8443 (Toss Kiosk Mode).
+[2026-09-06 18:39:13.297] [debug] [api] [api] event=api.server status=success port=8080 host=0.0.0.0
+[2026-09-06 18:39:13.299] [debug] [coffee] [coffee] event=settings.change status=success field=thirdpartyType value=Lilly_(WMF)
+[2026-09-06 18:39:13.306] [debug] [coffee] [coffee] event=temperature.change status=success
+[2026-09-06 18:39:13.310] [debug] [api] [api] event=did.callback status=ignored reason=local_did_not_open screen=temperature
+[2026-09-06 18:39:13.317] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.321] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.325] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.328] [info]  [HASTE DB Save] Settings category "inventory" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.330] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 18:39:13.332] [debug] [api] [api] event=did.callback status=started target=local screen=main
+[2026-09-06 18:39:13.335] [info]  [app] event=app.startup status=success message="subscriptions registered"
+[2026-09-06 18:39:13.339] [debug] [task] [task] event=scheduler.change status=success routine=FOAMER_RINSING intervalSec=3600 normalizedIntervalSec=3600
+[2026-09-06 18:39:13.343] [info]  [HASTE Foamer Schedule] No foamer history today (fresh install / daily first boot). Triggering initial rinse in 5s!
+[2026-09-06 18:39:13.345] [debug] [task] [task] event=scheduler.change status=success routine=WARM_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 18:39:13.346] [debug] [task] [task] event=scheduler.change status=success routine=MIXER_RINSING intervalSec=0 normalizedIntervalSec=0
+[2026-09-06 18:39:13.348] [debug] [task] [task] event=scheduler.change status=success routine=ERROR_CHECK intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 18:39:13.351] [debug] [task] [task] event=scheduler.change status=success routine=ICE_MAKER intervalSec=1800 normalizedIntervalSec=1800
+[2026-09-06 18:39:13.356] [debug] [task] [task] event=scheduler.change status=success routine=TEMP_CHECK intervalSec=600 normalizedIntervalSec=600
+[2026-09-06 18:39:13.358] [debug] [app] event=scheduler.change status=success routine=license.verify intervalSec=86400
+[2026-09-06 18:39:13.360] [info]  [app] event=app.startup status=success message="schedulers registered"
+[2026-09-06 18:39:13.364] [info]  [HASTE Guard] enableHasteAgent is false (OFF). Skipping agent bot launch.
+[2026-09-06 18:39:13.365] [info]  [HASTE Official Auto-Updater] Initialized background auto-updater (Target hotpatches & Official releases).
+[2026-09-06 18:39:13.382] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 18:39:13.456] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:13.614] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.633] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:13.640] [info]  [app] event=license.verify status=success state=approved storeId=010-7477-9363
+[2026-09-06 18:39:15.377] [info]  [HASTE Startup Auto-Rescue] Serialport incomplete after boot. Executing 1-shot automatic refresh reconnection...
+[2026-09-06 18:39:15.379] [info]  [serialport] [serialport] event=serialport.connect status=started scope=all
+[2026-09-06 18:39:15.388] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board1 port=COM6 message="Opening COM6: File not found"
+[2026-09-06 18:39:15.390] [error] [serialport] [serialport] event=serialport.error status=failed reason=port_error boardName=board2 port=COM7 message="Opening COM7: File not found"
+[2026-09-06 18:39:16.940] [debug] [task] [app] event=did.open status=success reason=electron_window_local_webview_monitor url=http://127.0.0.1:8080/did/index.html?clientId=00%3AD8%3A61%3A38%3A09%3A29
+[2026-09-06 18:39:17.039] [debug] [task] [app] event=did.open status=success reason=electron_window_remote_webview_monitor url=http://127.0.0.1:8080/promo
+[2026-09-06 18:39:17.046] [info]  [HASTE Auto-DID] Successfully auto-launched dual DIDs for approved store "010-7477-9363"!
+[2026-09-06 18:39:18.305] [info]  [coffee] [HASTE WMF Auto-Rescue] WMF socket is disconnected. Executing automatic background reconnect...
+[2026-09-06 18:39:18.314] [error] [coffee] [coffee] event=coffee.socket status=failed reason=ws_error machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000 message="WebSocket was closed before the connection was established"
+[2026-09-06 18:39:18.318] [error] [coffee] [coffee] event=coffee.socket status=failed reason=connect_failed transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:18.478] [debug] [coffee] [coffee] event=coffee.socket status=started transport=ws machineName=WMF model=Lilly_(WMF) ip=192.168.10.99 port=25000
+[2026-09-06 18:39:21.721] [info]  [task] [HASTE Google Sheet Sync] Synchronizing latest SOT directly from Google Sheets...
+[2026-09-06 18:39:22.517] [info]  [task] [HASTE Google Sheet Sync] ✅ 실시간 파싱 무결성 100% 검증 통과! (총 794개 레시피, 커피 556개 펄스 정상)
+[2026-09-06 18:39:22.527] [info]  [task] [HASTE IPC] Executing executeApplyStandardRecipes (Store Environment Optimized SOT)...
+[2026-09-06 18:39:22.547] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.550] [info]  [HASTE DB Save] Settings category "menu" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.558] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:39:22.561] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 18:39:22.569] [info]  [task] [HASTE SOT] Successfully injected standard recipes. Total: 260.
+[2026-09-06 18:39:22.591] [info]  [task] [HASTE SOT] Populated 104 Toss Kiosk representative menus into menu_item table.
+[2026-09-06 18:39:22.605] [info]  [HASTE DB Load] Loaded settings from SQLite database successfully. StoreName: "헤이스트 김포운양역점", StoreNo: "010-7477-9363", ThemeMode: "Light", isKioskDryRun: "false"
+[2026-09-06 18:39:22.609] [info]  [HASTE DB Reload] Reloaded settingsStore in-memory cache with fresh DB values.
+[2026-09-06 18:39:22.611] [info]  [task] [HASTE Google Sheet Sync] Live sync & local DB injection completed successfully!
+[2026-09-06 18:39:22.780] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.782] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 18:39:22.784] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
