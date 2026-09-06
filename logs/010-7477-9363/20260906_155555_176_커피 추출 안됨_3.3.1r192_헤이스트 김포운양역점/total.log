@@ -1,0 +1,39 @@
+[2026-09-06 15:55:15.054] [debug] [api] [HASTE Theme Sync] Applied local UI theme: isDark=false
+[2026-09-06 15:55:15.058] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:15.060] [info]  [HASTE DB Save] Settings category "coffee" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:15.116] [debug] [api] [HASTE DevTools Sync] Current window DevTools opened state: false, Target state: false
+[2026-09-06 15:55:15.341] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:15.344] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:15.346] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:15.721] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:16.087] [info]  [HASTE DB Save] Settings category "information" has been updated and saved to SQLite successfully.
+[2026-09-06 15:55:18.681] [info]  [kiosk] [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1788677718674 bill=0000 menuCount=1 mappings=[{"baseCode":"MNI1002","recipeCode":"MNI1002","matchedMenuName":"ICED_아메리카노(디카페인)","stepsSummary":"CUP:ICE,_COFFEE:91,_ICE:5700,_COLD:155,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-09-06 15:55:18.684] [debug] [task] [task] event=task.enqueue status=accepted orderId=INSTANT-1788677718674 priority=99 description=음료_제조_(INSTANT-1788677718674)
+[2026-09-06 15:55:18.686] [debug] [task] [task] event=task.start status=started source=instant mode=dry_run orderId=INSTANT-1788677718674 menuCount=1
+[2026-09-06 15:55:18.688] [debug] [api] [api] event=order.create status=accepted version=v1 orderId=INSTANT-1788677718674 productNo=MNI1002 bill=0000
+[2026-09-06 15:55:18.843] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=78 message="bytearray(b'\\x02253DCP100020003000400050006000700080009000:000;000<000=000>000?000@000A000CA\\x03')"
+[2026-09-06 15:55:18.845] [debug] [task] [task] event=brew.menu status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) stepCount=10
+[2026-09-06 15:55:18.931] [debug] [serialport] [serialport] event=serialport.packet status=success boardName=board1 length=90 message="bytearray(b'\\x022B3DPC100020003000400050006000700080009000:000;000<000=000>000?000@000A000B000C000D00050\\x03')"
+[2026-09-06 15:55:18.932] [debug] [serialport] [serialport] event=serialport.packet.parse status=success boardName=board1 message="{\"isValidStx\":true,\"isValidEtx\":true,\"isValidDst\":true,\"isValidSrc\":true,\"isValidLength\":true,\"fnc\":\"3\",\"act\":\"D\",\"data\":{\"0\":49,\"1\":48,\"2\":48,\"3\":48,\"4\":50,\"5\":48,\"6\":48,\"7\":48,\"8\":51,\"9\":48,\"10\":48,\"11\":48,\"12\":52,\"13\":48,\"14\":48,\"15\":48,\"16\":53,\"17\":48,\"18\":48,\"19\":48,\"20\":54,\"21\":48,\"22\":48,\"23\":48,\"24\":55,\"25\":48,\"26\":48,\"27\":48,\"28\":56,\"29\":48,\"30\":48,\"31\":48,\"32\":57,\"33\":48,\"34\":48,\"35\":48,\"36\":58,\"37\":48,\"38\":48,\"39\":48,\"40\":59,\"41\":48,\"42\":48,\"43\":48,\"44\":60,\"45\":48,\"46\":48,\"47\":48,\"48\":61,\"49\":48,\"50\":48,\"51\":48,\"52\":62,\"53\":48,\"54\":48,\"55\":48,\"56\":63,\"57\":48,\"58\":48,\"59\":48,\"60\":64,..."
+[2026-09-06 15:55:20.069] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) step=주문스텝2
+[2026-09-06 15:55:20.071] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=2 target=local url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:20.073] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=2 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:20.085] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:20.090] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:21.307] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) step=주문스텝3
+[2026-09-06 15:55:21.309] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=3 target=local url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:21.312] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=3 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:21.335] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:21.338] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:24.983] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) step=주문스텝4
+[2026-09-06 15:55:24.986] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=4 target=local url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:24.988] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=4 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:25.000] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:25.003] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:26.231] [debug] [task] [task] event=brew.step status=ignored reason=test_menu orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) step=주문스텝5
+[2026-09-06 15:55:26.233] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=5 target=local url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:26.235] [debug] [api] [api] event=did.callback status=started orderId=INSTANT-1788677718674 menuName=ICED_아메리카노(디카페인) state=5 target=remote url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:26.253] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:26.255] [debug] [api] [api] event=did.callback status=success attempt=1 httpStatus=200 url=http://127.0.0.1:8080/sse/did
+[2026-09-06 15:55:26.258] [debug] [task] [task] event=task.complete status=success orderId=INSTANT-1788677718674
+[2026-09-06 15:55:26.263] [info]  [kiosk] [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1788677718674 bill=0000 menuCount=1
