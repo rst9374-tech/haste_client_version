@@ -1,0 +1,125 @@
+{
+  "storeNo": "010-7477-9363",
+  "storeName": "헤이스트 김포운양역점",
+  "reportedSymptom": "[토스 대조 진단] ICE 바닐라라떼 (디카페인) (샷추가) (POS:MNI2003 ➔ 레시피:MNI2003)",
+  "clientVersion": "3.3.1r177",
+  "uploadedAt": "2026-09-06T02:05:45.707Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.46 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-09-27",
+      "lastSuccessfulVerifiedAt": 1788649991711
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "751623623930567024",
+      "menuName": "ICE 바닐라라떼 (디카페인) (샷추가)",
+      "rawProductNo": "MNI2003",
+      "productNo": "MNI2003",
+      "bill": "751623623930567024",
+      "createdAt": "11:03:38",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착 감지",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "COFFEE",
+          "protocol": "COFFEE",
+          "label": "커피",
+          "target": "91",
+          "actual": "91",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "6000 ms (6.0초) (+0초)",
+          "actual": "6000 ms (6.0초)",
+          "match": true
+        },
+        {
+          "type": "COLD_MILK",
+          "protocol": "COLD_MILK",
+          "label": "우유 공급",
+          "target": "160 cc (-20)",
+          "actual": "140 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "바닐라",
+          "label": "15. 바닐라",
+          "target": "35 cc (+0)",
+          "actual": "35 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거 감지",
+          "target": "제거",
+          "actual": "제거됨",
+          "match": true
+        }
+      ]
+    }
+  }
+}
