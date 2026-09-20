@@ -1,0 +1,111 @@
+{
+  "storeNo": "010-7477-9363",
+  "storeName": "헤이스트 김포운양역점",
+  "reportedSymptom": "[토스 대조 진단] 생과일 수박주스 (POS:MAI9001 ➔ 레시피:MAI9001)",
+  "clientVersion": "3.3.1r302",
+  "uploadedAt": "2026-09-20T09:30:12.944Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "2.51 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "운영위원회",
+      "expireDate": "2026-10-01",
+      "lastSuccessfulVerifiedAt": 1789896531618
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "INSTANT-1789896541378",
+      "menuName": "생과일 수박주스",
+      "rawName": "생과일 수박주스",
+      "rawProductNo": "MAI9001",
+      "productNo": "MAI9001",
+      "rawOptions": [],
+      "bill": "0000",
+      "createdAt": "18:29:02",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "6.5 ms (6.5초)",
+          "actual": "6.5 ms (6.5초)",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "수박 시럽",
+          "label": "21. 수박 시럽",
+          "target": "280 cc",
+          "actual": "대기 중...",
+          "match": false
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거",
+          "target": "제거",
+          "actual": "대기 중...",
+          "match": false
+        }
+      ]
+    }
+  }
+}
