@@ -1,0 +1,134 @@
+{
+  "storeNo": "010-7477-9363",
+  "storeName": "헤이스트 김포운양역점",
+  "reportedSymptom": "[토스 대조 진단] ICE 복숭아티 (POS:16642200 ➔ 레시피:MTI5000)",
+  "clientVersion": "3.3.1r344",
+  "uploadedAt": "2026-09-26T14:06:25.241Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.06 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "운영위원회",
+      "expireDate": "2026-10-21",
+      "lastSuccessfulVerifiedAt": 1790309054091
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": true
+      }
+    ],
+    "orderComparison": {
+      "orderId": "759052166286389977",
+      "menuName": "ICE 복숭아티",
+      "rawName": "복숭아티",
+      "rawProductNo": "16642200",
+      "productNo": "MTI5000",
+      "rawOptions": [
+        {
+          "optionCode": "1756058",
+          "optionName": "ICE",
+          "price": 0,
+          "quantity": 1
+        }
+      ],
+      "bill": "759052166286389977",
+      "createdAt": "23:01:34",
+      "steps": [
+        {
+          "num": 1,
+          "label": "제조 접수"
+        },
+        {
+          "num": 2,
+          "label": "컵 투하"
+        },
+        {
+          "num": 3,
+          "label": "안착 대기"
+        },
+        {
+          "num": 4,
+          "label": "추출 & 배합"
+        },
+        {
+          "num": 5,
+          "label": "제조 완료"
+        }
+      ],
+      "hardwareActions": [
+        {
+          "type": "CUP",
+          "protocol": "CUP_DROP",
+          "label": "컵 투하",
+          "target": "ICE",
+          "actual": "컵1",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_MOUNT",
+          "label": "컵 안착",
+          "target": "감지",
+          "actual": "감지됨",
+          "match": true
+        },
+        {
+          "type": "ICE",
+          "protocol": "ICE",
+          "label": "얼음 토출",
+          "target": "6000 ms (6.0초) (+0초)",
+          "actual": "6000 ms (6.0초)",
+          "match": true
+        },
+        {
+          "type": "WATER",
+          "protocol": "COLD",
+          "label": "정수 공급",
+          "target": "145 cc (+0)",
+          "actual": "145 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "복숭아",
+          "label": "22. 복숭아",
+          "target": "60 cc (+0)",
+          "actual": "60 cc",
+          "match": true
+        },
+        {
+          "type": "SIRUBS",
+          "protocol": "얼그레이",
+          "label": "12. 얼그레이",
+          "target": "10 cc (+0)",
+          "actual": "10 cc",
+          "match": true
+        },
+        {
+          "type": "CUP",
+          "protocol": "CUP_REMOVE",
+          "label": "컵 제거",
+          "target": "제거",
+          "actual": "제거됨",
+          "match": true
+        }
+      ]
+    }
+  }
+}
