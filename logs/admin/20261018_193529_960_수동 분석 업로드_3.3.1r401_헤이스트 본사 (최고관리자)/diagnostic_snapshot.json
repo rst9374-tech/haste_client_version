@@ -1,0 +1,50 @@
+{
+  "storeNo": "admin",
+  "storeName": "헤이스트 본사 (최고관리자)",
+  "reportedSymptom": "수동 분석 업로드",
+  "clientVersion": "3.3.1r401",
+  "uploadedAt": "2026-10-18T10:35:29.960Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "15.95 GB",
+      "freeMem": "5.43 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "최고관리자",
+      "expireDate": "2099-12-31",
+      "lastSuccessfulVerifiedAt": 1791636212816
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": false
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": false
+      }
+    ],
+    "orderComparison": null
+  },
+  "aiTriage": {
+    "category": "SOFTWARE_BUG",
+    "title": "소프트웨어 결함 탐지 (즉시 핫패치 필요)",
+    "rootCause": "프로그램 내부 로직 예외: 런타임 소프트웨어 예외 발생",
+    "actionGuide": "개발팀 즉시 코드 분석 및 긴급 핫패치 배포 필요. (AI 사령탑 자동 패치 검토 대상)",
+    "severity": "CRITICAL",
+    "isSoftwareBug": true,
+    "analyzedAt": "2026-10-18T10:35:29.960Z",
+    "details": {
+      "rawSnippet": "런타임 소프트웨어 예외 발생"
+    }
+  }
+}
