@@ -1,0 +1,15 @@
+{
+  "category": "WATER_PRESSURE_LIMIT",
+  "title": "설비 수압 한계 [온수 급수 지연 감지]",
+  "rootCause": "연속 온수(HOT) 토출 중 목표 유량(펄스) 도달 지연(422~426/525). 매장 온수 보일러 수압 저하 또는 1번 유량센서 편차.",
+  "actionGuide": "매장 온수기 연속 출수량/수압 및 1번 유량센서 점검 권고. (ICE 음료 및 소프트웨어 로직 정상)",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-21T13:01:54.042Z",
+  "intelligenceVersion": "v3.3.2r25-AI-LV8",
+  "details": {
+    "failedComponent": "급수/온수 밸브",
+    "flowTarget": 525,
+    "flowCurrent": 426
+  }
+}
