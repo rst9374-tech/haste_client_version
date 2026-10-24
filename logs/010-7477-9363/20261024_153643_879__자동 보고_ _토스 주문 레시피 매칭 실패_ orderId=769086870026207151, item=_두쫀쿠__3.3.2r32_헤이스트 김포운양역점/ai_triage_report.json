@@ -1,0 +1,14 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "토스 주문 상품 ⟷ 릴리 레시피 매칭 불일치 경보",
+  "rootCause": "토스 POS/키오스크에서 결제된 상품({\"itemId\":\"16642249\",\"name\":\"두쫀쿠\",\"productNo\":\"16642249\",\"englishName\":\"\",\"description\":\"\",\"englishDescription\":\"\",\"manu)이 릴리 로컬 DB(menu_item) 레시피와 매칭되지 않았거나 옵션 매핑 불일치가 발생했습니다.",
+  "actionGuide": "1) [메뉴 관리] 화면에서 [📥 토스 키오스크 엑셀]을 다운로드하여 토스 대시보드 상품명과 일치하는지 확인하세요.\n2) 신제품인 경우 릴리 단말기 [신제품 레시피] 또는 [메뉴 관리]에 해당 메뉴가 활성화되어 있는지 점검하세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-24T06:36:43.880Z",
+  "intelligenceVersion": "v3.3.2r30-AI-LV9",
+  "details": {
+    "failedComponent": "토스 POS 주문 ⟷ 릴리 레시피 매칭",
+    "rawSnippet": "{\"itemId\":\"16642249\",\"name\":\"두쫀쿠\",\"productNo\":\"16642249\",\"englishName\":\"\",\"description\":\"\",\"englishDescription\":\"\",\"manu"
+  }
+}
