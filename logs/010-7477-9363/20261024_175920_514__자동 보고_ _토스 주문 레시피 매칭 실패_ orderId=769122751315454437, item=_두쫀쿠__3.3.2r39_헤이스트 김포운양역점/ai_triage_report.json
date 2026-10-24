@@ -1,0 +1,14 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "토스 주문 상품 레시피 미매칭 경보 [두쫀쿠]",
+  "rootCause": "토스 POS/키오스크에서 결제된 상품 [두쫀쿠]에 대응하는 릴리 로컬 DB(menu_item) 레시피를 찾지 못해 자동 제조가 스킵되었습니다. (디저트/베이커리/완제품이 일반 음료 카테고리로 분류되었거나, 신메뉴 레시피가 단말기에 미등록된 상태)",
+  "actionGuide": "1) [두쫀쿠]가 디저트·쿠키·병음료(완제품)인 경우: 토스 POS 상품 관리에서 카테고리를 '디저트'로 지정하면 에러 없이 디저트 알림 팝업으로 정상 처리됩니다.\n2) 머신 제조 음료(신메뉴)인 경우: 릴리 단말기 [메뉴 관리] 또는 [신제품 레시피]에 [두쫀쿠] 레시피가 등록·활성화되어 있는지 점검하세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-24T08:59:20.515Z",
+  "intelligenceVersion": "v3.3.2r33-AI-LV9",
+  "details": {
+    "failedComponent": "토스 POS 주문 ⟷ 릴리 레시피 미매칭 (두쫀쿠)",
+    "rawSnippet": "{\"itemId\":\"16642249\",\"name\":\"두쫀쿠\",\"productNo\":\"16642249\",\"englishName\":\"\",\"description\":\"\",\"englishDescription\":\"\",\"manufacturer\":\"\",\"count\""
+  }
+}
