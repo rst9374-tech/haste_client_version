@@ -1,0 +1,14 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "시럽 보드(board2) 통신 무응답 / 12구·24구 시럽 핀맵 불일치",
+  "rootCause": "현재 시리얼포트에 1번 보드(board1)만 단독 연결(2번 시럽보드 해제)되어 있으며, 12구(board1) 단독 매장에 2번 시럽보드(board2, 13~24번) 시럽 설정이 감지되었습니다.",
+  "actionGuide": "단순 시럽 원액 부족이 아닙니다. [설정 ➔ 시리얼포트]에서 시럽 보드(board1/board2) 연결 상태를 확인하고, 12구(board1) 매장인 경우 모든 사용 시럽(바닐라·말차 등)이 1~12번(SIRUP1~12, board1) 핀맵에 등록되어 있는지 점검하세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-26T15:09:56.318Z",
+  "intelligenceVersion": "v3.3.2r70-AI-LV11",
+  "details": {
+    "failedComponent": "시럽 보드 (board2)",
+    "boardStatus": "board1=ON, board2=OFF (TX=0/RX=0)"
+  }
+}
