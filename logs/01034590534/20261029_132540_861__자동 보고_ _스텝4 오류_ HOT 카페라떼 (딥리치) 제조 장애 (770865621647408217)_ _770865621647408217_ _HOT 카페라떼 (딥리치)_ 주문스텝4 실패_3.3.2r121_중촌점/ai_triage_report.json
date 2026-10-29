@@ -1,0 +1,16 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "커피머신(WMF)이 응답하지 않아 커피 샷이 나오지 않았습니다",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('카페라떼' · HOT, 딥리치)과 머신 레시피('HOT 카페라떼 (딥리치)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 커피머신(WMF)에 커피 추출 신호를 보냈으나 커피머신이 응답하지 않아 원두 샷 추출이 멈췄습니다. (커피머신에 원두 부족·찌꺼기통 비움·세척 알림이 떠 있거나 통신선이 흔들린 상태)",
+  "actionGuide": "1) 커피머신(WMF) 화면에 '원두 부족', '찌꺼기통(커피박) 비움', '세척 필요' 안내가 떠 있는지 확인해 주세요.\n2) 커피머신 화면에 이상이 없다면 릴리 화면 [상태]에서 커피머신 [재연결] 버튼을 눌러주세요.\n⚠️ [토스 포스 플러그인 업데이트 필요] 현재 매장의 토스 포스(POS) 플러그인이 구버전(legacy (v3.5.7 미만 구버전))입니다. 주문 누락 방지를 위해 최신 플러그인(v3.5.7)으로 업데이트해 주세요!",
+  "severity": "CRITICAL",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-29T04:25:40.863Z",
+  "intelligenceVersion": "v3.3.2r123-AI-LV15",
+  "details": {
+    "failedComponent": "WMF 커피머신 (원두 샷 추출 / WebSocket 통신)",
+    "rawSnippet": "orderId=770865621647408217 | 주문=\"카페라떼\" (HOT, 딥리치) ➔ 매칭=\"HOT 카페라떼 (딥리치) [GDH2001]\"",
+    "tossPluginVersion": "legacy (v3.5.7 미만 구버전)",
+    "isPluginOutdated": true
+  }
+}
