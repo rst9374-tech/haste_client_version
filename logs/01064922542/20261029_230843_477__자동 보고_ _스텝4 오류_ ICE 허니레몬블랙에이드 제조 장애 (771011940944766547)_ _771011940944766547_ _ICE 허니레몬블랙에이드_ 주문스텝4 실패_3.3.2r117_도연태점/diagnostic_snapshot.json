@@ -1,0 +1,283 @@
+{
+  "storeNo": "01064922542",
+  "storeName": "도연태점",
+  "reportedSymptom": "[자동 보고] [스텝4 오류] ICE 허니레몬블랙에이드 제조 장애 (771011940944766547): [771011940944766547] [ICE 허니레몬블랙에이드] 주문스텝4 실패",
+  "clientVersion": "3.3.2r117",
+  "uploadedAt": "2026-10-29T14:08:43.477Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "2.28 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-11-09",
+      "lastSuccessfulVerifiedAt": 1793232773517
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM5",
+        "connected": true
+      }
+    ],
+    "syrupBoardAudit": {
+      "totalCount": 12,
+      "isSingleBoard": true,
+      "hasBoardPinmapMismatch": false,
+      "syrupBoardFaultReason": "",
+      "boardDisconnectedSyrups": [],
+      "isAllFresh": false,
+      "isAllOk": false,
+      "hasFault": true,
+      "faultCount": 2,
+      "faultItems": [
+        {
+          "name": "바닐라",
+          "failedAt": 1793282908807,
+          "reason": "토출 미완료 (재고 소진 의심)"
+        },
+        {
+          "name": "레몬",
+          "failedAt": 1793282917136,
+          "reason": "[ICE_허니레몬블랙에이드] 제조 중 [레몬시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요."
+        }
+      ],
+      "stagnantCount": 6,
+      "stagnantItems": [
+        {
+          "name": "군고구마",
+          "elapsedHours": 16
+        },
+        {
+          "name": "오미자",
+          "elapsedHours": 12
+        },
+        {
+          "name": "설탕",
+          "elapsedHours": 12
+        },
+        {
+          "name": "헤이즐넛",
+          "elapsedHours": 12
+        },
+        {
+          "name": "바닐라",
+          "elapsedHours": 12
+        },
+        {
+          "name": "말차",
+          "elapsedHours": 13
+        }
+      ],
+      "activeCount": 12,
+      "list": [
+        {
+          "name": "초코",
+          "protocol": "SIRUP1",
+          "valveMotor": "sirub1Pump",
+          "flowSensor": "sirub1FlowSensor",
+          "lastDispensedAt": 1793279165833,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "군고구마",
+          "protocol": "SIRUP2",
+          "valveMotor": "sirub2Pump",
+          "flowSensor": "sirub2FlowSensor",
+          "lastDispensedAt": 1793223368690,
+          "elapsedHours": 16,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "슈크림",
+          "protocol": "SIRUP3",
+          "valveMotor": "sirub3Pump",
+          "flowSensor": "sirub3FlowSensor",
+          "lastDispensedAt": 1793279278100,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "딸기",
+          "protocol": "SIRUP4",
+          "valveMotor": "sirub4Pump",
+          "flowSensor": "sirub4FlowSensor",
+          "lastDispensedAt": 1793279276198,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "오미자",
+          "protocol": "SIRUP5",
+          "valveMotor": "sirub5Pump",
+          "flowSensor": "sirub5FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "설탕",
+          "protocol": "SIRUP6",
+          "valveMotor": "sirub6Pump",
+          "flowSensor": "sirub6FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "헤이즐넛",
+          "protocol": "SIRUP7",
+          "valveMotor": "sirub7Pump",
+          "flowSensor": "sirub7FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바닐라",
+          "protocol": "SIRUP8",
+          "valveMotor": "sirub8Pump",
+          "flowSensor": "sirub8FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "토출 미완료 (재고 소진 의심)",
+          "faultAt": 1793282908807
+        },
+        {
+          "name": "레몬",
+          "protocol": "SIRUP9",
+          "valveMotor": "sirub9Pump",
+          "flowSensor": "sirub9FlowSensor",
+          "lastDispensedAt": 1793282876206,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "말차",
+          "protocol": "SIRUP10",
+          "valveMotor": "sirub10Pump",
+          "flowSensor": "sirub10FlowSensor",
+          "lastDispensedAt": 1793233567499,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "복숭아",
+          "protocol": "SIRUP11",
+          "valveMotor": "sirub11Pump",
+          "flowSensor": "sirub11FlowSensor",
+          "lastDispensedAt": 1793274374104,
+          "elapsedHours": 2,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "얼그레이",
+          "protocol": "SIRUP12",
+          "valveMotor": "sirub12Pump",
+          "flowSensor": "sirub12FlowSensor",
+          "lastDispensedAt": 1793282909928,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        }
+      ]
+    },
+    "recentFaults": {
+      "totalFaultCount": 1,
+      "todayFaultCount": 1,
+      "yesterdayFaultCount": 0,
+      "incidentCount": 1,
+      "primaryPartLabel": "시럽 라인 · 레몬시럽 원액 부족/미토출 (ICE_허니레몬블랙에이드)",
+      "primarySymptom": "[ICE_허니레몬블랙에이드] 제조 중 [레몬시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+      "primaryInspectGuide": "[레몬시럽] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 또는 [AI 바이저] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+      "primaryActionUrl": "/live",
+      "primaryActionLabel": "3ml 추출 확인",
+      "incidents": [
+        {
+          "key": "sirub:레몬시럽",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 · 레몬시럽 원액 부족/미토출 (ICE_허니레몬블랙에이드)",
+          "symptom": "[ICE_허니레몬블랙에이드] 제조 중 [레몬시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+          "inspectGuide": "[레몬시럽] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 또는 [AI 바이저] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+          "lastOccurredAt": 1793282917136,
+          "lastTimeText": "23:08",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 1
+        }
+      ],
+      "scannedAt": 1793282917182,
+      "systemHealth": {
+        "rssMb": 132.5,
+        "heapUsedMb": 19.2,
+        "heapTotalMb": 22.7,
+        "dbLatencyMs": 0.2,
+        "status": "OPTIMAL"
+      },
+      "wmfCleaningSummary": {
+        "isCleaningNow": false,
+        "todayCleaningCount": 21,
+        "lastCleaningAt": 1793276784567,
+        "lastCleaningTimeText": "21:26",
+        "cleaningLabel": "오늘 자동 세척·린싱 21회 정상 완료 (최근 21:26) · 장애 집계 제외"
+      }
+    },
+    "orderComparison": null,
+    "errorDetail": {
+      "orderId": "771011940944766547",
+      "step": "step4",
+      "menuName": "ICE 허니레몬블랙에이드",
+      "productNo": "GAI4020",
+      "failMessage": "[771011940944766547] [ICE 허니레몬블랙에이드] 주문스텝4 실패",
+      "error": "[771011940944766547] [ICE 허니레몬블랙에이드] 주문스텝4 실패"
+    }
+  },
+  "aiTriage": {
+    "category": "RAW_MATERIAL_EMPTY",
+    "title": "시럽 통 잔량 및 시럽 호스 공기를 확인해 주세요",
+    "rootCause": "시럽 토출 중 시럽이 감지되지 않았습니다. 해당 시럽 통이 비었거나 호스에 공기가 찼을 수 있습니다.",
+    "actionGuide": "1) 시럽 통 잔량을 확인해 주세요.\n2) 릴리 화면 [테스트 ➔ 시럽]에서 시험 추출을 눌러 시럽이 잘 나오는지 확인해 주세요.\n⚠️ [토스 포스 플러그인 업데이트 필요] 현재 매장의 토스 포스(POS) 플러그인이 구버전(legacy (v3.5.7 미만 구버전))입니다. 주문 누락 방지를 위해 최신 플러그인(v3.5.7)으로 업데이트해 주세요!",
+    "severity": "WARNING",
+    "isSoftwareBug": false,
+    "analyzedAt": "2026-10-29T14:08:43.479Z",
+    "intelligenceVersion": "v3.3.2r123-AI-LV15",
+    "details": {
+      "failedComponent": "시럽 펌프 / 시럽 보드",
+      "tossPluginVersion": "legacy (v3.5.7 미만 구버전)",
+      "isPluginOutdated": true
+    }
+  }
+}
