@@ -1,0 +1,16 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "'뚱카롱' 레시피가 없습니다 — 토스 키오스크 상품 정보를 업데이트해 주세요",
+  "rootCause": "[주문서⟷레시피 확인] 토스 키오스크에서 '뚱카롱' 주문서가 들어왔지만, 머신에 '뚱카롱' 레시피가 등록되어 있지 않아 자동 제조가 건너뛰어졌습니다.",
+  "actionGuide": "1) 디저트·병음료(완제품)인 경우: 토스 포스 상품 관리에서 카테고리를 '디저트'로 변경해 주세요.\n2) 제조 음료인 경우: 토스 키오스크 상품명을 머신 [메뉴 관리]의 레시피 이름과 똑같이 수정하거나 [신제품 레시피]에서 레시피를 추가해 주세요.\n⚠️ [토스 포스 플러그인 업데이트 필요] 현재 매장의 토스 포스(POS) 플러그인이 구버전(legacy)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 플러그인(v3.5.7)으로 업데이트해 주세요!",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-30T03:22:48.792Z",
+  "intelligenceVersion": "v3.3.2r147-AI-LV16",
+  "details": {
+    "failedComponent": "토스 POS 주문 ⟷ 릴리 레시피 미매칭 (뚱카롱)",
+    "rawSnippet": "{\"itemId\":\"16642250\",\"name\":\"뚱카롱\",\"productNo\":\"16642250\",\"englishName\":\"\",\"description\":\"\",\"englishDescription\":\"\",\"manufacturer\":\"\",\"count\"",
+    "tossPluginVersion": "legacy",
+    "isPluginOutdated": true
+  }
+}
