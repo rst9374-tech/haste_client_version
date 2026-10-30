@@ -1,0 +1,19 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "시럽 보드(board2) 무응답 / 핀맵 불일치 [밤_시럽 · SIRUP23]",
+  "rootCause": "2번 시럽보드(board2) 소속 [밤_시럽(SIRUP23)] 토출 명령을 보냈으나 시럽 보드 응답이 0건(TX=18회, RX=0회)이거나 board2가 미연결 상태입니다. (단순 시럽 원액 소진이 아닌 시럽 보드 통신/핀맵 설정 오류)",
+  "actionGuide": "1) 12구(board1 단독) 매장인 경우: [설정 ➔ 시리얼포트]에서 board2를 끄고 [설정 ➔ 시럽/부품]에서 바닐라 등 시럽을 1~12번(board1) 슬롯으로 재배치하세요.\n2) 24구(2보드) 매장인 경우: 2번 시럽보드(board2) 전원 어댑터 및 USB COM 포트 번호를 점검하세요.",
+  "severity": "CRITICAL",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-30T17:51:48.515Z",
+  "intelligenceVersion": "v3.3.2r159-AI-LV17",
+  "details": {
+    "failedPin": 23,
+    "failedComponent": "시럽 보드(board2) / 밤_시럽 (SIRUP23)",
+    "flowTarget": 55,
+    "flowCurrent": 0,
+    "boardStatus": "board2 TX=18, RX=0, connected=true",
+    "tossPluginVersion": "v3.6.2-universal",
+    "isPluginOutdated": false
+  }
+}
