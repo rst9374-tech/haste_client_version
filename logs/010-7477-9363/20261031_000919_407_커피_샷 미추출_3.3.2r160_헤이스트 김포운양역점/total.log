@@ -1,0 +1,67 @@
+[2026-10-31 00:04:35.789] [debug] [api] [api] event=api.request status=started version=v1 route=POST_/v1/order
+[2026-10-31 00:04:35.797] [info]  [api] [TOSS RAW ORDER] orderId=771389278597602515, pluginVersion=legacy, items=[{"name":"로그전송","productNo":"18190531","options":[]}]
+[2026-10-31 00:04:35.798] [info]  [kiosk] [TOSS RAW ORDER] orderId=771389278597602515, pluginVersion=legacy, items=[{"name":"로그전송","productNo":"18190531","options":[]}]
+[2026-10-31 00:04:35.800] [info]  [TOSS RAW ORDER] orderId=771389278597602515, pluginVersion=legacy, items=[{"name":"로그전송","productNo":"18190531","options":[]}]
+[2026-10-31 00:04:35.800] [info]  [api] [ADMIN CONTROL ORDER] orderId=771389278597602515, item="로그전송" 카테고리="" 실행 시작
+[2026-10-31 00:04:35.801] [info]  [ADMIN CONTROL ORDER] orderId=771389278597602515, item="로그전송" 카테고리="" 실행 시작
+[2026-10-31 00:04:35.802] [info]  [kiosk] [ADMIN CONTROL ORDER] orderId=771389278597602515, item="로그전송" 카테고리="" 실행 시작
+[2026-10-31 00:04:35.927] [info]  [api] 🛠️ [ADMIN CONTROL ORDER COMPLETE] orderId=771389278597602515, action="로그 원격 전송 (전송 완료)", success=true
+[2026-10-31 00:04:35.928] [info]  🛠️ [ADMIN CONTROL ORDER COMPLETE] orderId=771389278597602515, action="로그 원격 전송 (전송 완료)", success=true
+[2026-10-31 00:04:35.930] [info]  [api] 🛠️ [HASTE Admin Control Completed] orderId=771389278597602515 관리자 원격제어 수행 완료 (음료 제조 대기열 스킵)
+[2026-10-31 00:04:51.433] [info]  [api] [TossPosCancelBridge] cancelBrewOrder(771364713712507491) -> accepted=false, state=not_found
+[2026-10-31 00:04:51.435] [info]  [api] [TossPosCancelBridge] Enqueued POS cancel command: {"commandId":"cancel_1793372691435_nc8x","type":"CANCEL_ORDER","targetOrderId":"771364713712507491","targetRank":3,"source":"lilly_ui","createdAt":1793372691435}
+[2026-10-31 00:04:51.437] [info]  [kiosk] [TossPosCancelBridge] Enqueued POS cancel command: {"commandId":"cancel_1793372691435_nc8x","type":"CANCEL_ORDER","targetOrderId":"771364713712507491","targetRank":3,"source":"lilly_ui","createdAt":1793372691435}
+[2026-10-31 00:04:51.439] [info]  [TossPosCancelBridge] Enqueued POS cancel command: {"commandId":"cancel_1793372691435_nc8x","type":"CANCEL_ORDER","targetOrderId":"771364713712507491","targetRank":3,"source":"lilly_ui","createdAt":1793372691435}
+[2026-10-31 00:05:21.113] [info]  [kiosk] [Toss Autopilot] 🔌 [1/2] 로컬 토스 POS 워커 플러그인 설치 시작...
+[2026-10-31 00:05:25.077] [info]  [kiosk] [Toss Autopilot] ✅ 로컬 플러그인 압축 해제 완료: C:\Users\CoffeeVanada\AppData\Roaming\Toss POS\plugins\haste_toss_pos_worker
+[2026-10-31 00:05:25.079] [info]  [kiosk] [Toss Autopilot] 🛡️ [2/2] 윈도우 방화벽 TCP 8080/8443 포트 인바운드/아웃바운드(전체 프로필) 허용 규칙 확인 및 등록 중...
+[2026-10-31 00:05:25.684] [info]  [kiosk] [Toss Autopilot] ✅ 윈도우 방화벽 8080/8443 포트(공용·개인·도메인 전체 프로필) 무인 자동 확인 완료!
+[2026-10-31 00:05:28.752] [info]  [kiosk] [Toss Autopilot] 🔌 [사전 세팅] 로컬 토스 POS 플러그인 ZIP 자동 해제 완료 (C:\Users\CoffeeVanada\AppData\Roaming\Toss POS\plugins\haste_toss_pos_worker)
+[2026-10-31 00:05:28.756] [info]  [kiosk] [Toss Autopilot] 🛡️ [사전 세팅] 윈도우 방화벽 TCP 8080/8443 포트(전체 프로필) 무인 자동 허용 완료 (수동 UAC 팝업 0건)
+[2026-10-31 00:05:28.760] [info]  [kiosk] [Toss Autopilot] ======================================================================
+[2026-10-31 00:05:28.761] [info]  [kiosk] [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (③ 토스 개발자 센터 플러그인·단말기 단독 등록)
+[2026-10-31 00:05:28.763] [info]  [kiosk] [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-10-31 00:05:28.765] [info]  [kiosk] [Toss Autopilot] ======================================================================
+[2026-10-31 00:05:28.786] [info]  [kiosk] [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-10-31 00:05:29.966] [info]  [kiosk] [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-10-31 00:05:29.986] [info]  [kiosk] [Toss Autopilot] ================================================================================
+[2026-10-31 00:05:30.020] [info]  [kiosk] [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-10-31 00:05:30.028] [info]  [kiosk] [Toss Autopilot] 📱 대시보드 번호: 01074779363 / 이메일: ranus98@naver.com
+[2026-10-31 00:05:30.030] [info]  [kiosk] [Toss Autopilot] ================================================================================
+[2026-10-31 00:05:30.034] [info]  [kiosk] [Toss Autopilot] 🌐 [브라우저 모드] ⚡ 초고속 백그라운드 모드 (화면 미표시)
+[2026-10-31 00:05:30.035] [info]  [kiosk] [Toss Autopilot] 🌐 [시스템 브라우저 자동 감지] C:\Program Files\Google\Chrome\Application\chrome.exe
+[2026-10-31 00:05:31.867] [info]  [kiosk] [Toss Autopilot] [4단계] 토스 개발자 센터(https://developers.tossplace.com/login) 이동...
+[2026-10-31 00:05:39.516] [info]  [kiosk] [Toss Autopilot] 🏪 [4-1단계 사전점검] 테스트 가맹점 관리(https://developers.tossplace.com/test-merchants) 이동 및 [사용 여부 OFF ➔ ON] 활성화...
+[2026-10-31 00:05:46.764] [info]  [kiosk] [Toss Autopilot] ✅ [테스트 매장 불러오기] 신규 체크: 0개 매장 처리 완료!
+[2026-10-31 00:05:48.984] [info]  [kiosk] [Toss Autopilot] 🎯 [다중 테스트 가맹점 감지 (2개)] (괄호) 매장만 단독 선택: 헤이스트 (김포운양역점) (#621956)
+[2026-10-31 00:06:02.643] [info]  [kiosk] [Toss Autopilot] ✅ [포스 플러그인 ON 확인] 이미 포스 플러그인("카페헤이스트 포스")이 ON 상태입니다. (중복 스위치 조작 생략)
+[2026-10-31 00:06:02.645] [info]  [kiosk] [Toss Autopilot] 🟢 [테스트 가맹점 상세 확인] https://developers.tossplace.com/test-merchants/621956 ➔ 활성 포스 앱: 카페헤이스트 포스
+[2026-10-31 00:06:06.982] [info]  [kiosk] [Toss Autopilot] 📌 [개발자센터] 기존 포스 플러그인 선택: "포스 카페헤이스트 포스 cafehaste-pos-report 헤이스트에이아이 PVXHTASH https://local.cafehaste.com:8443 https://*.local.cafehaste.com:8443 https://local.cafehaste.com http://127.0.0.1:8080 http://localhost:8080 https://127.0.0.1:8443 https://192.168.10.7:8443 http://192.168.10.7:8080 https://192.168.100.4:8443 http://192.168.100.4:8080 https://cafehaste.com https://*.cafehaste.com" (신규 중복 생성 방지)
+[2026-10-31 00:06:09.120] [info]  [kiosk] [Toss Autopilot] 📦 [개발자센터] 기존 플러그인 파일명/버전 불일치 또는 미업로드 감지 (현재 최상단: "배포됨 153 2026.08.26 오후 18:48 배포" ➔ 목표: "HASTE POS Worker v3.6.2 (haste_toss_pos_worker.zip)")
+[2026-10-31 00:06:09.123] [info]  [kiosk] [Toss Autopilot] 👉 최신 워커 ZIP (haste_toss_pos_worker.zip, v3.6.2) 즉시 업데이트 업로드 시작: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\haste_toss_pos_worker.zip
+[2026-10-31 00:06:10.535] [info]  [kiosk] [Toss Autopilot] ✅ 워커 ZIP 파일 첨부 완료! (haste_toss_pos_worker.zip)
+[2026-10-31 00:06:17.836] [info]  [kiosk] [Toss Autopilot] 🎉 [개발자센터] 워커 플러그인 신규 버전(HASTE POS Worker v3.6.2 (haste_toss_pos_worker.zip)) 업로드 완료!
+[2026-10-31 00:06:17.840] [info]  [kiosk] [Toss Autopilot] 🚀 [개발자센터] 최신 플러그인 버전(HASTE POS Worker v3.6.2 (haste_toss_pos_worker.zip)) [배포] 상태 확인 및 배포 버튼 클릭...
+[2026-10-31 00:06:17.868] [info]  [kiosk] [Toss Autopilot] 🔄 [1/3차 시도] 최신 플러그인(HASTE POS Worker v3.6.2 (haste_toss_pos_worker.zip)) [배포] 버튼 클릭 및 배포 확정 진행 중...
+[2026-10-31 00:06:22.047] [info]  [kiosk] [Toss Autopilot] 🏆 [2차 검증 통과] 개발자센터 최신 워커 플러그인(HASTE POS Worker v3.6.2 (haste_toss_pos_worker.zip)) [배포됨] 상태 100% 확인 완료!
+[2026-10-31 00:06:22.107] [info]  [kiosk] [Toss Autopilot] 📱 [기존 단말기 유지] 이미 등록된 테스트 단말기(3개)가 존재하므로 파일 업로드·배포만 즉시 확정하고 단말기 재등록을 생략합니다.
+[2026-10-31 00:06:22.110] [info]  [kiosk] [Toss Autopilot] 🏪 [4-5단계 플러그인 배포 후 사용여부 ON 확정] 테스트 가맹점 관리(https://developers.tossplace.com/test-merchants) 이동 및 [사용 여부 OFF ➔ ON] 활성화...
+[2026-10-31 00:06:28.610] [info]  [kiosk] [Toss Autopilot] ✅ [테스트 매장 불러오기] 신규 체크: 0개 매장 처리 완료!
+[2026-10-31 00:06:30.830] [info]  [kiosk] [Toss Autopilot] 🎯 [다중 테스트 가맹점 감지 (2개)] (괄호) 매장만 단독 선택: 헤이스트 (김포운양역점) (#621956)
+[2026-10-31 00:06:43.281] [info]  [kiosk] [Toss Autopilot] ✅ [포스 플러그인 ON 확인] 이미 포스 플러그인("카페헤이스트 포스")이 ON 상태입니다. (중복 스위치 조작 생략)
+[2026-10-31 00:06:43.282] [info]  [kiosk] [Toss Autopilot] 🟢 [테스트 가맹점 상세 확인] https://developers.tossplace.com/test-merchants/621956 ➔ 활성 포스 앱: 카페헤이스트 포스
+[2026-10-31 00:06:44.128] [info]  [kiosk] [Toss Autopilot] ================================================================================
+[2026-10-31 00:06:44.138] [info]  [kiosk] [Toss Autopilot] ✨ [오토파일럿 실행 완료] 대시보드 및 개발자센터 세팅이 완료되었습니다!
+[2026-10-31 00:06:44.141] [info]  [kiosk] [Toss Autopilot] ================================================================================
+[2026-10-31 00:06:44.299] [info]  [kiosk] [Toss Autopilot] 🛑 [브라우저 탭 닫힘 감지] 메인 탭이 닫혀 오토파일럿을 즉시 종료합니다.
+[2026-10-31 00:06:45.024] [info]  [kiosk] [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
+[2026-10-31 00:07:24.247] [debug] [task] [SYS:OP_601] STAT:200 [H:HASTE_ENC:320a3b8e77fa30d12010caed:fe7897b40ebdab27d515e5dcb6b4dccd:b9045c291c31a10bbc0066585b9ca9dfc7c8f999fc6fe9c774d05d916503456ac95390e50131a24814c4011d8c0327904acefbea3145b8c4d838d3a7fe02457cf4d7c394a3bbd1c7b41d65c7279af9655fa9bd4b56c9]
+[2026-10-31 00:07:24.251] [debug] [task] [SYS:OP_601] STAT:200 [H:HASTE_ENC:b83dad2ce32e4c0cb993872e:0d4a5fb2c5897d01d5949df85cd4e7b2:eac19ca04c7f715889e375697d504c73768c54e08a0c44f816c0da97069106bb3efd0912ff6d75169456d1fcecd59bab8817f4ff484c3c4dfbc2561ee8ef6a358af93543faa76d82c7ca2cc910f43dc58be96a925eeb5c5199fc238575fd6e2e7db310591cafae6a9bda6a461d9f4bace44ec3a92db99499ae111624]
+[2026-10-31 00:07:24.254] [debug] [task] [SYS:OP_601] STAT:200 [H:HASTE_ENC:1342c6ebaa737de4fae96fc6:de637a092d9150bc9fd9da568d9743d2:fa2a6b4867f5c3ffb17267470d773d9203b0aa6d4bdbb293c532e4b595ef56082301356832d134213c4d582944f7fa97d410b8f6be6e6b2e2c021deb5350c462f6e539f473a89846f38920cf11833c96ac3308402e]
+[2026-10-31 00:07:24.268] [debug] [coffee] [SYS:OP_402] STAT:200 [H:HASTE_ENC:7021d01ea7d2a93006441914:310c278094b08bc6429d0c39524dd29b:ab70da71fa99f3d708e6ccd27714de1d472679fea4f0cf3c5826ae8e26ca8d24532586b5202a01078f7b407635cc440b277152f60a49c586d7cc64fab8b7a5881d023652c182f1faf192197cb63d4a38904fee820e0a5d6ddab8993febc596eefd86e9bbc63c4c012dd842c050d04f]
+[2026-10-31 00:07:24.270] [info]  [coffee] [SYS:OP_402] STAT:200 [H:HASTE_ENC:e73caa5efbb8cbfcd66ae4de:dde57919be0030034f00fbd2d4999ea5:dc37b7be20d679a98450d43be3e122daabef31b4f8ef033ed20fd809182e786015466e5e72efc5d881badd445a008416c4f626e0a0480ae44c67b6a17467a35b939f3e35e04cb1b7baae11b749187b084383617885af1aef2bdac6f67ae2f861ad7a4a078c959d]
+[2026-10-31 00:07:24.273] [debug] [task] [SYS:OP_601] STAT:200 [H:HASTE_ENC:6ced70f58d50c958e149296d:26f124ee010a2ef9156543d5cb57daa6:fed639bda18a8ebc58baf198d65e12acdc261546c83955da04f2fe6df141c6134b9a067ada5d0f66e5d72330a2b19af7803e9e05ddd4bfbac36cd989b608041c6df007f7b884e29f82d55f2aec49c89fa8da2f99fe9c5acdd6fd88dd44a62f4ac80d9e]
+[2026-10-31 00:07:47.744] [info]  [api] [TossPosCancelBridge] cancelBrewOrder(771364713712507491) -> accepted=false, state=not_found
+[2026-10-31 00:07:47.746] [info]  [api] [TossPosCancelBridge] Enqueued POS cancel command: {"commandId":"cancel_1793372867746_edco","type":"CANCEL_ORDER","targetOrderId":"771364713712507491","targetRank":3,"source":"lilly_ui","createdAt":1793372867746}
+[2026-10-31 00:07:47.747] [info]  [kiosk] [TossPosCancelBridge] Enqueued POS cancel command: {"commandId":"cancel_1793372867746_edco","type":"CANCEL_ORDER","targetOrderId":"771364713712507491","targetRank":3,"source":"lilly_ui","createdAt":1793372867746}
+[2026-10-31 00:07:47.748] [info]  [TossPosCancelBridge] Enqueued POS cancel command: {"commandId":"cancel_1793372867746_edco","type":"CANCEL_ORDER","targetOrderId":"771364713712507491","targetRank":3,"source":"lilly_ui","createdAt":1793372867746}
