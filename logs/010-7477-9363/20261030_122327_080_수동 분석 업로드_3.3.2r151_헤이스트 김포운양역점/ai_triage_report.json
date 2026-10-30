@@ -1,0 +1,16 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "시럽 보드(board2) 통신 무응답 / 12구·24구 시럽 핀맵 불일치",
+  "rootCause": "2번 시럽보드(board2)가 명령(TX 3회)에 전혀 응답하지 않으며(RX 0건), 2번 시럽보드(SIRUP13~24)에 할당된 시럽 펌프가 작동하지 않습니다.",
+  "actionGuide": "단순 시럽 원액 부족이 아닙니다. [설정 ➔ 시리얼포트]에서 시럽 보드(board1/board2) 연결 상태를 확인하고, 12구(board1) 매장인 경우 모든 사용 시럽(바닐라·말차 등)이 1~12번(SIRUP1~12, board1) 핀맵에 등록되어 있는지 점검하세요.\n⚠️ [토스 포스 플러그인 업데이트 필요] 현재 매장의 토스 포스(POS) 플러그인이 구버전(legacy_pre_v3.5.7)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 플러그인(v3.5.7)으로 업데이트해 주세요!",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-30T03:23:27.091Z",
+  "intelligenceVersion": "v3.3.2r147-AI-LV16",
+  "details": {
+    "failedComponent": "시럽 보드 (board2)",
+    "boardStatus": "board1=ON, board2=ON (TX=3/RX=0)",
+    "tossPluginVersion": "legacy_pre_v3.5.7",
+    "isPluginOutdated": true
+  }
+}
