@@ -1,0 +1,16 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "토스 키오스크에서 머신으로 주문서가 들어오지 않았습니다 (마지막 주문 15:37:54 이후 222분간 수신 0건)",
+  "rootCause": "[1단계 주문서 수신 확인] 커피머신이나 기계 고장이 아닙니다. 마지막 토스 주문(15:37:54 '아메리카노(ICE)' · 15:38:44 정상 제조 완료) 이후 현재까지 약 222분 동안 토스 키오스크/포스에서 머신으로 넘어온 주문서가 0건입니다.",
+  "actionGuide": "1) 토스 포스(POS) 프로그램을 한 번 껐다가 다시 켜주세요. (포스 우측 상단 HASTE 플러그인이 정상 실행 중인지 확인해 주세요)\n2) 키오스크에서 결제한 주문이 메인 토스 포스 주문 목록에 뜨는지, 포스와 머신 PC의 인터넷 연결이 정상인지 확인해 주세요.",
+  "severity": "CRITICAL",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-31T10:48:02.585Z",
+  "intelligenceVersion": "v3.3.2r177-AI-LV18",
+  "details": {
+    "failedComponent": "토스 키오스크/POS ➔ 릴리 주문서 수신 (/v1/order)",
+    "rawSnippet": "마지막 토스 주문: 15:37:54 아메리카노(ICE) (15:38:44 완료) 이후 222분간 유입 0건",
+    "tossPluginVersion": "legacy",
+    "isPluginOutdated": true
+  }
+}
