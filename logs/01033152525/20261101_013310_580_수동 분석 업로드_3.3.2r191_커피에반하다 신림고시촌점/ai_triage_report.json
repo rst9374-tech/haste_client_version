@@ -1,0 +1,14 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "토스 키오스크/포스에서 머신으로 주문서가 들어오지 않았습니다 (주문 수신 0건)",
+  "rootCause": "[1단계 주문서 수신 확인] 커피머신이나 기계 고장이 아닙니다. 오늘 토스 키오스크/포스에서 커피머신(릴리)으로 넘어온 주문서가 0건입니다. 토스 포스 프로그램의 주문 연동 플러그인이 꺼져 있거나 네트워크가 끊긴 상태입니다.",
+  "actionGuide": "1) 토스 포스(POS) 프로그램을 한 번 껐다가 다시 켜주세요. (포스 우측 상단 HASTE 플러그인이 켜져 있는지 확인해 주세요)\n2) 포스와 커피머신 PC의 인터넷(와이파이/랜선) 연결이 정상인지 확인해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-10-31T16:33:10.595Z",
+  "intelligenceVersion": "v3.3.2r177-AI-LV18",
+  "details": {
+    "failedComponent": "토스 키오스크/POS ➔ 릴리 주문서 수신 (/v1/order)",
+    "rawSnippet": "kiosk.log [TOSS RAW ORDER] 유입 0건"
+  }
+}
