@@ -1,0 +1,20 @@
+{
+  "category": "RAW_MATERIAL_EMPTY",
+  "title": "[레몬 (9번 펌프)] 원액이 다 떨어졌거나 호스에 공기가 찼습니다",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('레몬에이드' · 옵션 없음(미지정))과 머신 레시피('ICE 레몬에이드')가 정상 일치합니다.\n[2단계 기기 진행 상태] [레몬 (9번 펌프)] 통이 비어 있거나 호스에 공기가 차서 시럽이 충분히 나오지 않았습니다. (측정 유량 41 / 목표 56)",
+  "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 채워주세요.\n2) 릴리 화면 [테스트 ➔ 시럽]에서 해당 시럽을 눌러 호스 안의 공기를 빼주세요.\n⚠️ [토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.3-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.4)으로 업데이트해 주세요!",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-01T07:18:37.161Z",
+  "intelligenceVersion": "v3.3.2r198-AI-LV19",
+  "details": {
+    "failedPin": 9,
+    "flowTarget": 56,
+    "flowCurrent": 41,
+    "failedComponent": "레몬 (9번 펌프)",
+    "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+    "rawSnippet": "orderId=771996263386788984 | 주문=\"레몬에이드\" (옵션 없음(미지정)) ➔ 매칭=\"ICE 레몬에이드 [MAI4000]\"",
+    "tossPluginVersion": "v3.6.3-universal",
+    "isPluginOutdated": true
+  }
+}
