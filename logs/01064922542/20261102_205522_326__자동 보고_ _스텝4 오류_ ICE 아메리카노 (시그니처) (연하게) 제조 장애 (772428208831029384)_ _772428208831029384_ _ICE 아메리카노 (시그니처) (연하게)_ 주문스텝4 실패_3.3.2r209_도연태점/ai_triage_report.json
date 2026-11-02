@@ -1,0 +1,17 @@
+{
+  "category": "WATER_PRESSURE_LIMIT",
+  "title": "정수/온수 물 공급이 느리거나 수압이 약합니다 (0/210)",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노' · ICE, 시그니처, 연하게)과 머신 레시피('ICE 아메리카노 (시그니처) (연하게)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 정수/온수 물 공급이 목표량(210) 중 (0)만 들어오고 수압이 약해 시간 초과로 멈췄습니다.",
+  "actionGuide": "1) 매장 급수 수도 밸브가 잠겨 있는지 확인해 주세요.\n2) 온수기(보일러) 전원과 물 채움 상태를 확인해 주세요.\n⚠️ [토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.3-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.4)으로 업데이트해 주세요!",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-02T11:55:22.339Z",
+  "intelligenceVersion": "v3.3.2r200-AI-LV19",
+  "details": {
+    "flowTarget": 210,
+    "failedComponent": "온수/정수 급수 밸브 및 유량센서",
+    "rawSnippet": "orderId=772428208831029384 | 주문=\"아메리카노\" (ICE, 시그니처, 연하게) ➔ 매칭=\"ICE 아메리카노 (시그니처) (연하게) [GSI1001]\"",
+    "tossPluginVersion": "v3.6.3-universal",
+    "isPluginOutdated": true
+  }
+}
