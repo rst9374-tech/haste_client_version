@@ -1,0 +1,17 @@
+{
+  "category": "WATER_PRESSURE_LIMIT",
+  "title": "정수/온수 물 공급이 느리거나 수압이 약합니다 (0/217)",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노' · ICE)과 머신 레시피('ICE 아메리카노 (시그니처)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 정수/온수 물 공급이 목표량(217) 중 (0)만 들어오고 수압이 약해 시간 초과로 멈췄습니다.",
+  "actionGuide": "1) 매장 급수 수도 밸브가 잠겨 있는지 확인해 주세요.\n2) 온수기(보일러) 전원과 물 채움 상태를 확인해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-02T23:59:41.593Z",
+  "intelligenceVersion": "v3.3.2r200-AI-LV19",
+  "details": {
+    "flowTarget": 217,
+    "failedComponent": "온수/정수 급수 밸브 및 유량센서",
+    "rawSnippet": "orderId=772610683314187100 | 주문=\"아메리카노\" (ICE) ➔ 매칭=\"ICE 아메리카노 (시그니처) [MSI1002]\"",
+    "tossPluginVersion": "v3.6.4-universal",
+    "isPluginOutdated": false
+  }
+}
