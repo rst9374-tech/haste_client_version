@@ -1,0 +1,16 @@
+{
+  "category": "WATER_PRESSURE_LIMIT",
+  "title": "정수/온수 물 공급이 느리거나 수압이 약합니다 (0/237)",
+  "rootCause": "정수/온수 물 공급이 목표량(237) 중 (0)만 들어오고 수압이 약해 시간 초과로 멈췄습니다.",
+  "actionGuide": "1) 매장 급수 수도 밸브가 잠겨 있는지 확인해 주세요.\n2) 온수기(보일러) 전원과 물 채움 상태를 확인해 주세요.\n⚠️ [토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.3-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.4)으로 업데이트해 주세요!",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-02T02:12:23.811Z",
+  "intelligenceVersion": "v3.3.2r200-AI-LV19",
+  "details": {
+    "flowTarget": 237,
+    "failedComponent": "온수/정수 급수 밸브 및 유량센서",
+    "tossPluginVersion": "v3.6.3-universal",
+    "isPluginOutdated": true
+  }
+}
