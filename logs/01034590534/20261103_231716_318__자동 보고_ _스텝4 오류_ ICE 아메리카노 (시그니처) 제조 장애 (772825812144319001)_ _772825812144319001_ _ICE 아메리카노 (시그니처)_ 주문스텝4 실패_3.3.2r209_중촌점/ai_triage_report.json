@@ -1,0 +1,18 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "커피머신(WMF)이 응답하지 않아 커피 샷이 나오지 않았습니다",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노' · ICE)과 머신 레시피('ICE 아메리카노 (시그니처)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 온수/정수 물은 정상으로 나왔으나, 커피머신(WMF)에 커피 추출 신호를 보냈으나 커피머신이 응답하지 않아 원두 샷 추출이 멈췄습니다. (커피머신에 원두 부족·찌꺼기통 비움·세척 알림이 떠 있거나 통신선이 흔들린 상태)",
+  "actionGuide": "1) 커피머신(WMF) 화면에 '원두 부족', '찌꺼기통(커피박) 비움', '세척 필요' 안내가 떠 있는지 확인해 주세요.\n2) 커피머신 화면에 이상이 없다면 릴리 화면 [상태]에서 커피머신 [재연결] 버튼을 눌러주세요.\n⚠️ [토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.2-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.4)으로 업데이트해 주세요!",
+  "severity": "CRITICAL",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-03T14:17:16.331Z",
+  "intelligenceVersion": "v3.3.2r200-AI-LV19",
+  "details": {
+    "failedComponent": "WMF 커피머신 (원두 샷 추출 / WebSocket 통신)",
+    "flowTarget": 168,
+    "flowCurrent": 156,
+    "rawSnippet": "orderId=772825812144319001 | 주문=\"아메리카노\" (ICE) ➔ 매칭=\"ICE 아메리카노 (시그니처) [GSI1002]\"",
+    "tossPluginVersion": "v3.6.2-universal",
+    "isPluginOutdated": true
+  }
+}
