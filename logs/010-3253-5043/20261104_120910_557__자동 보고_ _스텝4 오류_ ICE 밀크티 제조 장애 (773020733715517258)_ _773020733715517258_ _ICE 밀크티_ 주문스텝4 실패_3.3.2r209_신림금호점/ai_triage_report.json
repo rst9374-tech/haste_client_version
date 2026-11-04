@@ -1,0 +1,20 @@
+{
+  "category": "RAW_MATERIAL_EMPTY",
+  "title": "[얼그레이 (12번 펌프)] 원액이 다 떨어졌거나 호스에 공기가 찼습니다",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('밀크티' · ICE)과 머신 레시피('ICE 밀크티')가 정상 일치합니다.\n[2단계 기기 진행 상태] [얼그레이 (12번 펌프)] 통이 비어 있거나 호스에 공기가 차서 시럽이 충분히 나오지 않았습니다. (측정 유량 13 / 목표 29)",
+  "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 채워주세요.\n2) 릴리 화면 [테스트 ➔ 시럽]에서 해당 시럽을 눌러 호스 안의 공기를 빼주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-04T03:09:10.573Z",
+  "intelligenceVersion": "v3.3.2r200-AI-LV19",
+  "details": {
+    "failedPin": 12,
+    "flowTarget": 29,
+    "flowCurrent": 13,
+    "failedComponent": "얼그레이 (12번 펌프)",
+    "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+    "rawSnippet": "orderId=773020733715517258 | 주문=\"밀크티\" (ICE) ➔ 매칭=\"ICE 밀크티 [GTI5008]\"",
+    "tossPluginVersion": "v3.6.4-universal",
+    "isPluginOutdated": false
+  }
+}
