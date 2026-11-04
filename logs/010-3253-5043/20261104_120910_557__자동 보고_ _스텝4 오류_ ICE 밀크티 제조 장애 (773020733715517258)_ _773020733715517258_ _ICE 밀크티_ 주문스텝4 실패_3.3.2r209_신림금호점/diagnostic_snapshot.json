@@ -1,0 +1,345 @@
+{
+  "storeNo": "010-3253-5043",
+  "storeName": "신림금호점",
+  "reportedSymptom": "[자동 보고] [스텝4 오류] ICE 밀크티 제조 장애 (773020733715517258): [773020733715517258] [ICE 밀크티] 주문스텝4 실패",
+  "clientVersion": "3.3.2r209",
+  "uploadedAt": "2026-11-04T03:09:10.557Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.26 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-12-04",
+      "lastSuccessfulVerifiedAt": 1793748570656
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      }
+    ],
+    "tossPluginVersion": "v3.6.4-universal",
+    "syrupBoardAudit": {
+      "totalCount": 12,
+      "isSingleBoard": true,
+      "hasBoardPinmapMismatch": false,
+      "syrupBoardFaultReason": "",
+      "boardDisconnectedSyrups": [],
+      "isAllFresh": false,
+      "isAllOk": false,
+      "hasFault": true,
+      "faultCount": 1,
+      "faultItems": [
+        {
+          "name": "얼그레이",
+          "failedAt": 1793761743314,
+          "reason": "토출 미완료 (재고 소진 의심)"
+        }
+      ],
+      "lastAutoSoldOutReport": {
+        "syrupName": "얼그레이",
+        "isFaulted": true,
+        "affectedMenus": [
+          "초코밀크티",
+          "밤얼그레이라떼",
+          "슈크림밀크티",
+          "허니레몬블랙에이드",
+          "허니자몽블랙에이드",
+          "복숭아티",
+          "딸기레몬얼그레이티",
+          "딸기밀크티",
+          "딸기티",
+          "레몬얼그레이티",
+          "밀크티",
+          "얼그레이티",
+          "오렌지자몽블랙티",
+          "허니레몬블랙티",
+          "허니자몽블랙티",
+          "흑당밀크티",
+          "밤라떼 (얼그레이)"
+        ],
+        "phase": "SYNCING",
+        "reason": "토출 타임아웃 (시럽 부족/센서 확인)",
+        "updatedAt": 1793761743313
+      },
+      "stagnantCount": 6,
+      "stagnantItems": [
+        {
+          "name": "말차",
+          "elapsedHours": 15
+        },
+        {
+          "name": "카라멜",
+          "elapsedHours": 15
+        },
+        {
+          "name": "딸기",
+          "elapsedHours": 15
+        },
+        {
+          "name": "바나나",
+          "elapsedHours": 15
+        },
+        {
+          "name": "설탕",
+          "elapsedHours": 15
+        },
+        {
+          "name": "레몬",
+          "elapsedHours": 15
+        }
+      ],
+      "activeCount": 12,
+      "list": [
+        {
+          "name": "말차",
+          "protocol": "SIRUP1",
+          "valveMotor": "sirub1Pump",
+          "flowSensor": "sirub1FlowSensor",
+          "lastDispensedAt": 1793705371944,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "카라멜",
+          "protocol": "SIRUP2",
+          "valveMotor": "sirub2Pump",
+          "flowSensor": "sirub2FlowSensor",
+          "lastDispensedAt": 1793705373156,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "초코",
+          "protocol": "SIRUP3",
+          "valveMotor": "sirub3Pump",
+          "flowSensor": "sirub3FlowSensor",
+          "lastDispensedAt": 1793732608765,
+          "elapsedHours": 8,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "딸기",
+          "protocol": "SIRUP4",
+          "valveMotor": "sirub4Pump",
+          "flowSensor": "sirub4FlowSensor",
+          "lastDispensedAt": 1793705376233,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바나나",
+          "protocol": "SIRUP5",
+          "valveMotor": "sirub5Pump",
+          "flowSensor": "sirub5FlowSensor",
+          "lastDispensedAt": 1793705377119,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "설탕",
+          "protocol": "SIRUP6",
+          "valveMotor": "sirub6Pump",
+          "flowSensor": "sirub6FlowSensor",
+          "lastDispensedAt": 1793705378032,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "헤이즐넛",
+          "protocol": "SIRUP7",
+          "valveMotor": "sirub7Pump",
+          "flowSensor": "sirub7FlowSensor",
+          "lastDispensedAt": 1793754443473,
+          "elapsedHours": 2,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바닐라",
+          "protocol": "SIRUP8",
+          "valveMotor": "sirub8Pump",
+          "flowSensor": "sirub8FlowSensor",
+          "lastDispensedAt": 1793758018297,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "레몬",
+          "protocol": "SIRUP9",
+          "valveMotor": "sirub9Pump",
+          "flowSensor": "sirub9FlowSensor",
+          "lastDispensedAt": 1793705378950,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "자몽",
+          "protocol": "SIRUP10",
+          "valveMotor": "sirub10Pump",
+          "flowSensor": "sirub10FlowSensor",
+          "lastDispensedAt": 1793733870371,
+          "elapsedHours": 7,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "홍차",
+          "protocol": "SIRUP11",
+          "valveMotor": "sirub11Pump",
+          "flowSensor": "sirub11FlowSensor",
+          "lastDispensedAt": 1793748571920,
+          "elapsedHours": 3,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "얼그레이",
+          "protocol": "SIRUP12",
+          "valveMotor": "sirub12Pump",
+          "flowSensor": "sirub12FlowSensor",
+          "lastDispensedAt": 1793733868593,
+          "elapsedHours": 7,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "토출 미완료 (재고 소진 의심)",
+          "faultAt": 1793761743314
+        }
+      ]
+    },
+    "recentFaults": {
+      "totalFaultCount": 26,
+      "todayFaultCount": 3,
+      "yesterdayFaultCount": 23,
+      "incidentCount": 2,
+      "primaryPartLabel": "시럽 라인 (얼그레이)",
+      "primarySymptom": "[얼그레이] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+      "primaryInspectGuide": "[얼그레이] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+      "primaryActionUrl": "/live",
+      "primaryActionLabel": "3ml 추출 확인",
+      "incidents": [
+        {
+          "key": "sirub:얼그레이",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 (얼그레이)",
+          "symptom": "[얼그레이] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+          "inspectGuide": "[얼그레이] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+          "lastOccurredAt": 1793761743316,
+          "lastTimeText": "12:09",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 3
+        },
+        {
+          "key": "coffee:wmf",
+          "domain": "coffee",
+          "partLabel": "커피머신",
+          "symptom": "커피머신 샷·우유 추출 응답 대기가 감지되었습니다.",
+          "inspectGuide": "커피머신 전원과 네트워크 선 연결, 원두·우유 잔량을 확인하고 [상태] 화면에서 커피머신 재연결을 눌러주세요.",
+          "lastOccurredAt": 1793659064465,
+          "lastTimeText": "07:37",
+          "actionUrl": "/live",
+          "actionLabel": "커피머신 점검",
+          "count": 23
+        }
+      ],
+      "scannedAt": 1793761743323,
+      "systemHealth": {
+        "rssMb": 151.1,
+        "heapUsedMb": 26.9,
+        "heapTotalMb": 32.9,
+        "dbLatencyMs": 0.2,
+        "status": "OPTIMAL"
+      },
+      "wmfCleaningSummary": {
+        "isCleaningNow": false,
+        "isSystemCleaningNow": false,
+        "todayCleaningCount": 13,
+        "lastCleaningAt": 1793761680181,
+        "lastCleaningTimeText": "12:08",
+        "lastSystemCleanAt": "2026-11-04T02:00:38.184Z",
+        "lastSystemCleanMs": 1793757638184,
+        "lastSystemCleanTimeText": "11/04 11:00",
+        "hoursSinceLastSystemClean": 1,
+        "cleaningWarningStatus": "OK",
+        "cleaningLabel": "오늘 자동 세척·린싱 13회 정상 완료 (최근 12:08) · 장애 집계 제외"
+      },
+      "unifiedTriage": {
+        "category": "RAW_MATERIAL_EMPTY",
+        "title": "[시럽 원액] 원액이 다 떨어졌거나 호스에 공기가 찼습니다",
+        "rootCause": "[시럽 원액] 통이 비어 있거나 호스에 공기가 차서 시럽이 충분히 나오지 않았습니다. (측정 유량 0 / 목표 35)",
+        "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 채워주세요.\n2) 릴리 화면 [테스트 ➔ 시럽]에서 해당 시럽을 눌러 호스 안의 공기를 빼주세요.",
+        "severity": "WARNING",
+        "isSoftwareBug": false,
+        "analyzedAt": "2026-11-04T03:09:03.706Z",
+        "intelligenceVersion": "v3.3.2r209-AI-LV19",
+        "details": {
+          "failedPin": 0,
+          "flowTarget": 35,
+          "flowCurrent": 0,
+          "failedComponent": "시럽 원액",
+          "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO"
+        }
+      }
+    },
+    "orderComparison": null,
+    "errorDetail": {
+      "orderId": "773020733715517258",
+      "step": "step4",
+      "menuName": "ICE 밀크티",
+      "productNo": "GTI5008",
+      "failMessage": "[773020733715517258] [ICE 밀크티] 주문스텝4 실패",
+      "error": "[773020733715517258] [ICE 밀크티] 주문스텝4 실패"
+    }
+  },
+  "aiTriage": {
+    "category": "RAW_MATERIAL_EMPTY",
+    "title": "[얼그레이 (12번 펌프)] 원액이 다 떨어졌거나 호스에 공기가 찼습니다",
+    "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('밀크티' · ICE)과 머신 레시피('ICE 밀크티')가 정상 일치합니다.\n[2단계 기기 진행 상태] [얼그레이 (12번 펌프)] 통이 비어 있거나 호스에 공기가 차서 시럽이 충분히 나오지 않았습니다. (측정 유량 13 / 목표 29)",
+    "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 채워주세요.\n2) 릴리 화면 [테스트 ➔ 시럽]에서 해당 시럽을 눌러 호스 안의 공기를 빼주세요.",
+    "severity": "WARNING",
+    "isSoftwareBug": false,
+    "analyzedAt": "2026-11-04T03:09:10.573Z",
+    "intelligenceVersion": "v3.3.2r200-AI-LV19",
+    "details": {
+      "failedPin": 12,
+      "flowTarget": 29,
+      "flowCurrent": 13,
+      "failedComponent": "얼그레이 (12번 펌프)",
+      "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+      "rawSnippet": "orderId=773020733715517258 | 주문=\"밀크티\" (ICE) ➔ 매칭=\"ICE 밀크티 [GTI5008]\"",
+      "tossPluginVersion": "v3.6.4-universal",
+      "isPluginOutdated": false
+    }
+  }
+}
