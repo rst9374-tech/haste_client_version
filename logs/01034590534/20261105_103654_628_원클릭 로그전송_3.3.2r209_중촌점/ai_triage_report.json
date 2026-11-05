@@ -1,0 +1,15 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "커피머신(WMF) 네트워크/웹소켓 통신 끊김으로 커피 샷이 나오지 않았습니다 [Step 4]",
+  "rootCause": "[1단계 주문서 확인] 단말기/토스 주문 접수 확인\n[2단계 레시피 대조] 머신 레시피 매칭 정상\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] 커피머신(WMF, 192.168.10.99:25000) 웹소켓 연결이 끊어진 상태(not_connected)여서 Step 4 커피 추출 명령을 전송하지 못했습니다.",
+  "actionGuide": "1) PC 뒷면과 커피머신(WMF)을 연결하는 내부 랜선(NIC #2, 192.168.10.99:25000)이 헐겁거나 빠지지 않았는지, 커피머신 전원이 켜져 있는지 확인해 주세요.\n2) 커피머신(WMF) 화면에 '원두 부족', '찌꺼기통 비움', '세척 필요' 알림이 있다면 조치한 뒤 릴리 화면 [상태 ➔ 재연결]을 눌러주세요.\n[토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.2-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.4)으로 업데이트해 주세요.",
+  "severity": "CRITICAL",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-05T01:36:54.640Z",
+  "intelligenceVersion": "v3.3.2r212-AI-LV19",
+  "details": {
+    "failedComponent": "WMF 커피머신 (192.168.10.99:25000 WebSocket / Step 4)",
+    "tossPluginVersion": "v3.6.2-universal",
+    "isPluginOutdated": true
+  }
+}
