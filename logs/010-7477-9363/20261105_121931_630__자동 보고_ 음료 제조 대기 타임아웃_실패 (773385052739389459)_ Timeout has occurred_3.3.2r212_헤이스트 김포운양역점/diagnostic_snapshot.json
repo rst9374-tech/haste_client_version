@@ -1,0 +1,554 @@
+{
+  "storeNo": "010-7477-9363",
+  "storeName": "헤이스트 김포운양역점",
+  "reportedSymptom": "[자동 보고] 음료 제조 대기 타임아웃/실패 (773385052739389459): Timeout has occurred",
+  "clientVersion": "3.3.2r212",
+  "uploadedAt": "2026-11-05T03:19:31.630Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.87 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "운영위원회",
+      "expireDate": "2026-11-20",
+      "lastSuccessfulVerifiedAt": 1793845769147
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": true
+      }
+    ],
+    "wmfStatus": {
+      "machineName": "WMF",
+      "connected": true,
+      "lastActive": "2026.11.05 12:18:04",
+      "isWmfRebooting": false,
+      "tempWaterBoiler": 97,
+      "pressureSteamBoiler": null,
+      "milkTemp": "4",
+      "apiVersion": 40501,
+      "productName": "5000S+"
+    },
+    "tossPluginVersion": "v3.6.4-universal",
+    "tossPluginInstalledVersion": "3.6.4",
+    "syrupBoardAudit": {
+      "totalCount": 24,
+      "isSingleBoard": false,
+      "hasBoardPinmapMismatch": false,
+      "syrupBoardFaultReason": "",
+      "boardDisconnectedSyrups": [],
+      "isAllFresh": false,
+      "isAllOk": false,
+      "hasFault": true,
+      "faultCount": 2,
+      "faultItems": [
+        {
+          "name": "사용안함",
+          "failedAt": 1793799257026,
+          "reason": "[AI 시럽 확인 요망] 12시간 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)"
+        },
+        {
+          "name": "시럽24",
+          "failedAt": 1793799258844,
+          "reason": "[AI 시럽 확인 요망] 12시간 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)"
+        }
+      ],
+      "lastAutoSoldOutReport": null,
+      "stagnantCount": 22,
+      "stagnantItems": [
+        {
+          "name": "초코",
+          "elapsedHours": 16
+        },
+        {
+          "name": "오렌지",
+          "elapsedHours": 13
+        },
+        {
+          "name": "딸기",
+          "elapsedHours": 13
+        },
+        {
+          "name": "흑당",
+          "elapsedHours": 13
+        },
+        {
+          "name": "자몽",
+          "elapsedHours": 16
+        },
+        {
+          "name": "설탕",
+          "elapsedHours": 25
+        },
+        {
+          "name": "에너지",
+          "elapsedHours": 13
+        },
+        {
+          "name": "레몬",
+          "elapsedHours": 20
+        },
+        {
+          "name": "슈크림",
+          "elapsedHours": 13
+        },
+        {
+          "name": "얼그레이",
+          "elapsedHours": 14
+        },
+        {
+          "name": "바나나",
+          "elapsedHours": 17
+        },
+        {
+          "name": "청포도",
+          "elapsedHours": 20
+        },
+        {
+          "name": "바닐라",
+          "elapsedHours": 14
+        },
+        {
+          "name": "녹차",
+          "elapsedHours": 13
+        },
+        {
+          "name": "카라멜",
+          "elapsedHours": 14
+        },
+        {
+          "name": "자두",
+          "elapsedHours": 13
+        },
+        {
+          "name": "헤이즐넛",
+          "elapsedHours": 15
+        },
+        {
+          "name": "샤인 원액",
+          "elapsedHours": 12
+        },
+        {
+          "name": "홍차",
+          "elapsedHours": 13
+        },
+        {
+          "name": "복숭아",
+          "elapsedHours": 14
+        },
+        {
+          "name": "사용안함",
+          "elapsedHours": 12
+        },
+        {
+          "name": "시럽24",
+          "elapsedHours": 12
+        }
+      ],
+      "activeCount": 24,
+      "list": [
+        {
+          "name": "초코",
+          "protocol": "SIRUP1",
+          "valveMotor": "sirub1Pump",
+          "flowSensor": "sirub1FlowSensor",
+          "lastDispensedAt": 1793790384401,
+          "elapsedHours": 16,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "오렌지",
+          "protocol": "SIRUP2",
+          "valveMotor": "sirub2Pump",
+          "flowSensor": "sirub2FlowSensor",
+          "lastDispensedAt": 1793799250111,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "딸기",
+          "protocol": "SIRUP3",
+          "valveMotor": "sirub3Pump",
+          "flowSensor": "sirub3FlowSensor",
+          "lastDispensedAt": 1793799250606,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "흑당",
+          "protocol": "SIRUP4",
+          "valveMotor": "sirub4Pump",
+          "flowSensor": "sirub4FlowSensor",
+          "lastDispensedAt": 1793799251397,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "자몽",
+          "protocol": "SIRUP5",
+          "valveMotor": "sirub5Pump",
+          "flowSensor": "sirub5FlowSensor",
+          "lastDispensedAt": 1793788535075,
+          "elapsedHours": 16,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "설탕",
+          "protocol": "SIRUP6",
+          "valveMotor": "sirub6Pump",
+          "flowSensor": "sirub6FlowSensor",
+          "lastDispensedAt": 1793756050642,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "말차 시럽",
+          "protocol": "SIRUP7",
+          "valveMotor": "sirub7Pump",
+          "flowSensor": "sirub7FlowSensor",
+          "lastDispensedAt": 1793848491920,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "에너지",
+          "protocol": "SIRUP8",
+          "valveMotor": "sirub8Pump",
+          "flowSensor": "sirub8FlowSensor",
+          "lastDispensedAt": 1793799251900,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "레몬",
+          "protocol": "SIRUP9",
+          "valveMotor": "sirub9Pump",
+          "flowSensor": "sirub9FlowSensor",
+          "lastDispensedAt": 1793774017847,
+          "elapsedHours": 20,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "오미자",
+          "protocol": "SIRUP10",
+          "valveMotor": "sirub10Pump",
+          "flowSensor": "sirub10FlowSensor",
+          "lastDispensedAt": 1793838300906,
+          "elapsedHours": 2,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "슈크림",
+          "protocol": "SIRUP11",
+          "valveMotor": "sirub11Pump",
+          "flowSensor": "sirub11FlowSensor",
+          "lastDispensedAt": 1793799252714,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "얼그레이",
+          "protocol": "SIRUP12",
+          "valveMotor": "sirub19Pump",
+          "flowSensor": "sirub19FlowSensor",
+          "lastDispensedAt": 1793797796566,
+          "elapsedHours": 14,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바나나",
+          "protocol": "SIRUP13",
+          "valveMotor": "sirub13Pump",
+          "flowSensor": "sirub13FlowSensor",
+          "lastDispensedAt": 1793785606913,
+          "elapsedHours": 17,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "청포도",
+          "protocol": "SIRUP14",
+          "valveMotor": "sirub14Pump",
+          "flowSensor": "sirub14FlowSensor",
+          "lastDispensedAt": 1793773316710,
+          "elapsedHours": 20,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바닐라",
+          "protocol": "SIRUP15",
+          "valveMotor": "sirub15Pump",
+          "flowSensor": "sirub15FlowSensor",
+          "lastDispensedAt": 1793796619586,
+          "elapsedHours": 14,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "녹차",
+          "protocol": "SIRUP16",
+          "valveMotor": "sirub16Pump",
+          "flowSensor": "sirub16FlowSensor",
+          "lastDispensedAt": 1793799254216,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "카라멜",
+          "protocol": "SIRUP17",
+          "valveMotor": "sirub17Pump",
+          "flowSensor": "sirub17FlowSensor",
+          "lastDispensedAt": 1793797745937,
+          "elapsedHours": 14,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "자두",
+          "protocol": "SIRUP18",
+          "valveMotor": "sirub18Pump",
+          "flowSensor": "sirub18FlowSensor",
+          "lastDispensedAt": 1793799254947,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "헤이즐넛",
+          "protocol": "SIRUP19",
+          "valveMotor": "sirub12Pump",
+          "flowSensor": "sirub12FlowSensor",
+          "lastDispensedAt": 1793791220961,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "샤인 원액",
+          "protocol": "SIRUP20",
+          "valveMotor": "sirub20Pump",
+          "flowSensor": "sirub20FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "홍차",
+          "protocol": "SIRUP21",
+          "valveMotor": "sirub21Pump",
+          "flowSensor": "sirub21FlowSensor",
+          "lastDispensedAt": 1793799255501,
+          "elapsedHours": 13,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "복숭아",
+          "protocol": "SIRUP22",
+          "valveMotor": "sirub22Pump",
+          "flowSensor": "sirub22FlowSensor",
+          "lastDispensedAt": 1793797795449,
+          "elapsedHours": 14,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "사용안함",
+          "protocol": "SIRUP23",
+          "valveMotor": "sirub23Pump",
+          "flowSensor": "sirub23FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "[AI 시럽 확인 요망] 12시간 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)",
+          "faultAt": 1793799257026
+        },
+        {
+          "name": "시럽24",
+          "protocol": "SIRUP24",
+          "valveMotor": "extraSyrupPump",
+          "flowSensor": "extraSyrupFlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "[AI 시럽 확인 요망] 12시간 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)",
+          "faultAt": 1793799258844
+        }
+      ]
+    },
+    "recentFaults": {
+      "totalFaultCount": 4,
+      "todayFaultCount": 0,
+      "yesterdayFaultCount": 4,
+      "incidentCount": 2,
+      "primaryPartLabel": "시럽 라인 (시럽24)",
+      "primarySymptom": "[시럽24(SIRUP24)] 시럽 보드(board2) 무응답·핀맵 불일치 또는 시럽 원액 부족이 감지되었습니다.",
+      "primaryInspectGuide": "1) [설정 ➔ 시리얼포트]에서 2번 시럽보드(board2) 연결 여부 및 1~12번(board1) 슬롯 배치를 확인하세요.\n2) 보드가 정상 연결된 경우 [시럽24] 시럽 통 잔량과 호스를 확인 후 [상태] 화면에서 [3ml 추출 확인]을 진행해 주세요.",
+      "primaryActionUrl": "/live",
+      "primaryActionLabel": "3ml 추출 확인",
+      "incidents": [
+        {
+          "key": "sirub:시럽24",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 (시럽24)",
+          "symptom": "[시럽24(SIRUP24)] 시럽 보드(board2) 무응답·핀맵 불일치 또는 시럽 원액 부족이 감지되었습니다.",
+          "inspectGuide": "1) [설정 ➔ 시리얼포트]에서 2번 시럽보드(board2) 연결 여부 및 1~12번(board1) 슬롯 배치를 확인하세요.\n2) 보드가 정상 연결된 경우 [시럽24] 시럽 통 잔량과 호스를 확인 후 [상태] 화면에서 [3ml 추출 확인]을 진행해 주세요.",
+          "lastOccurredAt": 1793799258850,
+          "lastTimeText": "22:34",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 2
+        },
+        {
+          "key": "sirub:사용안함",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 (사용안함)",
+          "symptom": "[사용안함(SIRUP23)] 시럽 보드(board2) 무응답·핀맵 불일치 또는 시럽 원액 부족이 감지되었습니다.",
+          "inspectGuide": "1) [설정 ➔ 시리얼포트]에서 2번 시럽보드(board2) 연결 여부 및 1~12번(board1) 슬롯 배치를 확인하세요.\n2) 보드가 정상 연결된 경우 [사용안함] 시럽 통 잔량과 호스를 확인 후 [상태] 화면에서 [3ml 추출 확인]을 진행해 주세요.",
+          "lastOccurredAt": 1793799257034,
+          "lastTimeText": "22:34",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 2
+        }
+      ],
+      "scannedAt": 1793848680780,
+      "systemHealth": {
+        "rssMb": 154.5,
+        "heapUsedMb": 24.3,
+        "heapTotalMb": 26.6,
+        "dbLatencyMs": 0.2,
+        "status": "OPTIMAL"
+      },
+      "wmfCleaningSummary": {
+        "isCleaningNow": true,
+        "isSystemCleaningNow": true,
+        "todayCleaningCount": 14,
+        "lastCleaningAt": 1793848232147,
+        "lastCleaningTimeText": "12:10",
+        "lastSystemCleanAt": "2026-11-05T03:16:03.849Z",
+        "lastSystemCleanMs": 1793848563849,
+        "lastSystemCleanTimeText": "11/05 12:16",
+        "hoursSinceLastSystemClean": 0,
+        "cleaningWarningStatus": "OK",
+        "cleaningLabel": "커피머신 자동 세척·린싱 진행 중 (정상 위생 관리 공정)"
+      },
+      "unifiedTriage": {
+        "category": "RAW_MATERIAL_EMPTY",
+        "title": "[시럽 원액] 원액 부족 또는 에어로 미달 토출 감지 (0g / 목표 35g)",
+        "rootCause": "[1단계 주문서 확인] 단말기/토스 주문 접수 확인\n[2단계 레시피 대조] 머신 레시피 매칭 정상\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] [시럽 원액] 시럽 펌프 토출 중 목표량(35g) 대비 0g만 계측되어 멈췄습니다.",
+        "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 새 시럽을 보충해 주세요.\n2) 릴리 화면 [테스트 ➔ 시럽] 또는 [상태 ➔ 시럽]에서 해당 시럽 [에어빼기/3ml 추출 확인]을 실행하여 정상 토출되면 자동 품절이 즉시 해제되고 토스 POS 판매가 재개됩니다.\n3) 방금 제조가 중단된 주문은 [결제취소] 창 최상단의 [제조실패 · 수동취소 권장] 배지를 확인하여 해당 잔만 수동 결제취소해 주세요.",
+        "severity": "WARNING",
+        "isSoftwareBug": false,
+        "analyzedAt": "2026-11-05T03:18:01.077Z",
+        "intelligenceVersion": "v3.3.2r212-AI-LV20",
+        "details": {
+          "failedPin": 0,
+          "flowTarget": 35,
+          "flowCurrent": 0,
+          "failedComponent": "시럽 원액",
+          "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO"
+        }
+      }
+    },
+    "orderComparison": null,
+    "errorDetail": {
+      "orderId": "773385052739389459",
+      "issueMessage": "Timeout has occurred",
+      "menus": [
+        {
+          "name": "ICE 아메리카노 (시그니처)",
+          "productNo": "MSI1002"
+        }
+      ]
+    },
+    "aiTriageReport": {
+      "category": "NORMAL_INSPECT",
+      "title": "완성된 음료를 손님이 아직 가져가지 않았습니다 (기기 정상)",
+      "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노' · ICE)과 머신 레시피('ICE 아메리카노 (시그니처)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 음료는 정상적으로 다 만들어졌으나, 손님이 3분 이상 음료를 가져가지 않아 픽업 대기 시간이 지났습니다. (기계 고장이 아닙니다)",
+      "actionGuide": "거치대에 놓인 음료를 치우거나 손님이 가져가면 바로 다음 주문이 정상 진행됩니다.",
+      "severity": "INFO",
+      "isSoftwareBug": false,
+      "analyzedAt": "2026-11-05T03:18:25.070Z",
+      "intelligenceVersion": "v3.3.2r212-AI-LV20",
+      "details": {
+        "tossPluginVersion": "v3.6.4-universal",
+        "isPluginOutdated": false,
+        "tossPluginInstalledVersion": "3.6.4",
+        "needsTossPosRestart": false
+      }
+    }
+  },
+  "aiTriage": {
+    "category": "NORMAL_INSPECT",
+    "title": "완성된 음료를 손님이 아직 가져가지 않았습니다 (기기 정상)",
+    "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노' · ICE)과 머신 레시피('ICE 아메리카노 (시그니처)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 음료는 정상적으로 다 만들어졌으나, 손님이 3분 이상 음료를 가져가지 않아 픽업 대기 시간이 지났습니다. (기계 고장이 아닙니다)",
+    "actionGuide": "거치대에 놓인 음료를 치우거나 손님이 가져가면 바로 다음 주문이 정상 진행됩니다.\n[토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.4-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.5)으로 업데이트해 주세요.",
+    "severity": "INFO",
+    "isSoftwareBug": false,
+    "analyzedAt": "2026-11-05T03:19:31.670Z",
+    "intelligenceVersion": "v3.3.2r212-AI-LV20",
+    "details": {
+      "tossPluginVersion": "v3.6.4-universal",
+      "isPluginOutdated": true,
+      "tossPluginInstalledVersion": "3.6.4",
+      "needsTossPosRestart": false
+    }
+  }
+}
