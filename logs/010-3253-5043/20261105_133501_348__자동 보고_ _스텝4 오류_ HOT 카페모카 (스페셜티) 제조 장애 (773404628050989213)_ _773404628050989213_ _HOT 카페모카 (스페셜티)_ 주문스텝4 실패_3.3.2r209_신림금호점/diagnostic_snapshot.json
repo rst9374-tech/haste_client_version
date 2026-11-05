@@ -1,0 +1,424 @@
+{
+  "storeNo": "010-3253-5043",
+  "storeName": "신림금호점",
+  "reportedSymptom": "[자동 보고] [스텝4 오류] HOT 카페모카 (스페셜티) 제조 장애 (773404628050989213): [773404628050989213] [HOT 카페모카 (스페셜티)] 주문스텝4 실패",
+  "clientVersion": "3.3.2r209",
+  "uploadedAt": "2026-11-05T04:35:01.348Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.07 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-12-04",
+      "lastSuccessfulVerifiedAt": 1793748570656
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      }
+    ],
+    "tossPluginVersion": "v3.6.4-universal",
+    "syrupBoardAudit": {
+      "totalCount": 12,
+      "isSingleBoard": true,
+      "hasBoardPinmapMismatch": false,
+      "syrupBoardFaultReason": "",
+      "boardDisconnectedSyrups": [],
+      "isAllFresh": false,
+      "isAllOk": false,
+      "hasFault": true,
+      "faultCount": 1,
+      "faultItems": [
+        {
+          "name": "초코",
+          "failedAt": 1793853273913,
+          "reason": "토출 미완료 (재고 소진 의심)",
+          "affectedMenus": [
+            "카페모카",
+            "카페모카(스페셜티)",
+            "군고구마초코라떼",
+            "녹차초코라떼",
+            "딸기초코라떼",
+            "말차초코라떼",
+            "민트초코라떼",
+            "초코밀크티",
+            "초코라떼",
+            "바나나초코라떼",
+            "밤초코라떼",
+            "초코헤이즐넛라떼",
+            "군고구마라떼 (초코)",
+            "녹차라떼 (초코)",
+            "딸기라떼 (초코)",
+            "말차라떼 (초코)",
+            "민트라떼 (초코)",
+            "바나나라떼 (초코)",
+            "밤라떼 (초코)",
+            "초코라떼 (헤이즐넛)"
+          ],
+          "soldOutSyncPhase": "DONE",
+          "soldOutSyncedAt": 1793853288713
+        }
+      ],
+      "lastAutoSoldOutReport": {
+        "syrupName": "초코",
+        "isFaulted": true,
+        "affectedMenus": [
+          "카페모카",
+          "카페모카(스페셜티)",
+          "군고구마초코라떼",
+          "녹차초코라떼",
+          "딸기초코라떼",
+          "말차초코라떼",
+          "민트초코라떼",
+          "초코밀크티",
+          "초코라떼",
+          "바나나초코라떼",
+          "밤초코라떼",
+          "초코헤이즐넛라떼",
+          "군고구마라떼 (초코)",
+          "녹차라떼 (초코)",
+          "딸기라떼 (초코)",
+          "말차라떼 (초코)",
+          "민트라떼 (초코)",
+          "바나나라떼 (초코)",
+          "밤라떼 (초코)",
+          "초코라떼 (헤이즐넛)"
+        ],
+        "phase": "DONE",
+        "reason": "토출 타임아웃 (시럽 부족/센서 확인)",
+        "updatedAt": 1793853288713
+      },
+      "stagnantCount": 6,
+      "stagnantItems": [
+        {
+          "name": "말차",
+          "elapsedHours": 15
+        },
+        {
+          "name": "초코",
+          "elapsedHours": 15
+        },
+        {
+          "name": "설탕",
+          "elapsedHours": 14
+        },
+        {
+          "name": "바닐라",
+          "elapsedHours": 16
+        },
+        {
+          "name": "자몽",
+          "elapsedHours": 17
+        },
+        {
+          "name": "얼그레이",
+          "elapsedHours": 17
+        }
+      ],
+      "activeCount": 12,
+      "list": [
+        {
+          "name": "말차",
+          "protocol": "SIRUP1",
+          "valveMotor": "sirub1Pump",
+          "flowSensor": "sirub1FlowSensor",
+          "lastDispensedAt": 1793796546857,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "카라멜",
+          "protocol": "SIRUP2",
+          "valveMotor": "sirub2Pump",
+          "flowSensor": "sirub2FlowSensor",
+          "lastDispensedAt": 1793834971298,
+          "elapsedHours": 5,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "초코",
+          "protocol": "SIRUP3",
+          "valveMotor": "sirub3Pump",
+          "flowSensor": "sirub3FlowSensor",
+          "lastDispensedAt": 1793796562631,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "토출 미완료 (재고 소진 의심)",
+          "faultAt": 1793853273913
+        },
+        {
+          "name": "딸기",
+          "protocol": "SIRUP4",
+          "valveMotor": "sirub4Pump",
+          "flowSensor": "sirub4FlowSensor",
+          "lastDispensedAt": 1793820220249,
+          "elapsedHours": 9,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바나나",
+          "protocol": "SIRUP5",
+          "valveMotor": "sirub5Pump",
+          "flowSensor": "sirub5FlowSensor",
+          "lastDispensedAt": 1793834972070,
+          "elapsedHours": 5,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "설탕",
+          "protocol": "SIRUP6",
+          "valveMotor": "sirub6Pump",
+          "flowSensor": "sirub6FlowSensor",
+          "lastDispensedAt": 1793800462421,
+          "elapsedHours": 14,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "헤이즐넛",
+          "protocol": "SIRUP7",
+          "valveMotor": "sirub7Pump",
+          "flowSensor": "sirub7FlowSensor",
+          "lastDispensedAt": 1793834972729,
+          "elapsedHours": 5,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "바닐라",
+          "protocol": "SIRUP8",
+          "valveMotor": "sirub8Pump",
+          "flowSensor": "sirub8FlowSensor",
+          "lastDispensedAt": 1793795229043,
+          "elapsedHours": 16,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "레몬",
+          "protocol": "SIRUP9",
+          "valveMotor": "sirub9Pump",
+          "flowSensor": "sirub9FlowSensor",
+          "lastDispensedAt": 1793820221795,
+          "elapsedHours": 9,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "자몽",
+          "protocol": "SIRUP10",
+          "valveMotor": "sirub10Pump",
+          "flowSensor": "sirub10FlowSensor",
+          "lastDispensedAt": 1793791775907,
+          "elapsedHours": 17,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "홍차",
+          "protocol": "SIRUP11",
+          "valveMotor": "sirub11Pump",
+          "flowSensor": "sirub11FlowSensor",
+          "lastDispensedAt": 1793834973280,
+          "elapsedHours": 5,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "name": "얼그레이",
+          "protocol": "SIRUP12",
+          "valveMotor": "sirub12Pump",
+          "flowSensor": "sirub12FlowSensor",
+          "lastDispensedAt": 1793791776939,
+          "elapsedHours": 17,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        }
+      ]
+    },
+    "recentFaults": {
+      "totalFaultCount": 4,
+      "todayFaultCount": 4,
+      "yesterdayFaultCount": 0,
+      "incidentCount": 2,
+      "primaryPartLabel": "시럽 라인 · 초코시럽 원액 부족/미토출 (HOT_카페모카_(스페셜티))",
+      "primarySymptom": "[HOT_카페모카_(스페셜티)] 제조 중 [초코시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+      "primaryInspectGuide": "[초코시럽] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 또는 [AI 바이저] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+      "primaryActionUrl": "/live",
+      "primaryActionLabel": "3ml 추출 확인",
+      "incidents": [
+        {
+          "key": "sirub:초코시럽",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 · 초코시럽 원액 부족/미토출 (HOT_카페모카_(스페셜티))",
+          "symptom": "[HOT_카페모카_(스페셜티)] 제조 중 [초코시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+          "inspectGuide": "[초코시럽] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 또는 [AI 바이저] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+          "lastOccurredAt": 1793853292820,
+          "lastTimeText": "13:34",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 1
+        },
+        {
+          "key": "sirub:초코",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 (초코)",
+          "symptom": "[초코] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+          "inspectGuide": "[초코] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+          "lastOccurredAt": 1793853273915,
+          "lastTimeText": "13:34",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 3
+        }
+      ],
+      "scannedAt": 1793853292823,
+      "systemHealth": {
+        "rssMb": 157,
+        "heapUsedMb": 30.6,
+        "heapTotalMb": 33.6,
+        "dbLatencyMs": 0.2,
+        "status": "OPTIMAL"
+      },
+      "wmfCleaningSummary": {
+        "isCleaningNow": false,
+        "isSystemCleaningNow": false,
+        "todayCleaningCount": 13,
+        "lastCleaningAt": 1793853025686,
+        "lastCleaningTimeText": "13:30",
+        "lastSystemCleanAt": "2026-11-04T02:00:38.184Z",
+        "lastSystemCleanMs": 1793757638184,
+        "lastSystemCleanTimeText": "11/04 11:00",
+        "hoursSinceLastSystemClean": 26,
+        "cleaningWarningStatus": "WARN_24H",
+        "cleaningLabel": "오늘 자동 세척·린싱 13회 정상 완료 (최근 13:30) · 장애 집계 제외"
+      },
+      "unifiedTriage": {
+        "category": "RAW_MATERIAL_EMPTY",
+        "title": "[시럽 원액] 원액이 다 떨어졌거나 호스에 공기가 찼습니다",
+        "rootCause": "[시럽 원액] 통이 비어 있거나 호스에 공기가 차서 시럽이 충분히 나오지 않았습니다. (측정 유량 0 / 목표 35)",
+        "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 채워주세요.\n2) 릴리 화면 [테스트 ➔ 시럽]에서 해당 시럽을 눌러 호스 안의 공기를 빼주세요.",
+        "severity": "WARNING",
+        "isSoftwareBug": false,
+        "analyzedAt": "2026-11-05T04:34:53.167Z",
+        "intelligenceVersion": "v3.3.2r209-AI-LV19",
+        "details": {
+          "failedPin": 0,
+          "flowTarget": 35,
+          "flowCurrent": 0,
+          "failedComponent": "시럽 원액",
+          "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO"
+        }
+      }
+    },
+    "orderComparison": null,
+    "errorDetail": {
+      "orderId": "773404628050989213",
+      "step": "step4",
+      "menuName": "HOT 카페모카 (스페셜티)",
+      "productNo": "GPH2006",
+      "failMessage": "[773404628050989213] [HOT 카페모카 (스페셜티)] 주문스텝4 실패",
+      "error": "[773404628050989213] [HOT 카페모카 (스페셜티)] 주문스텝4 실패"
+    },
+    "aiTriageReport": {
+      "category": "RAW_MATERIAL_EMPTY",
+      "title": "[초코 (3번 펌프)] 원액 부족 또는 에어로 미달 토출 감지 (15g / 목표 24g) [자동 재추출 후 자동품절 발동]",
+      "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('(스페셜티) 카페모카' · HOT)과 머신 레시피('HOT 카페모카 (스페셜티)')가 정상 일치합니다.\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] [초코 (3번 펌프)] 시럽 펌프 토출 중 목표량(24g) 대비 15g만 계측되어 멈췄습니다. 시럽 미토출(15g / 목표 24g)이 감지되어 해당 시럽(초코 (3번 펌프)) 연관 메뉴 자동 품절(SOLD_OUT) 및 토스 POS 상단 버튼 리프레시가 발동되었습니다.\n[키오스크 자동 품절 처리된 음료 목록]: 초코라떼, 카페모카, 바나나초코라떼, 딸기초코라떼, 민트초코라떼, 초코밀크티 (총 6종)",
+      "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 새 시럽을 보충해 주세요.\n2) 릴리 화면 [테스트 ➔ 시럽] 또는 [상태 ➔ 시럽]에서 해당 시럽 [에어빼기/3ml 추출 확인]을 실행하여 정상 토출되면 자동 품절이 즉시 해제되고 토스 POS 판매가 재개됩니다.\n3) 방금 제조가 중단된 주문은 [결제취소] 창 최상단의 [제조실패 · 수동취소 권장] 배지를 확인하여 해당 잔만 수동 결제취소해 주세요.\n[키오스크 자동 품절 처리된 음료 목록]: 초코라떼, 카페모카, 바나나초코라떼, 딸기초코라떼, 민트초코라떼, 초코밀크티 (총 6종)\n[토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.4-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.5)으로 업데이트해 주세요.",
+      "severity": "WARNING",
+      "isSoftwareBug": false,
+      "analyzedAt": "2026-11-05T04:35:01.373Z",
+      "intelligenceVersion": "v3.3.2r214-AI-LV20",
+      "details": {
+        "failedPin": 3,
+        "flowTarget": 24,
+        "flowCurrent": 15,
+        "failedComponent": "초코 (3번 펌프)",
+        "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+        "rawSnippet": "orderId=773404628050989213 | 주문=\"(스페셜티) 카페모카\" (HOT) ➔ 매칭=\"HOT 카페모카 (스페셜티) [GPH2006]\"",
+        "soldOutMenus": [
+          "초코라떼",
+          "카페모카",
+          "바나나초코라떼",
+          "딸기초코라떼",
+          "민트초코라떼",
+          "초코밀크티"
+        ],
+        "affectedMenus": [
+          "초코라떼",
+          "카페모카",
+          "바나나초코라떼",
+          "딸기초코라떼",
+          "민트초코라떼",
+          "초코밀크티"
+        ],
+        "tossPluginVersion": "v3.6.4-universal",
+        "isPluginOutdated": true
+      }
+    }
+  },
+  "aiTriage": {
+    "category": "RAW_MATERIAL_EMPTY",
+    "title": "[초코 (3번 펌프)] 원액 부족 또는 에어로 미달 토출 감지 (15g / 목표 24g) [자동 재추출 후 자동품절 발동]",
+    "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('(스페셜티) 카페모카' · HOT)과 머신 레시피('HOT 카페모카 (스페셜티)')가 정상 일치합니다.\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] [초코 (3번 펌프)] 시럽 펌프 토출 중 목표량(24g) 대비 15g만 계측되어 멈췄습니다. 시럽 미토출(15g / 목표 24g)이 감지되어 해당 시럽(초코 (3번 펌프)) 연관 메뉴 자동 품절(SOLD_OUT) 및 토스 POS 상단 버튼 리프레시가 발동되었습니다.\n[키오스크 자동 품절 처리된 음료 목록]: 초코라떼, 카페모카, 바나나초코라떼, 딸기초코라떼, 민트초코라떼, 초코밀크티 (총 6종)",
+    "actionGuide": "1) 해당 시럽 통에 원액이 남아 있는지 확인하고 새 시럽을 보충해 주세요.\n2) 릴리 화면 [테스트 ➔ 시럽] 또는 [상태 ➔ 시럽]에서 해당 시럽 [에어빼기/3ml 추출 확인]을 실행하여 정상 토출되면 자동 품절이 즉시 해제되고 토스 POS 판매가 재개됩니다.\n3) 방금 제조가 중단된 주문은 [결제취소] 창 최상단의 [제조실패 · 수동취소 권장] 배지를 확인하여 해당 잔만 수동 결제취소해 주세요.\n[키오스크 자동 품절 처리된 음료 목록]: 초코라떼, 카페모카, 바나나초코라떼, 딸기초코라떼, 민트초코라떼, 초코밀크티 (총 6종)\n[토스 버전 업데이트 필요] 현재 매장의 토스 버전이 구버전(v3.6.4-universal)입니다. 삼성 키오스크 신용카드 결제 전 조기 제조 차단 및 주문 누락 방지를 위해 최신 토스 버전(v3.6.5)으로 업데이트해 주세요.",
+    "severity": "WARNING",
+    "isSoftwareBug": false,
+    "analyzedAt": "2026-11-05T04:35:01.373Z",
+    "intelligenceVersion": "v3.3.2r214-AI-LV20",
+    "details": {
+      "failedPin": 3,
+      "flowTarget": 24,
+      "flowCurrent": 15,
+      "failedComponent": "초코 (3번 펌프)",
+      "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+      "rawSnippet": "orderId=773404628050989213 | 주문=\"(스페셜티) 카페모카\" (HOT) ➔ 매칭=\"HOT 카페모카 (스페셜티) [GPH2006]\"",
+      "soldOutMenus": [
+        "초코라떼",
+        "카페모카",
+        "바나나초코라떼",
+        "딸기초코라떼",
+        "민트초코라떼",
+        "초코밀크티"
+      ],
+      "affectedMenus": [
+        "초코라떼",
+        "카페모카",
+        "바나나초코라떼",
+        "딸기초코라떼",
+        "민트초코라떼",
+        "초코밀크티"
+      ],
+      "tossPluginVersion": "v3.6.4-universal",
+      "isPluginOutdated": true
+    }
+  }
+}
