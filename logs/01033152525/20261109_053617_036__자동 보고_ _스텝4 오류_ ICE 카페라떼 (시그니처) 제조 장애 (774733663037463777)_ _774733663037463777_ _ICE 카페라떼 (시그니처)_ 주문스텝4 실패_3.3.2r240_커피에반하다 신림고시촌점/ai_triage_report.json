@@ -1,0 +1,23 @@
+{
+  "category": "NORMAL_INSPECT",
+  "title": "커피머신(WMF) 자동 헹굼 알림(errorCode=64) 감지 및 추출 대기 [Step 4]",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('카페라떼' · 옵션 없음(미지정))과 머신 레시피('ICE 카페라떼 (시그니처)')가 정상 일치합니다.\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] 커피머신(WMF) 포머/스위치온 자동 헹굼 알림(errorCode=64, Switch-on / Foamer rinsing)으로 인해 checkBeverage가 대기(returnvalue=4)를 반환했습니다. (자동 clearError 전송 여부: 구버전 미전송)",
+  "actionGuide": "1) 최신 버전(v3.3.2r212+)에서는 Step 2에서 컵을 먼저 투하한 뒤 Step 4(얼음·물 투하 중)에 자동으로 알림을 해제(clearError, 최대 24초 대기)하고 그 컵에 커피 샷을 마저 추출하여 완성합니다.\n2) 구버전 사용 시 최신 핫패치(v3.3.2r212+)로 업데이트해 주세요.\n[토스 POS 재부팅 필요] 매장 PC에는 최신 토스 플러그인(v3.6.7)이 설치되어 있지만, 토스 POS가 아직 이전 플러그인(v3.6.5-universal)으로 동작 중입니다. 토스 POS를 완전히 종료(작업표시줄 트레이 아이콘까지)한 뒤 다시 실행해 주세요. 재실행 전까지는 제조 장애 시 토스 결제 자동취소(환불)가 처리되지 않습니다.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-08T20:36:17.070Z",
+  "intelligenceVersion": "v3.3.2r243-AI-LV22",
+  "details": {
+    "failedComponent": "WMF 커피머신 린싱 알림 자동 해제 (errorCode=64)",
+    "rawSnippet": "orderId=774733663037463777 | 주문=\"카페라떼\" (옵션 없음(미지정)) ➔ 매칭=\"ICE 카페라떼 (시그니처) [GSI2001]\"",
+    "autoCancelStatus": "SKIPPED_TOGGLE_OFF",
+    "autoCancelBadge": "🔘 자동결제취소 미실행 (수동취소 확인)",
+    "autoCancelDetail": "해당 제조 실패 건(774733663037463777)에 대한 자동 결제취소 실행 이력이 없습니다('자동 결제취소' 토글 OFF 또는 수동취소 대상).",
+    "autoCancelOrderId": "774733663037463777",
+    "autoCancelMenuName": "ICE 카페라떼 (시그니처)",
+    "tossPluginVersion": "v3.6.5-universal",
+    "isPluginOutdated": true,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": true
+  }
+}
