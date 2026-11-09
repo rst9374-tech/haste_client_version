@@ -1,0 +1,19 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "커피머신(WMF) 커피/우유 추출 완료 신호 지연 타임아웃 [Step 4 WMF 추출 완료 신호 지연] ('초코라떼(ICE)' 주문 ➔ 'ICE 초코라떼' 레시피 정상 확인)",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('초코라떼' · ICE)과 머신 레시피('ICE 초코라떼')가 정상 일치합니다.\n[3단계 하드웨어/통신 스텝 정밀 원인] Step 3 컵 감지(value=1) 통과 후 Step 4에 진입하여 얼음·물 토출을 마치고 커피머신(WMF) 추출(startBeverage · recipeState=99)을 시작했으나, 커피머신에서 추출 완료 신호(recipeState=9)가 3분 동안 도착하지 않아 대기열 타임아웃(Timeout has occurred)이 발생했습니다. (Step 3 컵 미감지가 아닌 Step 4 WMF 완료 신호 지연)",
+  "actionGuide": "1) 커피머신(WMF) 화면에 '원두 부족', '찌꺼기통 비움', '물 공급/유량 이상' 또는 '세척 알림'이 떠 있는지 확인해 주세요.\n2) WMF 본체 우측 하단 전원 스위치를 1회 껐다가 다시 켜서 내부 통신 포트(192.168.10.99:25000)를 초기화한 뒤 릴리 [테스트 ➔ 커피머신]에서 추출을 확인해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-09T11:47:18.948Z",
+  "intelligenceVersion": "v3.3.2r246-AI-LV22",
+  "details": {
+    "failedComponent": "WMF 커피머신 (Step 4 startBeverage recipeState=99 ➔ recipeState=9 완료 신호 지연)",
+    "ruleCode": "RULE-WMF-STEP4-RECIPESTATE99-COMPLETION-TIMEOUT",
+    "rawSnippet": "orderId=774962478238256445 | 주문=\"초코라떼\" (ICE) ➔ 매칭=\"ICE 초코라떼 [MMI3006]\"",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
