@@ -1,0 +1,21 @@
+{
+  "category": "HARDWARE_DISCONNECTED",
+  "title": "음료 제조 단계를 확인해 주세요",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('더블아샷추' · 옵션 없음(미지정))과 머신 레시피('ICE 더블아샷추 (시그니처)')가 정상 일치합니다.\n[2단계 기기 진행 상태] 음료 제조 중 이상 신호가 감지되었습니다 ([자동 보고] [스텝2 오류] ICE 아메리카노 (시그니처) 제조 장애 (774849528936604621): [774849528936604621] [ICE 아메리카노 (시그니처)] 컵 추출 실패: 컵2).",
+  "actionGuide": "릴리 화면 [상태]에서 보드 및 커피머신 연결 상태를 확인해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-09T04:15:34.963Z",
+  "intelligenceVersion": "v3.3.2r242-AI-LV22",
+  "details": {
+    "autoCancelStatus": "SKIPPED_CUP_ERROR",
+    "autoCancelBadge": "🥤 컵 단계 대기/에러 (자동취소 제외)",
+    "autoCancelDetail": "컵 거치대 미감지(Step 3) 및 픽업 대기(Step 5)는 자동 결제취소 대상에서 제외됩니다.",
+    "autoCancelOrderId": "774849528936604621",
+    "autoCancelMenuName": "ICE 아메리카노 (시그니처)",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
