@@ -1,0 +1,92 @@
+[2026-11-09 00:28:52.976] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=774656629321936257 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=9360, paid=0, payments=0)
+[2026-11-09 00:28:53.838] [info]  [TOSS RAW ORDER] orderId=774656629321936257, orderKey=키오-001_3587ce79-a441-4d02-b53d-10864f130a55, pluginVersion=v3.6.7-universal, totalPrice=9360, items=[{"name":"카라멜마끼아또","productNo":"18522283","category":"Coffee","count":1,"basePrice":3700,"optionPrice":0,"unitPrice":3700,"totalPrice":3700,"options":[{"optionName":"ICE","optionCode":"1938208","price":0,"quantity":1},{"optionName":"딥리치","optionCode":"1938209","price":0,"quantity":1},{"optionName":"연하게","optionCode":"1938213","price":0,"quantity":1}]},{"name":"카라멜헤이즐넛","productNo":"18768363","category":"생우유라떼","count":1,"basePrice":3800,"optionPrice":0,"unitPrice":3800,"totalPrice":3800,"options":[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}]},{"name":"돼지바뚱카롱","productNo":"18500942","category":"디저트","count":1,"basePrice":2900,"optionPrice":0,"unitPrice":2900,"totalPrice":2900,"options":[]}]
+[2026-11-09 00:28:53.929] [info]  [TOSS ITEM RESOLVED] orderId=774656629321936257, item="카라멜마끼아또" (std="카라멜마끼아또", code=18522283) | rawOptions=[{"optionName":"ICE","optionCode":"1938208","price":0,"quantity":1},{"optionName":"딥리치","optionCode":"1938209","price":0,"quantity":1},{"optionName":"연하게","optionCode":"1938213","price":0,"quantity":1}] ➔ resolved="ICE 카라멜마끼아또 (딥리치) (연하게)" (MDI2005) steps={"step1":["CUP","ICE"],"step2":["COFFEE",46],"step3":["ICE","6000"],"step4":["COLD_MILK","120"],"step5":["카라멜","35"]}
+[2026-11-09 00:28:53.937] [warn]  [HASTE Toss Order Notice] Paid item "ICE 카라멜마끼아또 (딥리치) (연하게)" (MDI2005) had isPurchasable=false, but proceeding with brew because payment is already completed (orderId=774656629321936257).
+[2026-11-09 00:28:54.022] [info]  [TOSS ITEM RESOLVED] orderId=774656629321936257, item="카라멜헤이즐넛" (std="카라멜헤이즐넛", code=18768363) | rawOptions=[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}] ➔ resolved="ICE 카라멜헤이즐넛" (MMI3032) steps={"step1":["CUP","ICE"],"step2":["ICE","6000"],"step3":["COLD_MILK","180"],"step4":["카라멜","50"],"step5":["헤이즐넛","20"]}
+[2026-11-09 00:28:54.028] [warn]  [HASTE Toss Order Notice] Paid item "ICE 카라멜헤이즐넛" (MMI3032) had isPurchasable=false, but proceeding with brew because payment is already completed (orderId=774656629321936257).
+[2026-11-09 00:28:54.093] [info]  🍰 [HASTE Dessert Order Detected] orderId=774656629321936257, items=[{"name":"돼지바뚱카롱","stdName":"돼지바뚱카롱","count":1,"options":[],"productNo":"DESSERT001","basePrice":2900,"optionPrice":0,"unitPrice":2900}]
+[2026-11-09 00:29:26.011] [info]  [toss] event=order.completed status=success source=toss virtual=on mode=order orderId=774656629321936257 bill=774656629321936257 menuCount=2
+[2026-11-09 00:29:53.836] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=774656886990613555 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=4320, paid=0, payments=0)
+[2026-11-09 00:29:56.070] [info]  [TOSS RAW ORDER] orderId=774656886990613555, orderKey=키오-002_5e86a37e-672a-409a-abb6-5c47f6e04026, pluginVersion=v3.6.7-universal, totalPrice=4320, items=[{"name":"떠먹는티라미수","productNo":"18190116","category":"디저트","count":1,"basePrice":4800,"optionPrice":0,"unitPrice":4800,"totalPrice":4800,"options":[]}]
+[2026-11-09 00:29:56.112] [info]  🍰 [HASTE Dessert Order Detected] orderId=774656886990613555, items=[{"name":"떠먹는티라미수","stdName":"떠먹는티라미수","count":1,"options":[],"productNo":"DESSERT003","basePrice":4800,"optionPrice":0,"unitPrice":4800}]
+[2026-11-09 01:25:38.460] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=774670910398616566 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=2300, paid=0, payments=0)
+[2026-11-09 01:25:41.015] [info]  [TOSS RAW ORDER] orderId=774670910398616566, orderKey=키오-001_c28340be-fc13-4d5d-89ba-fa2c12673a4d, pluginVersion=v3.6.7-universal, totalPrice=2300, items=[{"name":"아메리카노(연하게)","productNo":"17283380","category":"Coffee","count":1,"basePrice":2300,"optionPrice":0,"unitPrice":2300,"totalPrice":2300,"options":[{"optionName":"ICE","optionCode":"1938208","price":0,"quantity":1}]}]
+[2026-11-09 01:25:41.059] [info]  [TOSS ITEM RESOLVED] orderId=774670910398616566, item="아메리카노(연하게)" (std="아메리카노(연하게)", code=17283380) | rawOptions=[{"optionName":"ICE","optionCode":"1938208","price":0,"quantity":1}] ➔ resolved="ICE 아메리카노 (시그니처) (연하게)" (MSI1001) steps={"step1":["CUP","ICE"],"step2":["COFFEE",45],"step3":["ICE","6000"],"step4":["COLD","170"]}
+[2026-11-09 01:25:55.967] [info]  [toss] event=order.completed status=success source=toss virtual=on mode=order orderId=774670910398616566 bill=774670910398616566 menuCount=1
+[2026-11-09 01:26:29.044] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=774671122697509262 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=2000, paid=0, payments=0)
+[2026-11-09 01:26:33.015] [info]  [TOSS RAW ORDER] orderId=774671122697509262, orderKey=키오-002_eec944c2-3ac6-40e7-ae44-6ff97b2377d6, pluginVersion=v3.6.7-universal, totalPrice=2000, items=[{"name":"뽀로로음료","productNo":"16642337","category":"에이드/기타음료","count":1,"basePrice":2000,"optionPrice":0,"unitPrice":2000,"totalPrice":2000,"options":[]}]
+[2026-11-09 01:26:33.066] [info]  🍰 [HASTE Dessert Order Detected] orderId=774671122697509262, items=[{"name":"뽀로로음료","stdName":"뽀로로음료","count":1,"options":[],"productNo":"16642337","basePrice":2000,"optionPrice":0,"unitPrice":2000}]
+[2026-11-09 02:15:58.913] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=774683582779314553 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=8845, paid=0, payments=0)
+[2026-11-09 02:16:04.775] [info]  [TOSS RAW ORDER] orderId=774683582779314553, orderKey=키오-003_e729cfc7-e9f4-441f-b3a0-f6202eafce34, pluginVersion=v3.6.7-universal, totalPrice=8845, items=[{"name":"아메리카노(연하게)","productNo":"17283380","category":"Coffee","count":4,"basePrice":2300,"optionPrice":0,"unitPrice":2300,"totalPrice":9200,"options":[{"optionName":"ICE","optionCode":"1938208","price":0,"quantity":1}]}]
+[2026-11-09 02:16:04.818] [info]  [TOSS ITEM RESOLVED] orderId=774683582779314553, item="아메리카노(연하게)" (std="아메리카노(연하게)", code=17283380) | rawOptions=[{"optionName":"ICE","optionCode":"1938208","price":0,"quantity":1}] ➔ resolved="ICE 아메리카노 (시그니처) (연하게)" (MSI1001) steps={"step1":["CUP","ICE"],"step2":["COFFEE",45],"step3":["ICE","6000"],"step4":["COLD","170"]}
+[2026-11-09 02:17:07.445] [info]  [toss] event=order.completed status=success source=toss virtual=on mode=order orderId=774683582779314553 bill=774683582779314553 menuCount=4
+[2026-11-09 09:56:35.001] [info]  [manual] event=order.received status=success source=manual virtual=on mode=test orderId=INSTANT-1794185794683 bill=0000 menuCount=1 mappings=[{"baseCode":"MSI1002","recipeCode":"MSI1002","matchedMenuName":"ICE_아메리카노_(시그니처)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:6000,_COLD:155,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-11-09 09:56:48.917] [info]  [manual] event=order.completed status=success source=manual virtual=on mode=test orderId=INSTANT-1794185794683 bill=0000 menuCount=1
+[2026-11-09 10:35:53.638] [info]  [Toss Autopilot] ======================================================================
+[2026-11-09 10:35:53.650] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (① 토스 상품 동기화 (시럽·재고·노출·사진))
+[2026-11-09 10:35:53.651] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-09 10:35:53.653] [info]  [Toss Autopilot] ======================================================================
+[2026-11-09 10:35:53.677] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-09 10:35:55.829] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\김성규\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-09 10:35:55.833] [info]  [Toss Autopilot] ================================================================================
+[2026-11-09 10:35:55.835] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 본사 (최고관리자) (점주님) 실행 시작
+[2026-11-09 10:35:55.836] [info]  [Toss Autopilot] 📱 대시보드: 01064922542 / 개발자 이메일: dcslove1189@naver.com
+[2026-11-09 10:35:55.837] [info]  [Toss Autopilot] ================================================================================
+[2026-11-09 10:35:55.838] [info]  [Toss Autopilot] 🌐 [브라우저 모드] ⚡ 초고속 백그라운드 모드 (화면 미표시)
+[2026-11-09 10:35:55.843] [info]  [Toss Autopilot] ⚡ [Zero-Browser Direct HTTP Fast-Path] 세션 쿠키 금고 유효 확인 (1개 매장)! 브라우저 기동(0ms) 없이 초고속 직통 API 모드로 즉시 실행합니다.
+[2026-11-09 10:35:55.865] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "헤이스트(걸포점)" (#732367)
+[2026-11-09 10:35:56.158] [info]  [Toss Autopilot] 📊 [본사 /b/798 통합 실매출 & 판매순위 수집] 대상 가맹점 8곳 (2026-10-11 ~ 2026-11-09) Read-Only 조회 중...
+[2026-11-09 10:35:56.403] [info]  [Toss Autopilot] 📊 [토스 /b/798 실매출 하이브리드 수신] 품목 0종 · 실결제 0잔 동기화 완료
+[2026-11-09 10:35:56.410] [info]  [Toss Autopilot] ✅ [본사 /b/798 실매출 수집 완료] 연결 가맹점 8곳 통합 매출·카테고리 리포트 캐시 및 본사 API 전송 완료!
+[2026-11-09 10:35:56.530] [info]  [Toss Autopilot] 🖥️ [본사 홈페이지 키오스크 화면설정 웹 관리대장 연동] 본사(/b/798) 및 기본 화면(4/4종) 상태 정밀 대조 중...
+[2026-11-09 10:35:57.306] [info]  [Toss Autopilot] 🖥️ [토스 /b/798 키오스크 화면설정 수신] 배너 4건 · 매장 8개 동기화 완료
+[2026-11-09 10:35:57.312] [info]  [Toss Autopilot] ✅ [본사 홈페이지 키오스크 화면설정 웹 관리대장 연동 완료] 기본 대기배경 4/4종 디스크 확인 · 캠페인 3종 · 가맹점 9곳 매핑 완료!
+[2026-11-09 10:35:57.315] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\out\renderer\menu_images
+[2026-11-09 10:35:57.317] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-09 10:35:57.318] [info]  [Toss Autopilot] 🏬 [1/1] "헤이스트(걸포점)" (#732367) 매장 작업 시작...
+[2026-11-09 10:35:57.320] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-09 10:35:59.005] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] 헤이스트(걸포점) — 총 0종 가격·메뉴명 동기화 완료
+[2026-11-09 10:35:59.019] [info]  [Toss Autopilot] 📋 [헤이스트(걸포점)] 총 0개 상품 포착 (수정 대상: 0개)
+[2026-11-09 10:35:59.023] [info]  [Toss Autopilot] ✅ [헤이스트(걸포점)] 기존 등록 상품은 이미 요건을 충족합니다! (수정 대상 0개 건너뜀)
+[2026-11-09 10:35:59.027] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '에스프레소 도피오' ➔ 2,000원
+[2026-11-09 10:35:59.058] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딥 에스프레소 도피오(딥리치)' ➔ 2,000원
+[2026-11-09 10:35:59.063] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '아메리카노' ➔ 2,000원
+[2026-11-09 10:35:59.064] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딥 아메리카노(딥리치)' ➔ 2,000원
+[2026-11-09 10:35:59.067] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '카페라떼' ➔ 3,200원
+[2026-11-09 10:35:59.070] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딥 카페라떼(딥리치)' ➔ 3,200원
+[2026-11-09 10:35:59.098] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '헤이즐넛라떼' ➔ 3,700원
+[2026-11-09 10:35:59.099] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딥 헤이즐넛라떼(딥리치)' ➔ 3,700원
+[2026-11-09 10:35:59.100] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '슈크림샷라떼' ➔ 3,700원
+[2026-11-09 10:35:59.102] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딥 슈크림샷라떼(딥리치)' ➔ 3,700원
+[2026-11-09 10:35:59.105] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딸기라떼' ➔ 3,500원
+[2026-11-09 10:35:59.109] [info]  [Toss Autopilot] 💾 [가격 기억 금고 복원] '딸기슈크림라떼' ➔ 이전 점주 설정 판매가 3,800원 100% 자동 복원!
+[2026-11-09 10:35:59.111] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '슈크림라떼' ➔ 3,500원
+[2026-11-09 10:35:59.114] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '슈크림밀크티' ➔ 4,100원
+[2026-11-09 10:35:59.116] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '흑당라떼' ➔ 3,500원
+[2026-11-09 10:35:59.118] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '레몬에이드' ➔ 2,900원
+[2026-11-09 10:35:59.171] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딸기자몽에이드' ➔ 3,400원
+[2026-11-09 10:35:59.174] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '자몽에이드' ➔ 2,900원
+[2026-11-09 10:35:59.177] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '오미자에이드' ➔ 2,900원
+[2026-11-09 10:35:59.195] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딸기에이드' ➔ 2,900원
+[2026-11-09 10:35:59.197] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '레몬딸기에이드' ➔ 3,400원
+[2026-11-09 10:35:59.198] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '오렌지에이드' ➔ 2,900원
+[2026-11-09 10:35:59.199] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '오미자차' ➔ 3,000원
+[2026-11-09 10:35:59.202] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딸기레몬얼그레이티' ➔ 3,500원
+[2026-11-09 10:35:59.204] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딸기밀크티' ➔ 4,100원
+[2026-11-09 10:35:59.206] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '딸기티' ➔ 3,000원
+[2026-11-09 10:35:59.208] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '레몬얼그레이티' ➔ 3,500원
+[2026-11-09 10:35:59.265] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '밀크티' ➔ 3,800원
+[2026-11-09 10:35:59.268] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '얼그레이티' ➔ 3,500원
+[2026-11-09 10:35:59.270] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '오렌지자몽블랙티' ➔ 3,500원
+[2026-11-09 10:35:59.271] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '프리미엄티' ➔ 3,000원
+[2026-11-09 10:35:59.272] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '흑당밀크티' ➔ 4,100원
+[2026-11-09 10:35:59.274] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '리얼 샤인머스캣 에이드' ➔ 3,800원
+[2026-11-09 10:35:59.276] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '리얼 복숭아티(제로슈가)' ➔ 3,300원
+[2026-11-09 10:35:59.278] [info]  [Toss Autopilot] ⚡ [1차 초고속 API 직통 생성] [헤이스트(걸포점)] 미등록 메뉴 147종 REST API 배치 생성 시작...
+[2026-11-09 10:35:59.279] [info]  [Toss Autopilot] 🚀 [헤이스트(걸포점)] API 미반영 잔여 메뉴 147종 ➔ 3채널 안전 병렬 추가 시작!
+[2026-11-09 10:35:59.595] [error] [Toss Autopilot Error] ❌ 오토파일럿 진행 중 오류: TypeError: K.newPage is not a function
+[2026-11-09 10:35:59.605] [info]  [Toss Autopilot] at kI (C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources\toss_autopilot\autopilot_bundle.cjs:221:31677)
+[2026-11-09 10:35:59.610] [info]  [Toss Autopilot] at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-11-09 10:35:59.613] [info]  [Toss Autopilot] at async FI (C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources\toss_autopilot\autopilot_bundle.cjs:221:87511)
+[2026-11-09 10:35:59.615] [info]  [Toss Autopilot] at async j3 (C:\Users\김성규\Desktop\HASTE-AI\src\cafehaste-client\src\lilly-electron\resources\toss_autopilot\autopilot_bundle.cjs:231:792)
+[2026-11-09 10:35:59.647] [info]  [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
