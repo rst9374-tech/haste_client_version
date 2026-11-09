@@ -1,0 +1,18 @@
+{
+  "category": "RAW_MATERIAL_EMPTY",
+  "title": "시럽 소진 자동품절 유지 중 [바닐라] · 최근 주문(17:06:21 '아메리카노(연하게)') 정상 제조 완료",
+  "rootCause": "[1단계 주문서 및 제조 확인] 토스 키오스크 주문서(총 17건, 최근 주문 17:06:21 '아메리카노(연하게)' ➔ 17:07:00 정상 제조 완료)는 정상 유입·제조되고 있습니다.\n[2단계 시럽 자동품절 상태] 현재 [바닐라: [AI 시럽 확인 요망] 세척 시(wmf_system_cleaning_start) 3ml 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)] 상태여서 관련 메뉴가 자동 품절(SOLD_OUT)로 보호 중입니다. (커피머신 및 제어보드 통신은 정상 작동 중)",
+  "actionGuide": "1) [바닐라] 시럽 통에 원액을 보충한 뒤 [시럽 테스트] 또는 [세척]으로 정상 토출(유량센서 감지)을 확인하거나 [시럽 보충 확인 · 자동품절 해제] 버튼을 눌러 품절을 해제하세요.\n2) 시럽 보충 후 실제 키오스크 판매 재개를 위해 토스 포스 우측 상단 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-09T13:17:30.514Z",
+  "intelligenceVersion": "v3.3.2r246-AI-LV22",
+  "details": {
+    "failedComponent": "시럽 자동품절 유지 중 (바닐라)",
+    "rawSnippet": "orderId=774907705136885460 | 주문=\"아메리카노(연하게)\" (HOT) ➔ 매칭=\"HOT 아메리카노 (시그니처) (연하게) [GSH1001]\"",
+    "tossPluginVersion": "3.6.7",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
