@@ -1,0 +1,23 @@
+{
+  "category": "NORMAL_INSPECT",
+  "title": "커피머신(WMF) 자동 헹굼 알림(errorCode=64) 감지 및 추출 대기 [Step 4]",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노' · HOT)과 머신 레시피('HOT 아메리카노 (시그니처)')가 정상 일치합니다.\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] 커피머신(WMF) 포머/스위치온 자동 헹굼 알림(errorCode=64, Switch-on / Foamer rinsing)으로 인해 checkBeverage가 대기(returnvalue=4)를 반환했습니다. (자동 clearError 전송 여부: 전송 완료)",
+  "actionGuide": "1) 최신 버전(v3.3.2r212+)에서는 Step 2에서 컵을 먼저 투하한 뒤 Step 4(얼음·물 투하 중)에 자동으로 알림을 해제(clearError, 최대 24초 대기)하고 그 컵에 커피 샷을 마저 추출하여 완성합니다.\n2) 구버전 사용 시 최신 핫패치(v3.3.2r212+)로 업데이트해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-10T12:05:01.268Z",
+  "intelligenceVersion": "v3.3.2r253-AI-LV23",
+  "details": {
+    "failedComponent": "WMF 커피머신 린싱 알림 자동 해제 (errorCode=64)",
+    "rawSnippet": "orderId=775330022702853295 | 주문=\"아메리카노\" (HOT) ➔ 매칭=\"HOT 아메리카노 (시그니처) [GSH1002]\"",
+    "autoCancelStatus": "SKIPPED_TOGGLE_OFF",
+    "autoCancelBadge": "🔘 자동결제취소 미실행 (수동취소 확인)",
+    "autoCancelDetail": "해당 제조 실패 건(775330022702853295)에 대한 자동 결제취소 실행 이력이 없습니다('자동 결제취소' 토글 OFF 또는 수동취소 대상).",
+    "autoCancelOrderId": "775330022702853295",
+    "autoCancelMenuName": "HOT 아메리카노 (시그니처)",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
