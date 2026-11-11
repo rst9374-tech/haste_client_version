@@ -1,0 +1,19 @@
+{
+  "category": "NORMAL_INSPECT",
+  "title": "[정상 제조 완료 · 고객 미수령 타임아웃] 완성된 음료를 손님이 3분간 가져가지 않았습니다 (기기 정상)",
+  "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('아메리카노(연하게)' · HOT)과 머신 레시피('HOT 아메리카노 (시그니처) (연하게)')가 정상 일치합니다.\n[2단계 기기 진행 상태] [정상 제조 완료 · 고객 미수령 타임아웃] 커피·우유·얼음·시럽 추출(Step 4 · recipeState=9 ready=true)은 100% 정상 완료되어 픽업 대기(Step 5 · cup unmount wait)로 넘어갔으나, 손님이 완성된 음료를 트레이에서 3분간 가져가지 않아 픽업 대기 시간이 경과했습니다. (커피머신·센서·기계 고장이 전혀 아닙니다)",
+  "actionGuide": "거치대(트레이)에 놓인 완성 음료를 손님이 수령하거나 치우면 즉시 다음 주문 제조가 정상 진행됩니다. 기기 점검이 필요 없습니다.",
+  "severity": "INFO",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-11T19:43:53.922Z",
+  "intelligenceVersion": "v3.3.2r261-AI-LV23",
+  "details": {
+    "failedComponent": "정상 제조 완료 후 고객 미수령 픽업 대기 (Step 5 cup unmount wait)",
+    "ruleCode": "RULE-CUSTOMER-PICKUP-TIMEOUT",
+    "rawSnippet": "cup unmount wait started\"",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
