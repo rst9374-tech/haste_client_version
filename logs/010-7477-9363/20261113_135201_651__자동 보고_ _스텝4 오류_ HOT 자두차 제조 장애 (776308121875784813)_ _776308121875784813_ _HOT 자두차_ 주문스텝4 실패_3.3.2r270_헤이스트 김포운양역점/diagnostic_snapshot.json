@@ -1,0 +1,1103 @@
+{
+  "storeNo": "010-7477-9363",
+  "storeName": "헤이스트 김포운양역점",
+  "reportedSymptom": "[자동 보고] [스텝4 오류] HOT 자두차 제조 장애 (776308121875784813): [776308121875784813] [HOT 자두차] 주문스텝4 실패",
+  "clientVersion": "3.3.2r270",
+  "uploadedAt": "2026-11-13T04:52:01.651Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "3.40 GB"
+    },
+    "db": {
+      "haste": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "운영위원회",
+      "expireDate": "2026-11-20",
+      "lastSuccessfulVerifiedAt": 1794541603115
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      },
+      {
+        "name": "board2",
+        "port": "COM7",
+        "connected": true
+      }
+    ],
+    "wmfStatus": {
+      "machineName": "WMF",
+      "connected": true,
+      "lastActive": "2026.11.13 13:46:44",
+      "isWmfRebooting": false,
+      "tempWaterBoiler": 96,
+      "pressureSteamBoiler": null,
+      "milkTemp": "4",
+      "apiVersion": 40501,
+      "productName": "5000S+"
+    },
+    "tossPluginVersion": "v3.6.7-universal",
+    "tossPluginInstalledVersion": "3.6.7",
+    "syrupBoardAudit": {
+      "totalCount": 24,
+      "isSingleBoard": false,
+      "hasBoardPinmapMismatch": false,
+      "syrupBoardFaultReason": "",
+      "boardDisconnectedSyrups": [],
+      "isAllFresh": false,
+      "isAllOk": false,
+      "hasFault": true,
+      "faultCount": 2,
+      "faultItems": [
+        {
+          "name": "에너지",
+          "slotNo": 8,
+          "protocol": "SIRUP8",
+          "failedAt": 1794454167808,
+          "reason": "[AI 시럽 확인 요망] 세척 시(wmf_system_cleaning_start) 3ml 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)",
+          "affectedMenus": [],
+          "soldOutSyncPhase": "DONE",
+          "soldOutSyncedAt": 1794454207650
+        },
+        {
+          "name": "자두",
+          "slotNo": 17,
+          "protocol": "SIRUP17",
+          "failedAt": 1794545440318,
+          "reason": "제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)",
+          "affectedMenus": [
+            "플럼바닐라라떼",
+            "자두에이드",
+            "플럼피치에이드",
+            "자두차"
+          ],
+          "affectedMenuDetails": [
+            {
+              "name": "플럼바닐라라떼",
+              "productNo": "MMI3033",
+              "temp": "ICE"
+            },
+            {
+              "name": "자두에이드",
+              "productNo": "MAI4007",
+              "temp": "ICE"
+            },
+            {
+              "name": "플럼피치에이드",
+              "productNo": "MAI4018",
+              "temp": "ICE"
+            },
+            {
+              "name": "자두차",
+              "productNo": "MTI5012",
+              "temp": "ICE"
+            }
+          ],
+          "soldOutSyncPhase": "SYNCING",
+          "soldOutSyncedAt": 1794545440402
+        }
+      ],
+      "lastAutoSoldOutReport": {
+        "syrupName": "자두",
+        "isFaulted": true,
+        "affectedMenus": [
+          "플럼바닐라라떼",
+          "자두에이드",
+          "플럼피치에이드",
+          "자두차"
+        ],
+        "phase": "SYNCING",
+        "reason": "제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)",
+        "updatedAt": 1794545440402
+      },
+      "stagnantCount": 17,
+      "stagnantItems": [
+        {
+          "name": "초코",
+          "elapsedHours": 25
+        },
+        {
+          "name": "오렌지",
+          "elapsedHours": 15
+        },
+        {
+          "name": "흑당",
+          "elapsedHours": 25
+        },
+        {
+          "name": "자몽",
+          "elapsedHours": 25
+        },
+        {
+          "name": "말차 시럽",
+          "elapsedHours": 12
+        },
+        {
+          "name": "에너지",
+          "elapsedHours": 110
+        },
+        {
+          "name": "슈크림",
+          "elapsedHours": 19
+        },
+        {
+          "name": "얼그레이",
+          "elapsedHours": 25
+        },
+        {
+          "name": "바나나",
+          "elapsedHours": 25
+        },
+        {
+          "name": "청포도",
+          "elapsedHours": 25
+        },
+        {
+          "name": "녹차",
+          "elapsedHours": 25
+        },
+        {
+          "name": "자두",
+          "elapsedHours": 74
+        },
+        {
+          "name": "카라멜",
+          "elapsedHours": 25
+        },
+        {
+          "name": "헤이즐넛",
+          "elapsedHours": 25
+        },
+        {
+          "name": "샤인 원액",
+          "elapsedHours": 21
+        },
+        {
+          "name": "홍차",
+          "elapsedHours": 25
+        },
+        {
+          "name": "복숭아",
+          "elapsedHours": 15
+        }
+      ],
+      "activeCount": 22,
+      "list": [
+        {
+          "slotNo": 1,
+          "name": "초코",
+          "protocol": "SIRUP1",
+          "valveMotor": "sirub1Pump",
+          "flowSensor": "sirub1FlowSensor",
+          "lastDispensedAt": 1794454162555,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 2,
+          "name": "오렌지",
+          "protocol": "SIRUP2",
+          "valveMotor": "sirub2Pump",
+          "flowSensor": "sirub2FlowSensor",
+          "lastDispensedAt": 1794488214015,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 3,
+          "name": "딸기",
+          "protocol": "SIRUP3",
+          "valveMotor": "sirub3Pump",
+          "flowSensor": "sirub3FlowSensor",
+          "lastDispensedAt": 1794509287774,
+          "elapsedHours": 10,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 4,
+          "name": "흑당",
+          "protocol": "SIRUP4",
+          "valveMotor": "sirub4Pump",
+          "flowSensor": "sirub4FlowSensor",
+          "lastDispensedAt": 1794454164676,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 5,
+          "name": "자몽",
+          "protocol": "SIRUP5",
+          "valveMotor": "sirub5Pump",
+          "flowSensor": "sirub5FlowSensor",
+          "lastDispensedAt": 1794454165260,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 6,
+          "name": "설탕",
+          "protocol": "SIRUP6",
+          "valveMotor": "sirub6Pump",
+          "flowSensor": "sirub6FlowSensor",
+          "lastDispensedAt": 1794540176630,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 7,
+          "name": "말차 시럽",
+          "protocol": "SIRUP7",
+          "valveMotor": "sirub7Pump",
+          "flowSensor": "sirub7FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 8,
+          "name": "에너지",
+          "protocol": "SIRUP8",
+          "valveMotor": "sirub8Pump",
+          "flowSensor": "sirub8FlowSensor",
+          "lastDispensedAt": 1794148109093,
+          "elapsedHours": 110,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "[AI 시럽 확인 요망] 세척 시(wmf_system_cleaning_start) 3ml 자동 순환 중 시럽 미토출 (시럽 잔량 및 호스 확인 요망)",
+          "faultAt": 1794454167808
+        },
+        {
+          "slotNo": 9,
+          "name": "레몬",
+          "protocol": "SIRUP9",
+          "valveMotor": "sirub9Pump",
+          "flowSensor": "sirub9FlowSensor",
+          "lastDispensedAt": 1794540175739,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 10,
+          "name": "오미자",
+          "protocol": "SIRUP10",
+          "valveMotor": "sirub10Pump",
+          "flowSensor": "sirub10FlowSensor",
+          "lastDispensedAt": 1794539570106,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 11,
+          "name": "슈크림",
+          "protocol": "SIRUP11",
+          "valveMotor": "sirub11Pump",
+          "flowSensor": "sirub11FlowSensor",
+          "lastDispensedAt": 1794475890264,
+          "elapsedHours": 19,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 12,
+          "name": "얼그레이",
+          "protocol": "SIRUP12",
+          "valveMotor": "sirub19Pump",
+          "flowSensor": "sirub19FlowSensor",
+          "lastDispensedAt": 1794454171821,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 13,
+          "name": "바나나",
+          "protocol": "SIRUP13",
+          "valveMotor": "sirub13Pump",
+          "flowSensor": "sirub13FlowSensor",
+          "lastDispensedAt": 1794454173784,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 14,
+          "name": "청포도",
+          "protocol": "SIRUP14",
+          "valveMotor": "sirub14Pump",
+          "flowSensor": "sirub14FlowSensor",
+          "lastDispensedAt": 1794454174557,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 15,
+          "name": "바닐라",
+          "protocol": "SIRUP15",
+          "valveMotor": "sirub15Pump",
+          "flowSensor": "sirub15FlowSensor",
+          "lastDispensedAt": 1794542913725,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 16,
+          "name": "녹차",
+          "protocol": "SIRUP16",
+          "valveMotor": "sirub16Pump",
+          "flowSensor": "sirub16FlowSensor",
+          "lastDispensedAt": 1794454177277,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 17,
+          "name": "자두",
+          "protocol": "SIRUP17",
+          "valveMotor": "sirub17Pump",
+          "flowSensor": "sirub17FlowSensor",
+          "lastDispensedAt": 1794278155507,
+          "elapsedHours": 74,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)",
+          "faultAt": 1794545440318
+        },
+        {
+          "slotNo": 18,
+          "name": "카라멜",
+          "protocol": "SIRUP18",
+          "valveMotor": "sirub18Pump",
+          "flowSensor": "sirub18FlowSensor",
+          "lastDispensedAt": 1794454182280,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 19,
+          "name": "헤이즐넛",
+          "protocol": "SIRUP19",
+          "valveMotor": "sirub12Pump",
+          "flowSensor": "sirub12FlowSensor",
+          "lastDispensedAt": 1794454182840,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 20,
+          "name": "샤인 원액",
+          "protocol": "SIRUP20",
+          "valveMotor": "sirub20Pump",
+          "flowSensor": "sirub20FlowSensor",
+          "lastDispensedAt": 1794468162428,
+          "elapsedHours": 21,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 21,
+          "name": "홍차",
+          "protocol": "SIRUP21",
+          "valveMotor": "sirub21Pump",
+          "flowSensor": "sirub21FlowSensor",
+          "lastDispensedAt": 1794454184254,
+          "elapsedHours": 25,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 22,
+          "name": "복숭아",
+          "protocol": "SIRUP22",
+          "valveMotor": "sirub22Pump",
+          "flowSensor": "sirub22FlowSensor",
+          "lastDispensedAt": 1794488509081,
+          "elapsedHours": 15,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 23,
+          "name": "사용안함",
+          "protocol": "SIRUP23",
+          "valveMotor": "sirub23Pump",
+          "flowSensor": "sirub23FlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": false,
+          "isUnused": true,
+          "hasFault": false
+        },
+        {
+          "slotNo": 24,
+          "name": "시럽24",
+          "protocol": "SIRUP24",
+          "valveMotor": "extraSyrupPump",
+          "flowSensor": "extraSyrupFlowSensor",
+          "lastDispensedAt": 0,
+          "elapsedHours": 12,
+          "isStagnant": false,
+          "isUnused": true,
+          "hasFault": false
+        }
+      ]
+    },
+    "recentFaults": {
+      "totalFaultCount": 4,
+      "todayFaultCount": 3,
+      "yesterdayFaultCount": 1,
+      "incidentCount": 3,
+      "primaryPartLabel": "시럽 라인 · 자두시럽 원액 부족/미토출 (HOT_자두차)",
+      "primarySymptom": "[HOT_자두차] 제조 중 [자두시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+      "primaryInspectGuide": "[자두시럽] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 또는 [AI 바이저] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+      "primaryActionUrl": "/live",
+      "primaryActionLabel": "3ml 추출 확인",
+      "incidents": [
+        {
+          "key": "sirub:자두시럽",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 · 자두시럽 원액 부족/미토출 (HOT_자두차)",
+          "symptom": "[HOT_자두차] 제조 중 [자두시럽] 원액 소진(유량 미감지)으로 인해 추출이 중단되었습니다. 시럽을 채운 뒤 [3ml 추출 확인]을 눌러주세요.",
+          "inspectGuide": "[자두시럽] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 또는 [AI 바이저] 화면에서 [3ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+          "lastOccurredAt": 1794545450155,
+          "lastTimeText": "13:50",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 1
+        },
+        {
+          "key": "sirub:자두",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 (자두)",
+          "symptom": "[자두(SIRUP17)] 시럽 보드(board2) 무응답·핀맵 불일치 또는 시럽 원액 부족이 감지되었습니다.",
+          "inspectGuide": "1) [설정 ➔ 시리얼포트]에서 2번 시럽보드(board2) 연결 여부 및 1~12번(board1) 슬롯 배치를 확인하세요.\n2) 보드가 정상 연결된 경우 [자두] 시럽 통 잔량과 호스를 확인 후 [상태] 화면에서 [3ml 추출 확인]을 진행해 주세요.",
+          "lastOccurredAt": 1794545440477,
+          "lastTimeText": "13:50",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 2
+        },
+        {
+          "key": "sirub:에너지",
+          "domain": "sirub",
+          "partLabel": "에너지 펌프/센서",
+          "symptom": "에너지 추출 미감지 · 품절 보호중 (실제 시럽 연결 및 추출 시험 대기)",
+          "inspectGuide": "[에너지] 파우치 잔량 및 호스 연결을 확인한 뒤 [상태] 화면의 [3ml 추출 확인] 또는 [부품 점검]에서 시럽 추출 시험을 통과하면 품절 보호가 자동 해제됩니다.",
+          "lastOccurredAt": 1794454167808,
+          "lastTimeText": "11/12 12:29",
+          "actionUrl": "/live",
+          "actionLabel": "3ml 추출 확인",
+          "count": 1
+        }
+      ],
+      "scannedAt": 1794545450203,
+      "systemHealth": {
+        "rssMb": 181.2,
+        "heapUsedMb": 40.8,
+        "heapTotalMb": 51.9,
+        "dbLatencyMs": 0.2,
+        "status": "OPTIMAL"
+      },
+      "wmfCleaningSummary": {
+        "isCleaningNow": false,
+        "isSystemCleaningNow": false,
+        "todayCleaningCount": 12,
+        "lastCleaningAt": 1794542596511,
+        "lastCleaningTimeText": "13:03",
+        "lastSystemCleanAt": "2026-11-13T00:16:44.293Z",
+        "lastSystemCleanMs": 1794529004293,
+        "lastSystemCleanTimeText": "11/13 09:16",
+        "hoursSinceLastSystemClean": 4,
+        "cleaningWarningStatus": "OK",
+        "recent7dRebootCount": 0,
+        "recent7dFailedDrinkCount": 0,
+        "recent7dReboots": [],
+        "cleaningLabel": "오늘 자동 세척·린싱 12회 정상 완료 (최근 13:03) · 장애 집계 제외"
+      },
+      "unifiedTriage": {
+        "category": "RAW_MATERIAL_EMPTY",
+        "title": "[시럽 원액] 시럽 유량센서(flowmeter) 유량 미감지 · 시럽 소진/교체 필요 (0g / 목표 35g)",
+        "rootCause": "[1단계 주문서 확인] 단말기/토스 주문 접수 확인\n[2단계 레시피 대조] 머신 레시피 매칭 정상\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] [시럽 유량센서(flowmeter) 유량 미감지 · 시럽 소진/교체 필요] [시럽 원액] 시럽 펌프 구동 중 시럽 유량센서(flowmeter)에서 목표량(35g) 대비 0g만 감지되어 멈췄습니다(시럽 소진/교체 필요).",
+        "actionGuide": "1) 새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.\n2) 시럽 통 보충 및 토출 확인 후 [시럽 보충 확인 · 자동품절 해제] 버튼을 눌러 품절을 해제하고, 실제 키오스크 적용을 위해 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용하세요.\n3) 방금 제조가 중단된 주문은 [결제취소] 창 최상단의 [제조실패 · 수동취소 권장] 배지를 확인하여 해당 잔만 수동 결제취소해 주세요.",
+        "preventionTip": "새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.",
+        "severity": "WARNING",
+        "isSoftwareBug": false,
+        "analyzedAt": "2026-11-13T04:50:50.426Z",
+        "intelligenceVersion": "v3.3.2r270-AI-LV23",
+        "details": {
+          "failedPin": 0,
+          "flowTarget": 35,
+          "flowCurrent": 0,
+          "failedComponent": "시럽 원액",
+          "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+          "preventionTip": "새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다."
+        }
+      }
+    },
+    "autoCancelSummary": {
+      "autoPosCancelOnFaultEnabled": true,
+      "isPluginLive": true,
+      "lastPluginVersion": "v3.6.7-universal",
+      "lastBridgeActionMessage": "최근 주문 100건 불러오기 완료",
+      "latestAutoCancel": null,
+      "autoCancelCount": 0,
+      "pendingCancelCount": 0,
+      "failedCancelCount": 0,
+      "posCancelHistory": [
+        {
+          "orderId": "776308121875784813",
+          "orderKey": "키오-017_69a2c3f2-7fb6-43bc-9ae7-6bcdb5f475e7",
+          "summary": "자두차(HOT) 2개",
+          "totalPrice": 6000,
+          "paymentType": "CARD",
+          "createdAt": "13시 50분 13초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776299696211216770",
+          "orderKey": "키오-016_0e720b4c-1c14-4776-b3f4-b14780de8701",
+          "summary": "아메리카노(HOT/연하게) 1개",
+          "totalPrice": 2300,
+          "paymentType": "CARD",
+          "createdAt": "13시 16분 45초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776297566716933309",
+          "orderKey": "키오-015_e9e90f6e-5a58-494d-bac9-9182ad4f6597",
+          "summary": "바닐라라떼(HOT/딥리치) 1개",
+          "totalPrice": 4200,
+          "paymentType": "CARD",
+          "createdAt": "13시 8분 26초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776286119635043221",
+          "orderKey": "키오-014_dbffe613-fa62-498e-8d92-6694b423937a",
+          "summary": "레몬차(HOT) 1개",
+          "totalPrice": 3000,
+          "paymentType": "CARD",
+          "createdAt": "12시 22분 47초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776284948438564122",
+          "orderKey": "키오-013_6b6f6ff4-2b5a-480c-8d91-c86428873907",
+          "summary": "레몬에이드 외 1건 (총 2개)",
+          "totalPrice": 3950,
+          "paymentType": "CARD",
+          "createdAt": "12시 18분 9초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776283517320964259",
+          "orderKey": "키오-012_5bf00c1e-fa61-4c02-9305-62768711b006",
+          "summary": "오미자차(제로슈가)(HOT) 외 1건 (총 2개)",
+          "totalPrice": 5800,
+          "paymentType": "CARD",
+          "createdAt": "12시 12분 41초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776240510030840364",
+          "orderKey": "키오-010_3d73342d-57e9-4c7f-9ab5-5f37f339a1c7",
+          "summary": "아메리카노(연하게)(ICE/연하게) 1개",
+          "totalPrice": 2185,
+          "paymentType": "CARD",
+          "createdAt": "9시 21분 33초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776234639712329230",
+          "orderKey": "키오-009_bcb6f98f-825c-4c91-a222-f86239e131ca",
+          "summary": "아메리카노(ICE) 외 1건 (총 2개)",
+          "totalPrice": 5000,
+          "paymentType": "CARD",
+          "createdAt": "8시 58분 15초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776218893271695940",
+          "orderKey": "키오-008_219365e6-e079-499f-a02b-f1ed2ca7e0c2",
+          "summary": "아메리카노(ICE) 1개",
+          "totalPrice": 2500,
+          "paymentType": "CARD",
+          "createdAt": "7시 55분 39초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776160132544858881",
+          "orderKey": "키오-007_d19315d1-408b-4b68-af9d-f80fc9d7fc68",
+          "summary": "치즈케익 외 1건 (총 2개)",
+          "totalPrice": 7900,
+          "paymentType": "CARD",
+          "createdAt": "4시 2분 11초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776159023419888642",
+          "orderKey": "키오-006_4957e234-1b18-4707-9328-9c5502ce0d1f",
+          "summary": "쵸코무스 케익 1개",
+          "totalPrice": 4500,
+          "paymentType": "CARD",
+          "createdAt": "3시 57분 46초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776156564337208759",
+          "orderKey": "키오-005_452b89f8-5446-459e-88fd-6d846ba795fb",
+          "summary": "두쫀쿠 외 1건 (총 2개)",
+          "totalPrice": 7400,
+          "paymentType": "CARD",
+          "createdAt": "3시 47분 59초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776154218911761722",
+          "orderKey": "키오-004_476c1417-b9b5-4365-8040-b3c5a7529b78",
+          "summary": "카페라떼(ICE/시그니처) 1개",
+          "totalPrice": 3200,
+          "paymentType": "CARD",
+          "createdAt": "3시 38분 40초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776142782965748846",
+          "orderKey": "키오-003_d83388aa-1a1e-475d-8ced-0c543042faf3",
+          "summary": "딸기라떼(ICE) 1개",
+          "totalPrice": 3500,
+          "paymentType": "CARD",
+          "createdAt": "2시 53분 14초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        },
+        {
+          "orderId": "776128148393166355",
+          "orderKey": "키오-002_5746584e-db0d-47a2-a591-b36adc01e969",
+          "summary": "마카롱 1개",
+          "totalPrice": 1700,
+          "paymentType": "CARD",
+          "createdAt": "1시 55분 4초",
+          "status": "PAID",
+          "statusMessage": null,
+          "cancelledAt": null,
+          "cancelReason": null,
+          "faultReason": null,
+          "isAutoCancelled": false
+        }
+      ]
+    },
+    "posCancelHistory": [
+      {
+        "orderId": "776308121875784813",
+        "orderKey": "키오-017_69a2c3f2-7fb6-43bc-9ae7-6bcdb5f475e7",
+        "summary": "자두차(HOT) 2개",
+        "totalPrice": 6000,
+        "paymentType": "CARD",
+        "createdAt": "13시 50분 13초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776299696211216770",
+        "orderKey": "키오-016_0e720b4c-1c14-4776-b3f4-b14780de8701",
+        "summary": "아메리카노(HOT/연하게) 1개",
+        "totalPrice": 2300,
+        "paymentType": "CARD",
+        "createdAt": "13시 16분 45초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776297566716933309",
+        "orderKey": "키오-015_e9e90f6e-5a58-494d-bac9-9182ad4f6597",
+        "summary": "바닐라라떼(HOT/딥리치) 1개",
+        "totalPrice": 4200,
+        "paymentType": "CARD",
+        "createdAt": "13시 8분 26초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776286119635043221",
+        "orderKey": "키오-014_dbffe613-fa62-498e-8d92-6694b423937a",
+        "summary": "레몬차(HOT) 1개",
+        "totalPrice": 3000,
+        "paymentType": "CARD",
+        "createdAt": "12시 22분 47초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776284948438564122",
+        "orderKey": "키오-013_6b6f6ff4-2b5a-480c-8d91-c86428873907",
+        "summary": "레몬에이드 외 1건 (총 2개)",
+        "totalPrice": 3950,
+        "paymentType": "CARD",
+        "createdAt": "12시 18분 9초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776283517320964259",
+        "orderKey": "키오-012_5bf00c1e-fa61-4c02-9305-62768711b006",
+        "summary": "오미자차(제로슈가)(HOT) 외 1건 (총 2개)",
+        "totalPrice": 5800,
+        "paymentType": "CARD",
+        "createdAt": "12시 12분 41초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776240510030840364",
+        "orderKey": "키오-010_3d73342d-57e9-4c7f-9ab5-5f37f339a1c7",
+        "summary": "아메리카노(연하게)(ICE/연하게) 1개",
+        "totalPrice": 2185,
+        "paymentType": "CARD",
+        "createdAt": "9시 21분 33초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776234639712329230",
+        "orderKey": "키오-009_bcb6f98f-825c-4c91-a222-f86239e131ca",
+        "summary": "아메리카노(ICE) 외 1건 (총 2개)",
+        "totalPrice": 5000,
+        "paymentType": "CARD",
+        "createdAt": "8시 58분 15초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776218893271695940",
+        "orderKey": "키오-008_219365e6-e079-499f-a02b-f1ed2ca7e0c2",
+        "summary": "아메리카노(ICE) 1개",
+        "totalPrice": 2500,
+        "paymentType": "CARD",
+        "createdAt": "7시 55분 39초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776160132544858881",
+        "orderKey": "키오-007_d19315d1-408b-4b68-af9d-f80fc9d7fc68",
+        "summary": "치즈케익 외 1건 (총 2개)",
+        "totalPrice": 7900,
+        "paymentType": "CARD",
+        "createdAt": "4시 2분 11초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776159023419888642",
+        "orderKey": "키오-006_4957e234-1b18-4707-9328-9c5502ce0d1f",
+        "summary": "쵸코무스 케익 1개",
+        "totalPrice": 4500,
+        "paymentType": "CARD",
+        "createdAt": "3시 57분 46초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776156564337208759",
+        "orderKey": "키오-005_452b89f8-5446-459e-88fd-6d846ba795fb",
+        "summary": "두쫀쿠 외 1건 (총 2개)",
+        "totalPrice": 7400,
+        "paymentType": "CARD",
+        "createdAt": "3시 47분 59초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776154218911761722",
+        "orderKey": "키오-004_476c1417-b9b5-4365-8040-b3c5a7529b78",
+        "summary": "카페라떼(ICE/시그니처) 1개",
+        "totalPrice": 3200,
+        "paymentType": "CARD",
+        "createdAt": "3시 38분 40초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776142782965748846",
+        "orderKey": "키오-003_d83388aa-1a1e-475d-8ced-0c543042faf3",
+        "summary": "딸기라떼(ICE) 1개",
+        "totalPrice": 3500,
+        "paymentType": "CARD",
+        "createdAt": "2시 53분 14초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      },
+      {
+        "orderId": "776128148393166355",
+        "orderKey": "키오-002_5746584e-db0d-47a2-a591-b36adc01e969",
+        "summary": "마카롱 1개",
+        "totalPrice": 1700,
+        "paymentType": "CARD",
+        "createdAt": "1시 55분 4초",
+        "status": "PAID",
+        "statusMessage": null,
+        "cancelledAt": null,
+        "cancelReason": null,
+        "faultReason": null,
+        "isAutoCancelled": false
+      }
+    ],
+    "orderComparison": null,
+    "errorDetail": {
+      "orderId": "776308121875784813",
+      "step": "step4",
+      "menuName": "HOT 자두차",
+      "productNo": "GTH5012",
+      "failMessage": "[776308121875784813] [HOT 자두차] 주문스텝4 실패",
+      "error": "[776308121875784813] [HOT 자두차] 주문스텝4 실패"
+    },
+    "aiTriageReport": {
+      "category": "HARDWARE_DISCONNECTED",
+      "title": "음료 제조 단계를 확인해 주세요",
+      "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('자두차' · HOT)과 머신 레시피('HOT 자두차')가 정상 일치합니다.\n[2단계 기기 진행 상태] 음료 제조 중 이상 신호가 감지되었습니다 ([자동 보고] [스텝4 오류] HOT 자두차 제조 장애 (776308121875784813): [776308121875784813] [HOT 자두차] 주문스텝4 실패).",
+      "actionGuide": "릴리 화면 [상태]에서 보드 및 커피머신 연결 상태를 확인해 주세요.",
+      "severity": "WARNING",
+      "isSoftwareBug": false,
+      "analyzedAt": "2026-11-13T04:50:50.438Z",
+      "intelligenceVersion": "v3.3.2r270-AI-LV23",
+      "details": {
+        "autoCancelStatus": "SKIPPED_TOGGLE_OFF",
+        "autoCancelBadge": "🔘 자동결제취소 미실행 (수동취소 확인)",
+        "autoCancelDetail": "해당 제조 실패 건(776308121875784813)에 대한 자동 결제취소 실행 이력이 없습니다('자동 결제취소' 토글 OFF 또는 수동취소 대상).",
+        "autoCancelOrderId": "776308121875784813",
+        "autoCancelMenuName": "HOT 자두차",
+        "tossPluginVersion": "v3.6.7-universal",
+        "isPluginOutdated": false,
+        "tossPluginInstalledVersion": "3.6.7",
+        "needsTossPosRestart": false,
+        "soldOutAuditTimeline": [
+          "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+          "13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()",
+          "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+          "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+          "13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()",
+          "13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()"
+        ],
+        "soldOutAuditSummary": "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐() ➔ 13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐() ➔ 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()"
+      }
+    }
+  },
+  "aiTriage": {
+    "category": "RAW_MATERIAL_EMPTY",
+    "title": "[자두 (17번 펌프)] 시럽 유량센서(flowmeter) 유량 미감지 · 시럽 소진/교체 필요 (0g / 목표 55g)",
+    "rootCause": "[1단계 주문서⟷레시피 확인] 토스 키오스크 주문('자두차' · HOT)과 머신 레시피('HOT 자두차')가 정상 일치합니다.\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] [시럽 유량센서(flowmeter) 유량 미감지 · 시럽 소진/교체 필요] [자두 (17번 펌프)] 시럽 펌프 구동 중 시럽 유량센서(flowmeter)에서 목표량(55g) 대비 0g만 감지되어 멈췄습니다(시럽 소진/교체 필요).\n[키오스크 자동 품절 처리된 음료 목록]: 자두에이드, 자두아이스티, 플럼바닐라티 (총 3종)\n[품절·복구 추적 이력] 13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 / 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐() / 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()",
+    "actionGuide": "1) 새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.\n2) 시럽 통 보충 및 토출 확인 후 [시럽 보충 확인 · 자동품절 해제] 버튼을 눌러 품절을 해제하고, 실제 키오스크 적용을 위해 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용하세요.\n3) 방금 제조가 중단된 주문은 [결제취소] 창 최상단의 [제조실패 · 수동취소 권장] 배지를 확인하여 해당 잔만 수동 결제취소해 주세요.\n[키오스크 자동 품절 처리된 음료 목록]: 자두에이드, 자두아이스티, 플럼바닐라티 (총 3종)",
+    "preventionTip": "새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.",
+    "severity": "WARNING",
+    "isSoftwareBug": false,
+    "analyzedAt": "2026-11-13T04:52:01.673Z",
+    "intelligenceVersion": "v3.3.2r261-AI-LV23",
+    "details": {
+      "failedPin": 17,
+      "flowTarget": 55,
+      "flowCurrent": 0,
+      "failedComponent": "자두 (17번 펌프)",
+      "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+      "rawSnippet": "orderId=776308121875784813 | 주문=\"자두차\" (HOT) ➔ 매칭=\"HOT 자두차 [GTH5012]\"",
+      "preventionTip": "새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.",
+      "soldOutMenus": [
+        "자두에이드",
+        "자두아이스티",
+        "플럼바닐라티"
+      ],
+      "affectedMenus": [
+        "자두에이드",
+        "자두아이스티",
+        "플럼바닐라티"
+      ],
+      "autoCancelStatus": "SKIPPED_TOGGLE_OFF",
+      "autoCancelBadge": "🔘 자동결제취소 미실행 (수동취소 확인)",
+      "autoCancelDetail": "해당 제조 실패 건(776308121875784813)에 대한 자동 결제취소 실행 이력이 없습니다('자동 결제취소' 토글 OFF 또는 수동취소 대상).",
+      "autoCancelOrderId": "776308121875784813",
+      "autoCancelMenuName": "HOT 자두차",
+      "tossPluginVersion": "v3.6.7-universal",
+      "isPluginOutdated": false,
+      "tossPluginInstalledVersion": "3.6.7",
+      "needsTossPosRestart": false,
+      "soldOutAuditTimeline": [
+        "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+        "13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()",
+        "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+        "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+        "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반",
+        "13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()",
+        "13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()"
+      ],
+      "soldOutAuditSummary": "13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐() ➔ 13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:40 [자동품절-발동] 시럽=\"자두\" 사유=\"제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진)\" | 신규자동품절(4종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차] | 현재결함시럽=[에너지, 자두] | 누적자동품절(4종) | 현재수동품절(1종) | 토스동기화=일반 ➔ 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐() ➔ 13:50:42 [토스동기화-출발] 트리거=\"자두 시럽자동품절(제조 중 2회 연속 미추출 (1회 자동 재추출 실패 · 시럽 소진))\" | 자동품절(8종)=[플럼바닐라라떼, 자두에이드, 플럼피치에이드, 자두차, MMI3033, MAI4007, MAI4018, MTI5012] | 수동품절(1종)=[소프트콘(3줄)] | 명시적큐()"
+    }
+  }
+}
