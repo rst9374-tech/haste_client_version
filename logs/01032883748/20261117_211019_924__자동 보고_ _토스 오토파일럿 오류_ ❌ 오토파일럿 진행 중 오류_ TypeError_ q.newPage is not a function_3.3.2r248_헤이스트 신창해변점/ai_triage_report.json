@@ -1,0 +1,18 @@
+{
+  "category": "SOFTWARE_BUG",
+  "title": "토스 오토파일럿 실행 중 스크립트 예외 감지 (핫패치 업데이트 필요)",
+  "rootCause": "[토스 오토파일럿 자동 진단] 오토파일럿 실행 중 오류가 감지되어 본사로 자동 전송되었습니다: ❌ 오토파일럿 진행 중 오류: TypeError: q.newPage is not a function",
+  "actionGuide": "1) 최신 클라이언트 핫패치 업데이트를 적용한 뒤 오토파일럿을 다시 실행해 주세요.\n2) 본사 관제 센터로 상세 스택 로그가 자동 접수되었습니다.",
+  "severity": "CRITICAL",
+  "isSoftwareBug": true,
+  "analyzedAt": "2026-11-17T12:10:19.949Z",
+  "intelligenceVersion": "v3.3.2r329-AI-LV26",
+  "details": {
+    "failedComponent": "토스 원클릭 오토파일럿 (autopilot_bundle.cjs)",
+    "rawSnippet": "ss.processTicksAndRejections (node:internal/process/task_queues:104:5)\nat async sx (C:\\Users\\커피에반하다\\AppData\\Roaming\\haste_client3.3\\toss_autopilot_runtime\\autopilot_bundle.cjs:219:88495)\nat async yF (C:\\Users\\커피에반하다\\AppData\\Roaming\\haste_client3.3\\toss_autopilot_runtime\\autopilot_bundle.cjs:229:792)",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
