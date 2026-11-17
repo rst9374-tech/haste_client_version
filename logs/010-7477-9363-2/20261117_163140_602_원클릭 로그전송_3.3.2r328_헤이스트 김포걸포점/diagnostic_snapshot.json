@@ -1,0 +1,538 @@
+{
+  "storeNo": "010-7477-9363-2",
+  "storeName": "헤이스트 김포걸포점",
+  "reportedSymptom": "원클릭 로그전송",
+  "clientVersion": "3.3.2r328",
+  "uploadedAt": "2026-11-17T07:31:40.602Z",
+  "diagnostics": {
+    "os": {
+      "platform": "win32",
+      "release": "10.0.19045",
+      "arch": "x64",
+      "totalMem": "7.45 GB",
+      "freeMem": "2.52 GB"
+    },
+    "db": {
+      "haste": "ok",
+      "lilly": "ok"
+    },
+    "license": {
+      "state": "approved",
+      "storeGrade": "헤이스트멤버십",
+      "expireDate": "2026-11-18",
+      "lastSuccessfulVerifiedAt": 1794899598177
+    },
+    "serialports": [
+      {
+        "name": "board1",
+        "port": "COM6",
+        "connected": true
+      }
+    ],
+    "wmfStatus": {
+      "machineName": "WMF",
+      "connected": true,
+      "lastActive": "2026.11.17 16:31:18",
+      "isWmfRebooting": false,
+      "tempWaterBoiler": 97,
+      "pressureSteamBoiler": null,
+      "milkTemp": "4",
+      "apiVersion": 40501,
+      "productName": "5000S+"
+    },
+    "tossPluginVersion": "v3.6.7-universal",
+    "tossPluginInstalledVersion": "3.6.7",
+    "syrupBoardAudit": {
+      "totalCount": 12,
+      "isSingleBoard": true,
+      "hasBoardPinmapMismatch": false,
+      "syrupBoardFaultReason": "",
+      "boardDisconnectedSyrups": [],
+      "isAllFresh": false,
+      "isAllOk": false,
+      "hasFault": true,
+      "faultCount": 1,
+      "faultItems": [
+        {
+          "name": "헤이즐넛",
+          "slotNo": 12,
+          "protocol": "SIRUP12",
+          "failedAt": 1794900402868,
+          "reason": "[헤이즐넛] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [10ml 추출 확인]을 눌러주세요.",
+          "affectedMenuDetails": [
+            {
+              "name": "헤이즐넛라떼",
+              "productNo": "MSI2004",
+              "temp": "ICE"
+            },
+            {
+              "name": "초코헤이즐넛라떼",
+              "productNo": "MMI3031",
+              "temp": "ICE"
+            },
+            {
+              "name": "카라멜헤이즐넛",
+              "productNo": "MMI3032",
+              "temp": "ICE"
+            },
+            {
+              "name": "말차헤이즐넛라떼",
+              "productNo": "GMH9019",
+              "temp": "HOT"
+            }
+          ],
+          "affectedMenus": [
+            "헤이즐넛라떼",
+            "초코헤이즐넛라떼",
+            "카라멜헤이즐넛",
+            "말차헤이즐넛라떼"
+          ]
+        }
+      ],
+      "lastAutoSoldOutReport": null,
+      "flowDiscrepancy": {
+        "totalActiveSlots": 12,
+        "maxSlots": 12,
+        "isSingleBoard": true,
+        "measuredCount": 4,
+        "discrepancyCount": 1,
+        "pulseDiscrepancyCount": 1,
+        "ratioUnsettledCount": 0,
+        "items": [
+          {
+            "slotNo": 12,
+            "protocol": "SIRUP12",
+            "syrupName": "헤이즐넛",
+            "ratio": 0.74,
+            "causeType": "PULSE_DISCREPANCY",
+            "severity": "warning",
+            "recipeMl": 35,
+            "goalPulses": 26,
+            "actualPulses": 26,
+            "estimatedPhysicalMl": 52,
+            "pulseDiffPct": 0,
+            "physicalMlDiffPct": 49,
+            "retryCount": 0,
+            "partialRescue": false,
+            "failed": false,
+            "recordedAt": 1794900402866,
+            "detailText": "12번 [헤이즐넛] 레시피 35ml ↔ 유량계 26펄스(추정 52ml, +49%)",
+            "shortBadgeText": "헤이즐넛 +49%"
+          }
+        ],
+        "worstItem": {
+          "slotNo": 12,
+          "protocol": "SIRUP12",
+          "syrupName": "헤이즐넛",
+          "ratio": 0.74,
+          "causeType": "PULSE_DISCREPANCY",
+          "severity": "warning",
+          "recipeMl": 35,
+          "goalPulses": 26,
+          "actualPulses": 26,
+          "estimatedPhysicalMl": 52,
+          "pulseDiffPct": 0,
+          "physicalMlDiffPct": 49,
+          "retryCount": 0,
+          "partialRescue": false,
+          "failed": false,
+          "recordedAt": 1794900402866,
+          "detailText": "12번 [헤이즐넛] 레시피 35ml ↔ 유량계 26펄스(추정 52ml, +49%)",
+          "shortBadgeText": "헤이즐넛 +49%"
+        },
+        "lastMeasuredAt": 1794900478776,
+        "summaryText": "12종 시럽 중 1구(12번 헤이즐넛) 유량·레시피 오차 감지"
+      },
+      "flowDiscrepancyCount": 1,
+      "flowDiscrepancyItems": [
+        {
+          "slotNo": 12,
+          "protocol": "SIRUP12",
+          "syrupName": "헤이즐넛",
+          "ratio": 0.74,
+          "causeType": "PULSE_DISCREPANCY",
+          "severity": "warning",
+          "recipeMl": 35,
+          "goalPulses": 26,
+          "actualPulses": 26,
+          "estimatedPhysicalMl": 52,
+          "pulseDiffPct": 0,
+          "physicalMlDiffPct": 49,
+          "retryCount": 0,
+          "partialRescue": false,
+          "failed": false,
+          "recordedAt": 1794900402866,
+          "detailText": "12번 [헤이즐넛] 레시피 35ml ↔ 유량계 26펄스(추정 52ml, +49%)",
+          "shortBadgeText": "헤이즐넛 +49%"
+        }
+      ],
+      "stagnantCount": 5,
+      "stagnantItems": [
+        {
+          "name": "초코",
+          "elapsedHours": 20
+        },
+        {
+          "name": "홍차",
+          "elapsedHours": 20
+        },
+        {
+          "name": "말차",
+          "elapsedHours": 20
+        },
+        {
+          "name": "오미자",
+          "elapsedHours": 18
+        },
+        {
+          "name": "딸기",
+          "elapsedHours": 24
+        }
+      ],
+      "activeCount": 12,
+      "list": [
+        {
+          "slotNo": 1,
+          "name": "초코",
+          "protocol": "SIRUP1",
+          "valveMotor": "sirub1Pump",
+          "flowSensor": "sirub1FlowSensor",
+          "lastDispensedAt": 1794827621257,
+          "elapsedHours": 20,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 2,
+          "name": "카라멜",
+          "protocol": "SIRUP2",
+          "valveMotor": "sirub2Pump",
+          "flowSensor": "sirub2FlowSensor",
+          "lastDispensedAt": 1794898091040,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 3,
+          "name": "홍차",
+          "protocol": "SIRUP3",
+          "valveMotor": "sirub3Pump",
+          "flowSensor": "sirub3FlowSensor",
+          "lastDispensedAt": 1794825585839,
+          "elapsedHours": 20,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 4,
+          "name": "말차",
+          "protocol": "SIRUP4",
+          "valveMotor": "sirub4Pump",
+          "flowSensor": "sirub4FlowSensor",
+          "lastDispensedAt": 1794827621929,
+          "elapsedHours": 20,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 5,
+          "name": "바닐라",
+          "protocol": "SIRUP5",
+          "valveMotor": "sirub5Pump",
+          "flowSensor": "sirub5FlowSensor",
+          "lastDispensedAt": 1794891986656,
+          "elapsedHours": 2,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 6,
+          "name": "우베",
+          "protocol": "SIRUP6",
+          "valveMotor": "sirub6Pump",
+          "flowSensor": "sirub6FlowSensor",
+          "lastDispensedAt": 1794896887271,
+          "elapsedHours": 1,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 7,
+          "name": "자두",
+          "protocol": "SIRUP7",
+          "valveMotor": "sirub7Pump",
+          "flowSensor": "sirub7FlowSensor",
+          "lastDispensedAt": 1794891570357,
+          "elapsedHours": 2,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 8,
+          "name": "자몽",
+          "protocol": "SIRUP8",
+          "valveMotor": "sirub8Pump",
+          "flowSensor": "sirub8FlowSensor",
+          "lastDispensedAt": 1794891357011,
+          "elapsedHours": 2,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 9,
+          "name": "오미자",
+          "protocol": "SIRUP9",
+          "valveMotor": "sirub9Pump",
+          "flowSensor": "sirub9FlowSensor",
+          "lastDispensedAt": 1794834251952,
+          "elapsedHours": 18,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 10,
+          "name": "오렌지",
+          "protocol": "SIRUP10",
+          "valveMotor": "sirub10Pump",
+          "flowSensor": "sirub10FlowSensor",
+          "lastDispensedAt": 1794900478775,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 11,
+          "name": "딸기",
+          "protocol": "SIRUP11",
+          "valveMotor": "sirub11Pump",
+          "flowSensor": "sirub11FlowSensor",
+          "lastDispensedAt": 1794811457147,
+          "elapsedHours": 24,
+          "isStagnant": true,
+          "isUnused": false,
+          "hasFault": false
+        },
+        {
+          "slotNo": 12,
+          "name": "헤이즐넛",
+          "protocol": "SIRUP12",
+          "valveMotor": "sirub12Pump",
+          "flowSensor": "sirub12FlowSensor",
+          "lastDispensedAt": 1794900402865,
+          "elapsedHours": 0,
+          "isStagnant": false,
+          "isUnused": false,
+          "hasFault": true,
+          "faultReason": "[헤이즐넛] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [10ml 추출 확인]을 눌러주세요.",
+          "faultAt": 1794900402868,
+          "flowDiscrepancy": {
+            "slotNo": 12,
+            "protocol": "SIRUP12",
+            "syrupName": "헤이즐넛",
+            "ratio": 0.74,
+            "causeType": "PULSE_DISCREPANCY",
+            "severity": "warning",
+            "recipeMl": 35,
+            "goalPulses": 26,
+            "actualPulses": 26,
+            "estimatedPhysicalMl": 52,
+            "pulseDiffPct": 0,
+            "physicalMlDiffPct": 49,
+            "retryCount": 0,
+            "partialRescue": false,
+            "failed": false,
+            "recordedAt": 1794900402866,
+            "detailText": "12번 [헤이즐넛] 레시피 35ml ↔ 유량계 26펄스(추정 52ml, +49%)",
+            "shortBadgeText": "헤이즐넛 +49%"
+          }
+        }
+      ]
+    },
+    "recentFaults": {
+      "totalFaultCount": 2,
+      "todayFaultCount": 2,
+      "yesterdayFaultCount": 0,
+      "incidentCount": 2,
+      "primaryPartLabel": "시럽 라인 (헤이즐넛)",
+      "primarySymptom": "[헤이즐넛] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [10ml 추출 확인]을 눌러주세요.",
+      "primaryInspectGuide": "[헤이즐넛] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 화면에서 [10ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+      "primaryActionUrl": "/live",
+      "primaryActionLabel": "10ml 추출 확인",
+      "incidents": [
+        {
+          "key": "sirub:헤이즐넛",
+          "domain": "sirub",
+          "partLabel": "시럽 라인 (헤이즐넛)",
+          "symptom": "[헤이즐넛] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [10ml 추출 확인]을 눌러주세요.",
+          "inspectGuide": "[헤이즐넛] 시럽 통에 원액을 보충하고 호스 연결을 확인한 뒤, [상태] 화면에서 [10ml 추출 확인] 버튼을 누르면 즉시 에러가 복구됩니다.",
+          "lastOccurredAt": 1794900402868,
+          "lastTimeText": "16:26",
+          "actionUrl": "/live",
+          "actionLabel": "10ml 추출 확인",
+          "count": 1
+        },
+        {
+          "key": "cup:컵",
+          "domain": "cup",
+          "partLabel": "컵 배출 장치 (컵)",
+          "symptom": "[컵] 컵 배출 지연 또는 걸림이 감지되었습니다.",
+          "inspectGuide": "컵 통의 잔량과 컵이 포개져 걸린 곳이 없는지 확인하고, 컵 투하구 주변을 닦아준 뒤 [테스트 ➔ 컵]에서 시험해 주세요.",
+          "lastOccurredAt": 1794896573545,
+          "lastTimeText": "15:22",
+          "actionUrl": "/test/cup",
+          "actionLabel": "컵 장치 점검",
+          "count": 1
+        }
+      ],
+      "scannedAt": 1794900697091,
+      "systemHealth": {
+        "rssMb": 177.9,
+        "heapUsedMb": 30.5,
+        "heapTotalMb": 40.7,
+        "dbLatencyMs": 0.2,
+        "status": "OPTIMAL"
+      },
+      "wmfCleaningSummary": {
+        "isCleaningNow": false,
+        "isSystemCleaningNow": false,
+        "todayCleaningCount": 15,
+        "lastCleaningAt": 1794895793468,
+        "lastCleaningTimeText": "15:09",
+        "lastSystemCleanAt": "2026-11-16T11:26:43.789Z",
+        "lastSystemCleanMs": 1794828403789,
+        "lastSystemCleanTimeText": "11/16 20:26",
+        "hoursSinceLastSystemClean": 20,
+        "cleaningWarningStatus": "OK",
+        "recent3dRebootCount": 0,
+        "recent3dFailedDrinkCount": 0,
+        "recent3dReboots": [],
+        "cleaningLabel": "오늘 자동 세척·린싱 15회 정상 완료 (최근 15:09) · 장애 집계 제외"
+      },
+      "unifiedTriage": {
+        "category": "RAW_MATERIAL_EMPTY",
+        "title": "[시럽 원액] 시럽 유량센서(flowmeter) 유량 미감지 · 시럽 소진/교체 필요 (0g / 목표 35g)",
+        "rootCause": "[1단계 주문서 확인] 단말기/토스 주문 접수 확인\n[2단계 레시피 대조] 머신 레시피 매칭 정상\n[3단계 하드웨어/통신 스텝 정밀 원인 및 자동복구 결과] [시럽 유량센서(flowmeter) 유량 미감지 · 시럽 소진/교체 필요] [시럽 원액] 시럽 펌프 구동 중 시럽 유량센서(flowmeter)에서 목표량(35g) 대비 0g만 감지되어 멈췄습니다(시럽 소진/교체 필요).",
+        "actionGuide": "1) 새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.\n2) 시럽 통 보충 및 토출 확인 후 [시럽 보충 확인 · 자동품절 해제] 버튼을 눌러 품절을 해제하고, 실제 키오스크 적용을 위해 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용하세요.\n3) 방금 제조가 중단된 미추출 주문은 [결제내역 · 미추출 환불 가이드](취소확인필요 X건)에서 카드사 전화취소용 8대 정보(결제일시·음료명/옵션·결제금액·카드사·카드번호·8자리 승인번호·VAN사/할부·미추출 사유)를 확인하여 환불(계좌환불/재방문/VAN 전화취소) 후 [확인 완료]를 눌러 주세요.",
+        "preventionTip": "새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.",
+        "severity": "WARNING",
+        "isSoftwareBug": false,
+        "analyzedAt": "2026-11-17T07:31:37.680Z",
+        "intelligenceVersion": "v3.3.2r328-AI-LV26",
+        "details": {
+          "failedPin": 0,
+          "flowTarget": 35,
+          "flowCurrent": 0,
+          "failedComponent": "시럽 원액",
+          "ruleCode": "RULE-SYRUP-EMPTY-FLOW-ZERO",
+          "preventionTip": "새 시럽을 연결한 뒤 [시럽 테스트] 또는 [세척]으로 시럽 토출(유량센서 감지)이 확인되면 자동품절이 즉시 해제됩니다. 이때 AI 관제 안내에 따라 [시럽 재고관리(용량 리필)]를 함께 켜 두시면 다음번 시럽이 바닥나기 전에 미리 알림을 받아 제조 중 미추출 사태를 100% 사전에 막을 수 있습니다.",
+          "autoCancelStatus": "SKIPPED_TOGGLE_OFF",
+          "autoCancelBadge": "[미추출 주문 환불 확인 필요]",
+          "autoCancelDetail": "해당 제조 실패 건(주문)은 무인 카드 결제 특성상 단말기 재터치 없이 자동 결제취소가 불가능합니다. [결제내역 · 미추출 환불 가이드]에서 카드사 전화취소용 8대 정보(결제일시·음료명/옵션·결제금액·카드사·카드번호·8자리 승인번호·VAN사/할부·미추출 사유)를 확인해 환불(계좌환불/재방문/VAN 전화취소) 후 [확인 완료]를 눌러 주세요."
+        }
+      },
+      "flowDiscrepancyReport": {
+        "totalActiveSlots": 12,
+        "maxSlots": 12,
+        "isSingleBoard": true,
+        "measuredCount": 4,
+        "discrepancyCount": 1,
+        "pulseDiscrepancyCount": 1,
+        "ratioUnsettledCount": 0,
+        "items": [
+          {
+            "slotNo": 12,
+            "protocol": "SIRUP12",
+            "syrupName": "헤이즐넛",
+            "ratio": 0.74,
+            "causeType": "PULSE_DISCREPANCY",
+            "severity": "warning",
+            "recipeMl": 35,
+            "goalPulses": 26,
+            "actualPulses": 26,
+            "estimatedPhysicalMl": 52,
+            "pulseDiffPct": 0,
+            "physicalMlDiffPct": 49,
+            "retryCount": 0,
+            "partialRescue": false,
+            "failed": false,
+            "recordedAt": 1794900402866,
+            "detailText": "12번 [헤이즐넛] 레시피 35ml ↔ 유량계 26펄스(추정 52ml, +49%)",
+            "shortBadgeText": "헤이즐넛 +49%"
+          }
+        ],
+        "worstItem": {
+          "slotNo": 12,
+          "protocol": "SIRUP12",
+          "syrupName": "헤이즐넛",
+          "ratio": 0.74,
+          "causeType": "PULSE_DISCREPANCY",
+          "severity": "warning",
+          "recipeMl": 35,
+          "goalPulses": 26,
+          "actualPulses": 26,
+          "estimatedPhysicalMl": 52,
+          "pulseDiffPct": 0,
+          "physicalMlDiffPct": 49,
+          "retryCount": 0,
+          "partialRescue": false,
+          "failed": false,
+          "recordedAt": 1794900402866,
+          "detailText": "12번 [헤이즐넛] 레시피 35ml ↔ 유량계 26펄스(추정 52ml, +49%)",
+          "shortBadgeText": "헤이즐넛 +49%"
+        },
+        "lastMeasuredAt": 1794900478776,
+        "summaryText": "12종 시럽 중 1구(12번 헤이즐넛) 유량·레시피 오차 감지"
+      }
+    },
+    "orderComparison": {
+      "reportedSymptom": "원클릭 로그전송"
+    },
+    "aiTriageReport": {
+      "category": "RAW_MATERIAL_EMPTY",
+      "title": "시럽 소진 자동품절 유지 중 [헤이즐넛] · 최근 주문(16:26:37 '오렌지에이드') 정상 제조 완료",
+      "rootCause": "[1단계 주문서 및 제조 확인] 토스 키오스크 주문서(총 14건, 최근 주문 16:26:37 '오렌지에이드' ➔ 16:28:45 정상 제조 완료)는 정상 유입·제조되고 있습니다.\n[2단계 시럽 자동품절 상태] 현재 [헤이즐넛: [헤이즐넛] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [10ml 추출 확인]을 눌러주세요.] 상태여서 관련 메뉴가 자동 품절(SOLD_OUT)로 보호 중입니다. (커피머신 및 제어보드 통신은 정상 작동 중)",
+      "actionGuide": "1) [헤이즐넛] 시럽 통에 원액을 보충한 뒤 [시럽 테스트] 또는 [세척]으로 정상 토출(유량센서 감지)을 확인하거나 [시럽 보충 확인 · 자동품절 해제] 버튼을 눌러 품절을 해제하세요.\n2) 시럽 보충 후 실제 키오스크 판매 재개를 위해 토스 포스 우측 상단 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용해 주세요.",
+      "severity": "WARNING",
+      "isSoftwareBug": false,
+      "analyzedAt": "2026-11-17T07:31:37.692Z",
+      "intelligenceVersion": "v3.3.2r328-AI-LV26",
+      "details": {
+        "failedComponent": "시럽 자동품절 유지 중 (헤이즐넛)",
+        "rawSnippet": "orderId=777796741602220529 | 주문=\"오렌지에이드\" (옵션 없음(미지정)) ➔ 매칭=\"ICE 오렌지에이드 [MAI4014]\"",
+        "tossPluginVersion": "v3.6.7-universal",
+        "isPluginOutdated": false,
+        "tossPluginInstalledVersion": "3.6.7",
+        "needsTossPosRestart": false
+      }
+    }
+  },
+  "aiTriage": {
+    "category": "RAW_MATERIAL_EMPTY",
+    "title": "시럽 소진 자동품절 유지 중 [헤이즐넛] · 최근 주문(16:26:37 '오렌지에이드') 정상 제조 완료",
+    "rootCause": "[1단계 주문서 및 제조 확인] 토스 키오스크 주문서(총 14건, 최근 주문 16:26:37 '오렌지에이드' ➔ 16:28:45 정상 제조 완료)는 정상 유입·제조되고 있습니다.\n[2단계 시럽 자동품절 상태] 현재 [헤이즐넛: [헤이즐넛] 시럽 미토출(원액 부족 의심)이 감지되었습니다. 시럽을 채운 뒤 [10ml 추출 확인]을 눌러주세요.] 상태여서 관련 메뉴가 자동 품절(SOLD_OUT)로 보호 중입니다. (커피머신 및 제어보드 통신은 정상 작동 중)",
+    "actionGuide": "1) [헤이즐넛] 시럽 통에 원액을 보충한 뒤 [시럽 테스트] 또는 [세척]으로 정상 토출(유량센서 감지)을 확인하거나 [시럽 보충 확인 · 자동품절 해제] 버튼을 눌러 품절을 해제하세요.\n2) 시럽 보충 후 실제 키오스크 판매 재개를 위해 토스 포스 우측 상단 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용해 주세요.",
+    "severity": "WARNING",
+    "isSoftwareBug": false,
+    "analyzedAt": "2026-11-17T07:31:40.619Z",
+    "intelligenceVersion": "v3.3.2r325-AI-LV26",
+    "details": {
+      "failedComponent": "시럽 자동품절 유지 중 (헤이즐넛)",
+      "rawSnippet": "orderId=777796741602220529 | 주문=\"오렌지에이드\" (옵션 없음(미지정)) ➔ 매칭=\"ICE 오렌지에이드 [MAI4014]\"",
+      "tossPluginVersion": "v3.6.7-universal",
+      "isPluginOutdated": false,
+      "tossPluginInstalledVersion": "3.6.7",
+      "needsTossPosRestart": false
+    }
+  }
+}
