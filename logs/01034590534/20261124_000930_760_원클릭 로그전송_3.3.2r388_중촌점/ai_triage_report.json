@@ -1,0 +1,25 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "토스 키오스크/포스에서 머신으로 주문서가 들어오지 않았습니다 (주문 수신 0건)",
+  "rootCause": "[1단계 주문서 수신 확인] 커피머신이나 기계 고장이 아닙니다. 오늘 토스 키오스크/포스에서 커피머신(릴리)으로 넘어온 주문서가 0건입니다. 토스 포스 프로그램의 주문 연동이 꺼져 있거나 네트워크가 끊긴 상태입니다.\n[품절·복구 추적 이력] 00:08:32 [토스엔진-품절전환] \"오미자에이드\" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=재고 정상 (시럽결함=false, 재고소진=false, 점주수동=true) / 00:08:32 [토스엔진-품절전환] \"오미자차\" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=재고 정상 (시럽결함=false, 재고소진=false, 점주수동=true) / 00:08:32 [토스3대단말-동기화] 오케스트레이터(aggregate/bulk)=성공 | 본사HTTP(/b/798)=직통(3건) | 로컬키오스크캐시(7050)=성공(55건) | 최종변경=3건",
+  "actionGuide": "1) 토스 포스(POS) 프로그램을 한 번 껐다가 다시 켜주세요. (포스 우측 상단 HASTE 토스 연동이 켜져 있는지 확인해 주세요)\n2) 포스와 커피머신 PC의 인터넷(와이파이/랜선) 연결이 정상인지 확인해 주세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-23T15:09:30.766Z",
+  "intelligenceVersion": "v3.3.2r386-AI-LV28",
+  "details": {
+    "failedComponent": "토스 키오스크/POS ➔ 릴리 주문서 수신 (/v1/order)",
+    "rawSnippet": "kiosk.log [TOSS RAW ORDER] 유입 0건",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false,
+    "soldOutAuditTimeline": [
+      "00:08:31 [토스엔진-입력] 매장=중촌점(mid=635063) | 릴리전달_자동품절(0종)=[] | 릴리전달_수동품절(0종)=[] | 명시적클릭(오미자에이드(제로슈가):SOLD_OUT, 오미자차(제로슈가):SOLD_OUT) | 금고보존_수동품절(0종)",
+      "00:08:32 [토스엔진-품절전환] \"오미자에이드\" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=재고 정상 (시럽결함=false, 재고소진=false, 점주수동=true)",
+      "00:08:32 [토스엔진-품절전환] \"오미자차\" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=재고 정상 (시럽결함=false, 재고소진=false, 점주수동=true)",
+      "00:08:32 [토스3대단말-동기화] 오케스트레이터(aggregate/bulk)=성공 | 본사HTTP(/b/798)=직통(3건) | 로컬키오스크캐시(7050)=성공(55건) | 최종변경=3건"
+    ],
+    "soldOutAuditSummary": "00:08:31 [토스엔진-입력] 매장=중촌점(mid=635063) | 릴리전달_자동품절(0종)=[] | 릴리전달_수동품절(0종)=[] | 명시적클릭(오미자에이드(제로슈가):SOLD_OUT, 오미자차(제로슈가):SOLD_OUT) | 금고보존_수동품절(0종) ➔ 00:08:32 [토스엔진-품절전환] \"오미자에이드\" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=재고 정상 (시럽결함=false, 재고소진=false, 점주수동=true) ➔ 00:08:32 [토스엔진-품절전환] \"오미자차\" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=재고 정상 (시럽결함=false, 재고소진=false, 점주수동=true) ➔ 00:08:32 [토스3대단말-동기화] 오케스트레이터(aggregate/bulk)=성공 | 본사HTTP(/b/798)=직통(3건) | 로컬키오스크캐시(7050)=성공(55건) | 최종변경=3건"
+  }
+}
