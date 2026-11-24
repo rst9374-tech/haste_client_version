@@ -1,0 +1,18 @@
+{
+  "category": "TOSS_KIOSK",
+  "title": "토스 오토파일럿 실행 중 대시보드 동기화 오류 감지",
+  "rootCause": "[토스 오토파일럿 자동 진단] 오토파일럿 실행 중 오류가 감지되어 본사로 자동 전송되었습니다: ❌ [토스 동기화 실패] 로컬 토스 POS(토스POS.exe) 실행 또는 로컬 브릿지(:7050) 연결을 확인하지 못해 동기화를 반영하지 못했습니다.",
+  "actionGuide": "1) 토스 플레이스 사장님 대시보드 아이디/비밀번호 및 인터넷 연결 상태를 확인한 뒤 다시 실행해 주세요.\n2) 크롬 브라우저 창을 수동으로 닫지 말고 완료될 때까지 유지해 주세요.\n3) 토스 상품 동기화 완료 후 실제 키오스크 적용을 위해 [파란색 키오스크 버튼 OFF ➔ ON] 확인을 눌러 적용하세요.",
+  "severity": "WARNING",
+  "isSoftwareBug": false,
+  "analyzedAt": "2026-11-24T05:35:31.048Z",
+  "intelligenceVersion": "v3.3.2r392-AI-LV29",
+  "details": {
+    "failedComponent": "토스 원클릭 오토파일럿 (autopilot_bundle.cjs)",
+    "rawSnippet": "tores=8))] 크롬 브라우저 및 외부 웹 API 접속 없이 대기합니다.\n⏭️ [로컬 토스 POS 전용 모드] 로컬 토스 POS 미실행/미연결(LOCAL_POS_UNREACHABLE | PURE_HTTP_MID_UNMATCHED(target=도연태점, vaultStores=8)) 상태이므로 외부 웹/크롬 폴백 없이 정상 종료합니다.\n❌ [토스 동기화 실패] 로컬 토스 POS(토스POS.exe) 실행 또는 로컬 브릿지(:7050) 연결을 확인하지 못해 동기화를 반영하지 못했습니다.\n🏁 [오토파일럿 프로세스 종료] 종료 코드: 1",
+    "tossPluginVersion": "v3.6.7-universal",
+    "isPluginOutdated": false,
+    "tossPluginInstalledVersion": "3.6.7",
+    "needsTossPosRestart": false
+  }
+}
