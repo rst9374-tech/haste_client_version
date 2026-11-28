@@ -1,0 +1,326 @@
+[2026-11-28 00:27:58.219] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781542138477692327 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=2300, paid=0, payments=0)
+[2026-11-28 00:28:02.063] [info]  [TOSS RAW ORDER] orderId=781542138477692327, orderKey=키오-001_77673723-814a-46a0-ad63-51080af7cc85, pluginVersion=v3.6.7-universal, totalPrice=2300, items=[{"name":"아메리카노(연하게)","productNo":"18987081","category":"Coffee","count":1,"basePrice":2300,"optionPrice":0,"unitPrice":2300,"totalPrice":2300,"options":[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}]}]
+[2026-11-28 00:28:02.067] [info]  [TOSS PAYMENT DETAILS] orderId=781542138477692327, details={"approvedNo":"57681852","approvedAt":"2026-11-28 00:29:29","paymentKey":"6doqGzbDdv8UO5Rsvoxvz"}
+[2026-11-28 00:28:02.098] [info]  [TOSS ITEM RESOLVED] orderId=781542138477692327, item="아메리카노(연하게)" (std="아메리카노(연하게)", code=18987081) | rawOptions=[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}] ➔ resolved="HOT 아메리카노 (시그니처) (연하게)" (GSH1001) steps={"step1":["CUP","HOT"],"step2":["COFFEE",30],"step3":["HOT","355"]}
+[2026-11-28 00:28:34.920] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781542138477692327 bill=781542138477692327 menuCount=1
+[2026-11-28 00:50:11.191] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781547730839685510 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=7600, paid=0, payments=0)
+[2026-11-28 00:50:37.072] [info]  [TOSS RAW ORDER] orderId=781547730839685510, orderKey=키오-002_55350169-7cf3-41a1-abbc-f3baeaee9048, pluginVersion=v3.6.7-universal, totalPrice=7600, items=[{"name":"허니자몽블랙티","productNo":"18768409","category":"티베이스","count":1,"basePrice":3800,"optionPrice":0,"unitPrice":3800,"totalPrice":3800,"options":[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}]},{"name":"초코헤이즐넛라떼","productNo":"18970720","category":"생우유라떼","count":1,"basePrice":3800,"optionPrice":0,"unitPrice":3800,"totalPrice":3800,"options":[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}]}]
+[2026-11-28 00:50:37.075] [info]  [TOSS PAYMENT DETAILS] orderId=781547730839685510, details={"approvedNo":"30074768","approvedAt":"2026-11-28 00:52:04","paymentKey":"4L_KEk8cGr1unio2o5lBh"}
+[2026-11-28 00:50:37.090] [info]  [TOSS ITEM RESOLVED] orderId=781547730839685510, item="허니자몽블랙티" (std="허니자몽블랙티", code=18768409) | rawOptions=[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}] ➔ resolved="ICE 허니자몽블랙티" (MTI5017) steps={"step1":["CUP","ICE"],"step2":["ICE",6000],"step3":["COLD",165],"step4":["바닐라",10],"step5":["얼그레이",20],"step6":["자몽",20]}
+[2026-11-28 00:50:37.097] [info]  [TOSS ITEM RESOLVED] orderId=781547730839685510, item="초코헤이즐넛라떼" (std="초코헤이즐넛라떼", code=18970720) | rawOptions=[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}] ➔ resolved="ICE 초코라떼 (헤이즐넛)" (MMI3031) steps={"step1":["CUP","ICE"],"step2":["ICE",6000],"step3":["COLD_MILK",180],"step4":["초코",35],"step5":["헤이즐넛",15]}
+[2026-11-28 00:51:38.856] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781547730839685510 bill=781547730839685510 menuCount=2
+[2026-11-28 01:09:13.338] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781552520751629935 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=1700, paid=0, payments=0)
+[2026-11-28 01:09:16.797] [info]  [TOSS RAW ORDER] orderId=781552520751629935, orderKey=키오-003_b9e6602a-9292-40c7-9c04-2b27900a132d, pluginVersion=v3.6.7-universal, totalPrice=1700, items=[{"name":"마카롱","productNo":"18773308","category":"디저트","count":1,"basePrice":1700,"optionPrice":0,"unitPrice":1700,"totalPrice":1700,"options":[]}]
+[2026-11-28 01:09:16.798] [info]  [TOSS PAYMENT DETAILS] orderId=781552520751629935, details={"approvedNo":"08200709","approvedAt":"2026-11-28 01:10:44","paymentKey":"Fk27zfvKF9clsPa_r62HK"}
+[2026-11-28 01:09:16.801] [info]  🍰 [HASTE Dessert Order Detected] orderId=781552520751629935, items=[{"name":"마카롱","stdName":"마카롱","count":1,"options":[],"productNo":"DESSERT001","basePrice":1700,"optionPrice":0,"unitPrice":1700}]
+[2026-11-28 01:10:15.059] [info]  [TOSS RAW ORDER] orderId=781552778462249339, orderKey=키오-001_310ecea0-f39b-4b67-89b4-025d2ff116e8, pluginVersion=v3.6.7-universal, totalPrice=1700, items=[{"name":"마카롱","productNo":"18773308","category":"디저트","count":1,"basePrice":1700,"optionPrice":0,"unitPrice":1700,"totalPrice":1700,"options":[]}]
+[2026-11-28 01:10:15.061] [info]  [TOSS PAYMENT DETAILS] orderId=781552778462249339, details={"approvedNo":"06510490","approvedAt":"2026-11-28 01:11:43","paymentKey":"01M8EWCW58BV5Y9VKZ85THNGYY"}
+[2026-11-28 01:10:15.065] [info]  🍰 [HASTE Dessert Order Detected] orderId=781552778462249339, items=[{"name":"마카롱","stdName":"마카롱","count":1,"options":[],"productNo":"DESSERT001","basePrice":1700,"optionPrice":0,"unitPrice":1700}]
+[2026-11-28 08:58:57.719] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781670734286432757 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=3200, paid=0, payments=0)
+[2026-11-28 08:59:01.790] [info]  [TOSS RAW ORDER] orderId=781670734286432757, orderKey=키오-004_2c815ff8-43ec-4069-8798-60c0c16f66c6, pluginVersion=v3.6.7-universal, totalPrice=3200, items=[{"name":"오미자에이드(제로슈가)","productNo":"18768383","category":"에이드/기타음료","count":1,"basePrice":3200,"optionPrice":0,"unitPrice":3200,"totalPrice":3200,"options":[]}]
+[2026-11-28 08:59:01.791] [info]  [TOSS PAYMENT DETAILS] orderId=781670734286432757, details={"approvedNo":"41330571","approvedAt":"2026-11-28 09:00:30","paymentKey":"K1Gwqxzs5lQHhqCA_lWlk"}
+[2026-11-28 08:59:01.806] [info]  [TOSS ITEM RESOLVED] orderId=781670734286432757, item="오미자에이드(제로슈가)" (std="오미자에이드(제로슈가)", code=18768383) | rawOptions=[] ➔ resolved="ICE 오미자에이드(제로슈가)" (MAI4005) steps={"step1":["CUP","ICE"],"step2":["ICE",6000],"step3":["SPARKLE",215],"step4":["오미자",50]}
+[2026-11-28 08:59:23.920] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781670734286432757 bill=781670734286432757 menuCount=1
+[2026-11-28 09:16:13.641] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781675078201261852 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=3000, paid=0, payments=0)
+[2026-11-28 09:16:17.715] [info]  [TOSS RAW ORDER] orderId=781675078201261852, orderKey=키오-005_9e323222-c6c5-495d-9ae2-29c640b451fb, pluginVersion=v3.6.7-universal, totalPrice=3000, items=[{"name":"프리미엄티","productNo":"18768421","category":"티베이스","count":1,"basePrice":3000,"optionPrice":0,"unitPrice":3000,"totalPrice":3000,"options":[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}]}]
+[2026-11-28 09:16:17.719] [info]  [TOSS PAYMENT DETAILS] orderId=781675078201261852, details={"approvedNo":"79643376","approvedAt":"2026-11-28 09:17:47","paymentKey":"KDQ1lH02MTmW8cSdX_Jnv"}
+[2026-11-28 09:16:17.727] [info]  [TOSS ITEM RESOLVED] orderId=781675078201261852, item="프리미엄티" (std="프리미엄티", code=18768421) | rawOptions=[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}] ➔ resolved="HOT 프리미엄티" (GTH5013) steps={"step1":["CUP","HOT"],"step2":["HOT","360"]}
+[2026-11-28 09:16:50.487] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781675078201261852 bill=781675078201261852 menuCount=1
+[2026-11-28 09:19:53.669] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781676001271099220 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=5000, paid=0, payments=0)
+[2026-11-28 09:19:59.592] [info]  [TOSS RAW ORDER] orderId=781676001271099220, orderKey=키오-006_43fd0cc9-af67-4998-b3ca-60a92df78e5d, pluginVersion=v3.6.7-universal, totalPrice=5000, items=[{"name":"크로플","productNo":"18768430","category":"디저트","count":1,"basePrice":2500,"optionPrice":0,"unitPrice":2500,"totalPrice":2500,"options":[]},{"name":"아메리카노","productNo":"18987082","category":"Coffee","count":1,"basePrice":2500,"optionPrice":0,"unitPrice":2500,"totalPrice":2500,"options":[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}]}]
+[2026-11-28 09:19:59.594] [info]  [TOSS PAYMENT DETAILS] orderId=781676001271099220, details={"approvedNo":"00795663","approvedAt":"2026-11-28 09:21:27","paymentKey":"1UXCbm0Om_xCxafgS1auX"}
+[2026-11-28 09:19:59.604] [info]  [TOSS ITEM RESOLVED] orderId=781676001271099220, item="아메리카노" (std="아메리카노", code=18987082) | rawOptions=[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}] ➔ resolved="HOT 아메리카노 (시그니처)" (GSH1002) steps={"step1":["CUP","HOT"],"step2":["COFFEE","60"],"step3":["HOT","280"]}
+[2026-11-28 09:19:59.607] [info]  🍰 [HASTE Dessert Order Detected] orderId=781676001271099220, items=[{"name":"크로플","stdName":"크로플","count":1,"options":[],"productNo":"DESSERT008","basePrice":2500,"optionPrice":0,"unitPrice":2500}]
+[2026-11-28 09:20:56.493] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781676001271099220 bill=781676001271099220 menuCount=1
+[2026-11-28 09:35:57.225] [info]  [TOSS RAW ORDER] orderId=781680040230662309, orderKey=키오-002_b3382e66-3bcf-4f70-8119-6e77ea234d64, pluginVersion=v3.6.7-universal, totalPrice=2130, items=[{"name":"아메리카노","productNo":"18987082","category":"Coffee","count":1,"basePrice":2500,"optionPrice":0,"unitPrice":2500,"totalPrice":2500,"options":[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}]}]
+[2026-11-28 09:35:57.228] [info]  [TOSS PAYMENT DETAILS] orderId=781680040230662309, details={"approvedNo":"00972094","approvedAt":"2026-11-28 09:37:25","paymentKey":"01M8FSBHJHXYQMC5NX3TFPW93N"}
+[2026-11-28 09:35:57.235] [info]  [TOSS ITEM RESOLVED] orderId=781680040230662309, item="아메리카노" (std="아메리카노", code=18987082) | rawOptions=[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}] ➔ resolved="ICE 아메리카노 (시그니처)" (MSI1002) steps={"step1":["CUP","ICE"],"step2":["COFFEE","60"],"step3":["ICE","6000"],"step4":["COLD","155"]}
+[2026-11-28 09:36:42.203] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781680040230662309 bill=781680040230662309 menuCount=1
+[2026-11-28 10:07:50.712] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781688069219043910 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=5800, paid=0, payments=0)
+[2026-11-28 10:07:54.591] [info]  [TOSS RAW ORDER] orderId=781688069219043910, orderKey=키오-007_d09d18ca-53df-4caf-9c3a-ea668d4ca820, pluginVersion=v3.6.7-universal, totalPrice=5800, items=[{"name":"레몬에이드","productNo":"18768393","category":"에이드/기타음료","count":1,"basePrice":2900,"optionPrice":0,"unitPrice":2900,"totalPrice":2900,"options":[]},{"name":"청포도에이드","productNo":"18851393","category":"에이드/기타음료","count":1,"basePrice":2900,"optionPrice":0,"unitPrice":2900,"totalPrice":2900,"options":[]}]
+[2026-11-28 10:07:54.593] [info]  [TOSS PAYMENT DETAILS] orderId=781688069219043910, details={"approvedNo":"20044241","approvedAt":"2026-11-28 10:09:22","paymentKey":"FH-SVIdyRvvWC1yj8c2DE"}
+[2026-11-28 10:07:54.602] [info]  [TOSS ITEM RESOLVED] orderId=781688069219043910, item="레몬에이드" (std="레몬에이드", code=18768393) | rawOptions=[] ➔ resolved="ICE 레몬에이드" (MAI4000) steps={"step1":["CUP","ICE"],"step2":["ICE",6000],"step3":["SPARKLE",215],"step4":["레몬",50]}
+[2026-11-28 10:07:54.608] [info]  [TOSS ITEM RESOLVED] orderId=781688069219043910, item="청포도에이드" (std="청포도에이드", code=18851393) | rawOptions=[] ➔ resolved="ICE 청포도에이드" (MAI4006) steps={"step1":["CUP","ICE"],"step2":["ICE",6000],"step3":["SPARKLE",215],"step4":["청포도",50]}
+[2026-11-28 10:08:53.038] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781688069219043910 bill=781688069219043910 menuCount=2
+[2026-11-28 10:29:11.715] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781693442554479042 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=5700, paid=0, payments=0)
+[2026-11-28 10:29:14.282] [info]  [TOSS RAW ORDER] orderId=781693442554479042, orderKey=키오-008_73aed121-f822-4b00-bf8e-73ea6f536bfd, pluginVersion=v3.6.7-universal, totalPrice=5700, items=[{"name":"아메리카노","productNo":"18987082","category":"Coffee","count":1,"basePrice":2500,"optionPrice":0,"unitPrice":2500,"totalPrice":2500,"options":[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}]},{"name":"카페라떼","productNo":"18987089","category":"Coffee","count":1,"basePrice":3200,"optionPrice":0,"unitPrice":3200,"totalPrice":3200,"options":[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1},{"optionName":"딥리치","optionCode":"1958017","price":0,"quantity":1}]}]
+[2026-11-28 10:29:14.285] [info]  [TOSS PAYMENT DETAILS] orderId=781693442554479042, details={"approvedNo":"31990887","approvedAt":"2026-11-28 10:30:42","paymentKey":"2uKGX6cDXs6La1k5nIggU"}
+[2026-11-28 10:29:14.294] [info]  [TOSS ITEM RESOLVED] orderId=781693442554479042, item="아메리카노" (std="아메리카노", code=18987082) | rawOptions=[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1}] ➔ resolved="HOT 아메리카노 (시그니처)" (GSH1002) steps={"step1":["CUP","HOT"],"step2":["COFFEE","60"],"step3":["HOT","280"]}
+[2026-11-28 10:29:14.308] [info]  [TOSS ITEM RESOLVED] orderId=781693442554479042, item="카페라떼" (std="카페라떼", code=18987089) | rawOptions=[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1},{"optionName":"딥리치","optionCode":"1958017","price":0,"quantity":1}] ➔ resolved="ICE 카페라떼 (딥리치)" (MDI2001) steps={"step1":["CUP","ICE"],"step2":["COFFEE","61"],"step3":["ICE","6000"],"step4":["COLD_MILK","200"]}
+[2026-11-28 10:31:12.311] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781693442554479042 bill=781693442554479042 menuCount=2
+[2026-11-28 10:32:07.661] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781694178868741601 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=2500, paid=0, payments=0)
+[2026-11-28 10:32:11.740] [info]  [TOSS RAW ORDER] orderId=781694178868741601, orderKey=키오-009_c1158806-399a-4440-9cb3-e7984e539850, pluginVersion=v3.6.7-universal, totalPrice=2500, items=[{"name":"아메리카노","productNo":"18987082","category":"Coffee","count":1,"basePrice":2500,"optionPrice":0,"unitPrice":2500,"totalPrice":2500,"options":[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}]}]
+[2026-11-28 10:32:11.742] [info]  [TOSS PAYMENT DETAILS] orderId=781694178868741601, details={"approvedNo":"42355120","approvedAt":"2026-11-28 10:33:40","paymentKey":"b0ptzcvTSsu2_pbtSmpK7"}
+[2026-11-28 10:32:11.752] [info]  [TOSS ITEM RESOLVED] orderId=781694178868741601, item="아메리카노" (std="아메리카노", code=18987082) | rawOptions=[{"optionName":"ICE","optionCode":"1958015","price":0,"quantity":1}] ➔ resolved="ICE 아메리카노 (시그니처)" (MSI1002) steps={"step1":["CUP","ICE"],"step2":["COFFEE","60"],"step3":["ICE","6000"],"step4":["COLD","155"]}
+[2026-11-28 10:33:07.040] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781694178868741601 bill=781694178868741601 menuCount=1
+[2026-11-28 10:38:07.659] [warn]  [🛑 TOSS UNPAID ORDER BLOCKED] orderId=781695689577343378 신용카드 결제 승인 전(미결제) 주문서 수신 차단 (paymentState=OPENED, unpaid=2891, paid=0, payments=0)
+[2026-11-28 10:38:11.072] [info]  [TOSS RAW ORDER] orderId=781695689577343378, orderKey=키오-010_cf50f0ba-9662-4856-b66b-cdddf3810cc6, pluginVersion=v3.6.7-universal, totalPrice=2891, items=[{"name":"카페라떼","productNo":"18987089","category":"Coffee","count":1,"basePrice":3200,"optionPrice":-200,"unitPrice":3000,"totalPrice":3000,"options":[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1},{"optionName":"딥리치","optionCode":"1958017","price":0,"quantity":1},{"optionName":"연하게","optionCode":"1958018","price":-200,"quantity":1}]}]
+[2026-11-28 10:38:11.074] [info]  [TOSS PAYMENT DETAILS] orderId=781695689577343378, details={"approvedNo":"42434254","approvedAt":"2026-11-28 10:39:39","paymentKey":"4gdMYRtLjPmSW0khu2mZq"}
+[2026-11-28 10:38:11.080] [info]  [TOSS ITEM RESOLVED] orderId=781695689577343378, item="카페라떼" (std="카페라떼", code=18987089) | rawOptions=[{"optionName":"HOT","optionCode":"1958014","price":0,"quantity":1},{"optionName":"딥리치","optionCode":"1958017","price":0,"quantity":1},{"optionName":"연하게","optionCode":"1958018","price":-200,"quantity":1}] ➔ resolved="HOT 카페라떼 (딥리치) (연하게)" (GDH2000) steps={"step1":["CUP","HOT"],"step2":["COFFEE",31],"step3":["HOT_MILK","320"]}
+[2026-11-28 10:39:24.935] [info]  [toss] event=order.completed status=success source=toss virtual=off mode=order orderId=781695689577343378 bill=781695689577343378 menuCount=1
+[2026-11-28 11:36:45.865] [info]  [manual] event=order.received status=success source=manual virtual=off mode=test orderId=INSTANT-1795833405527 bill=0000 menuCount=1 mappings=[{"baseCode":"MSI1002","recipeCode":"MSI1002","matchedMenuName":"ICE_아메리카노_(시그니처)","stepsSummary":"CUP:ICE,_COFFEE:60,_ICE:6000,_COLD:155,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-11-28 11:37:44.198] [info]  [manual] event=order.completed status=success source=manual virtual=off mode=test orderId=INSTANT-1795833405527 bill=0000 menuCount=1
+[2026-11-28 11:39:08.018] [info]  [manual] event=order.received status=success source=manual virtual=off mode=test orderId=INSTANT-1795833547686 bill=0000 menuCount=1 mappings=[{"baseCode":"MMI3009","recipeCode":"MMI3009","matchedMenuName":"ICE_딸기라떼","stepsSummary":"CUP:ICE,_ICE:6000,_COLD_MILK:180,_딸기:40,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE,_NONE:NONE"}] isTestBrew=true
+[2026-11-28 11:39:38.925] [info]  [manual] event=order.completed status=success source=manual virtual=off mode=test orderId=INSTANT-1795833547686 bill=0000 menuCount=1
+[2026-11-28 11:40:15.019] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:40:25.455] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:41:59.215] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:42:06.387] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:42:30.034] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:43:43.803] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:43:51.635] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:43:59.653] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:44:10.016] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:45:13.399] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:45:20.685] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:46:05.549] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:46:07.392] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:46:07.398] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:46:16.164] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:46:16.171] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:47:39.201] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:47:39.204] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:47:46.300] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=30ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:47:46.311] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:47:55.973] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=11ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:47:55.981] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:48:19.528] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=11ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:48:19.537] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:48:28.609] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:48:28.613] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:48:35.590] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:48:35.595] [info]  [Toss Autopilot] [품절추적][자동품절-스킵] 매장 환경 설정의 시럽 자동품절 기능이 OFF 상태이므로 품절 등록 및 토스 동기화를 건너뜁니다. (시럽="딸기")
+[2026-11-28 11:48:46.252] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:49:00.691] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:49:07.864] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:49:14.317] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:49:21.851] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:49:33.289] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:49:46.952] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=31ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:53:25.930] [info]  [Toss Autopilot] [품절추적][시럽슬롯설정변경] 변경슬롯=3번(딸기➔사용안함) | 현재결함시럽=[]
+[2026-11-28 11:53:29.097] [info]  [Toss Autopilot] ℹ️ [토스 반수동 안내] 시럽 설정 변경 감지: 키오스크와의 차이 또는 옵션 점검 대상이 감지되었습니다. (미동기화 13건: 토스 미등록 0건 · 시럽미장착 노출 10건[딸기라떼, 딸기초코라떼, 딸기바나나라떼] · 비노출 노출 1건[말차딸기라떼] · 품절차이 0건 · 가격차이 0건) [메뉴 관리] > [비교 분석 보기]에서 확인 후 반영해 주세요.
+[2026-11-28 11:54:06.320] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:06.321] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (토스 키오스크 실제 등록 상품 목록 불러오기)
+[2026-11-28 11:54:06.322] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-28 11:54:06.323] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:06.344] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-28 11:54:07.411] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-28 11:54:07.432] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:07.434] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-11-28 11:54:07.436] [info]  [Toss Autopilot] 📱 대시보드: 01074779363 / 개발자 이메일: ranus98@naver.com
+[2026-11-28 11:54:07.436] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:08.631] [info]  [Toss Autopilot] ⚡ [하이브리드 :7050 + 본사(/b/798) Pure-HTTP 직통 모드] "[621956] 헤이스트 (김포운양역점)" (#621956) — 본사 실서버 최신 카탈로그를 무브라우저 순수 HTTP로 직통 조회합니다.
+[2026-11-28 11:54:08.634] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "[621956] 헤이스트 (김포운양역점)" (#621956)
+[2026-11-28 11:54:08.635] [info]  [Toss Autopilot] 🏢 [본사 계정 세션 감지] 매장 상품 관리를 본사 화면(/b/798) 경로로 진행합니다.
+[2026-11-28 11:54:08.638] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\menu_images
+[2026-11-28 11:54:08.639] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:08.640] [info]  [Toss Autopilot] 🏬 [1/1] "[621956] 헤이스트 (김포운양역점)" (#621956) 매장 작업 시작...
+[2026-11-28 11:54:08.642] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:09.090] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 132종 가격·메뉴명 동기화 완료
+[2026-11-28 11:54:09.100] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] 토스 키오스크 실제 등록 상품 총 132건 불러오기 완료!
+[2026-11-28 11:54:09.103] [info]  [Toss Autopilot] 🖼️ [사진 누락 검수] 전 품목 음료 사진 100% 등록 완료 (누락 0건)!
+[2026-11-28 11:54:09.104] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:09.105] [info]  [Toss Autopilot] 🎉 [전체 가맹점 순회 완료] 총 1개 매장 일괄 처리 완주!
+[2026-11-28 11:54:09.105] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:09.107] [info]  [Toss Autopilot] 📊 [매장별 처리 현황]
+[2026-11-28 11:54:09.109] [info]  [Toss Autopilot] • [매장 1] [621956] 헤이스트 (김포운양역점) (#621956): 총 132개 중 실제 등록상품 132건 불러오기 완료 (사진누락 0건)
+[2026-11-28 11:54:09.286] [info]  [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
+[2026-11-28 11:54:40.086] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:40.087] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (① 토스 상품 동기화 (시럽·재고·노출·사진))
+[2026-11-28 11:54:40.088] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-28 11:54:40.089] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:40.593] [info]  [Toss Autopilot] [토스 중앙 금고] 최신 본사 인증 세션(v296) 동기화 완료
+[2026-11-28 11:54:40.615] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-28 11:54:41.339] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-28 11:54:41.353] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:41.353] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-11-28 11:54:41.354] [info]  [Toss Autopilot] 📱 대시보드: 01074779363 / 개발자 이메일: ranus98@naver.com
+[2026-11-28 11:54:41.355] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:41.566] [info]  [Toss Autopilot] ⚡ [하이브리드 :7050 + 본사(/b/798) Pure-HTTP 직통 모드] "[621956] 헤이스트 (김포운양역점)" (#621956) — 토스 POS 무재시작·무브라우저로 동기화합니다.
+[2026-11-28 11:54:41.568] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "[621956] 헤이스트 (김포운양역점)" (#621956)
+[2026-11-28 11:54:41.570] [info]  [Toss Autopilot] 🏢 [본사 계정 세션 감지] 매장 상품 관리를 본사 화면(/b/798) 경로로 진행합니다.
+[2026-11-28 11:54:41.618] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\menu_images
+[2026-11-28 11:54:41.619] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:41.620] [info]  [Toss Autopilot] 🏬 [1/1] "[621956] 헤이스트 (김포운양역점)" (#621956) 매장 작업 시작...
+[2026-11-28 11:54:41.620] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:41.987] [info]  [Toss Autopilot] [품절추적][토스엔진-입력] 매장=[621956] 헤이스트 (김포운양역점)(mid=621956) | 릴리전달_자동품절(0종)=[] | 릴리전달_수동품절(0종)=[] | 명시적클릭(딸기라떼:UPDATE, 말차딸기라떼:UPDATE, 딸기초코라떼:UPDATE, 딸기바나나라떼:UPDATE, 딸기에이드:UPDATE, 피치딸기에이드:UPDATE, 레몬딸기에이드:UPDATE, 딸기자몽에이드:UPDATE, 딸기밀크티:UPDATE, 딸기레몬얼그레이티:UPDATE, 딸기티:UPDATE) | 금고보존_수동품절(0종)
+[2026-11-28 11:54:42.433] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기라떼" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.436] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기에이드" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.438] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기초코라떼" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.442] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "피치딸기에이드" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.445] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기바나나라떼" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.446] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "레몬딸기에이드" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.447] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기티" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.447] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기자몽에이드" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.448] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기레몬얼그레이티" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.449] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "딸기밀크티" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.450] [info]  [Toss Autopilot] [품절추적][토스엔진-품절전환] "말차딸기라떼" (기존=ON_SALE ➔ 변경=SOLD_OUT) | 사유=미장착 시럽 메뉴 (키오스크 삭제 대상) (시럽결함=false, 재고소진=false, 점주수동=false)
+[2026-11-28 11:54:42.450] [info]  [Toss Autopilot] [품절추적][토스3대단말-동기화] 오케스트레이터(aggregate/bulk)=성공 | 본사HTTP(/b/798)=직통(11건) | 로컬키오스크캐시(7050)=성공(132건) | 최종변경=11건
+[2026-11-28 11:54:42.451] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기라떼' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.452] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기라떼' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.452] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기에이드' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.453] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기에이드' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.453] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기초코라떼' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.454] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기초코라떼' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.454] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '피치딸기에이드' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.455] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '피치딸기에이드' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.455] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기바나나라떼' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.458] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기바나나라떼' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.464] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '레몬딸기에이드' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.464] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '레몬딸기에이드' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.465] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기티' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.466] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기티' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.466] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기자몽에이드' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.467] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기자몽에이드' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.467] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기레몬얼그레이티' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.468] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기레몬얼그레이티' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.469] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '딸기밀크티' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.469] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '딸기밀크티' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.470] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] '말차딸기라떼' 품절/판매 상태 동기화 완료: 판매중(ON_SALE) ➔ 품절(SOLD_OUT)
+[2026-11-28 11:54:42.470] [info]  [Toss Autopilot] 👁️ [[621956] 헤이스트 (김포운양역점)] '말차딸기라떼' 키오스크 노출 동기화 완료: 노출(O) ➔ 미노출(X)
+[2026-11-28 11:54:42.471] [info]  [Toss Autopilot] 🏷️ [[621956] 헤이스트 (김포운양역점)] 기존 상품 2종 제조사(표준상품명) 자동 백필 완료!
+[2026-11-28 11:54:42.735] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 132종 가격·메뉴명 동기화 완료
+[2026-11-28 11:54:42.789] [info]  [Toss Autopilot] 📋 [[621956] 헤이스트 (김포운양역점)] 총 132개 상품 포착 (수정 대상: 0개)
+[2026-11-28 11:54:42.793] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] 본사 대시보드(/b/798) Direct REST API 초고속 직통 반영 완료 (11건 즉시 반영, 추가 UI 수정 대상 0개)
+[2026-11-28 11:54:42.797] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:42.800] [info]  [Toss Autopilot] 🎉 [전체 가맹점 순회 완료] 총 1개 매장 일괄 처리 완주!
+[2026-11-28 11:54:42.802] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:42.802] [info]  [Toss Autopilot] 📊 [매장별 처리 현황]
+[2026-11-28 11:54:42.803] [info]  [Toss Autopilot] • [매장 1] [621956] 헤이스트 (김포운양역점) (#621956): 총 132개 중 11개 본사 대시보드 Direct REST API 초고속 수정 완료
+[2026-11-28 11:54:42.935] [info]  [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
+[2026-11-28 11:54:45.369] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:45.370] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (토스 키오스크 실제 등록 상품 목록 불러오기)
+[2026-11-28 11:54:45.370] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-28 11:54:45.371] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:45.387] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-28 11:54:47.400] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-28 11:54:47.413] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:47.414] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-11-28 11:54:47.416] [info]  [Toss Autopilot] 📱 대시보드: 01074779363 / 개발자 이메일: ranus98@naver.com
+[2026-11-28 11:54:47.417] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:48.148] [info]  [Toss Autopilot] ⚡ [하이브리드 :7050 + 본사(/b/798) Pure-HTTP 직통 모드] "[621956] 헤이스트 (김포운양역점)" (#621956) — 본사 실서버 최신 카탈로그를 무브라우저 순수 HTTP로 직통 조회합니다.
+[2026-11-28 11:54:48.149] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "[621956] 헤이스트 (김포운양역점)" (#621956)
+[2026-11-28 11:54:48.150] [info]  [Toss Autopilot] 🏢 [본사 계정 세션 감지] 매장 상품 관리를 본사 화면(/b/798) 경로로 진행합니다.
+[2026-11-28 11:54:48.150] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\menu_images
+[2026-11-28 11:54:48.151] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:48.152] [info]  [Toss Autopilot] 🏬 [1/1] "[621956] 헤이스트 (김포운양역점)" (#621956) 매장 작업 시작...
+[2026-11-28 11:54:48.152] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:48.755] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 132종 가격·메뉴명 동기화 완료
+[2026-11-28 11:54:48.835] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] 토스 키오스크 실제 등록 상품 총 132건 불러오기 완료!
+[2026-11-28 11:54:48.836] [info]  [Toss Autopilot] 🖼️ [사진 누락 검수] 전 품목 음료 사진 100% 등록 완료 (누락 0건)!
+[2026-11-28 11:54:48.838] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:48.844] [info]  [Toss Autopilot] 🎉 [전체 가맹점 순회 완료] 총 1개 매장 일괄 처리 완주!
+[2026-11-28 11:54:48.845] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:48.846] [info]  [Toss Autopilot] 📊 [매장별 처리 현황]
+[2026-11-28 11:54:48.848] [info]  [Toss Autopilot] • [매장 1] [621956] 헤이스트 (김포운양역점) (#621956): 총 132개 중 실제 등록상품 132건 불러오기 완료 (사진누락 0건)
+[2026-11-28 11:54:50.688] [info]  [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
+[2026-11-28 11:54:52.907] [info]  [Toss Autopilot] [토스POS 무재시작 유지] 포스 [동기화] 버튼 미탐지(로컬 토스POS 내 [동기화] 버튼 미감지 (BUTTON_NOT_FOUND)) — 영업 중 주문 누락 방지를 위해 토스POS 강제 재시작을 생략하고 워커 카탈로그 캐시 갱신 신호만 전송했습니다.
+[2026-11-28 11:54:54.936] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:54.937] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (토스 키오스크 실제 등록 상품 목록 불러오기)
+[2026-11-28 11:54:54.938] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-28 11:54:54.939] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:54:54.957] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-28 11:54:55.553] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-28 11:54:55.561] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:55.562] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-11-28 11:54:55.563] [info]  [Toss Autopilot] 📱 대시보드: 01074779363 / 개발자 이메일: ranus98@naver.com
+[2026-11-28 11:54:55.565] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:55.754] [info]  [Toss Autopilot] ⚡ [하이브리드 :7050 + 본사(/b/798) Pure-HTTP 직통 모드] "[621956] 헤이스트 (김포운양역점)" (#621956) — 본사 실서버 최신 카탈로그를 무브라우저 순수 HTTP로 직통 조회합니다.
+[2026-11-28 11:54:55.759] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "[621956] 헤이스트 (김포운양역점)" (#621956)
+[2026-11-28 11:54:55.761] [info]  [Toss Autopilot] 🏢 [본사 계정 세션 감지] 매장 상품 관리를 본사 화면(/b/798) 경로로 진행합니다.
+[2026-11-28 11:54:55.768] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\menu_images
+[2026-11-28 11:54:55.771] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:55.774] [info]  [Toss Autopilot] 🏬 [1/1] "[621956] 헤이스트 (김포운양역점)" (#621956) 매장 작업 시작...
+[2026-11-28 11:54:55.775] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:54:56.266] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 132종 가격·메뉴명 동기화 완료
+[2026-11-28 11:54:56.272] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] 토스 키오스크 실제 등록 상품 총 132건 불러오기 완료!
+[2026-11-28 11:54:56.272] [info]  [Toss Autopilot] 🖼️ [사진 누락 검수] 전 품목 음료 사진 100% 등록 완료 (누락 0건)!
+[2026-11-28 11:54:56.274] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:56.276] [info]  [Toss Autopilot] 🎉 [전체 가맹점 순회 완료] 총 1개 매장 일괄 처리 완주!
+[2026-11-28 11:54:56.277] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:54:56.279] [info]  [Toss Autopilot] 📊 [매장별 처리 현황]
+[2026-11-28 11:54:56.280] [info]  [Toss Autopilot] • [매장 1] [621956] 헤이스트 (김포운양역점) (#621956): 총 132개 중 실제 등록상품 132건 불러오기 완료 (사진누락 0건)
+[2026-11-28 11:54:56.404] [info]  [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
+[2026-11-28 11:57:53.364] [info]  [Toss Autopilot] [품절추적][시럽슬롯설정변경] 변경슬롯=3번(사용안함➔딸기) | 현재결함시럽=[]
+[2026-11-28 11:57:56.618] [info]  [Toss Autopilot] ℹ️ [토스 반수동 안내] 시럽 설정 변경 감지: 키오스크와의 차이 또는 옵션 점검 대상이 감지되었습니다. (미동기화 2건: 토스 미등록 0건 · 장착해제 노출 0건 · 품절차이 0건 · 가격차이 0건) [메뉴 관리] > [비교 분석 보기]에서 확인 후 반영해 주세요.
+[2026-11-28 11:58:10.606] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:58:21.198] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:58:47.489] [info]  [Toss Autopilot] [품절추적][테스트페이지-시럽추출] 슬롯=3번 시럽="딸기" 목표=10ml 감지펄스=0(추정=0ml) | 판정=0펄스막힘➔자동품절발동
+[2026-11-28 11:59:17.158] [info]  [Toss Autopilot] [품절추적][시럽슬롯설정변경] 변경슬롯=3번(딸기➔군고구마) | 현재결함시럽=[]
+[2026-11-28 11:59:20.504] [info]  [Toss Autopilot] ℹ️ [토스 반수동 안내] 시럽 설정 변경 감지: 키오스크와의 차이 또는 옵션 점검 대상이 감지되었습니다. (미동기화 12건: 토스 미등록 10건[군고구마샷라떼, 군고구마라떼, 군고구마초코라떼] · 장착해제 노출 0건 · 품절차이 0건 · 가격차이 0건) [메뉴 관리] > [비교 분석 보기]에서 확인 후 반영해 주세요.
+[2026-11-28 11:59:30.956] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:59:30.957] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (토스 키오스크 실제 등록 상품 목록 불러오기)
+[2026-11-28 11:59:30.959] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-28 11:59:30.962] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 11:59:30.986] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-28 11:59:31.752] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-28 11:59:31.761] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:59:31.764] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-11-28 11:59:31.766] [info]  [Toss Autopilot] 📱 대시보드: 01074779363 / 개발자 이메일: ranus98@naver.com
+[2026-11-28 11:59:31.768] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:59:32.763] [info]  [Toss Autopilot] ⚡ [하이브리드 :7050 + 본사(/b/798) Pure-HTTP 직통 모드] "[621956] 헤이스트 (김포운양역점)" (#621956) — 본사 실서버 최신 카탈로그를 무브라우저 순수 HTTP로 직통 조회합니다.
+[2026-11-28 11:59:32.767] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "[621956] 헤이스트 (김포운양역점)" (#621956)
+[2026-11-28 11:59:32.769] [info]  [Toss Autopilot] 🏢 [본사 계정 세션 감지] 매장 상품 관리를 본사 화면(/b/798) 경로로 진행합니다.
+[2026-11-28 11:59:32.778] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\menu_images
+[2026-11-28 11:59:32.779] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:59:32.779] [info]  [Toss Autopilot] 🏬 [1/1] "[621956] 헤이스트 (김포운양역점)" (#621956) 매장 작업 시작...
+[2026-11-28 11:59:32.780] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 11:59:33.237] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 132종 가격·메뉴명 동기화 완료
+[2026-11-28 11:59:33.245] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] 토스 키오스크 실제 등록 상품 총 132건 불러오기 완료!
+[2026-11-28 11:59:33.245] [info]  [Toss Autopilot] 🖼️ [사진 누락 검수] 전 품목 음료 사진 100% 등록 완료 (누락 0건)!
+[2026-11-28 11:59:33.246] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:59:33.246] [info]  [Toss Autopilot] 🎉 [전체 가맹점 순회 완료] 총 1개 매장 일괄 처리 완주!
+[2026-11-28 11:59:33.247] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 11:59:33.248] [info]  [Toss Autopilot] 📊 [매장별 처리 현황]
+[2026-11-28 11:59:33.250] [info]  [Toss Autopilot] • [매장 1] [621956] 헤이스트 (김포운양역점) (#621956): 총 132개 중 실제 등록상품 132건 불러오기 완료 (사진누락 0건)
+[2026-11-28 11:59:33.389] [info]  [Toss Autopilot] 🏁 [오토파일럿 프로세스 종료] 종료 코드: 0
+[2026-11-28 12:00:46.695] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 12:00:46.697] [info]  [Toss Autopilot] 🚀 [HASTE 토스 오토파일럿] 독립 프로세스 기동 (① 토스 상품 동기화 (시럽·재고·노출·사진))
+[2026-11-28 12:00:46.699] [info]  [Toss Autopilot] 📂 실행 엔진: autopilot_bundle.cjs
+[2026-11-28 12:00:46.701] [info]  [Toss Autopilot] ======================================================================
+[2026-11-28 12:00:47.223] [info]  [Toss Autopilot] [토스 중앙 금고] 최신 본사 인증 세션(v298) 동기화 완료
+[2026-11-28 12:00:47.241] [info]  [Toss Autopilot] 💡 [비상 정지 안내] 실행 중 언제든 키보드 [F10], 브라우저 내 [⏹ 즉시 중지(ESC)], 또는 릴리 [동기화 즉시 중지] 버튼으로 0.1초 만에 멈출 수 있습니다.
+[2026-11-28 12:00:48.150] [info]  [Toss Autopilot] 📌 파라미터 파일 로드 완료: C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\temp_toss_params.json
+[2026-11-28 12:00:48.151] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 12:00:48.152] [info]  [Toss Autopilot] 🚀 [HASTE 토스 스마트 오토파일럿] 헤이스트 김포운양역점 (점주님) 실행 시작
+[2026-11-28 12:00:48.152] [info]  [Toss Autopilot] 📱 대시보드: 01074779363 / 개발자 이메일: ranus98@naver.com
+[2026-11-28 12:00:48.153] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 12:00:48.399] [info]  [Toss Autopilot] ⚡ [하이브리드 :7050 + 본사(/b/798) Pure-HTTP 직통 모드] "[621956] 헤이스트 (김포운양역점)" (#621956) — 토스 POS 무재시작·무브라우저로 동기화합니다.
+[2026-11-28 12:00:48.401] [info]  [Toss Autopilot] 🎯 [Zero-Browser 지점 즉시 매칭] "[621956] 헤이스트 (김포운양역점)" (#621956)
+[2026-11-28 12:00:48.403] [info]  [Toss Autopilot] 🏢 [본사 계정 세션 감지] 매장 상품 관리를 본사 화면(/b/798) 경로로 진행합니다.
+[2026-11-28 12:00:48.422] [info]  [Toss Autopilot] 🖼️ [음료 사진 디렉토리 연결 완료] C:\Users\CoffeeVanada\AppData\Roaming\haste_client3.3\toss_autopilot_runtime\menu_images
+[2026-11-28 12:00:48.438] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 12:00:48.443] [info]  [Toss Autopilot] 🏬 [1/1] "[621956] 헤이스트 (김포운양역점)" (#621956) 매장 작업 시작...
+[2026-11-28 12:00:48.445] [info]  [Toss Autopilot] --------------------------------------------------------------------------------
+[2026-11-28 12:00:48.935] [info]  [Toss Autopilot] [품절추적][토스엔진-입력] 매장=[621956] 헤이스트 (김포운양역점)(mid=621956) | 릴리전달_자동품절(0종)=[] | 릴리전달_수동품절(0종)=[] | 명시적클릭(군고구마샷라떼:ON_SALE, 군고구마라떼:ON_SALE) | 금고보존_수동품절(0종)
+[2026-11-28 12:00:49.006] [info]  [Toss Autopilot] [품절추적][토스3대단말-동기화] 오케스트레이터(aggregate/bulk)=변경없음 | 본사HTTP(/b/798)=변경없음 | 로컬키오스크캐시(7050)=변경없음 | 최종변경=0건
+[2026-11-28 12:00:49.309] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 132종 가격·메뉴명 동기화 완료
+[2026-11-28 12:00:49.320] [info]  [Toss Autopilot] 📋 [[621956] 헤이스트 (김포운양역점)] 총 132개 상품 포착 (수정 대상: 0개)
+[2026-11-28 12:00:49.321] [info]  [Toss Autopilot] ✅ [[621956] 헤이스트 (김포운양역점)] 기존 등록 상품은 이미 요건을 충족합니다! (수정 대상 0개 건너뜀)
+[2026-11-28 12:00:51.094] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '군고구마라떼' ➔ 3,200원
+[2026-11-28 12:00:51.099] [info]  [Toss Autopilot] 💰 [점주 설정 판매가 1:1 직통 반영] '군고구마샷라떼' ➔ 3,700원
+[2026-11-28 12:00:51.115] [info]  [Toss Autopilot] ⚡ [1차 초고속 API 직통 생성] [[621956] 헤이스트 (김포운양역점)] 미등록 메뉴 2종 REST API 배치 생성 시작...
+[2026-11-28 12:00:51.505] [info]  [Toss Autopilot] ✅ [초고속API생성 1/2] '군고구마샷라떼' (Coffee, 3700원, 제조사=군고구마샷라떼, 사진캐시O) 즉시 등록 완료!
+[2026-11-28 12:00:51.507] [info]  [Toss Autopilot] ✅ [초고속API생성 2/2] '군고구마라떼' (생우유라떼, 3200원, 제조사=군고구마라떼, 사진캐시O) 즉시 등록 완료!
+[2026-11-28 12:00:51.508] [info]  [Toss Autopilot] ⚡ [1차 초고속 API 직통 생성 완료] 총 2종 0.38초 만에 생성 완료!
+[2026-11-28 12:00:51.864] [info]  [Toss Autopilot] 🔧 [옵션 그룹 & 상품 연결 자동화] [[621956] 헤이스트 (김포운양역점)] 4대 표준 옵션(컵/원두/농도/옵션) 노출(O) 및 연결 상품 동기화...
+[2026-11-28 12:00:53.828] [info]  [Toss Autopilot] 🔎 [옵션 API 점검 진단] {"href":"/b/798/home","status":[200,200,200],"errs":[],"synced":["옵션","컵","원두","농도"]}
+[2026-11-28 12:00:53.829] [info]  [Toss Autopilot] ⚡ [옵션 상품 연결 API 직통 정합] 총 4건의 옵션 연결/해제를 모달 없이 API로 즉시 완료했습니다!
+[2026-11-28 12:00:53.850] [info]  [Toss Autopilot] ✅ 옵션 그룹 '컵' 정상 확인 (선택지: 2개, 코드: HT,IC, 연결된 상품: 57개, 노출: O)
+[2026-11-28 12:00:53.867] [info]  [Toss Autopilot] ✅ 옵션 그룹 '원두' 정상 확인 (선택지: 2개, 코드: DK,SD, 연결된 상품: 12개, 노출: O)
+[2026-11-28 12:00:53.887] [info]  [Toss Autopilot] ✅ 옵션 그룹 '농도' 정상 확인 (선택지: 2개, 코드: LT,1S, 연결된 상품: 16개, 노출: O)
+[2026-11-28 12:00:53.993] [info]  [Toss Autopilot] 💾 [원두 옵션 가격 금고 복원] '설탕(SU)' ➔ 이전 설정 추가금 +300원 자동 복원!
+[2026-11-28 12:00:54.301] [info]  [Toss Autopilot] ⚡ [초고속 API 세션] 옵션 그룹 '옵션' REST 처리 후 화면 DOM 전환을 건너뜁니다.
+[2026-11-28 12:00:55.363] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 134종 가격·메뉴명 동기화 완료
+[2026-11-28 12:00:55.772] [info]  [Toss Autopilot] ✅ [2차 사진 누락 자동 검수] [[621956] 헤이스트 (김포운양역점)] 이미지 누락 0건 (100% 정상 등록 확인 완료!)
+[2026-11-28 12:00:55.776] [info]  [Toss Autopilot] 🔍 [2차 무결점 1:1 전수검수 #1] [[621956] 헤이스트 (김포운양역점)] 토스 실제 등록 카탈로그 재조회 및 6대 게이트 1:1 정합 대조 중...
+[2026-11-28 12:00:56.750] [info]  [Toss Autopilot] 🔍 [2차 무결점 전수 검증] 등록 누락 0건 · 미사용 잔존 0건 · 제조사 표준상품명 100% · 가격복원 100% 확인 완료!
+[2026-11-28 12:00:56.751] [info]  [Toss Autopilot] 🏆 [2차 무결점 1:1 전수검증 통과] [[621956] 헤이스트 (김포운양역점)] 총 134종 등록 확인 (원격제어 [관리자]: 15종 · 누락 0건 무결점 통과!)
+[2026-11-28 12:00:57.115] [info]  [Toss Autopilot] [토스 중앙 금고] proxy 응답 오류 (HTTP 400, reason=FORBIDDEN_PROXY_TARGET)
+[2026-11-28 12:00:57.116] [info]  [Toss Autopilot] 📡 [2단계 키오스크 반영 완료] [[621956] 헤이스트 (김포운양역점)] 토스 키오스크 단말기 배포(deployments) 신호 전송 완료!
+[2026-11-28 12:00:57.291] [info]  [Toss Autopilot] 📦 [토스 실제 등록상품 수신 & 1:1 역동기화] [621956] 헤이스트 (김포운양역점) — 총 134종 가격·메뉴명 동기화 완료
+[2026-11-28 12:00:57.298] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 12:00:57.299] [info]  [Toss Autopilot] 🎉 [전체 가맹점 순회 완료] 총 1개 매장 일괄 처리 완주!
+[2026-11-28 12:00:57.300] [info]  [Toss Autopilot] ================================================================================
+[2026-11-28 12:00:57.301] [info]  [Toss Autopilot] 📊 [매장별 처리 현황]
+[2026-11-28 12:00:57.302] [info]  [Toss Autopilot] • [매장 1] [621956] 헤이스트 (김포운양역점) (#621956): 총 134개 중 0개 수정 / 2개 신규추가 (2차 무결점 검증 통과)
